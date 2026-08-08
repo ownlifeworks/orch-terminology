@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "instruments": [
+    {
+      "id": "trumpet",
+      "name": "Trumpet",
+      "aliases": ["tpt", "trp", "trpt"]
+    },
+    {
+      "id": "trumpets-a3",
+      "name": "Trumpets A3",
+      "aliases": ["tpts", "3tpt", "3tpts", "trumpets3", "trumpets a3", "tpt a3"]
+    },
+    {
+      "id": "horn",
+      "name": "Horn",
+      "aliases": ["hn", "fh", "french horn"]
+    },
+    {
+      "id": "horns-a4",
+      "name": "Horns A4",
+      "aliases": ["hns", "4hn", "4hns", "horns4", "horns a4"]
+    },
+    {
+      "id": "violins-i",
+      "name": "Violins I",
+      "aliases": ["violin i", "vlns i", "vln i", "1st violins", "violins 1"]
+    },
+    {
+      "id": "violins-ii",
+      "name": "Violins II",
+      "aliases": ["violin ii", "vlns ii", "vln ii", "2nd violins", "violins 2"]
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "aliases": ["viola", "vla"]
+    },
+    {
+      "id": "celli",
+      "name": "Celli",
+      "aliases": ["cello", "cellos", "vc"]
+    },
+    {
+      "id": "basses",
+      "name": "Basses",
+      "aliases": ["bass", "double bass", "double basses", "db"]
+    },
+    {
+      "id": "harp",
+      "name": "Harp",
+      "aliases": ["hrp"]
+    }
+  ]
+}

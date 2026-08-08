@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "vendors": [
+    {
+      "id": "spitfire-audio",
+      "name": "Spitfire Audio",
+      "aliases": ["spitfire", "spitfireaudio", "sa"]
+    },
+    {
+      "id": "cinematic-studio-series",
+      "name": "Cinematic Studio Series",
+      "aliases": ["cinematic studio", "cinematicstudio", "css"]
+    },
+    {
+      "id": "orchestral-tools",
+      "name": "Orchestral Tools",
+      "aliases": ["orchestraltools", "ot"]
+    }
+  ]
+}
