@@ -37,6 +37,15 @@ class ResolverTests(unittest.TestCase):
         result = self.resolver.resolve_articulation("short")
         self.assertEqual(result.status, "unresolved")
 
+    def test_berlin_symphonic_strings_filename(self):
+        result = self.resolver.resolve_filename(
+            "berlin_symphonic_strings_vln_i_marcato_long.wav"
+        )
+        self.assertEqual(result["status"], "resolved")
+        self.assertEqual(result["library"]["id"], "berlin-symphonic-strings")
+        self.assertEqual(result["instrument"]["id"], "violins-i")
+        self.assertEqual(result["articulation"]["id"], "marcato-long")
+
     def test_duplicate_alias_is_ambiguous(self):
         self.resolver._entities["articulation"].append(
             {"id": "long-alt", "name": "Long Alternative", "aliases": ["long"]}

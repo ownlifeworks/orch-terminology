@@ -20,6 +20,96 @@
       "id": "long-cuivre",
       "name": "Long Cuivre",
       "aliases": ["cuivre", "long cuivre", "longcuivre"]
+    },
+    {
+      "id": "sustain-soft",
+      "name": "Sustains Soft",
+      "aliases": ["sustain soft", "sus soft"]
+    },
+    {
+      "id": "sustain-accented",
+      "name": "Sustains Accented",
+      "aliases": ["sustain accented", "sus accented"]
+    },
+    {
+      "id": "portato",
+      "name": "Portato",
+      "aliases": ["prt"]
+    },
+    {
+      "id": "marcato-long",
+      "name": "Marcato Long",
+      "aliases": ["marc long"]
+    },
+    {
+      "id": "marcato-short",
+      "name": "Marcato Short",
+      "aliases": ["marc short"]
+    },
+    {
+      "id": "spiccato",
+      "name": "Spiccato",
+      "aliases": ["spic", "spicc"]
+    },
+    {
+      "id": "pizzicato",
+      "name": "Pizzicato",
+      "aliases": ["pizz", "pizzic"]
+    },
+    {
+      "id": "tremolo",
+      "name": "Tremolo",
+      "aliases": ["trem"]
+    },
+    {
+      "id": "trills",
+      "name": "Trills",
+      "aliases": ["trill"]
+    },
+    {
+      "id": "rapid-legato",
+      "name": "Rapid Legato",
+      "aliases": ["rapid leg"]
+    },
+    {
+      "id": "pattern-legato",
+      "name": "Pattern Legato",
+      "aliases": ["pattern leg"]
+    },
+    {
+      "id": "melodic-legato",
+      "name": "Melodic Legato",
+      "aliases": ["melodic leg"]
+    },
+    {
+      "id": "staccatissimo",
+      "name": "Staccatissimo",
+      "aliases": ["staccatiss"]
+    },
+    {
+      "id": "glissandi-major",
+      "name": "Glissandi Major",
+      "aliases": ["gliss major", "major glissandi"]
+    },
+    {
+      "id": "glissandi-harmonic-minor",
+      "name": "Glissandi Harmonic Minor",
+      "aliases": ["gliss harmonic minor"]
+    },
+    {
+      "id": "glissandi-pentatonic",
+      "name": "Glissandi Pentatonic",
+      "aliases": ["gliss pentatonic"]
+    },
+    {
+      "id": "glissandi-wholetone",
+      "name": "Glissandi Wholetone",
+      "aliases": ["gliss wholetone", "gliss whole tone"]
+    },
+    {
+      "id": "flageolet",
+      "name": "Flageolet",
+      "aliases": ["flageolets"]
     }
   ]
 }

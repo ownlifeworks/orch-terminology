@@ -20,6 +20,36 @@
       "id": "horns-a4",
       "name": "Horns A4",
       "aliases": ["hns", "4hn", "4hns", "horns4", "horns a4"]
+    },
+    {
+      "id": "violins-i",
+      "name": "Violins I",
+      "aliases": ["violin i", "vlns i", "vln i", "1st violins", "violins 1"]
+    },
+    {
+      "id": "violins-ii",
+      "name": "Violins II",
+      "aliases": ["violin ii", "vlns ii", "vln ii", "2nd violins", "violins 2"]
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "aliases": ["viola", "vla"]
+    },
+    {
+      "id": "celli",
+      "name": "Celli",
+      "aliases": ["cello", "cellos", "vc"]
+    },
+    {
+      "id": "basses",
+      "name": "Basses",
+      "aliases": ["bass", "double bass", "double basses", "db"]
+    },
+    {
+      "id": "harp",
+      "name": "Harp",
+      "aliases": ["hrp"]
     }
   ]
 }

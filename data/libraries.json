@@ -12,6 +12,12 @@
       "name": "Cinematic Studio Woodwinds",
       "vendorId": "cinematic-studio-series",
       "aliases": ["csw", "css woodwinds", "cinematic studio woodwinds"]
+    },
+    {
+      "id": "berlin-symphonic-strings",
+      "name": "Berlin Symphonic Strings",
+      "vendorId": "orchestral-tools",
+      "aliases": ["bss", "berlin symphonic", "berlin strings symphonic"]
     }
   ]
 }

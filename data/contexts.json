@@ -11,6 +11,28 @@
       "articulationAliases": {
         "cuiv": "long-cuivre"
       }
+    },
+    {
+      "libraryId": "berlin-symphonic-strings",
+      "instrumentAliases": {
+        "vln i": "violins-i",
+        "vln ii": "violins-ii",
+        "vla": "violas",
+        "vc": "celli",
+        "db": "basses",
+        "hrp": "harp"
+      },
+      "articulationAliases": {
+        "sus": "long",
+        "sustains": "long",
+        "sustains soft": "sustain-soft",
+        "sustains accented": "sustain-accented",
+        "marcato long": "marcato-long",
+        "marcato short": "marcato-short",
+        "rapid legato": "rapid-legato",
+        "pattern legato": "pattern-legato",
+        "melodic legato": "melodic-legato"
+      }
     }
   ]
 }
