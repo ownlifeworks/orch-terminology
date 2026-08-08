@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ownlifeaudio.com/schemas/orch-terminology/contexts.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "contexts"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "contexts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["libraryId"],
+        "properties": {
+          "libraryId": {"type": "string"},
+          "vendorId": {"type": "string"},
+          "instrumentAliases": {"type": "object", "additionalProperties": {"type": ["string", "array"]}},
+          "articulationAliases": {"type": "object", "additionalProperties": {"type": ["string", "array"]}}
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,16 @@
 {
   "schemaVersion": 1,
-  "contexts": []
+  "contexts": [
+    {
+      "libraryId": "bbcso-core",
+      "instrumentAliases": {
+        "hn": "horn",
+        "hns": "horns-a4",
+        "4hn": "horns-a4"
+      },
+      "articulationAliases": {
+        "cuiv": "long-cuivre"
+      }
+    }
+  ]
 }

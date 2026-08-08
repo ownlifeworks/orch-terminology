@@ -1,4 +1,17 @@
 {
   "schemaVersion": 1,
-  "libraries": []
+  "libraries": [
+    {
+      "id": "bbcso-core",
+      "name": "BBC Symphony Orchestra Core",
+      "vendorId": "spitfire-audio",
+      "aliases": ["bbc", "bbcso", "bbc core", "bbcso core", "bbc symphony orchestra core"]
+    },
+    {
+      "id": "cinematic-studio-woodwinds",
+      "name": "Cinematic Studio Woodwinds",
+      "vendorId": "cinematic-studio-series",
+      "aliases": ["csw", "css woodwinds", "cinematic studio woodwinds"]
+    }
+  ]
 }

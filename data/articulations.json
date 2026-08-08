@@ -1,4 +1,25 @@
 {
   "schemaVersion": 1,
-  "articulations": []
+  "articulations": [
+    {
+      "id": "long",
+      "name": "Long",
+      "aliases": ["sus", "sustain", "sustained"]
+    },
+    {
+      "id": "staccato",
+      "name": "Staccato",
+      "aliases": ["stac", "stacc"]
+    },
+    {
+      "id": "marcato",
+      "name": "Marcato",
+      "aliases": ["marc"]
+    },
+    {
+      "id": "long-cuivre",
+      "name": "Long Cuivre",
+      "aliases": ["cuivre", "long cuivre", "longcuivre"]
+    }
+  ]
 }

@@ -1,4 +1,25 @@
 {
   "schemaVersion": 1,
-  "instruments": []
+  "instruments": [
+    {
+      "id": "trumpet",
+      "name": "Trumpet",
+      "aliases": ["tpt", "trp", "trpt"]
+    },
+    {
+      "id": "trumpets-a3",
+      "name": "Trumpets A3",
+      "aliases": ["tpts", "3tpt", "3tpts", "trumpets3", "trumpets a3", "tpt a3"]
+    },
+    {
+      "id": "horn",
+      "name": "Horn",
+      "aliases": ["hn", "fh", "french horn"]
+    },
+    {
+      "id": "horns-a4",
+      "name": "Horns A4",
+      "aliases": ["hns", "4hn", "4hns", "horns4", "horns a4"]
+    }
+  ]
 }
