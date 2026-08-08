@@ -81,6 +81,7 @@ export default function Home() {
   const [libraryId, setLibraryId] = useState("");
   const [instrumentId, setInstrumentId] = useState("");
   const [articulationId, setArticulationId] = useState("");
+  const [copyStatus, setCopyStatus] = useState("");
 
   const selectedLibrary = findEntity(libraries, libraryId) as Library | undefined;
   const selectedContext = contexts.find((context) => context.libraryId === libraryId);
@@ -103,6 +104,16 @@ export default function Home() {
   const selectedArticulation = findEntity(articulations, articulationId);
   const contextualInstrumentAliases = selectedContext?.instrumentAliases ?? {};
   const contextualArticulationAliases = selectedContext?.articulationAliases ?? {};
+  const allSelected = Boolean(selectedVendor && selectedLibrary && selectedInstrument && selectedArticulation);
+
+  async function copyAbbreviations() {
+    if (!allSelected) return;
+    const values = [selectedVendor, selectedLibrary, selectedInstrument, selectedArticulation]
+      .map((entity) => entity?.aliases[0] ?? entity?.id ?? "");
+    await navigator.clipboard.writeText(values.join("_"));
+    setCopyStatus("Copied");
+    window.setTimeout(() => setCopyStatus(""), 1600);
+  }
 
   function changeVendor(value: string) {
     setVendorId(value);
@@ -163,7 +174,9 @@ export default function Home() {
       </section>
 
       <section className="results">
-        <div className="result-intro"><span className="eyebrow">Selected records</span><h2>Details</h2><p>Every record exposes its canonical identifier and known shorthand.</p></div>
+        <div className="result-intro"><span className="eyebrow">Selected records</span><h2>Details</h2><p>Every record exposes its canonical identifier and known shorthand.</p>
+          {allSelected && <button className="copy-button" onClick={copyAbbreviations}>{copyStatus || "Copy abbrevations to clipboard"}</button>}
+        </div>
         <div className="detail-grid">
           <Detail title="Vendor" entity={selectedVendor} />
           <Detail title="Library" entity={selectedLibrary} />
