@@ -61,6 +61,11 @@ def validate() -> list[str]:
         errors.append("contexts: schemaVersion must be 1")
     library_ids = {item.get("id") for item in entities["library"]}
     entity_ids = {kind: {item.get("id") for item in entries} for kind, entries in entities.items()}
+    for index, library in enumerate(entities["library"]):
+        for kind in ("instrument", "articulation"):
+            for entity_id in library.get(f"{kind}Ids", []):
+                if entity_id not in entity_ids[kind]:
+                    errors.append(f"library[{index}]: unknown {kind}Id {entity_id}")
     for index, context in enumerate(contexts.get("contexts", [])):
         prefix = f"context[{index}]"
         library_id = context.get("libraryId")

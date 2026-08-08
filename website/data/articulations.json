@@ -110,6 +110,96 @@
       "id": "flageolet",
       "name": "Flageolet",
       "aliases": ["flageolets"]
+    },
+    {
+      "id": "sustain-bold",
+      "name": "Sustains Bold",
+      "aliases": ["sustain bold", "sus bold"]
+    },
+    {
+      "id": "staccato-short",
+      "name": "Staccato Short",
+      "aliases": ["stac short"]
+    },
+    {
+      "id": "repetitions-16th-phrase",
+      "name": "Repetitions 1/16 Phrase",
+      "aliases": ["repetitions 16th phrase", "rep 16 phrase"]
+    },
+    {
+      "id": "repetitions-16th-continuous",
+      "name": "Repetitions 1/16 Continuous",
+      "aliases": ["repetitions 16th continuous", "rep 16 continuous"]
+    },
+    {
+      "id": "repetitions-triplets-phrase",
+      "name": "Repetitions Triplets Phrase",
+      "aliases": ["rep triplets phrase"]
+    },
+    {
+      "id": "repetitions-triplets-continuous",
+      "name": "Repetitions Triplets Continuous",
+      "aliases": ["rep triplets continuous"]
+    },
+    {
+      "id": "fortepiano",
+      "name": "Fortepiano",
+      "aliases": ["fp"]
+    },
+    {
+      "id": "crescendo-long",
+      "name": "Crescendo Long",
+      "aliases": ["cresc long", "cresc l"]
+    },
+    {
+      "id": "crescendo-short",
+      "name": "Crescendo Short",
+      "aliases": ["cresc short", "cresc s"]
+    },
+    {
+      "id": "swells-long",
+      "name": "Swells Long",
+      "aliases": ["swell long"]
+    },
+    {
+      "id": "swells-short",
+      "name": "Swells Short",
+      "aliases": ["swell short"]
+    },
+    {
+      "id": "playable-runs",
+      "name": "Playable Runs",
+      "aliases": ["playable run", "runs playable"]
+    },
+    {
+      "id": "slurred",
+      "name": "Slurred",
+      "aliases": ["slur"]
+    },
+    {
+      "id": "retongued",
+      "name": "Retongued",
+      "aliases": ["re-tongued", "re tongued"]
+    },
+    {
+      "id": "runs",
+      "name": "Runs",
+      "aliases": ["run"]
+    },
+    {
+      "id": "legato",
+      "name": "Legato",
+      "aliases": ["leg"]
+    },
+    {
+      "id": "glissando",
+      "name": "Glissando",
+      "aliases": ["gliss"]
+    },
+    {
+      "id": "zampano",
+      "name": "Zampano",
+      "aliases": []
     }
   ]
 }

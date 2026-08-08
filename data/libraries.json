@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "libraries": [
     {
-      "id": "bbcso-core",
-      "name": "BBC Symphony Orchestra Core",
+      "id": "bbcso",
+      "name": "BBC Symphony Orchestra",
       "vendorId": "spitfire-audio",
-      "aliases": ["bbc", "bbcso", "bbc core", "bbcso core", "bbc symphony orchestra core"]
+      "aliases": ["bbc", "bbcso", "bbc symphony orchestra"]
     },
     {
       "id": "cinematic-studio-woodwinds",
@@ -24,6 +24,20 @@
         "staccato", "spiccato", "pizzicato", "tremolo", "trills", "rapid-legato", "pattern-legato",
         "melodic-legato", "staccatissimo", "glissandi-major", "glissandi-harmonic-minor",
         "glissandi-pentatonic", "glissandi-wholetone", "flageolet"
+      ]
+    },
+    {
+      "id": "berlin-brass",
+      "name": "Berlin Brass",
+      "vendorId": "orchestral-tools",
+      "aliases": ["bbr", "berlin brass"],
+      "instrumentIds": ["trumpet-1", "trumpet-1-zampano", "trumpet-2", "trombone-1", "trombone-2", "bass-trombone", "trombone-ensemble", "tuba"],
+      "articulationIds": [
+        "long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short",
+        "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous",
+        "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long",
+        "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "slurred",
+        "retongued", "runs", "legato", "glissando", "zampano"
       ]
     }
   ]

@@ -14,22 +14,22 @@
     {
       "id": "horn",
       "name": "Horn",
-      "aliases": ["hn", "fh", "french horn"]
+      "aliases": ["hn", "fh", "french horn", "hrn"]
     },
     {
       "id": "horns-a4",
       "name": "Horns A4",
-      "aliases": ["hns", "4hn", "4hns", "horns4", "horns a4"]
+      "aliases": ["hns", "4hn", "4hns", "horns4", "horns a4", "4hrns"]
     },
     {
       "id": "violins-i",
       "name": "Violins I",
-      "aliases": ["violin i", "vlns i", "vln i", "1st violins", "violins 1"]
+      "aliases": ["violin i", "vlns i", "vln i", "1st violins", "violins 1", "vln1"]
     },
     {
       "id": "violins-ii",
       "name": "Violins II",
-      "aliases": ["violin ii", "vlns ii", "vln ii", "2nd violins", "violins 2"]
+      "aliases": ["violin ii", "vlns ii", "vln ii", "2nd violins", "violins 2", "vln2"]
     },
     {
       "id": "violas",
@@ -39,17 +39,57 @@
     {
       "id": "celli",
       "name": "Celli",
-      "aliases": ["cello", "cellos", "vc"]
+      "aliases": ["cello", "cellos", "vc", "vlc"]
     },
     {
       "id": "basses",
       "name": "Basses",
-      "aliases": ["bass", "double bass", "double basses", "db"]
+      "aliases": ["bass", "double bass", "double basses", "db", "dbs"]
     },
     {
       "id": "harp",
       "name": "Harp",
       "aliases": ["hrp"]
+    },
+    {
+      "id": "trumpet-1",
+      "name": "Trumpet 1",
+      "aliases": ["tpt 1", "tpt1", "trp 1", "trp1"]
+    },
+    {
+      "id": "trumpet-1-zampano",
+      "name": "Trumpet 1 Zampano",
+      "aliases": ["tpt 1 zampano", "tpt1 zampano"]
+    },
+    {
+      "id": "trumpet-2",
+      "name": "Trumpet 2",
+      "aliases": ["tpt 2", "tpt2", "trp 2", "trp2"]
+    },
+    {
+      "id": "trombone-1",
+      "name": "Trombone 1",
+      "aliases": ["tbn 1", "tbn1", "trb 1", "trb1"]
+    },
+    {
+      "id": "trombone-2",
+      "name": "Trombone 2",
+      "aliases": ["tbn 2", "tbn2", "trb 2", "trb2"]
+    },
+    {
+      "id": "bass-trombone",
+      "name": "Bass Trombone",
+      "aliases": ["bass tbn", "bass trb", "btbn", "btrb"]
+    },
+    {
+      "id": "trombone-ensemble",
+      "name": "Trombone Ensemble",
+      "aliases": ["tbn ens", "tbn ensemble", "trb ens"]
+    },
+    {
+      "id": "tuba",
+      "name": "Tuba",
+      "aliases": ["tba"]
     }
   ]
 }

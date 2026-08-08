@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "contexts": [
     {
-      "libraryId": "bbcso-core",
+      "libraryId": "bbcso",
       "instrumentAliases": {
         "hn": "horn",
         "hns": "horns-a4",
@@ -32,6 +32,27 @@
         "rapid legato": "rapid-legato",
         "pattern legato": "pattern-legato",
         "melodic legato": "melodic-legato"
+      }
+    },
+    {
+      "libraryId": "berlin-brass",
+      "instrumentAliases": {
+        "tpt 1": "trumpet-1",
+        "tpt 1 zampano": "trumpet-1-zampano",
+        "tpt 2": "trumpet-2",
+        "tbn 1": "trombone-1",
+        "tbn 2": "trombone-2",
+        "btbn": "bass-trombone",
+        "tbn ens": "trombone-ensemble",
+        "tba": "tuba"
+      },
+      "articulationAliases": {
+        "sustains": "long",
+        "sustains soft": "sustain-soft",
+        "sustains accented": "sustain-accented",
+        "sustains bold": "sustain-bold",
+        "playable runs": "playable-runs",
+        "zampano": "zampano"
       }
     }
   ]
