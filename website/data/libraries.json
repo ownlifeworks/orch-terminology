@@ -39,6 +39,21 @@
         "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "slurred",
         "retongued", "runs", "legato", "glissando", "zampano"
       ]
+    },
+    {
+      "id": "synchron-prime-woodwinds",
+      "name": "Synchron Prime Woodwinds",
+      "vendorId": "vienna-symphonic-library",
+      "aliases": ["synchron prime woodwinds", "prime woodwinds", "spw"],
+      "instrumentIds": [
+        "piccolo", "flute-1", "flute-2", "oboe-1-french", "oboe-2-french", "english-horn",
+        "clarinet-bb-1", "clarinet-bb-2", "bass-clarinet", "bassoon-1", "bassoon-2", "contrabassoon"
+      ],
+      "articulationIds": [
+        "staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "sustain-vibrato",
+        "performance-legato-no-vibrato", "performance-legato-vibrato", "sforzato-no-vibrato",
+        "sforzato-vibrato", "sforzatissimo-no-vibrato", "sforzatissimo-vibrato"
+      ]
     }
   ]
 }

@@ -15,6 +15,11 @@
       "id": "orchestral-tools",
       "name": "Orchestral Tools",
       "aliases": ["orchestraltools", "ot"]
+    },
+    {
+      "id": "vienna-symphonic-library",
+      "name": "Vienna Symphonic Library",
+      "aliases": ["vsl", "vienna library", "vienna symphonic"]
     }
   ]
 }

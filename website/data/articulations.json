@@ -200,6 +200,56 @@
       "id": "zampano",
       "name": "Zampano",
       "aliases": []
+    },
+    {
+      "id": "staccato-bold",
+      "name": "Staccato Bold",
+      "aliases": ["bold staccato"]
+    },
+    {
+      "id": "portato-bold",
+      "name": "Portato Bold",
+      "aliases": ["bold portato"]
+    },
+    {
+      "id": "sustain-no-vibrato",
+      "name": "Sustained Notes Without Vibrato",
+      "aliases": ["sustain no vibrato", "sustain senza vibrato", "sus nv"]
+    },
+    {
+      "id": "sustain-vibrato",
+      "name": "Sustained Notes With Vibrato",
+      "aliases": ["sustain vibrato", "sus vib"]
+    },
+    {
+      "id": "performance-legato-no-vibrato",
+      "name": "Performance Legato Without Vibrato",
+      "aliases": ["performance legato no vibrato", "legato no vibrato", "leg nv"]
+    },
+    {
+      "id": "performance-legato-vibrato",
+      "name": "Performance Legato With Vibrato",
+      "aliases": ["performance legato vibrato", "legato vibrato", "leg vib"]
+    },
+    {
+      "id": "sforzato-no-vibrato",
+      "name": "Sforzato Without Vibrato",
+      "aliases": ["sforzato no vibrato", "sfz nv"]
+    },
+    {
+      "id": "sforzato-vibrato",
+      "name": "Sforzato With Vibrato",
+      "aliases": ["sforzato vibrato", "sfz vib"]
+    },
+    {
+      "id": "sforzatissimo-no-vibrato",
+      "name": "Sforzatissimo Without Vibrato",
+      "aliases": ["sforzatissimo no vibrato", "sfzss nv"]
+    },
+    {
+      "id": "sforzatissimo-vibrato",
+      "name": "Sforzatissimo With Vibrato",
+      "aliases": ["sforzatissimo vibrato", "sfzss vib"]
     }
   ]
 }

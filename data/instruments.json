@@ -90,6 +90,66 @@
       "id": "tuba",
       "name": "Tuba",
       "aliases": ["tba"]
+    },
+    {
+      "id": "piccolo",
+      "name": "Piccolo",
+      "aliases": ["picc", "pic"]
+    },
+    {
+      "id": "flute-1",
+      "name": "Flute 1",
+      "aliases": ["fl 1", "fl1", "flute1"]
+    },
+    {
+      "id": "flute-2",
+      "name": "Flute 2",
+      "aliases": ["fl 2", "fl2", "flute2"]
+    },
+    {
+      "id": "oboe-1-french",
+      "name": "Oboe 1 (French)",
+      "aliases": ["ob 1", "ob1", "oboe1", "french oboe 1"]
+    },
+    {
+      "id": "oboe-2-french",
+      "name": "Oboe 2 (French)",
+      "aliases": ["ob 2", "ob2", "oboe2", "french oboe 2"]
+    },
+    {
+      "id": "english-horn",
+      "name": "English Horn",
+      "aliases": ["eh", "cor anglais"]
+    },
+    {
+      "id": "clarinet-bb-1",
+      "name": "Clarinet in Bb 1",
+      "aliases": ["cl 1", "cl1", "bb clarinet 1", "clarinet 1"]
+    },
+    {
+      "id": "clarinet-bb-2",
+      "name": "Clarinet in Bb 2",
+      "aliases": ["cl 2", "cl2", "bb clarinet 2", "clarinet 2"]
+    },
+    {
+      "id": "bass-clarinet",
+      "name": "Bass Clarinet",
+      "aliases": ["bcl", "bass cl", "bass clar"]
+    },
+    {
+      "id": "bassoon-1",
+      "name": "Bassoon 1",
+      "aliases": ["bsn 1", "bsn1", "bassoon1"]
+    },
+    {
+      "id": "bassoon-2",
+      "name": "Bassoon 2",
+      "aliases": ["bsn 2", "bsn2", "bassoon2"]
+    },
+    {
+      "id": "contrabassoon",
+      "name": "Contrabassoon",
+      "aliases": ["cbn", "cbsn", "contra bassoon"]
     }
   ]
 }

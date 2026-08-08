@@ -55,6 +55,15 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result["instrument"]["id"], "trumpet-1")
         self.assertEqual(result["articulation"]["id"], "marcato-long")
 
+    def test_synchron_prime_woodwinds_filename(self):
+        result = self.resolver.resolve_filename(
+            "synchron_prime_woodwinds_fl1_sus_vib.wav"
+        )
+        self.assertEqual(result["status"], "resolved")
+        self.assertEqual(result["library"]["id"], "synchron-prime-woodwinds")
+        self.assertEqual(result["instrument"]["id"], "flute-1")
+        self.assertEqual(result["articulation"]["id"], "sustain-vibrato")
+
     def test_duplicate_alias_is_ambiguous(self):
         self.resolver._entities["articulation"].append(
             {"id": "long-alt", "name": "Long Alternative", "aliases": ["long"]}

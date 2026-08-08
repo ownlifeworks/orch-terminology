@@ -54,6 +54,33 @@
         "playable runs": "playable-runs",
         "zampano": "zampano"
       }
+    },
+    {
+      "libraryId": "synchron-prime-woodwinds",
+      "instrumentAliases": {
+        "picc": "piccolo",
+        "fl1": "flute-1",
+        "fl2": "flute-2",
+        "ob1": "oboe-1-french",
+        "ob2": "oboe-2-french",
+        "eh": "english-horn",
+        "cl1": "clarinet-bb-1",
+        "cl2": "clarinet-bb-2",
+        "bcl": "bass-clarinet",
+        "bsn1": "bassoon-1",
+        "bsn2": "bassoon-2",
+        "cbsn": "contrabassoon"
+      },
+      "articulationAliases": {
+        "sus nv": "sustain-no-vibrato",
+        "sus vib": "sustain-vibrato",
+        "leg nv": "performance-legato-no-vibrato",
+        "leg vib": "performance-legato-vibrato",
+        "sfz nv": "sforzato-no-vibrato",
+        "sfz vib": "sforzato-vibrato",
+        "sfzss nv": "sforzatissimo-no-vibrato",
+        "sfzss vib": "sforzatissimo-vibrato"
+      }
     }
   ]
 }
