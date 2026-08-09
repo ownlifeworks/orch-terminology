@@ -15,6 +15,19 @@ The first implementation slice is available: canonical seed data, JSON schemas, 
 
 Applications such as NTD Engine and NTD Detector must consume this repository's data rather than maintaining independent terminology sources.
 
+## Editing terminology data
+
+Edit the canonical JSON files in `data/`. The copies in consuming applications, such as `OwnLifeAudioWebsite/src/data/terminology/`, are mirrors and can be overwritten during synchronization.
+
+Keep entity IDs stable because libraries and `contexts.json` reference them directly. Alias order matters: the first alias is used as the default abbreviation in the website's clipboard string. Avoid alias collisions within a category, preserve `schemaVersion: 1`, and keep every instrument's `iconKey` unique. When changing an ID, update all references in `libraries.json` and `contexts.json`.
+
+After editing, validate the data and run the tests:
+
+```powershell
+python tools/validate_terminology.py
+python -m unittest discover -s tests
+```
+
 ## Checks
 
 From the repository root:
