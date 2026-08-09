@@ -4,12 +4,68 @@
     {
       "libraryId": "bbcso",
       "instrumentAliases": {
+        "fl": "flute",
+        "fl a3": "flutes-a3",
+        "ob": "oboe",
+        "ob a3": "oboes-a3",
+        "cl": "clarinet",
+        "cl a3": "clarinets-a3",
+        "bsn": "bassoon",
+        "bsn a3": "bassoons-a3",
+        "tbn": "tenor-trombone",
+        "tbn a3": "tenor-trombones-a3",
+        "bass tbn a2": "bass-trombones-a2",
         "hn": "horn",
         "hns": "horns-a4",
         "4hn": "horns-a4"
       },
       "articulationAliases": {
         "cuiv": "long-cuivre"
+      },
+      "instrumentArticulations": {
+        "violins-i": ["legato", "long", "long-cs", "long-flautando", "short-spiccato", "short-staccato", "short-pizzicato", "short-col-legno", "tremolo", "trill-major-2nd", "trill-minor-2nd", "long-sul-tasto", "long-harmonics", "short-harmonics", "short-pizzicato-bartok", "long-marcato-attack", "tremolo-sul-pont", "tremolo-cs", "long-sul-pont", "short-spiccato-cs"],
+        "violins-ii": ["legato", "long", "long-cs", "long-flautando", "spiccato", "staccato", "pizzicato", "col-legno", "tremolo", "trill-major-2nd", "trill-minor-2nd", "long-sul-tasto", "long-harmonics", "short-harmonics", "short-pizzicato-bartok", "long-marcato-attack", "tremolo-sul-pont", "tremolo-cs", "long-sul-pont", "spiccato-cs"],
+        "violas": ["legato", "long", "long-cs", "long-flautando", "spiccato", "staccato", "pizzicato", "col-legno", "tremolo", "trill-major-2nd", "trill-minor-2nd", "long-sul-tasto", "long-harmonics", "short-harmonics", "short-pizzicato-bartok", "long-marcato-attack", "tremolo-sul-pont", "tremolo-cs", "long-sul-pont", "spiccato-cs"],
+        "celli": ["legato", "long", "long-cs", "long-flautando", "spiccato", "staccato", "pizzicato", "col-legno", "tremolo", "trill-major-2nd", "trill-minor-2nd", "long-sul-tasto", "long-harmonics", "short-harmonics", "short-pizzicato-bartok", "long-marcato-attack", "tremolo-sul-pont", "tremolo-cs", "long-sul-pont", "spiccato-cs"],
+        "basses": ["legato", "long", "long-cs", "long-flautando", "spiccato", "staccato", "pizzicato", "col-legno", "tremolo", "trill-major-2nd", "trill-minor-2nd", "long-sul-tasto", "long-harmonics", "short-harmonics", "short-pizzicato-bartok", "long-marcato-attack", "tremolo-sul-pont", "tremolo-cs", "long-sul-pont", "short-spiccato-cs"],
+        "flute": ["legato", "long", "trill-major-2nd", "trill-minor-2nd", "staccatissimo", "tenuto", "marcato", "long-flutter", "multitongue"],
+        "flutes-a3": ["legato", "long", "trill-major-2nd", "trill-minor-2nd", "staccatissimo", "tenuto", "marcato", "long-flutter", "multitongue"],
+        "piccolo": ["legato", "long", "trill-major-2nd", "trill-minor-2nd", "staccatissimo", "tenuto", "marcato", "long-flutter", "multitongue", "rips", "falls"],
+        "oboe": ["legato", "long", "trill-major-2nd", "trill-minor-2nd", "staccatissimo", "tenuto", "marcato", "multitongue"],
+        "oboes-a3": ["legato", "long", "trill-major-2nd", "trill-minor-2nd", "staccatissimo", "tenuto", "marcato", "multitongue"],
+        "clarinet": ["legato", "long", "trill-major-2nd", "trill-minor-2nd", "staccatissimo", "tenuto", "marcato", "long-flutter", "multitongue"],
+        "clarinets-a3": ["legato", "long", "trill-major-2nd", "trill-minor-2nd", "staccatissimo", "tenuto", "marcato", "long-flutter", "multitongue"],
+        "bassoon": ["legato", "long", "trill-major-2nd", "trill-minor-2nd", "staccatissimo", "tenuto", "marcato", "long-flutter"],
+        "bassoons-a3": ["legato", "long", "trill-major-2nd", "trill-minor-2nd", "staccatissimo", "tenuto", "marcato", "long-flutter"],
+        "horn": ["legato", "long", "staccatissimo", "marcato", "long-cuivre", "long-sfz", "long-flutter", "multitongue", "trill-major-2nd", "trill-minor-2nd", "long-muted", "staccatissimo-muted", "marcato-muted"],
+        "horns-a4": ["legato", "long", "staccatissimo", "marcato", "long-cuivre", "long-sfz", "long-flutter", "multitongue", "trill-major-2nd", "trill-minor-2nd", "long-muted", "staccatissimo-muted", "marcato-muted"],
+        "trumpet": ["legato", "long", "staccatissimo", "marcato", "long-cuivre", "long-sfz", "long-flutter", "multitongue", "trill-major-2nd", "trill-minor-2nd", "long-muted", "staccatissimo-muted", "marcato-muted"],
+        "trumpets-a3": ["legato", "long", "staccatissimo", "marcato", "long-cuivre", "long-sfz", "long-flutter", "multitongue", "trill-major-2nd", "trill-minor-2nd", "long-muted", "staccatissimo-muted", "marcato-muted"],
+        "tenor-trombone": ["legato", "long", "staccatissimo", "marcato", "long-cuivre", "long-sfz", "long-flutter", "multitongue", "long-muted", "staccatissimo-muted", "marcato-muted"],
+        "tenor-trombones-a3": ["legato", "long", "staccatissimo", "marcato", "long-cuivre", "long-sfz", "long-flutter", "multitongue", "long-muted", "staccatissimo-muted", "marcato-muted"],
+        "bass-trombones-a2": ["legato", "long", "staccatissimo", "marcato", "long-cuivre", "long-sfz", "long-flutter", "multitongue", "long-muted", "staccatissimo-muted", "marcato-muted"],
+        "tuba": ["legato", "long", "staccatissimo", "marcato", "long-cuivre", "long-sfz", "long-flutter", "multitongue"],
+        "celeste": ["long", "damped", "damped-medium"],
+        "harp": ["long", "damped", "damped-medium", "bisbigliando-trem", "gliss-fx"],
+        "glockenspiel": ["hits", "rolls"],
+        "timpani": ["hits", "rolls", "hits-soft", "rolls-soft", "hits-hotrods", "long-rolls-hotrods", "hits-damped", "hits-super-damped", "hotrods-hits-damped", "hits-damped-soft"],
+        "xylophone": ["hits", "rolls"],
+        "marimba-rolled": ["short-hits", "long-rolls"],
+        "tubular-bells": ["hits", "rolls", "hits-damped"],
+        "marimba": ["hits"],
+        "anvil": ["hits", "hit-choked"],
+        "bass-drum-1": ["hits", "hard-sticks", "hits-damped", "hand-muted-hit", "roll-hard", "roll-soft"],
+        "bass-drum-2": ["hits", "hits-damped", "rolls", "super-ball"],
+        "cymbal": ["crash", "crash-muted", "crash-hard-stick", "crash-hard-stick-muted", "rolls", "bowed", "crescendo-long"],
+        "military-drum": ["hits", "rimshot", "short-ruff", "side-stick-hit", "rolls"],
+        "piatti": ["hit-choked", "clash-hit", "short-roll"],
+        "snare-1": ["hits", "rimshot", "short-ruff", "side-stick-hit", "rolls"],
+        "snare-2": ["hits", "rimshot", "short-ruff", "side-stick-hit", "rolls"],
+        "tam-tam": ["hits-damped", "hits", "rolls", "bowed", "crescendo-long"],
+        "tambourine": ["hits", "shake", "rolls"],
+        "tenor-drum": ["hits", "rimshot", "short-ruff", "side-stick-hit", "rolls"],
+        "toys": ["castanets", "woodblock", "vibraslap", "cowbell", "sleigh-bells", "short-guiro", "long-guiro"],
+        "triangle": ["open-hit", "hit-muted", "rolls"]
       }
     },
     {
@@ -32,6 +88,14 @@
         "rapid legato": "rapid-legato",
         "pattern legato": "pattern-legato",
         "melodic legato": "melodic-legato"
+      },
+      "instrumentArticulations": {
+        "violins-i": ["long", "sustain-soft", "sustain-accented", "portato", "marcato-long", "marcato-short", "staccato", "spiccato", "pizzicato", "tremolo", "trills", "rapid-legato", "pattern-legato", "melodic-legato"],
+        "violins-ii": ["long", "sustain-soft", "sustain-accented", "marcato-long", "marcato-short", "staccato", "spiccato", "pizzicato", "tremolo", "trills", "rapid-legato", "pattern-legato", "melodic-legato"],
+        "violas": ["long", "sustain-soft", "sustain-accented", "portato", "marcato-long", "marcato-short", "staccato", "spiccato", "pizzicato", "tremolo", "trills", "rapid-legato", "pattern-legato", "melodic-legato"],
+        "celli": ["long", "sustain-soft", "sustain-accented", "portato", "marcato-long", "marcato-short", "staccato", "spiccato", "pizzicato", "tremolo", "trills", "rapid-legato", "pattern-legato", "melodic-legato"],
+        "basses": ["long", "sustain-soft", "sustain-accented", "marcato-long", "marcato-short", "staccato", "spiccato", "pizzicato", "tremolo", "melodic-legato"],
+        "harp": ["long", "portato", "staccatissimo", "glissandi-major", "glissandi-harmonic-minor", "glissandi-pentatonic", "glissandi-wholetone", "flageolet"]
       }
     },
     {
@@ -40,11 +104,19 @@
         "tpt 1": "trumpet-1",
         "tpt 1 zampano": "trumpet-1-zampano",
         "tpt 2": "trumpet-2",
+        "tpt 3": "trumpet-3",
+        "tpt ens": "trumpet-ensemble",
+        "hn 1": "horn-1",
+        "hn 2": "horn-2",
+        "hn 3": "horn-3",
+        "hn 4": "horn-4",
+        "hn ens": "horn-ensemble",
         "tbn 1": "trombone-1",
         "tbn 2": "trombone-2",
         "btbn": "bass-trombone",
         "tbn ens": "trombone-ensemble",
-        "tba": "tuba"
+        "tba": "bass-tuba",
+        "btba": "bass-tuba"
       },
       "articulationAliases": {
         "sustains": "long",
@@ -53,6 +125,24 @@
         "sustains bold": "sustain-bold",
         "playable runs": "playable-runs",
         "zampano": "zampano"
+      },
+      "instrumentArticulations": {
+        "trumpet-1": ["long", "sustain-soft", "sustain-accented", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "slurred", "retongued", "runs"],
+        "trumpet-1-zampano": ["long", "zampano"],
+        "trumpet-2": ["long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "slurred", "retongued", "runs"],
+        "trumpet-3": ["long", "sustain-soft", "sustain-accented", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "runs", "slurred", "retongued"],
+        "trumpet-ensemble": ["long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "slurred", "retongued", "runs"],
+        "horn-1": ["long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "slurred", "retongued", "runs"],
+        "horn-2": ["long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "slurred", "retongued", "runs"],
+        "horn-3": ["long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "retongued", "slurred", "runs"],
+        "horn-4": ["long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "retongued", "slurred", "runs"],
+        "horn-ensemble": ["long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "retongued", "slurred", "runs"],
+        "horn-ensemble-bells-up": ["long", "marcato-long", "marcato-short", "staccato"],
+        "trombone-1": ["long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "glissando", "slurred"],
+        "trombone-2": ["long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "glissando", "slurred"],
+        "bass-trombone": ["long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "legato", "glissando"],
+        "trombone-ensemble": ["long", "sustain-soft", "sustain-accented", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "slurred", "glissando"],
+        "bass-tuba": ["long", "sustain-soft", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th-phrase", "repetitions-16th-continuous", "repetitions-triplets-phrase", "repetitions-triplets-continuous", "fortepiano", "crescendo-long", "crescendo-short", "swells-long", "swells-short", "trills", "playable-runs", "slurred", "retongued", "runs"]
       }
     },
     {
@@ -69,7 +159,10 @@
         "bcl": "bass-clarinet",
         "bsn1": "bassoon-1",
         "bsn2": "bassoon-2",
-        "cbsn": "contrabassoon"
+        "cbsn": "contrabassoon",
+        "tin whistle": "tin-whistle",
+        "bans": "bansuri",
+        "shaku": "shakuhachi"
       },
       "articulationAliases": {
         "sus nv": "sustain-no-vibrato",
@@ -80,6 +173,144 @@
         "sfz vib": "sforzato-vibrato",
         "sfzss nv": "sforzatissimo-no-vibrato",
         "sfzss vib": "sforzatissimo-vibrato"
+      },
+      "instrumentArticulations": {
+        "piccolo": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "sforzato-no-vibrato", "sforzato-vibrato", "sforzatissimo-no-vibrato"],
+        "flute-1": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "sforzato-no-vibrato", "sforzato-vibrato", "sforzatissimo-no-vibrato", "sforzatissimo-vibrato"],
+        "flute-2": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "sforzato-no-vibrato", "sforzato-vibrato", "sforzatissimo-no-vibrato", "sforzatissimo-vibrato"],
+        "oboe-1-french": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "sforzato-no-vibrato", "sforzato-vibrato", "sforzatissimo-no-vibrato", "sforzatissimo-vibrato"],
+        "oboe-2-french": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "sforzato-no-vibrato", "sforzato-vibrato", "sforzatissimo-no-vibrato", "sforzatissimo-vibrato"],
+        "english-horn": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "sforzato-no-vibrato", "sforzato-vibrato", "sforzatissimo-no-vibrato", "sforzatissimo-vibrato"],
+        "clarinet-bb-1": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "performance-legato-no-vibrato", "sforzato-no-vibrato", "sforzatissimo-no-vibrato"],
+        "clarinet-bb-2": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "performance-legato-no-vibrato", "sforzato-no-vibrato", "sforzatissimo-no-vibrato"],
+        "bass-clarinet": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "performance-legato-no-vibrato", "sforzato-no-vibrato", "sforzatissimo-no-vibrato"],
+        "bassoon-1": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "sforzato-no-vibrato", "sforzato-vibrato", "sforzatissimo-no-vibrato", "sforzatissimo-vibrato"],
+        "bassoon-2": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "sforzato-no-vibrato", "sforzato-vibrato", "sforzatissimo-no-vibrato", "sforzatissimo-vibrato"],
+        "contrabassoon": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "performance-legato-no-vibrato", "sforzato-no-vibrato", "sforzatissimo-no-vibrato"],
+        "tin-whistle": ["staccato", "portato", "long", "legato"],
+        "bansuri": ["staccato", "portato", "long", "legato"],
+        "dizi": ["staccato", "portato", "long", "legato"],
+        "shakuhachi": ["staccato", "portato", "long", "legato"]
+      }
+    },
+    {
+      "libraryId": "berlin-woodwinds",
+      "instrumentAliases": {
+        "picc": "piccolo",
+        "fl1": "flute-1",
+        "fl2": "flute-2",
+        "fl3": "flute-3",
+        "alto fl": "alto-flute",
+        "ob1": "oboe-1-french",
+        "ob2": "oboe-2-french",
+        "eh": "english-horn",
+        "cl1": "clarinet-bb-1",
+        "cl2": "clarinet-bb-2",
+        "bsn1": "bassoon-1",
+        "bsn2": "bassoon-2"
+      },
+      "instrumentArticulations": {
+        "piccolo": ["long", "sustain-accented", "marcato-long", "marcato-short", "staccato", "staccato-short", "repetitions-16th", "repetitions-1-8-triplet", "trills", "trills-single", "trills-sforzando", "playable-runs", "legato", "runs"],
+        "flute-1": ["long", "portato-long", "portato-short", "sforzando", "staccato", "staccato-short", "doubles", "triples", "trills", "trills-measured", "trills-single", "trills-sforzando", "playable-runs", "legato", "runs"],
+        "flute-2": ["long", "sustain-soft", "sustain-accented", "marcato-long", "portato-long", "marcato-short", "portato-short", "staccato", "staccato-short", "repetitions-16th", "repetitions-1-8-triplet", "trills", "trills-measured-down", "trills-measured-up", "trills-single", "trills-sforzando", "playable-runs", "legato", "runs"],
+        "flute-3": ["long", "sustain-soft", "sustain-accented", "marcato-long", "portato-long", "marcato-short", "portato-short", "staccato", "staccato-short", "repetitions-16th", "repetitions-1-8-triplet", "trills", "trills-single", "trills-sforzando", "playable-runs", "legato", "runs"],
+        "alto-flute": ["long", "sustain-soft", "portato-long", "portato-short", "staccato-short", "playable-runs", "legato", "runs"],
+        "oboe-1-french": ["long", "sustain-soft", "sustain-accented", "marcato-long", "portato-long", "marcato-short", "portato-short", "staccato", "staccato-short", "repetitions-16th", "repetitions-1-8-triplet", "trills", "trills-measured-down", "trills-measured-up", "trills-single", "trills-sforzando", "playable-runs", "legato", "runs"],
+        "oboe-2-french": ["long", "sustain-soft", "sustain-accented", "marcato-long", "portato-long", "marcato-short", "portato-short", "staccato", "staccato-short", "repetitions-16th", "repetitions-1-8-triplet", "trills", "trills-single", "trills-sforzando", "playable-runs", "legato", "runs"],
+        "english-horn": ["long", "sustain-soft", "sustain-accented", "marcato-long", "portato-long", "marcato-short", "portato-short", "staccato", "staccato-short", "trills", "trills-measured", "trills-single", "trills-sforzando", "playable-runs", "legato", "runs"],
+        "clarinet-bb-1": ["long", "sustain-soft", "sustain-accented", "marcato-long", "portato-long", "marcato-short", "portato-short", "staccato", "staccato-short", "repetitions-16th", "repetitions-1-8-triplet", "trills", "trills-single", "trills-sforzando", "playable-runs", "legato", "runs"],
+        "clarinet-bb-2": ["long", "marcato-long", "marcato-short", "staccato", "staccato-short", "doubles", "triples", "trills", "trills-measured", "trills-single", "trills-sforzando", "playable-runs", "legato", "runs"],
+        "bassoon-1": ["long", "portato-long", "portato-short", "sforzando", "fortepiano", "staccato", "staccato-short", "doubles", "triples", "trills", "legato"],
+        "bassoon-2": ["long", "portato-long", "portato-short", "sforzando", "staccato", "staccato-short", "doubles", "triples", "trills", "legato"]
+      }
+    },
+    {
+      "libraryId": "berlin-woodwinds-additional",
+      "instrumentAliases": {
+        "eb cl": "eb-clarinet",
+        "eb clarinet": "eb-clarinet",
+        "cbcl": "contrabass-clarinet",
+        "contra clarinet": "contrabass-clarinet"
+      },
+      "instrumentArticulations": {
+        "bass-clarinet": ["long", "portato-long", "portato-short", "staccato", "staccato-short", "sforzando", "doubles", "triples", "trills", "legato"],
+        "eb-clarinet": ["long", "portato-long", "portato-short", "staccato", "staccato-short", "sforzando", "doubles", "triples", "trills", "legato"],
+        "contrabassoon": ["long", "portato-long", "portato-short", "staccato", "sforzando", "doubles", "triples", "legato"],
+        "contrabass-clarinet": ["long", "portato-long", "portato-short", "staccato", "staccato-short", "sforzando", "doubles", "triples", "trills", "legato"]
+      }
+    },
+    {
+      "libraryId": "cinematic-studio-strings",
+      "instrumentAliases": {
+        "vln i": "violins-i",
+        "vln ii": "violins-ii",
+        "vla": "violas",
+        "vc": "celli",
+        "db": "basses"
+      },
+      "instrumentArticulations": {
+        "violins-i": ["legato", "portamento", "spiccato", "staccatissimo", "staccato", "sforzando", "pizzicato", "col-legno", "harmonics", "tremolo", "trills-half-whole", "measured-tremolo", "marcato-fast-runs", "con-sordino"],
+        "violins-ii": ["legato", "portamento", "spiccato", "staccatissimo", "staccato", "sforzando", "pizzicato", "col-legno", "harmonics", "tremolo", "trills-half-whole", "measured-tremolo", "marcato-fast-runs", "con-sordino"],
+        "violas": ["legato", "portamento", "spiccato", "staccatissimo", "staccato", "sforzando", "pizzicato", "col-legno", "harmonics", "tremolo", "trills-half-whole", "measured-tremolo", "marcato-fast-runs", "con-sordino"],
+        "celli": ["legato", "portamento", "spiccato", "staccatissimo", "staccato", "sforzando", "pizzicato", "col-legno", "harmonics", "tremolo", "trills-half-whole", "measured-tremolo", "marcato-fast-runs", "con-sordino"],
+        "basses": ["legato", "portamento", "spiccato", "staccatissimo", "staccato", "sforzando", "pizzicato", "col-legno", "harmonics", "tremolo", "trills-half-whole", "measured-tremolo", "marcato-fast-runs", "con-sordino"]
+      }
+    },
+    {
+      "libraryId": "cinematic-studio-brass",
+      "instrumentAliases": {
+        "tpt": "trumpet",
+        "2 tpts": "trumpets-a2",
+        "hn": "horn",
+        "4 hns": "horns-a4",
+        "tbn": "tenor-trombone",
+        "2 tbns": "trombones-a2",
+        "btbn": "bass-trombone",
+        "tba": "tuba"
+      },
+      "instrumentArticulations": {
+        "trumpet": ["long", "legato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "long-muted", "muted-short", "long-flutter", "trills", "double-tongue", "marcato", "rips"],
+        "trumpets-a2": ["long", "legato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "long-muted", "muted-short", "long-flutter", "trills", "double-tongue", "marcato", "rips"],
+        "horn": ["long", "legato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "long-muted", "muted-short", "long-flutter", "trills", "double-tongue", "marcato", "rips"],
+        "horns-a4": ["long", "legato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "long-muted", "muted-short", "long-flutter", "trills", "double-tongue", "marcato", "rips"],
+        "tenor-trombone": ["long", "legato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "long-muted", "muted-short", "long-flutter", "trills", "double-tongue", "marcato", "rips"],
+        "trombones-a2": ["long", "legato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "long-muted", "muted-short", "long-flutter", "trills", "double-tongue", "marcato", "rips"],
+        "bass-trombone": ["long", "legato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "long-muted", "muted-short", "long-flutter", "trills", "double-tongue", "marcato", "rips"],
+        "tuba": ["long", "legato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "long-muted", "muted-short", "long-flutter", "trills", "double-tongue", "marcato", "rips"]
+      }
+    },
+    {
+      "libraryId": "cinematic-studio-woodwinds",
+      "instrumentAliases": {
+        "fl": "flute",
+        "2 fl": "flutes-a2",
+        "ob": "oboe",
+        "2 ob": "oboes-a2",
+        "cl": "clarinet",
+        "2 cl": "clarinets-a2",
+        "bsn": "bassoon",
+        "2 bsn": "bassoons-a2",
+        "picc": "piccolo",
+        "cor anglais": "english-horn",
+        "eh": "english-horn",
+        "alto fl": "alto-flute",
+        "bcl": "bass-clarinet",
+        "cbn": "contrabassoon"
+      },
+      "instrumentArticulations": {
+        "flute": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "long-flutter", "marcato", "playable-runs", "measured-repetitions"],
+        "flutes-a2": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "long-flutter", "marcato", "playable-runs", "measured-repetitions"],
+        "oboe": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "marcato", "playable-runs", "measured-repetitions"],
+        "oboes-a2": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "marcato", "playable-runs", "measured-repetitions"],
+        "clarinet": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "marcato", "playable-runs", "measured-repetitions"],
+        "clarinets-a2": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "marcato", "playable-runs", "measured-repetitions"],
+        "bassoon": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "marcato", "playable-runs", "measured-repetitions"],
+        "bassoons-a2": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "marcato", "playable-runs", "measured-repetitions"],
+        "piccolo": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "marcato", "playable-runs", "measured-repetitions"],
+        "english-horn": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "marcato", "playable-runs", "measured-repetitions"],
+        "alto-flute": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "long-flutter", "marcato", "playable-runs", "measured-repetitions"],
+        "bass-clarinet": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "marcato", "playable-runs", "measured-repetitions"],
+        "contrabassoon": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "marcato", "playable-runs", "measured-repetitions"]
       }
     }
   ]

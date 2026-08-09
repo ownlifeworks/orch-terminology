@@ -22,6 +22,7 @@ const contexts = contextsData.contexts as Array<{
   libraryId: string;
   instrumentAliases?: Record<string, string | string[]>;
   articulationAliases?: Record<string, string | string[]>;
+  instrumentArticulations?: Record<string, string[]>;
 }>;
 
 function findEntity(items: Entity[], id: string) {
@@ -41,12 +42,14 @@ function SelectBox({
   items: Entity[];
   placeholder: string;
 }) {
+  const sortedItems = [...items].sort((left, right) => left.name.localeCompare(right.name));
+
   return (
     <label className="field">
       <span>{label}</span>
       <select value={value} onChange={(event) => onChange(event.target.value)}>
         <option value="">{placeholder}</option>
-        {items.map((item) => (
+        {sortedItems.map((item) => (
           <option value={item.id} key={item.id}>
             {item.name}
           </option>
@@ -95,9 +98,13 @@ export default function Home() {
     return instruments.filter((instrument) => selectedLibrary.instrumentIds?.includes(instrument.id));
   }, [selectedLibrary]);
   const visibleArticulations = useMemo(() => {
+    const instrumentArticulations = selectedContext?.instrumentArticulations?.[instrumentId];
+    if (instrumentArticulations) {
+      return articulations.filter((articulation) => instrumentArticulations.includes(articulation.id));
+    }
     if (!selectedLibrary?.articulationIds) return articulations;
     return articulations.filter((articulation) => selectedLibrary.articulationIds?.includes(articulation.id));
-  }, [selectedLibrary]);
+  }, [instrumentId, selectedContext, selectedLibrary]);
 
   const selectedVendor = findEntity(vendors, vendorId);
   const selectedInstrument = findEntity(instruments, instrumentId);
@@ -105,12 +112,13 @@ export default function Home() {
   const contextualInstrumentAliases = selectedContext?.instrumentAliases ?? {};
   const contextualArticulationAliases = selectedContext?.articulationAliases ?? {};
   const allSelected = Boolean(selectedVendor && selectedLibrary && selectedInstrument && selectedArticulation);
+  const clipboardValue = [selectedVendor, selectedLibrary, selectedInstrument, selectedArticulation]
+    .map((entity) => entity?.aliases[0] ?? entity?.id ?? "")
+    .join("_");
 
   async function copyAbbreviations() {
     if (!allSelected) return;
-    const values = [selectedVendor, selectedLibrary, selectedInstrument, selectedArticulation]
-      .map((entity) => entity?.aliases[0] ?? entity?.id ?? "");
-    await navigator.clipboard.writeText(values.join("_"));
+    await navigator.clipboard.writeText(clipboardValue);
     setCopyStatus("Copied");
     window.setTimeout(() => setCopyStatus(""), 1600);
   }
@@ -175,7 +183,10 @@ export default function Home() {
 
       <section className="results">
         <div className="result-intro"><span className="eyebrow">Selected records</span><h2>Details</h2><p>Every record exposes its canonical identifier and known shorthand.</p>
-          {allSelected && <button className="copy-button" onClick={copyAbbreviations}>{copyStatus || "Copy abbrevations to clipboard"}</button>}
+          {allSelected && <>
+            <div className="clipboard-preview"><span>Clipboard string</span><code>{clipboardValue}</code></div>
+            <button className="copy-button" onClick={copyAbbreviations}>{copyStatus || "Copy abbreviations to clipboard"}</button>
+          </>}
         </div>
         <div className="detail-grid">
           <Detail title="Vendor" entity={selectedVendor} />

@@ -41,6 +41,8 @@ def validate() -> list[str]:
             seen_ids.add(entity_id)
             if not isinstance(entity.get("name"), str) or not entity["name"].strip():
                 errors.append(f"{prefix}: name is required")
+            if kind == "instrument" and not isinstance(entity.get("iconKey"), str):
+                errors.append(f"{prefix}: iconKey is required")
             raw_aliases = [entity.get("name", ""), entity.get("id", ""), *entity.get("aliases", [])]
             for alias in raw_aliases:
                 key = normalized(alias) if isinstance(alias, str) else ""
@@ -52,6 +54,14 @@ def validate() -> list[str]:
                     aliases[key] = entity_id
 
     vendor_ids = {item.get("id") for item in entities["vendor"]}
+    instrument_icon_keys: dict[str, str] = {}
+    for index, instrument in enumerate(entities["instrument"]):
+        icon_key = instrument.get("iconKey")
+        if isinstance(icon_key, str):
+            if icon_key in instrument_icon_keys:
+                errors.append(f"instrument: duplicate iconKey {icon_key}: {instrument_icon_keys[icon_key]} and {instrument.get('id')}")
+            else:
+                instrument_icon_keys[icon_key] = instrument.get("id", f"instrument[{index}]")
     for index, library in enumerate(entities["library"]):
         if library.get("vendorId") not in vendor_ids:
             errors.append(f"library[{index}]: unknown vendorId {library.get('vendorId')}")
@@ -79,6 +89,12 @@ def validate() -> list[str]:
                 for target_id in targets:
                     if target_id not in entity_ids[kind]:
                         errors.append(f"{prefix}: unknown {kind} target {target_id}")
+        for instrument_id, articulation_ids in context.get("instrumentArticulations", {}).items():
+            if instrument_id not in entity_ids["instrument"]:
+                errors.append(f"{prefix}: unknown instrumentArticulations instrument {instrument_id}")
+            for articulation_id in articulation_ids:
+                if articulation_id not in entity_ids["articulation"]:
+                    errors.append(f"{prefix}: unknown instrumentArticulations articulation {articulation_id}")
     return errors
 
 

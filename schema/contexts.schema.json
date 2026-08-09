@@ -14,7 +14,15 @@
           "libraryId": {"type": "string"},
           "vendorId": {"type": "string"},
           "instrumentAliases": {"type": "object", "additionalProperties": {"type": ["string", "array"]}},
-          "articulationAliases": {"type": "object", "additionalProperties": {"type": ["string", "array"]}}
+          "articulationAliases": {"type": "object", "additionalProperties": {"type": ["string", "array"]}},
+          "instrumentArticulations": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {"type": "string"},
+              "uniqueItems": true
+            }
+          }
         }
       }
     }
