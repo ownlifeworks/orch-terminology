@@ -5,7 +5,7 @@
       "id": "bbcso",
       "name": "BBC Symphony Orchestra Core",
       "vendorId": "spitfire-audio",
-      "aliases": ["bbc", "bbcso", "bbc symphony orchestra", "bbc symphony orchestra core", "bbcso core"],
+      "aliases": ["bbc", "bbcso", "bbc-symphony-orchestra", "bbc-symphony-orchestra-core", "bbcso-core"],
       "instrumentIds": [
         "violins-i", "violins-ii", "violas", "celli", "basses",
         "flute", "flutes-a3", "piccolo", "oboe", "oboes-a3", "clarinet", "clarinets-a3", "bassoon", "bassoons-a3",
@@ -18,7 +18,7 @@
       "id": "cinematic-studio-woodwinds",
       "name": "Cinematic Studio Woodwinds",
       "vendorId": "cinematic-studio-series",
-      "aliases": ["csw", "css woodwinds", "cinematic studio woodwinds"],
+      "aliases": ["csw", "css-woodwinds", "cinematic-studio-woodwinds"],
       "instrumentIds": ["flute", "flutes-a2", "oboe", "oboes-a2", "clarinet", "clarinets-a2", "bassoon", "bassoons-a2", "piccolo", "english-horn", "alto-flute", "bass-clarinet", "contrabassoon"],
       "articulationIds": ["long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "trills-half-whole", "long-flutter", "marcato", "playable-runs", "measured-repetitions"]
     },
@@ -26,7 +26,7 @@
       "id": "cinematic-studio-strings",
       "name": "Cinematic Studio Strings",
       "vendorId": "cinematic-studio-series",
-      "aliases": ["css", "cinematic strings", "cinematic studio strings"],
+      "aliases": ["css", "cinematic-strings", "cinematic-studio-strings"],
       "instrumentIds": ["violins-i", "violins-ii", "violas", "celli", "basses"],
       "articulationIds": [
         "legato", "portamento", "spiccato", "staccatissimo", "staccato", "sforzando", "pizzicato", "col-legno",
@@ -37,7 +37,7 @@
       "id": "cinematic-studio-brass",
       "name": "Cinematic Studio Brass",
       "vendorId": "cinematic-studio-series",
-      "aliases": ["csb", "cinematic brass", "cinematic studio brass"],
+      "aliases": ["csb", "cinematic-brass", "cinematic-studio-brass"],
       "instrumentIds": ["trumpet", "trumpets-a2", "horn", "horns-a4", "tenor-trombone", "trombones-a2", "bass-trombone", "tuba"],
       "articulationIds": ["long", "legato", "repetitions-16th", "staccatissimo", "staccato", "sforzando", "long-muted", "muted-short", "long-flutter", "trills", "double-tongue", "marcato", "rips"]
     },
@@ -45,7 +45,7 @@
       "id": "berlin-symphonic-strings",
       "name": "Berlin Symphonic Strings",
       "vendorId": "orchestral-tools",
-      "aliases": ["bss", "berlin symphonic", "berlin strings symphonic"],
+      "aliases": ["bss", "berlin-symphonic", "berlin-strings-symphonic"],
       "instrumentIds": ["violins-i", "violins-ii", "violas", "celli", "basses", "harp"],
       "articulationIds": [
         "long", "sustain-soft", "sustain-accented", "portato", "marcato-long", "marcato-short",
@@ -58,7 +58,7 @@
       "id": "berlin-brass",
       "name": "Berlin Brass",
       "vendorId": "orchestral-tools",
-      "aliases": ["bbr", "berlin brass"],
+      "aliases": ["bbr", "berlin-brass"],
       "instrumentIds": ["horn-1", "horn-2", "horn-3", "horn-4", "horn-ensemble", "horn-ensemble-bells-up", "trumpet-1", "trumpet-1-zampano", "trumpet-2", "trumpet-3", "trumpet-ensemble", "trombone-1", "trombone-2", "bass-trombone", "trombone-ensemble", "bass-tuba"],
       "articulationIds": [
         "long", "sustain-soft", "sustain-accented", "sustain-bold", "marcato-long", "marcato-short",
@@ -72,7 +72,7 @@
       "id": "synchron-prime-woodwinds",
       "name": "Synchron Prime Woodwinds",
       "vendorId": "vienna-symphonic-library",
-      "aliases": ["synchron prime woodwinds", "prime woodwinds", "spw"],
+      "aliases": ["synchron-prime-woodwinds", "prime-woodwinds", "spw"],
       "instrumentIds": [
         "piccolo", "flute-1", "flute-2", "oboe-1-french", "oboe-2-french", "english-horn",
         "clarinet-bb-1", "clarinet-bb-2", "bass-clarinet", "bassoon-1", "bassoon-2", "contrabassoon",
@@ -88,7 +88,7 @@
       "id": "berlin-woodwinds",
       "name": "Berlin Woodwinds",
       "vendorId": "orchestral-tools",
-      "aliases": ["berlin woodwinds", "bbw"],
+      "aliases": ["berlin-woodwinds", "bbw"],
       "instrumentIds": ["piccolo", "flute-1", "flute-2", "flute-3", "alto-flute", "oboe-1-french", "oboe-2-french", "english-horn", "clarinet-bb-1", "clarinet-bb-2", "bassoon-1", "bassoon-2"],
       "articulationIds": [
         "long", "sustain-soft", "sustain-accented", "marcato-long", "marcato-short", "portato-long", "portato-short",
@@ -100,7 +100,7 @@
       "id": "berlin-woodwinds-additional",
       "name": "Berlin Woodwinds Additional Instruments",
       "vendorId": "orchestral-tools",
-      "aliases": ["berlin woodwinds additional", "berlin woodwinds additional instruments", "bbw additional"],
+      "aliases": ["berlin-woodwinds-additional", "berlin-woodwinds-additional-instruments", "bbw-additional"],
       "instrumentIds": ["bass-clarinet", "eb-clarinet", "contrabassoon", "contrabass-clarinet"],
       "articulationIds": ["long", "portato-long", "portato-short", "staccato", "staccato-short", "sforzando", "doubles", "triples", "trills", "legato"]
     }
