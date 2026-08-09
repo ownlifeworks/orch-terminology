@@ -103,6 +103,15 @@
       "aliases": ["berlin woodwinds additional", "berlin woodwinds additional instruments", "bbw additional"],
       "instrumentIds": ["bass-clarinet", "eb-clarinet", "contrabassoon", "contrabass-clarinet"],
       "articulationIds": ["long", "portato-long", "portato-short", "staccato", "staccato-short", "sforzando", "doubles", "triples", "trills", "legato"]
+    },
+    {
+      "id": "synchron-prime-brass",
+      "name": "Synchron Prime Brass",
+      "vendorId": "vienna-symphonic-library",
+      "aliases": ["synchron prime brass", "prime brass", "spb"],
+      "sourceUrl": "https://www.vsl.co.at/products/synchron/prime-orchestra/brass",
+      "instrumentIds": ["trumpet-1", "trumpet-2", "trumpet-ensemble", "horn-1", "horn-2", "horn-ensemble", "tenor-trombone", "trombone-ensemble", "bass-trombone", "bass-tuba"],
+      "articulationIds": ["staccato", "portato", "long", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "sforzato-no-vibrato", "sforzato-vibrato", "sforzatissimo-no-vibrato", "sforzatissimo-vibrato"]
     }
   ]
 }

@@ -38,8 +38,8 @@
     },
     {
       "id": "celli",
-      "name": "Celli",
-      "aliases": ["cello", "cellos", "vc", "vlc"], "iconKey": "vc.png"
+      "name": "Cellos",
+      "aliases": ["cello", "celli", "cellos", "vc", "vlc"], "iconKey": "vc.png"
     },
     {
       "id": "basses",
@@ -84,7 +84,7 @@
     {
       "id": "trombone-ensemble",
       "name": "Trombone Ensemble",
-      "aliases": ["tbn ens", "tbn ensemble", "trb ens"], "iconKey": "tbnens.png"
+      "aliases": ["tbn ens", "tbn ensemble", "trb ens", "tenor trombone ensemble"], "iconKey": "tbnens.png"
     },
     {
       "id": "tuba",
@@ -94,7 +94,7 @@
     {
       "id": "piccolo",
       "name": "Piccolo",
-      "aliases": ["picc", "pic"], "iconKey": "picc.png"
+      "aliases": ["picc", "pic", "piccolo flute"], "iconKey": "picc.png"
     },
     {
       "id": "flute-1",
@@ -163,7 +163,7 @@
     { "id": "clarinets-a3", "name": "Clarinets A3", "aliases": ["clarinets a3", "cl a3"], "iconKey": "cls3.png" },
     { "id": "bassoon", "name": "Bassoon", "aliases": ["bsn"], "iconKey": "bsn.png" },
     { "id": "bassoons-a3", "name": "Bassoons A3", "aliases": ["bassoons a3", "bsn a3"], "iconKey": "bsns3.png" },
-    { "id": "tenor-trombone", "name": "Tenor Trombone", "aliases": ["tenor tbn", "tenor trb"], "iconKey": "tenortbn.png" },
+    { "id": "tenor-trombone", "name": "Tenor Trombone", "aliases": ["tenor tbn", "tenor trb", "trombone"], "iconKey": "tenortbn.png" },
     { "id": "tenor-trombones-a3", "name": "Tenor Trombones A3", "aliases": ["tenor trombones a3", "tbn a3"], "iconKey": "tenortbns3.png" },
     { "id": "bass-trombones-a2", "name": "Bass Trombones A2", "aliases": ["bass trombones a2", "bass tbn a2"], "iconKey": "basstbns2.png" },
     { "id": "celeste", "name": "Celeste", "aliases": ["cel"], "iconKey": "cel.png" },

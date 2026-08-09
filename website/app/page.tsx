@@ -10,6 +10,7 @@ import contextsData from "../data/contexts.json";
 type Entity = { id: string; name: string; aliases: string[] };
 type Library = Entity & {
   vendorId: string;
+  sourceUrl?: string;
   instrumentIds?: string[];
   articulationIds?: string[];
 };
@@ -59,7 +60,7 @@ function SelectBox({
   );
 }
 
-function Detail({ title, entity }: { title: string; entity?: Entity }) {
+function Detail({ title, entity }: { title: string; entity?: Entity & { sourceUrl?: string } }) {
   if (!entity) {
     return <div className="empty-detail">Select a {title.toLowerCase()} to inspect it.</div>;
   }
@@ -71,6 +72,7 @@ function Detail({ title, entity }: { title: string; entity?: Entity }) {
         <code>{entity.id}</code>
       </div>
       <h2>{entity.name}</h2>
+      {entity.sourceUrl && <a className="source-link" href={entity.sourceUrl} target="_blank" rel="noreferrer">Open source page ↗</a>}
       <div className="alias-label">Recognized abbreviations & aliases</div>
       <div className="aliases">
         {entity.aliases.length ? entity.aliases.map((alias) => <span key={alias}>{alias}</span>) : <span>None listed</span>}
