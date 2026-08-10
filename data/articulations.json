@@ -122,6 +122,11 @@
       "aliases": ["stac-short"]
     },
     {
+      "id": "repetitions",
+      "name": "Repetitions",
+      "aliases": ["repetition", "reps"]
+    },
+    {
       "id": "repetitions-16th-phrase",
       "name": "Repetitions 1/16 Phrase",
       "aliases": ["repetitions-16th-phrase", "rep-16-phrase"]
@@ -147,6 +152,11 @@
       "aliases": ["fp"]
     },
     {
+      "id": "crescendo",
+      "name": "Crescendo",
+      "aliases": ["cresc", "crescendo"]
+    },
+    {
       "id": "crescendo-long",
       "name": "Crescendo Long",
       "aliases": ["cresc-long", "cresc-l"]
@@ -165,6 +175,11 @@
       "id": "swells-short",
       "name": "Swells Short",
       "aliases": ["swell-short"]
+    },
+    {
+      "id": "swells",
+      "name": "Swells",
+      "aliases": ["swell", "swells"]
     },
     {
       "id": "playable-runs",
@@ -195,6 +210,11 @@
       "id": "glissando",
       "name": "Glissando",
       "aliases": ["gliss"]
+    },
+    {
+      "id": "glissandi",
+      "name": "Glissandi",
+      "aliases": ["glissandi"]
     },
     {
       "id": "zampano",
@@ -252,7 +272,8 @@
       "aliases": ["sforzatissimo-vibrato", "sfzss-vib"]
     },
     { "id": "long-cs", "name": "Long CS", "aliases": ["cs-long"] },
-    { "id": "long-flautando", "name": "Long Flautando", "aliases": ["flautando"] },
+    { "id": "flautando", "name": "Flautando", "aliases": ["flautando"] },
+    { "id": "long-flautando", "name": "Long Flautando", "aliases": ["long-flautando"] },
     { "id": "short-spiccato", "name": "Short Spiccato", "aliases": ["short-spic"] },
     { "id": "short-staccato", "name": "Short Staccato", "aliases": ["short-stac"] },
     { "id": "short-pizzicato", "name": "Short Pizzicato", "aliases": ["short-pizz"] },
@@ -260,22 +281,26 @@
     { "id": "col-legno", "name": "Col Legno", "aliases": ["col-legno"] },
     { "id": "trill-major-2nd", "name": "Trill Major 2nd", "aliases": ["major-2nd-trill"] },
     { "id": "trill-minor-2nd", "name": "Trill Minor 2nd", "aliases": ["minor-2nd-trill"] },
-    { "id": "long-sul-tasto", "name": "Long Sul Tasto", "aliases": ["sul-tasto"] },
+    { "id": "sul-tasto", "name": "Sul Tasto", "aliases": ["sul-tasto", "sul tasto"] },
+    { "id": "long-sul-tasto", "name": "Long Sul Tasto", "aliases": ["long-sul-tasto"] },
     { "id": "long-harmonics", "name": "Long Harmonics", "aliases": ["harmonics-long"] },
     { "id": "short-harmonics", "name": "Short Harmonics", "aliases": ["harmonics-short"] },
     { "id": "short-pizzicato-bartok", "name": "Short Pizzicato Bartok", "aliases": ["bartok-pizzicato"] },
     { "id": "long-marcato-attack", "name": "Long Marcato Attack", "aliases": ["marcato-attack"] },
     { "id": "tremolo-sul-pont", "name": "Tremolo Sul Pont", "aliases": ["sul-pont-tremolo"] },
     { "id": "tremolo-cs", "name": "Tremolo CS", "aliases": ["cs-tremolo"] },
-    { "id": "long-sul-pont", "name": "Long Sul Pont", "aliases": ["sul-pont"] },
+    { "id": "sul-ponticello", "name": "Sul Ponticello", "aliases": ["sul-pont", "sul-pont.", "sul ponticello"] },
+    { "id": "long-sul-pont", "name": "Long Sul Pont", "aliases": ["long-sul-pont"] },
     { "id": "short-spiccato-cs", "name": "Short Spiccato CS", "aliases": ["cs-spiccato"] },
     { "id": "spiccato-cs", "name": "Spiccato CS", "aliases": ["cs-spiccato-long"] },
     { "id": "tenuto", "name": "Tenuto", "aliases": ["ten"] },
-    { "id": "long-flutter", "name": "Long Flutter", "aliases": ["flutter-tongue"] },
+    { "id": "flutter", "name": "Flutter", "aliases": ["flutter", "flutter-tongue"] },
+    { "id": "long-flutter", "name": "Long Flutter", "aliases": ["long-flutter"] },
     { "id": "multitongue", "name": "Multitongue", "aliases": ["multi-tongue"] },
     { "id": "rips", "name": "Rips", "aliases": ["rip"] },
     { "id": "falls", "name": "Falls", "aliases": ["fall"] },
-    { "id": "long-sfz", "name": "Long Sfz", "aliases": ["sfz-long"] },
+    { "id": "sforzando", "name": "Sforzando", "aliases": ["sfz", "sfz-long"] },
+    { "id": "long-sfz", "name": "Long Sfz", "aliases": ["long-sfz"] },
     { "id": "long-flutter-brass", "name": "Long Flutter (Brass)", "aliases": ["brass-flutter"] },
     { "id": "long-muted", "name": "Long (Muted)", "aliases": ["muted-long"] },
     { "id": "staccatissimo-muted", "name": "Staccatissimo (Muted)", "aliases": ["muted-staccatissimo"] },
@@ -332,13 +357,13 @@
     { "id": "trills-measured", "name": "Trills Measured", "aliases": ["measured-trills"] },
     { "id": "trills-measured-down", "name": "Trills Measured Down", "aliases": ["measured-trills-down"] },
     { "id": "trills-measured-up", "name": "Trills Measured Up", "aliases": ["measured-trills-up"] },
-    { "id": "sforzando", "name": "Sforzando", "aliases": ["sfz"] },
     { "id": "doubles", "name": "Doubles", "aliases": ["double"] },
     { "id": "triples", "name": "Triples", "aliases": ["triple"] },
     { "id": "portamento", "name": "Portamento", "aliases": ["port"] },
     { "id": "harmonics", "name": "Harmonics", "aliases": ["harmonic"] },
     { "id": "trills-half-whole", "name": "Trills Half and Whole Tone", "aliases": ["half-and-whole-tone-trills"] },
     { "id": "measured-tremolo", "name": "Measured Tremolo", "aliases": ["tremolo-sync", "free-sync-tremolo"] },
+    { "id": "bartok", "name": "Bartok", "aliases": ["bartok"] },
     { "id": "marcato-fast-runs", "name": "Marcato / Fast Runs", "aliases": ["marcato-fast-runs"] },
     { "id": "con-sordino", "name": "Con Sordino", "aliases": ["con-sordino-emulation"] },
     { "id": "muted-short", "name": "Muted Short", "aliases": ["short-muted"] },

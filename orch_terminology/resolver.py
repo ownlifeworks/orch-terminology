@@ -7,8 +7,14 @@ import re
 from typing import Any, Iterable
 
 
-KINDS = ("vendor", "library", "instrument", "articulation")
-PLURALS = {"vendor": "vendors", "library": "libraries", "instrument": "instruments", "articulation": "articulations"}
+KINDS = ("vendor", "library", "instrument", "articulation", "variant")
+PLURALS = {
+    "vendor": "vendors",
+    "library": "libraries",
+    "instrument": "instruments",
+    "articulation": "articulations",
+    "variant": "variants",
+}
 _TOKEN_RE = re.compile(r"[a-z0-9]+(?:'[a-z0-9]+)?", re.IGNORECASE)
 _VELOCITY_RE = re.compile(r"^v(\d{1,3})$", re.IGNORECASE)
 
@@ -49,10 +55,17 @@ class TerminologyResolver:
             "library": "libraries.json",
             "instrument": "instruments.json",
             "articulation": "articulations.json",
+            "variant": "variants.json",
         }
         for kind, filename in filenames.items():
             document = json.loads((self.data_directory / filename).read_text(encoding="utf-8"))
             self._entities[kind] = list(document[PLURALS[kind]])
+        mappings_file = self.data_directory / "articulation-variant-mappings.json"
+        self._articulation_variant_mappings = {
+            item["articulationId"]: item
+            for item in json.loads(mappings_file.read_text(encoding="utf-8")).get("mappings", [])
+            if isinstance(item, dict) and item.get("articulationId")
+        }
 
         context_file = self.data_directory / "contexts.json"
         self._contexts = list(json.loads(context_file.read_text(encoding="utf-8"))["contexts"])
@@ -75,6 +88,9 @@ class TerminologyResolver:
 
     def resolve_articulation(self, value: str, context: str | dict[str, Any] | None = None) -> Resolution:
         return self._resolve_exact("articulation", value, context)
+
+    def resolve_variant(self, value: str, context: str | dict[str, Any] | None = None) -> Resolution:
+        return self._resolve_exact("variant", value, context)
 
     def resolve_metadata(self, value: str, context: str | dict[str, Any] | None = None) -> dict[str, Any]:
         tokens = _tokens(value)
@@ -100,25 +116,72 @@ class TerminologyResolver:
 
         remaining = [token for index, token in enumerate(terminology_tokens)
                      if library_span is None or not library_span[0] <= index < library_span[1]]
-        instrument_result, _ = self._resolve_tokens("instrument", remaining, effective_context)
-        articulation_result, _ = self._resolve_tokens("articulation", remaining, effective_context)
+        instrument_result, instrument_span = self._resolve_tokens("instrument", remaining, effective_context)
+        articulation_result, articulation_span = self._resolve_tokens("articulation", remaining, effective_context)
+        articulation_result, mapped_variant_results = self._apply_articulation_variant_mapping(articulation_result)
+        used_indexes = set()
+        if instrument_span is not None:
+            used_indexes.update(range(instrument_span[0], instrument_span[1]))
+        if articulation_span is not None:
+            used_indexes.update(range(articulation_span[0], articulation_span[1]))
+        variant_tokens = [token for index, token in enumerate(remaining) if index not in used_indexes]
+        if variant_tokens:
+            variant_result, _ = self._resolve_tokens("variant", variant_tokens, effective_context)
+        else:
+            variant_result = Resolution("absent", "")
+        variant_result = self._combine_variant_results([variant_result, *mapped_variant_results])
 
         statuses = {
             "vendor": "resolved" if vendor else "unresolved",
             "library": library_result.status,
             "instrument": instrument_result.status,
             "articulation": articulation_result.status,
+            "variant": variant_result.status,
         }
+        required_statuses = [statuses["vendor"], statuses["library"], statuses["instrument"], statuses["articulation"]]
         return {
             "status": "ambiguous" if "ambiguous" in statuses.values() else
-                      ("resolved" if all(status == "resolved" for status in statuses.values()) else "partial"),
+                      ("resolved" if all(status == "resolved" for status in required_statuses) and
+                       variant_result.status in {"resolved", "absent"} else "partial"),
             "vendor": vendor,
             "library": library,
             "instrument": instrument_result.entity if instrument_result.status == "resolved" else None,
             "articulation": articulation_result.entity if articulation_result.status == "resolved" else None,
+            "variant": variant_result.entity if variant_result.status == "resolved" else None,
             "velocity": velocity,
             "statuses": statuses,
         }
+
+    def _apply_articulation_variant_mapping(self, articulation_result: Resolution) -> tuple[Resolution, list[Resolution]]:
+        if articulation_result.status != "resolved" or articulation_result.entity is None:
+            return articulation_result, []
+        mapping = self._articulation_variant_mappings.get(articulation_result.entity["id"])
+        if not mapping:
+            return articulation_result, []
+        base_articulation = self._entity_by_id("articulation", mapping["baseArticulationId"])
+        mapped_variants = [
+            Resolution("resolved", variant_id, entity=self._entity_by_id("variant", variant_id))
+            for variant_id in mapping.get("variantIds", [])
+        ]
+        if base_articulation is None:
+            return articulation_result, mapped_variants
+        return Resolution("resolved", articulation_result.input, entity=base_articulation), mapped_variants
+
+    def _combine_variant_results(self, results: list[Resolution]) -> Resolution:
+        resolved_entities = []
+        for result in results:
+            if result.status == "resolved" and result.entity is not None:
+                resolved_entities.append(result.entity)
+            elif result.status == "ambiguous":
+                return result
+            elif result.status not in {"resolved", "absent"}:
+                return result
+        if not resolved_entities:
+            return Resolution("absent", "")
+        unique = {entity["id"]: entity for entity in resolved_entities}
+        if len(unique) > 1:
+            return Resolution("resolved", "", entity=None, matches=tuple(unique.values()))
+        return Resolution("resolved", "", entity=next(iter(unique.values())))
 
     def resolve_filename(self, filename: str, context: str | dict[str, Any] | None = None) -> dict[str, Any]:
         return self.resolve_metadata(Path(filename).stem, context)

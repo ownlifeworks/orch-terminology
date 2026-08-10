@@ -3,7 +3,7 @@
   "vendors": [
     {
       "id": "spitfire-audio",
-      "name": "Spitfire",
+      "name": "Spitfire Audio",
       "aliases": ["spitfire", "spitfireaudio", "sa"]
     },
     {

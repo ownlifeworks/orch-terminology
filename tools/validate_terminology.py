@@ -8,8 +8,14 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
-KINDS = ("vendor", "library", "instrument", "articulation")
-PLURALS = {"vendor": "vendors", "library": "libraries", "instrument": "instruments", "articulation": "articulations"}
+KINDS = ("vendor", "library", "instrument", "articulation", "variant")
+PLURALS = {
+    "vendor": "vendors",
+    "library": "libraries",
+    "instrument": "instruments",
+    "articulation": "articulations",
+    "variant": "variants",
+}
 
 
 def normalized(value: str) -> str:
@@ -69,6 +75,9 @@ def validate() -> list[str]:
     contexts = load("contexts.json")
     if contexts.get("schemaVersion") != 1:
         errors.append("contexts: schemaVersion must be 1")
+    mappings = load("articulation-variant-mappings.json")
+    if mappings.get("schemaVersion") != 1:
+        errors.append("articulation-variant-mappings: schemaVersion must be 1")
     library_ids = {item.get("id") for item in entities["library"]}
     entity_ids = {kind: {item.get("id") for item in entries} for kind, entries in entities.items()}
     for index, library in enumerate(entities["library"]):
@@ -81,7 +90,7 @@ def validate() -> list[str]:
         library_id = context.get("libraryId")
         if library_id not in library_ids:
             errors.append(f"{prefix}: unknown libraryId {library_id}")
-        for kind in ("instrument", "articulation"):
+        for kind in ("instrument", "articulation", "variant"):
             for alias, target in context.get(f"{kind}Aliases", {}).items():
                 targets = [target] if isinstance(target, str) else target
                 if not normalized(alias):
@@ -95,6 +104,22 @@ def validate() -> list[str]:
             for articulation_id in articulation_ids:
                 if articulation_id not in entity_ids["articulation"]:
                     errors.append(f"{prefix}: unknown instrumentArticulations articulation {articulation_id}")
+    seen_mappings: set[str] = set()
+    for index, mapping in enumerate(mappings.get("mappings", [])):
+        prefix = f"articulationVariantMapping[{index}]"
+        articulation_id = mapping.get("articulationId")
+        base_articulation_id = mapping.get("baseArticulationId")
+        if articulation_id in seen_mappings:
+            errors.append(f"{prefix}: duplicate articulationId {articulation_id}")
+        else:
+            seen_mappings.add(articulation_id)
+        if articulation_id not in entity_ids["articulation"]:
+            errors.append(f"{prefix}: unknown articulationId {articulation_id}")
+        if base_articulation_id not in entity_ids["articulation"]:
+            errors.append(f"{prefix}: unknown baseArticulationId {base_articulation_id}")
+        for variant_id in mapping.get("variantIds", []):
+            if variant_id not in entity_ids["variant"]:
+                errors.append(f"{prefix}: unknown variantId {variant_id}")
     return errors
 
 

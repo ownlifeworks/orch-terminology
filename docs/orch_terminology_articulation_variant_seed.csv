@@ -1,0 +1,75 @@
+﻿term_type,canonical,parent_articulation,aliases,abbreviations,source_basis,confidence,notes,source_urls
+articulation,sustain,,long|sus|sustained|long sustain,sus|sust,Spitfire UACC; curator,high,Use as normalized long-note articulation. UACC calls this LONG (SUSTAIN).,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+articulation,legato,,leg|slur legato|connected,leg,Spitfire UACC; curator,high,Base articulation; vendor qualifiers belong in variant.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+articulation,staccato,,stac|stacc|stacc.,stac|stacc,MEI; common notation; curator,high,MEI identifier is stacc.,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,staccatissimo,,stacss|stacciss|staccatiss|staccatissimo,stacss|stacciss,MEI; EastWest Hollywood Orchestra; curator,high,EastWest uses StacSs in Hollywood Orchestra naming.,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html | https://media.soundsonline.com/manuals/EW-Hollywood-Orchestra-Opus-Edition-User-Manual-b.pdf
+articulation,spiccato,,spicc|spic|spicc.,spicc|spic,MEI; common notation; curator,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,marcato,,marc|marc.|marcato,marc,MEI; common notation; curator,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,tenuto,,ten|ten.|tenuto,ten,MEI; common notation,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,accent,,acc|accented,acc,MEI; curator,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,tremolo,,trem|trem.|tremolando,trem,Spitfire UACC; common notation; curator,high,Do not confuse with measured tremolo/repetitions if database distinguishes them.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+articulation,trill,,tr|trill|trills,tr,common notation; curator,high,,
+articulation,pizzicato,,pizz|pizz.|pizzicato,pizz,Frans Absil; common notation; curator,high,,https://www.fransabsil.nl/htm/instrum.htm
+articulation,snap pizzicato,,snap pizz|bartok pizz|bartók pizzicato|bartok pizzicato,snap|lhpizz,MEI; curator,medium,MEI has snap and lhpizz as separate tokens; use this only where acoustically intended.,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,harmonic,,harm|harmonic|harmonics|flageolet,harm,MEI; Spitfire UACC; curator,high,,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius | https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,double tongue,,double tongued|double-tongue|dbl tongue|dbltongue,dbltongue,MEI; curator,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,triple tongue,,triple tongued|triple-tongue|trpltongue,trpltongue,MEI; curator,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,flutter tongue,,fluttertongue|flutter tongued|flutter|flt|flz,flt|flz,Spitfire UACC; curator,high,UACC groups flutter with trem in some long-note slots; keep canonical technique separate.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+articulation,rip,,squeeze|rip,rip,MEI,high,MEI: long slide up into the main note.,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,doit,,doit,doit,MEI,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,scoop,,scoop,scoop,MEI,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,fall,,fall|fall-off|falloff,fall,MEI; curator,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,long fall,,longfall|long fall|long fall-off,longfall,MEI; curator,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,bend,,bend|lip bend,bend,MEI,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,shake,,shake,shake,MEI,high,Brass/woodwind shake per MEI.,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,down bow,,downbow|down bow,dnbow,MEI,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,up bow,,upbow|up bow,upbow,MEI,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,left-hand pizzicato,,left hand pizz|left-hand pizz|lh pizz,lhpizz,MEI,high,,https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+articulation,sul ponticello,,sul pont|sul pont.|ponticello|at the bridge|am steg|sur le chevalet,sul pont|pont,Frans Absil; common notation; curator,high,Could be modeled as variant in some systems; keep whichever convention the database already establishes.,https://www.fransabsil.nl/htm/instrum.htm
+articulation,sul tasto,,sul tasto|over fingerboard|sur la touche|am griffbrett,sul tasto|s.t.,Frans Absil; common notation; curator,high,Could be modeled as variant in some systems; keep consistent with DB convention.,https://www.fransabsil.nl/htm/instrum.htm
+articulation,con sordino,,muted|mute|with mute|con sord|con sord.|avec sourdine|mit dämpfer|gedämpft,con sord|sord,Frans Absil; common notation; curator,high,Depending on schema this may be a variant rather than articulation.,https://www.fransabsil.nl/htm/instrum.htm
+articulation,senza sordino,,unmuted|without mute|senza sord|senza sord.|sans sourdine|ohne dämpfer,senza sord,Frans Absil; common notation; curator,high,Usually a state reset rather than a sampled articulation.,https://www.fransabsil.nl/htm/instrum.htm
+articulation,ordinaro,,ordinario|ord.|ord|normal|normale,ord,common notation; curator,medium,Canonical spelling may be better as 'ordinario'; review before adopting.,
+articulation,portamento,,port|port.|portamento|glissando legato,port,Spitfire UACC; curator,medium,UACC folds slow legato/portamento/glissandi together; many libraries treat portamento as distinct.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+articulation,glissando,,gliss|gliss.|glissando,gliss,Spitfire UACC; common notation; curator,high,,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+articulation,detache,,detaché|détaché|detache|detach,det|detach,Spitfire UACC; curator,medium,UACC includes Detaché under legato range; many libraries expose it independently.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+articulation,col legno,,col legno|c.l.|collegno,c.l.|col leg,common notation; curator,high,,
+articulation,col legno battuto,,col legno battuto|legno battuto|clb,clb,curator,medium,,
+articulation,flautando,,flautando|flaut.|hollow,flaut,Spitfire UACC; curator,medium,UACC uses 'Soft (flautando/hollow)' as a qualifier.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+articulation,cuivre,,cuivre|overblown|brassy,cuiv,Spitfire UACC; curator,medium,For brass; UACC groups this under hard.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+articulation,stopped,,stopped|stop|stopped horn|gestopft,stop,MEI; Spitfire UACC; curator,medium,MEI 'stop' means muffled tone; for horn this maps well to stopped.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius | https://music-encoding.org/guidelines/v5/data-types/data.ARTICULATION.html
+variant,,,default|normal|regular|generic,,Spitfire UACC; curator,medium,Usually omit variant entirely instead of storing 'generic' unless source distinction matters.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,alternative,,alt|alternate|alternative,alt,Spitfire UACC; curator,medium,Vendor-generic variant. Avoid unless source actually labels it this way.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,expressive,,expr|exp|expressive|espressivo,expr|exp,curator,medium,Useful for vendor labels such as Expressive Legato.,
+variant,rapid,,rapid|agile,,curator,medium,Prefer 'rapid' only if existing DB uses it; 'agile' may deserve its own value if semantically distinct.,
+variant,fast,,fast|quick,,Spitfire UACC; curator,high,UACC legato 32 = Fast.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,slow,,slow,,Spitfire UACC; curator,high,UACC legato 31 = Slow (portamento/glissandi).,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,low latency,,low-latency|low latency|ll,ll,curator,medium,"Sample-library implementation qualifier, not a musical articulation.",
+variant,soft,,soft|gentle|hollow,,Spitfire UACC; curator,high,UACC qualifier.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,hard,,hard|aggressive|nasty|overblown,,Spitfire UACC; curator,medium,UACC qualifier; aliases are context-sensitive.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,muted,,muted|mute|con sordino|con sord|sord,sord,Spitfire UACC; Frans Absil; curator,high,Good cross-family generic variant when exact mute type is unknown.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius | https://www.fransabsil.nl/htm/instrum.htm
+variant,harmon mute,,harmon|harmon mute|hm|harm mute,hm,curator,medium,Common brass mute variant; abbreviation is vendor-dependent.,
+variant,cup mute,,cup|cup mute|cm,cm,curator,medium,Common brass mute variant.,
+variant,straight mute,,straight|straight mute|sm,sm,curator,medium,Common brass mute variant.,
+variant,bucket mute,,bucket|bucket mute,,curator,medium,Common brass mute variant.,
+variant,plunger mute,,plunger|plunger mute,,curator,medium,Common brass mute variant.,
+variant,octave,,8va|oct|octave,oct,Spitfire UACC; curator,high,UACC has octave variants for long and legato.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,small,,small|half,,Spitfire UACC; curator,medium,UACC qualifier; meaning is library-dependent.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,harmonic,,harmonic|harmonics|harm,harm,Spitfire UACC; curator,medium,Use only if database deliberately treats harmonic as variant rather than articulation.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,vibrato,,vib|vib.|vibrato,vib,Spitfire UACC; curator,high,,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,non-vibrato,,non vib|non-vib|non vibrato|non-vibrato|nv|senza vib,nv,curator,high,Very common sample-library qualifier.,
+variant,molto vibrato,,molto vib|molto vibrato|mv,mv,Spitfire UACC; curator,medium,UACC mentions molto/vib-only under Long Vibrato.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,higher,,higher|upper,,Spitfire UACC,medium,UACC semantic bucket; often actually means bells-up or sul tasto depending on family.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,lower,,lower,,Spitfire UACC,medium,UACC semantic bucket; often actually means sul ponticello.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,single string,,single string|sul c|sul g|sul d|sul a,,Spitfire UACC; curator,high,UACC legato 37.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,slurred,,slur|slurred|legato runs,,Spitfire UACC; curator,medium,UACC legato 33.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,portamento,,port|portamento|glissandi,port,Spitfire UACC; curator,medium,Use as variant only if base articulation stays legato in your schema.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,tremolo,,trem|tremolo,trem,Spitfire UACC; curator,medium,Use as variant only if base articulation remains sustain/legato; otherwise tremolo may be articulation.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius
+variant,sul ponticello,,sul pont|sul pont.|pont|lower,pont,Spitfire UACC; Frans Absil; curator,medium,Use as variant only if your schema treats bow position as a qualifier.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius | https://www.fransabsil.nl/htm/instrum.htm
+variant,sul tasto,,sul tasto|higher|over fingerboard,s.t.,Spitfire UACC; Frans Absil; curator,medium,Use as variant only if your schema treats bow position as a qualifier.,https://support.spitfireaudio.com/en/articles/11816194-how-do-i-use-spitfire-audio-kontakt-libraries-with-sibelius | https://www.fransabsil.nl/htm/instrum.htm
+variant,major,,maj,maj,,,,
+variant,minor,,min,min,,,,
+technical,round robin,,ignore,,,,,
+technical,dynamic crossfade,,ignore,,,,,
+technical,dry,,ignore,,,,,
+technical,wet,,ignore,,,,,
