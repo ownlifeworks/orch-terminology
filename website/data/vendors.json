@@ -3,13 +3,13 @@
   "vendors": [
     {
       "id": "spitfire-audio",
-      "name": "Spitfire Audio",
+      "name": "Spitfire",
       "aliases": ["spitfire", "spitfireaudio", "sa"]
     },
     {
       "id": "cinematic-studio-series",
       "name": "Cinematic Studio Series",
-      "aliases": ["cinematic studio", "cinematicstudio", "css"]
+      "aliases": ["cinematic-studio", "cinematicstudio", "css"]
     },
     {
       "id": "orchestral-tools",
@@ -19,7 +19,7 @@
     {
       "id": "vienna-symphonic-library",
       "name": "Vienna Symphonic Library",
-      "aliases": ["vsl", "vienna library", "vienna symphonic"]
+      "aliases": ["vsl", "vienna-library", "vienna-symphonic"]
     }
   ]
 }

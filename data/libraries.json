@@ -3,9 +3,9 @@
   "libraries": [
     {
       "id": "bbcso",
-      "name": "BBC Symphony Orchestra Core",
+      "name": "BBC Symphony Orchestra",
       "vendorId": "spitfire-audio",
-      "aliases": ["bbc", "bbcso", "bbc-symphony-orchestra", "bbc-symphony-orchestra-core", "bbcso-core"],
+      "aliases": ["bbc", "bbcso", "bbc-symphony-orchestra"],
       "instrumentIds": [
         "violins-i", "violins-ii", "violas", "celli", "basses",
         "flute", "flutes-a3", "piccolo", "oboe", "oboes-a3", "clarinet", "clarinets-a3", "bassoon", "bassoons-a3",

@@ -5,16 +5,16 @@
       "libraryId": "bbcso",
       "instrumentAliases": {
         "fl": "flute",
-        "fl a3": "flutes-a3",
+        "fl-a3": "flutes-a3",
         "ob": "oboe",
-        "ob a3": "oboes-a3",
+        "ob-a3": "oboes-a3",
         "cl": "clarinet",
-        "cl a3": "clarinets-a3",
+        "cl-a3": "clarinets-a3",
         "bsn": "bassoon",
-        "bsn a3": "bassoons-a3",
+        "bsn-a3": "bassoons-a3",
         "tbn": "tenor-trombone",
-        "tbn a3": "tenor-trombones-a3",
-        "bass tbn a2": "bass-trombones-a2",
+        "tbn-a3": "tenor-trombones-a3",
+        "bass-tbn-a2": "bass-trombones-a2",
         "hn": "horn",
         "hns": "horns-a4",
         "4hn": "horns-a4"
@@ -71,8 +71,8 @@
     {
       "libraryId": "berlin-symphonic-strings",
       "instrumentAliases": {
-        "vln i": "violins-i",
-        "vln ii": "violins-ii",
+        "vln-i": "violins-i",
+        "vln-ii": "violins-ii",
         "vla": "violas",
         "vc": "celli",
         "db": "basses",
@@ -81,13 +81,13 @@
       "articulationAliases": {
         "sus": "long",
         "sustains": "long",
-        "sustains soft": "sustain-soft",
-        "sustains accented": "sustain-accented",
-        "marcato long": "marcato-long",
-        "marcato short": "marcato-short",
-        "rapid legato": "rapid-legato",
-        "pattern legato": "pattern-legato",
-        "melodic legato": "melodic-legato"
+        "sustains-soft": "sustain-soft",
+        "sustains-accented": "sustain-accented",
+        "marcato-long": "marcato-long",
+        "marcato-short": "marcato-short",
+        "rapid-legato": "rapid-legato",
+        "pattern-legato": "pattern-legato",
+        "melodic-legato": "melodic-legato"
       },
       "instrumentArticulations": {
         "violins-i": ["long", "sustain-soft", "sustain-accented", "portato", "marcato-long", "marcato-short", "staccato", "spiccato", "pizzicato", "tremolo", "trills", "rapid-legato", "pattern-legato", "melodic-legato"],
@@ -101,29 +101,29 @@
     {
       "libraryId": "berlin-brass",
       "instrumentAliases": {
-        "tpt 1": "trumpet-1",
-        "tpt 1 zampano": "trumpet-1-zampano",
-        "tpt 2": "trumpet-2",
-        "tpt 3": "trumpet-3",
-        "tpt ens": "trumpet-ensemble",
-        "hn 1": "horn-1",
-        "hn 2": "horn-2",
-        "hn 3": "horn-3",
-        "hn 4": "horn-4",
-        "hn ens": "horn-ensemble",
-        "tbn 1": "trombone-1",
-        "tbn 2": "trombone-2",
+        "tpt-1": "trumpet-1",
+        "tpt-1-zampano": "trumpet-1-zampano",
+        "tpt-2": "trumpet-2",
+        "tpt-3": "trumpet-3",
+        "tpt-ens": "trumpet-ensemble",
+        "hn-1": "horn-1",
+        "hn-2": "horn-2",
+        "hn-3": "horn-3",
+        "hn-4": "horn-4",
+        "hn-ens": "horn-ensemble",
+        "tbn-1": "trombone-1",
+        "tbn-2": "trombone-2",
         "btbn": "bass-trombone",
-        "tbn ens": "trombone-ensemble",
+        "tbn-ens": "trombone-ensemble",
         "tba": "bass-tuba",
         "btba": "bass-tuba"
       },
       "articulationAliases": {
         "sustains": "long",
-        "sustains soft": "sustain-soft",
-        "sustains accented": "sustain-accented",
-        "sustains bold": "sustain-bold",
-        "playable runs": "playable-runs",
+        "sustains-soft": "sustain-soft",
+        "sustains-accented": "sustain-accented",
+        "sustains-bold": "sustain-bold",
+        "playable-runs": "playable-runs",
         "zampano": "zampano"
       },
       "instrumentArticulations": {
@@ -160,19 +160,19 @@
         "bsn1": "bassoon-1",
         "bsn2": "bassoon-2",
         "cbsn": "contrabassoon",
-        "tin whistle": "tin-whistle",
+        "tin-whistle": "tin-whistle",
         "bans": "bansuri",
         "shaku": "shakuhachi"
       },
       "articulationAliases": {
-        "sus nv": "sustain-no-vibrato",
-        "sus vib": "sustain-vibrato",
-        "leg nv": "performance-legato-no-vibrato",
-        "leg vib": "performance-legato-vibrato",
-        "sfz nv": "sforzato-no-vibrato",
-        "sfz vib": "sforzato-vibrato",
-        "sfzss nv": "sforzatissimo-no-vibrato",
-        "sfzss vib": "sforzatissimo-vibrato"
+        "sus-nv": "sustain-no-vibrato",
+        "sus-vib": "sustain-vibrato",
+        "leg-nv": "performance-legato-no-vibrato",
+        "leg-vib": "performance-legato-vibrato",
+        "sfz-nv": "sforzato-no-vibrato",
+        "sfz-vib": "sforzato-vibrato",
+        "sfzss-nv": "sforzatissimo-no-vibrato",
+        "sfzss-vib": "sforzatissimo-vibrato"
       },
       "instrumentArticulations": {
         "piccolo": ["staccato", "staccato-bold", "portato", "portato-bold", "sustain-no-vibrato", "sustain-vibrato", "performance-legato-no-vibrato", "performance-legato-vibrato", "sforzato-no-vibrato", "sforzato-vibrato", "sforzatissimo-no-vibrato"],
@@ -200,7 +200,7 @@
         "fl1": "flute-1",
         "fl2": "flute-2",
         "fl3": "flute-3",
-        "alto fl": "alto-flute",
+        "alto-fl": "alto-flute",
         "ob1": "oboe-1-french",
         "ob2": "oboe-2-french",
         "eh": "english-horn",
@@ -227,10 +227,10 @@
     {
       "libraryId": "berlin-woodwinds-additional",
       "instrumentAliases": {
-        "eb cl": "eb-clarinet",
-        "eb clarinet": "eb-clarinet",
+        "eb-cl": "eb-clarinet",
+        "eb-clarinet": "eb-clarinet",
         "cbcl": "contrabass-clarinet",
-        "contra clarinet": "contrabass-clarinet"
+        "contra-clarinet": "contrabass-clarinet"
       },
       "instrumentArticulations": {
         "bass-clarinet": ["long", "portato-long", "portato-short", "staccato", "staccato-short", "sforzando", "doubles", "triples", "trills", "legato"],
@@ -242,8 +242,8 @@
     {
       "libraryId": "cinematic-studio-strings",
       "instrumentAliases": {
-        "vln i": "violins-i",
-        "vln ii": "violins-ii",
+        "vln-i": "violins-i",
+        "vln-ii": "violins-ii",
         "vla": "violas",
         "vc": "celli",
         "db": "basses"
@@ -260,11 +260,11 @@
       "libraryId": "cinematic-studio-brass",
       "instrumentAliases": {
         "tpt": "trumpet",
-        "2 tpts": "trumpets-a2",
+        "2-tpts": "trumpets-a2",
         "hn": "horn",
-        "4 hns": "horns-a4",
+        "4-hns": "horns-a4",
         "tbn": "tenor-trombone",
-        "2 tbns": "trombones-a2",
+        "2-tbns": "trombones-a2",
         "btbn": "bass-trombone",
         "tba": "tuba"
       },
@@ -283,17 +283,17 @@
       "libraryId": "cinematic-studio-woodwinds",
       "instrumentAliases": {
         "fl": "flute",
-        "2 fl": "flutes-a2",
+        "2-fl": "flutes-a2",
         "ob": "oboe",
-        "2 ob": "oboes-a2",
+        "2-ob": "oboes-a2",
         "cl": "clarinet",
-        "2 cl": "clarinets-a2",
+        "2-cl": "clarinets-a2",
         "bsn": "bassoon",
-        "2 bsn": "bassoons-a2",
+        "2-bsn": "bassoons-a2",
         "picc": "piccolo",
-        "cor anglais": "english-horn",
+        "cor-anglais": "english-horn",
         "eh": "english-horn",
-        "alto fl": "alto-flute",
+        "alto-fl": "alto-flute",
         "bcl": "bass-clarinet",
         "cbn": "contrabassoon"
       },
