@@ -1,0 +1,341 @@
+[
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive",
+          "low-latency"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "portamento",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "portamento",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "portamento",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-strings",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "portamento",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  }
+]

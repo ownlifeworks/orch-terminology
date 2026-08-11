@@ -25,6 +25,55 @@ class CatalogTests(unittest.TestCase):
                 sorted(entry["articulations"], key=lambda item: item["articulationId"]),
             )
 
+    def test_build_catalog_from_split_sources(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            for filename in [
+                "vendors.json",
+                "libraries.json",
+                "instruments.json",
+                "articulations.json",
+                "variants.json",
+            ]:
+                dump_json(tmp_path / filename, json.loads((self.data_dir / filename).read_text(encoding="utf-8")))
+
+            source_dir = tmp_path / "catalog" / "spitfire-audio"
+            source_dir.mkdir(parents=True, exist_ok=True)
+            dump_json(
+                source_dir / "bbcso.json",
+                [
+                    {
+                        "vendorId": "spitfire-audio",
+                        "libraryId": "bbcso",
+                        "instrumentId": "trumpet",
+                        "articulations": [
+                            {"articulationId": "legato", "variantIds": []}
+                        ],
+                    }
+                ],
+            )
+            dump_json(
+                source_dir / "bbcso-extra.json",
+                [
+                    {
+                        "vendorId": "spitfire-audio",
+                        "libraryId": "bbcso",
+                        "instrumentId": "horn",
+                        "articulations": [
+                            {"articulationId": "staccato", "variantIds": []}
+                        ],
+                    }
+                ],
+            )
+
+            catalog, report = build_catalog_document(tmp_path)
+            self.assertFalse(report.validation_errors)
+            self.assertEqual(report.source_files, 2)
+            self.assertEqual(
+                [(entry["instrumentId"], entry["articulations"][0]["articulationId"]) for entry in catalog],
+                [("horn", "staccato"), ("trumpet", "legato")],
+            )
+
     def test_catalog_validation_rejects_unknown_variant(self):
         with tempfile.TemporaryDirectory() as tmp:
             tmp_path = Path(tmp)

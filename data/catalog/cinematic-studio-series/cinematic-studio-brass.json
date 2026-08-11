@@ -1,0 +1,382 @@
+[
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-brass",
+    "instrumentId": "bass-trombone",
+    "articulations": [
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "rep-overlay"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-brass",
+    "instrumentId": "horn",
+    "articulations": [
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "rep-overlay"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-brass",
+    "instrumentId": "horns-a4",
+    "articulations": [
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-brass",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-brass",
+    "instrumentId": "trombones-a2",
+    "articulations": [
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-brass",
+    "instrumentId": "trumpet",
+    "articulations": [
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-brass",
+    "instrumentId": "trumpets-a2",
+    "articulations": [
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-brass",
+    "instrumentId": "tuba",
+    "articulations": [
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  }
+]

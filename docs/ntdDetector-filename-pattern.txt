@@ -1,0 +1,1 @@
+{ven}_{lib}_{inst}_{art}_{var}_v{velo}_anything.wav

@@ -9,6 +9,7 @@ The first implementation slice is available: canonical seed data, JSON schemas, 
 ## Repository layout
 
 - `data/` — authoritative terminology JSON files, including the generated `catalog.json`
+- `data/catalog/` — per-library catalog source files that are combined into `catalog.json`
 - `schema/` — JSON Schema definitions
 - `tests/` — resolver and validation fixtures
 - `tools/` — validation and generation tooling
@@ -19,15 +20,17 @@ Applications such as NTD Engine and NTD Detector must consume this repository's 
 
 Edit the canonical JSON files in `data/`. The copies in consuming applications, such as `OwnLifeAudioWebsite/src/data/terminology/`, are mirrors and can be overwritten during synchronization.
 
+For catalog relationships, edit the per-library source files in `data/catalog/` and then run `pwsh -File tools/build_catalog.ps1` to regenerate the aggregate `data/catalog.json`.
+
 Keep entity IDs stable because libraries and `contexts.json` reference them directly. Aliases/abbreviations must never contain whitespace; use hyphens instead. Alias order matters: the first alias is used as the default abbreviation in the website's clipboard string. Avoid alias collisions within a category, preserve `schemaVersion: 1`, and keep every instrument's `iconKey` unique. When changing an ID, update all references in `libraries.json` and `contexts.json`.
 
-The canonical vocabulary now includes `variants.json` for optional articulation qualifiers and `articulation-variant-mappings.json` for curated splits of legacy combined articulation names. Use `variant` as a separate normalized field rather than folding qualifiers back into `articulation`.
+The canonical vocabulary now includes `variants.json` for optional articulation qualifiers. Use `variant` as a separate normalized field rather than folding qualifiers back into `articulation`.
 
 After editing, validate the data and run the tests:
 
 ```powershell
 python tools/validate_terminology.py
-python tools/build_catalog.py
+pwsh -File tools/build_catalog.ps1
 python -m unittest discover -s tests
 ```
 

@@ -2,13 +2,18 @@ from __future__ import annotations
 
 from collections import defaultdict
 from dataclasses import dataclass
+import os
 import json
 from pathlib import Path
 import re
+import shutil
+import subprocess
+import tempfile
 from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
+CATALOG_SOURCE_DIRNAME = "catalog"
 DATA_FILENAMES = {
     "vendor": "vendors.json",
     "library": "libraries.json",
@@ -28,6 +33,7 @@ ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 @dataclass(frozen=True)
 class CatalogBuildReport:
+    source_files: int
     new_catalog_entries: int
     existing_entries_updated: int
     new_articulation_relationships: int
@@ -42,7 +48,26 @@ def load_json(path: Path) -> Any:
 
 
 def dump_json(path: Path, payload: Any) -> None:
-    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+        mode="w",
+        encoding="utf-8",
+        delete=False,
+        dir=Path(tempfile.gettempdir()),
+        prefix=f".{path.stem}.",
+        suffix=".tmp",
+    ) as handle:
+        handle.write(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
+        temp_path = Path(handle.name)
+    shell = shutil.which("pwsh") or shutil.which("powershell")
+    if shell is None:
+        raise RuntimeError("PowerShell is required to write catalog files in this environment")
+    command = (
+        f"$content = Get-Content -Raw -LiteralPath '{str(temp_path)}'; "
+        f"Set-Content -LiteralPath '{str(path)}' -Value $content -Encoding utf8; "
+        f"Remove-Item -LiteralPath '{str(temp_path)}'"
+    )
+    subprocess.run([shell, "-NoProfile", "-Command", command], check=True)
 
 
 def load_canonical_documents(data_dir: Path) -> dict[str, dict[str, Any]]:
@@ -50,6 +75,32 @@ def load_canonical_documents(data_dir: Path) -> dict[str, dict[str, Any]]:
     for kind, filename in DATA_FILENAMES.items():
         documents[kind] = load_json(data_dir / filename)
     return documents
+
+
+def _load_catalog_sources(data_dir: Path) -> tuple[list[dict[str, Any]], tuple[str, ...], int]:
+    source_dir = data_dir / CATALOG_SOURCE_DIRNAME
+    if not source_dir.exists():
+        return [], (), 0
+
+    source_files = sorted(path for path in source_dir.rglob("*.json") if path.is_file())
+    if not source_files:
+        return [], (f"{CATALOG_SOURCE_DIRNAME}: no source JSON files found",), 0
+
+    catalog: list[dict[str, Any]] = []
+    errors: list[str] = []
+    for path in source_files:
+        relative = path.relative_to(data_dir)
+        payload = load_json(path)
+        if not isinstance(payload, list):
+            errors.append(f"{relative}: must be a JSON array")
+            continue
+        for index, entry in enumerate(payload):
+            if not isinstance(entry, dict):
+                errors.append(f"{relative}[{index}]: must be an object")
+                continue
+            catalog.append(entry)
+
+    return catalog, tuple(errors), len(source_files)
 
 
 def _entity_index(document: dict[str, Any], plural: str) -> dict[str, dict[str, Any]]:
@@ -258,15 +309,21 @@ def build_catalog_document(data_dir: Path) -> tuple[list[dict[str, Any]], Catalo
     articulations = _entity_index(documents["articulation"], "articulations")
     variants = _entity_index(documents["variant"], "variants")
 
-    existing_path = data_dir / "catalog.json"
-    existing_index: dict[tuple[str, str, str], dict[str, Any]] = {}
     validation_errors: list[str] = []
-    if existing_path.exists():
-        existing_catalog = load_json(existing_path)
-        if isinstance(existing_catalog, list):
-            existing_index = _catalog_index(existing_catalog)
+    source_catalog, source_errors, source_file_count = _load_catalog_sources(data_dir)
+    validation_errors.extend(source_errors)
+    if source_file_count:
+        catalog_input = source_catalog
+    else:
+        existing_path = data_dir / "catalog.json"
+        if not existing_path.exists():
+            catalog_input = []
+            validation_errors.append("catalog source directory is missing and catalog.json does not exist")
         else:
-            validation_errors.append("catalog.json must be an array when present")
+            catalog_input = load_json(existing_path)
+            if not isinstance(catalog_input, list):
+                validation_errors.append("catalog.json must be an array when present")
+                catalog_input = []
 
     new_catalog_entries = 0
     existing_entries_updated = 0
@@ -274,8 +331,9 @@ def build_catalog_document(data_dir: Path) -> tuple[list[dict[str, Any]], Catalo
     new_variant_relationships = 0
     duplicates_removed = 0
 
-    merged_index = existing_index
+    merged_index = _catalog_index(catalog_input)
     catalog = _catalog_index_to_list(merged_index)
+    new_catalog_entries = len(catalog)
     for entry in catalog:
         articulation_count = len(entry["articulations"])
         unique_articulation_count = len({item["articulationId"] for item in entry["articulations"]})
@@ -283,6 +341,8 @@ def build_catalog_document(data_dir: Path) -> tuple[list[dict[str, Any]], Catalo
         for articulation in entry["articulations"]:
             unique_variant_count = len(set(articulation["variantIds"]))
             duplicates_removed += len(articulation["variantIds"]) - unique_variant_count
+            new_variant_relationships += len(articulation["variantIds"])
+        new_articulation_relationships += articulation_count
 
     validation_errors.extend(
         _validate_catalog_payload(
@@ -296,6 +356,7 @@ def build_catalog_document(data_dir: Path) -> tuple[list[dict[str, Any]], Catalo
     )
 
     report = CatalogBuildReport(
+        source_files=source_file_count,
         new_catalog_entries=new_catalog_entries,
         existing_entries_updated=existing_entries_updated,
         new_articulation_relationships=new_articulation_relationships,

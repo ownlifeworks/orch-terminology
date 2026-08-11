@@ -116,6 +116,16 @@
       "name": "Con Sordino",
       "aliases": ["con sordino"]
     },
+	{
+      "id": "rep-overlay",
+      "name": "Repetition Overlay",
+      "aliases": ["repOvl"]
+    },
+	{
+      "id": "spic-overlay",
+      "name": "Spiccato Overlay",
+      "aliases": ["spicOvl"]
+    },
     {
       "id": "senza-sordino",
       "name": "Senza Sordino",

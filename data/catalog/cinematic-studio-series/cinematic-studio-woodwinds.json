@@ -1,0 +1,746 @@
+[
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "alto-flute",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "bass-clarinet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "bassoon",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "bassoons-a2",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "clarinet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "clarinets-a2",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "contrabassoon",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "english-horn",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "flute",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "flutes-a2",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "oboe",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "oboes-a2",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-woodwinds",
+    "instrumentId": "piccolo",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "playable"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  }
+]
