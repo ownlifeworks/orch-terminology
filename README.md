@@ -8,7 +8,7 @@ The first implementation slice is available: canonical seed data, JSON schemas, 
 
 ## Repository layout
 
-- `data/` — authoritative terminology JSON files
+- `data/` — authoritative terminology JSON files, including the generated `catalog.json`
 - `schema/` — JSON Schema definitions
 - `tests/` — resolver and validation fixtures
 - `tools/` — validation and generation tooling
@@ -27,6 +27,7 @@ After editing, validate the data and run the tests:
 
 ```powershell
 python tools/validate_terminology.py
+python tools/build_catalog.py
 python -m unittest discover -s tests
 ```
 
@@ -36,6 +37,7 @@ From the repository root:
 
 ```powershell
 python tools/validate_terminology.py
+python tools/build_catalog.py
 python -m unittest discover -s tests
 ```
 

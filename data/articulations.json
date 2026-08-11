@@ -3,371 +3,565 @@
   "articulations": [
     {
       "id": "long",
-      "name": "Long",
-      "aliases": ["sus", "sustain", "sustained"]
+      "name": "Sustains",
+      "aliases": [
+        "sus",
+        "sustain",
+        "sustained"
+      ]
     },
     {
       "id": "staccato",
       "name": "Staccato",
-      "aliases": ["stac", "stacc"]
+      "aliases": [
+        "stac",
+        "stacc"
+      ]
     },
     {
       "id": "marcato",
       "name": "Marcato",
-      "aliases": ["marc"]
-    },
-    {
-      "id": "long-cuivre",
-      "name": "Long Cuivre",
-      "aliases": ["cuivre", "long-cuivre", "longcuivre"]
-    },
-    {
-      "id": "sustain-soft",
-      "name": "Sustains Soft",
-      "aliases": ["sustain-soft", "sus-soft"]
-    },
-    {
-      "id": "sustain-accented",
-      "name": "Sustains Accented",
-      "aliases": ["sustain-accented", "sus-accented"]
+      "aliases": [
+        "marc"
+      ]
     },
     {
       "id": "portato",
       "name": "Portato",
-      "aliases": ["prt"]
-    },
-    {
-      "id": "marcato-long",
-      "name": "Marcato Long",
-      "aliases": ["marc-long"]
-    },
-    {
-      "id": "marcato-short",
-      "name": "Marcato Short",
-      "aliases": ["marc-short"]
+      "aliases": [
+        "prt"
+      ]
     },
     {
       "id": "spiccato",
       "name": "Spiccato",
-      "aliases": ["spic", "spicc"]
+      "aliases": [
+        "spic",
+        "spicc"
+      ]
     },
     {
       "id": "pizzicato",
       "name": "Pizzicato",
-      "aliases": ["pizz", "pizzic"]
+      "aliases": [
+        "pizz",
+        "pizzic"
+      ]
     },
     {
       "id": "tremolo",
       "name": "Tremolo",
-      "aliases": ["trem"]
+      "aliases": [
+        "trem"
+      ]
     },
     {
       "id": "trills",
       "name": "Trills",
-      "aliases": ["trill"]
-    },
-    {
-      "id": "rapid-legato",
-      "name": "Rapid Legato",
-      "aliases": ["rapid-leg"]
-    },
-    {
-      "id": "pattern-legato",
-      "name": "Pattern Legato",
-      "aliases": ["pattern-leg"]
-    },
-    {
-      "id": "melodic-legato",
-      "name": "Melodic Legato",
-      "aliases": ["melodic-leg"]
+      "aliases": [
+        "trill"
+      ]
     },
     {
       "id": "staccatissimo",
       "name": "Staccatissimo",
-      "aliases": ["staccatiss"]
-    },
-    {
-      "id": "glissandi-major",
-      "name": "Glissandi Major",
-      "aliases": ["gliss-major", "major-glissandi"]
-    },
-    {
-      "id": "glissandi-harmonic-minor",
-      "name": "Glissandi Harmonic Minor",
-      "aliases": ["gliss-harmonic-minor"]
-    },
-    {
-      "id": "glissandi-pentatonic",
-      "name": "Glissandi Pentatonic",
-      "aliases": ["gliss-pentatonic"]
-    },
-    {
-      "id": "glissandi-wholetone",
-      "name": "Glissandi Wholetone",
-      "aliases": ["gliss-wholetone", "gliss-whole-tone"]
+      "aliases": [
+        "staccatiss"
+      ]
     },
     {
       "id": "flageolet",
       "name": "Flageolet",
-      "aliases": ["flageolets"]
-    },
-    {
-      "id": "sustain-bold",
-      "name": "Sustains Bold",
-      "aliases": ["sustain-bold", "sus-bold"]
-    },
-    {
-      "id": "staccato-short",
-      "name": "Staccato Short",
-      "aliases": ["stac-short"]
+      "aliases": [
+        "flageolets"
+      ]
     },
     {
       "id": "repetitions",
       "name": "Repetitions",
-      "aliases": ["repetition", "reps"]
-    },
-    {
-      "id": "repetitions-16th-phrase",
-      "name": "Repetitions 1/16 Phrase",
-      "aliases": ["repetitions-16th-phrase", "rep-16-phrase"]
-    },
-    {
-      "id": "repetitions-16th-continuous",
-      "name": "Repetitions 1/16 Continuous",
-      "aliases": ["repetitions-16th-continuous", "rep-16-continuous"]
-    },
-    {
-      "id": "repetitions-triplets-phrase",
-      "name": "Repetitions Triplets Phrase",
-      "aliases": ["rep-triplets-phrase"]
-    },
-    {
-      "id": "repetitions-triplets-continuous",
-      "name": "Repetitions Triplets Continuous",
-      "aliases": ["rep-triplets-continuous"]
+      "aliases": [
+        "repetition",
+        "reps"
+      ]
     },
     {
       "id": "fortepiano",
       "name": "Fortepiano",
-      "aliases": ["fp"]
+      "aliases": [
+        "fp"
+      ]
     },
     {
       "id": "crescendo",
       "name": "Crescendo",
-      "aliases": ["cresc", "crescendo"]
-    },
-    {
-      "id": "crescendo-long",
-      "name": "Crescendo Long",
-      "aliases": ["cresc-long", "cresc-l"]
-    },
-    {
-      "id": "crescendo-short",
-      "name": "Crescendo Short",
-      "aliases": ["cresc-short", "cresc-s"]
-    },
-    {
-      "id": "swells-long",
-      "name": "Swells Long",
-      "aliases": ["swell-long"]
-    },
-    {
-      "id": "swells-short",
-      "name": "Swells Short",
-      "aliases": ["swell-short"]
+      "aliases": [
+        "cresc",
+        "crescendo"
+      ]
     },
     {
       "id": "swells",
       "name": "Swells",
-      "aliases": ["swell", "swells"]
-    },
-    {
-      "id": "playable-runs",
-      "name": "Playable Runs",
-      "aliases": ["playable-run", "runs-playable"]
-    },
-    {
-      "id": "slurred",
-      "name": "Slurred",
-      "aliases": ["slur"]
-    },
-    {
-      "id": "retongued",
-      "name": "Retongued",
-      "aliases": ["re-tongued", "re-tongued"]
+      "aliases": [
+        "swell",
+        "swells"
+      ]
     },
     {
       "id": "runs",
       "name": "Runs",
-      "aliases": ["run"]
+      "aliases": [
+        "run"
+      ]
     },
     {
       "id": "legato",
       "name": "Legato",
-      "aliases": ["leg"]
+      "aliases": [
+        "leg"
+      ]
     },
     {
       "id": "glissando",
       "name": "Glissando",
-      "aliases": ["gliss"]
+      "aliases": [
+        "gliss"
+      ]
     },
     {
       "id": "glissandi",
       "name": "Glissandi",
-      "aliases": ["glissandi"]
+      "aliases": [
+        "glissandi"
+      ]
     },
     {
-      "id": "zampano",
-      "name": "Zampano",
+      "id": "sforzatissimo",
+      "name": "Sforzatissimo",
+      "aliases": [
+        "sfzss"
+      ]
+    },
+    {
+      "id": "col-legno",
+      "name": "Col Legno",
+      "aliases": [
+        "col-legno"
+      ]
+    },
+    {
+      "id": "tenuto",
+      "name": "Tenuto",
+      "aliases": [
+        "ten"
+      ]
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "aliases": [
+        "flutter",
+        "flutter-tongue"
+      ]
+    },
+    {
+      "id": "multitongue",
+      "name": "Multitongue",
+      "aliases": [
+        "multi-tongue"
+      ]
+    },
+    {
+      "id": "rips",
+      "name": "Rips",
+      "aliases": [
+        "rip"
+      ]
+    },
+    {
+      "id": "falls",
+      "name": "Falls",
+      "aliases": [
+        "fall"
+      ]
+    },
+    {
+      "id": "sforzando",
+      "name": "Sforzando",
+      "aliases": [
+        "sfz",
+        "sfz-long"
+      ]
+    },
+    {
+      "id": "bisbigliando",
+      "name": "Bisbigliando",
+      "aliases": [
+        "bisbi"
+      ]
+    },
+    {
+      "id": "hits",
+      "name": "Hits",
+      "aliases": [
+        "hit"
+      ]
+    },
+    {
+      "id": "rolls",
+      "name": "Rolls",
+      "aliases": [
+        "roll"
+      ]
+    },
+    {
+      "id": "hits-hotrods",
+      "name": "Hits Hotrods",
+      "aliases": [
+        "hotrods-hits"
+      ]
+    },
+    {
+      "id": "long-rolls-hotrods",
+      "name": "Long Rolls Hotrods",
+      "aliases": [
+        "hotrods-rolls"
+      ]
+    },
+    {
+      "id": "hits-damped",
+      "name": "Hits Damped",
+      "aliases": [
+        "damped-hits"
+      ]
+    },
+    {
+      "id": "hits-super-damped",
+      "name": "Hits Super Damped",
+      "aliases": [
+        "super-damped-hits"
+      ]
+    },
+    {
+      "id": "hotrods-hits-damped",
+      "name": "Hotrods Hits Damped",
+      "aliases": [
+        "damped-hotrods"
+      ]
+    },
+    {
+      "id": "hits-damped-soft",
+      "name": "Hits Damped Soft",
+      "aliases": [
+        "soft-damped-hits"
+      ]
+    },
+    {
+      "id": "short-hits",
+      "name": "Short Hits",
+      "aliases": [
+        "short-hit"
+      ]
+    },
+    {
+      "id": "long-rolls",
+      "name": "Long Rolls",
+      "aliases": [
+        "long-roll"
+      ]
+    },
+    {
+      "id": "hit-choked",
+      "name": "Hit Choked",
+      "aliases": [
+        "choked-hit"
+      ]
+    },
+    {
+      "id": "hard-sticks",
+      "name": "Hard Sticks",
+      "aliases": [
+        "hard-stick"
+      ]
+    },
+    {
+      "id": "hand-muted-hit",
+      "name": "Hand Muted Hit",
+      "aliases": [
+        "hand-mute"
+      ]
+    },
+    {
+      "id": "roll-hard",
+      "name": "Roll Hard",
+      "aliases": [
+        "hard-roll"
+      ]
+    },
+    {
+      "id": "roll-soft",
+      "name": "Roll Soft",
+      "aliases": [
+        "soft-roll"
+      ]
+    },
+    {
+      "id": "super-ball",
+      "name": "Super Ball",
+      "aliases": [
+        "superball"
+      ]
+    },
+    {
+      "id": "crash",
+      "name": "Crash",
+      "aliases": [
+        "crash-cymbal"
+      ]
+    },
+    {
+      "id": "crash-muted",
+      "name": "Crash Muted",
+      "aliases": [
+        "muted-crash"
+      ]
+    },
+    {
+      "id": "crash-hard-stick",
+      "name": "Crash Hard Stick",
+      "aliases": [
+        "hard-stick-crash"
+      ]
+    },
+    {
+      "id": "crash-hard-stick-muted",
+      "name": "Crash Hard Stick Muted",
+      "aliases": [
+        "muted-hard-stick-crash"
+      ]
+    },
+    {
+      "id": "bowed",
+      "name": "Bowed",
+      "aliases": [
+        "bow"
+      ]
+    },
+    {
+      "id": "clash-hit",
+      "name": "Clash Hit",
+      "aliases": [
+        "clash"
+      ]
+    },
+    {
+      "id": "short-roll",
+      "name": "Short Roll",
+      "aliases": [
+        "short-rolls"
+      ]
+    },
+    {
+      "id": "rimshot",
+      "name": "Rimshot",
+      "aliases": [
+        "rim-shot"
+      ]
+    },
+    {
+      "id": "short-ruff",
+      "name": "Short Ruff",
+      "aliases": [
+        "ruff"
+      ]
+    },
+    {
+      "id": "side-stick-hit",
+      "name": "Side Stick Hit",
+      "aliases": [
+        "sidestick"
+      ]
+    },
+    {
+      "id": "hit-damped",
+      "name": "Hit Damped",
+      "aliases": [
+        "damped-hit"
+      ]
+    },
+    {
+      "id": "shake",
+      "name": "Shake",
+      "aliases": [
+        "tambourine-shake"
+      ]
+    },
+    {
+      "id": "castanets",
+      "name": "Castanets",
       "aliases": []
     },
     {
-      "id": "staccato-bold",
-      "name": "Staccato Bold",
-      "aliases": ["bold-staccato"]
+      "id": "woodblock",
+      "name": "Woodblock",
+      "aliases": [
+        "wood-block"
+      ]
     },
     {
-      "id": "portato-bold",
-      "name": "Portato Bold",
-      "aliases": ["bold-portato"]
+      "id": "vibraslap",
+      "name": "Vibraslap",
+      "aliases": [
+        "vibra-slap"
+      ]
     },
     {
-      "id": "sustain-no-vibrato",
-      "name": "Sustained Notes Without Vibrato",
-      "aliases": ["sustain-no-vibrato", "sustain-senza-vibrato", "sus-nv"]
+      "id": "cowbell",
+      "name": "Cowbell",
+      "aliases": [
+        "cow-bell"
+      ]
     },
     {
-      "id": "sustain-vibrato",
-      "name": "Sustained Notes With Vibrato",
-      "aliases": ["sustain-vibrato", "sus-vib"]
+      "id": "sleigh-bells",
+      "name": "Sleigh Bells",
+      "aliases": [
+        "sleigh-bell"
+      ]
     },
     {
-      "id": "performance-legato-no-vibrato",
-      "name": "Performance Legato Without Vibrato",
-      "aliases": ["performance-legato-no-vibrato", "legato-no-vibrato", "leg-nv"]
+      "id": "short-guiro",
+      "name": "Short Guiro",
+      "aliases": [
+        "short-güiro"
+      ]
     },
     {
-      "id": "performance-legato-vibrato",
-      "name": "Performance Legato With Vibrato",
-      "aliases": ["performance-legato-vibrato", "legato-vibrato", "leg-vib"]
+      "id": "long-guiro",
+      "name": "Long Guiro",
+      "aliases": [
+        "long-güiro"
+      ]
     },
     {
-      "id": "sforzato-no-vibrato",
-      "name": "Sforzato Without Vibrato",
-      "aliases": ["sforzato-no-vibrato", "sfz-nv"]
+      "id": "open-hit",
+      "name": "Open Hit",
+      "aliases": [
+        "open"
+      ]
     },
     {
-      "id": "sforzato-vibrato",
-      "name": "Sforzato With Vibrato",
-      "aliases": ["sforzato-vibrato", "sfz-vib"]
+      "id": "hit-muted",
+      "name": "Hit Muted",
+      "aliases": [
+        "muted-hit"
+      ]
     },
     {
-      "id": "sforzatissimo-no-vibrato",
-      "name": "Sforzatissimo Without Vibrato",
-      "aliases": ["sforzatissimo-no-vibrato", "sfzss-nv"]
+      "id": "doubles",
+      "name": "Doubles",
+      "aliases": [
+        "double"
+      ]
     },
     {
-      "id": "sforzatissimo-vibrato",
-      "name": "Sforzatissimo With Vibrato",
-      "aliases": ["sforzatissimo-vibrato", "sfzss-vib"]
+      "id": "triples",
+      "name": "Triples",
+      "aliases": [
+        "triple"
+      ]
     },
-    { "id": "long-cs", "name": "Long CS", "aliases": ["cs-long"] },
-    { "id": "flautando", "name": "Flautando", "aliases": ["flautando"] },
-    { "id": "long-flautando", "name": "Long Flautando", "aliases": ["long-flautando"] },
-    { "id": "short-spiccato", "name": "Short Spiccato", "aliases": ["short-spic"] },
-    { "id": "short-staccato", "name": "Short Staccato", "aliases": ["short-stac"] },
-    { "id": "short-pizzicato", "name": "Short Pizzicato", "aliases": ["short-pizz"] },
-    { "id": "short-col-legno", "name": "Short Col Legno", "aliases": ["short-col-legno"] },
-    { "id": "col-legno", "name": "Col Legno", "aliases": ["col-legno"] },
-    { "id": "trill-major-2nd", "name": "Trill Major 2nd", "aliases": ["major-2nd-trill"] },
-    { "id": "trill-minor-2nd", "name": "Trill Minor 2nd", "aliases": ["minor-2nd-trill"] },
-    { "id": "sul-tasto", "name": "Sul Tasto", "aliases": ["sul-tasto", "sul tasto"] },
-    { "id": "long-sul-tasto", "name": "Long Sul Tasto", "aliases": ["long-sul-tasto"] },
-    { "id": "long-harmonics", "name": "Long Harmonics", "aliases": ["harmonics-long"] },
-    { "id": "short-harmonics", "name": "Short Harmonics", "aliases": ["harmonics-short"] },
-    { "id": "short-pizzicato-bartok", "name": "Short Pizzicato Bartok", "aliases": ["bartok-pizzicato"] },
-    { "id": "long-marcato-attack", "name": "Long Marcato Attack", "aliases": ["marcato-attack"] },
-    { "id": "tremolo-sul-pont", "name": "Tremolo Sul Pont", "aliases": ["sul-pont-tremolo"] },
-    { "id": "tremolo-cs", "name": "Tremolo CS", "aliases": ["cs-tremolo"] },
-    { "id": "sul-ponticello", "name": "Sul Ponticello", "aliases": ["sul-pont", "sul-pont.", "sul ponticello"] },
-    { "id": "long-sul-pont", "name": "Long Sul Pont", "aliases": ["long-sul-pont"] },
-    { "id": "short-spiccato-cs", "name": "Short Spiccato CS", "aliases": ["cs-spiccato"] },
-    { "id": "spiccato-cs", "name": "Spiccato CS", "aliases": ["cs-spiccato-long"] },
-    { "id": "tenuto", "name": "Tenuto", "aliases": ["ten"] },
-    { "id": "flutter", "name": "Flutter", "aliases": ["flutter", "flutter-tongue"] },
-    { "id": "long-flutter", "name": "Long Flutter", "aliases": ["long-flutter"] },
-    { "id": "multitongue", "name": "Multitongue", "aliases": ["multi-tongue"] },
-    { "id": "rips", "name": "Rips", "aliases": ["rip"] },
-    { "id": "falls", "name": "Falls", "aliases": ["fall"] },
-    { "id": "sforzando", "name": "Sforzando", "aliases": ["sfz", "sfz-long"] },
-    { "id": "long-sfz", "name": "Long Sfz", "aliases": ["long-sfz"] },
-    { "id": "long-flutter-brass", "name": "Long Flutter (Brass)", "aliases": ["brass-flutter"] },
-    { "id": "long-muted", "name": "Long (Muted)", "aliases": ["muted-long"] },
-    { "id": "staccatissimo-muted", "name": "Staccatissimo (Muted)", "aliases": ["muted-staccatissimo"] },
-    { "id": "marcato-muted", "name": "Marcato (Muted)", "aliases": ["muted-marcato"] },
-    { "id": "damped", "name": "Damped", "aliases": ["damp"] },
-    { "id": "damped-medium", "name": "Damped Medium", "aliases": ["medium-damp"] },
-    { "id": "bisbigliando-trem", "name": "Bisbigliando Trem", "aliases": ["bisbigliando"] },
-    { "id": "gliss-fx", "name": "Gliss FX", "aliases": ["gliss-fx"] },
-    { "id": "hits", "name": "Hits", "aliases": ["hit"] },
-    { "id": "rolls", "name": "Rolls", "aliases": ["roll"] },
-    { "id": "hits-soft", "name": "Hits Soft", "aliases": ["soft-hits"] },
-    { "id": "rolls-soft", "name": "Rolls Soft", "aliases": ["soft-rolls"] },
-    { "id": "hits-hotrods", "name": "Hits Hotrods", "aliases": ["hotrods-hits"] },
-    { "id": "long-rolls-hotrods", "name": "Long Rolls Hotrods", "aliases": ["hotrods-rolls"] },
-    { "id": "hits-damped", "name": "Hits Damped", "aliases": ["damped-hits"] },
-    { "id": "hits-super-damped", "name": "Hits Super Damped", "aliases": ["super-damped-hits"] },
-    { "id": "hotrods-hits-damped", "name": "Hotrods Hits Damped", "aliases": ["damped-hotrods"] },
-    { "id": "hits-damped-soft", "name": "Hits Damped Soft", "aliases": ["soft-damped-hits"] },
-    { "id": "short-hits", "name": "Short Hits", "aliases": ["short-hit"] },
-    { "id": "long-rolls", "name": "Long Rolls", "aliases": ["long-roll"] },
-    { "id": "hit-choked", "name": "Hit Choked", "aliases": ["choked-hit"] },
-    { "id": "hard-sticks", "name": "Hard Sticks", "aliases": ["hard-stick"] },
-    { "id": "hand-muted-hit", "name": "Hand Muted Hit", "aliases": ["hand-mute"] },
-    { "id": "roll-hard", "name": "Roll Hard", "aliases": ["hard-roll"] },
-    { "id": "roll-soft", "name": "Roll Soft", "aliases": ["soft-roll"] },
-    { "id": "super-ball", "name": "Super Ball", "aliases": ["superball"] },
-    { "id": "crash", "name": "Crash", "aliases": ["crash-cymbal"] },
-    { "id": "crash-muted", "name": "Crash Muted", "aliases": ["muted-crash"] },
-    { "id": "crash-hard-stick", "name": "Crash Hard Stick", "aliases": ["hard-stick-crash"] },
-    { "id": "crash-hard-stick-muted", "name": "Crash Hard Stick Muted", "aliases": ["muted-hard-stick-crash"] },
-    { "id": "bowed", "name": "Bowed", "aliases": ["bow"] },
-    { "id": "clash-hit", "name": "Clash Hit", "aliases": ["clash"] },
-    { "id": "short-roll", "name": "Short Roll", "aliases": ["short-rolls"] },
-    { "id": "rimshot", "name": "Rimshot", "aliases": ["rim-shot"] },
-    { "id": "short-ruff", "name": "Short Ruff", "aliases": ["ruff"] },
-    { "id": "side-stick-hit", "name": "Side Stick Hit", "aliases": ["sidestick"] },
-    { "id": "hit-damped", "name": "Hit Damped", "aliases": ["damped-hit"] },
-    { "id": "shake", "name": "Shake", "aliases": ["tambourine-shake"] },
-    { "id": "castanets", "name": "Castanets", "aliases": [] },
-    { "id": "woodblock", "name": "Woodblock", "aliases": ["wood-block"] },
-    { "id": "vibraslap", "name": "Vibraslap", "aliases": ["vibra-slap"] },
-    { "id": "cowbell", "name": "Cowbell", "aliases": ["cow-bell"] },
-    { "id": "sleigh-bells", "name": "Sleigh Bells", "aliases": ["sleigh-bell"] },
-    { "id": "short-guiro", "name": "Short Guiro", "aliases": ["short-güiro"] },
-    { "id": "long-guiro", "name": "Long Guiro", "aliases": ["long-güiro"] },
-    { "id": "open-hit", "name": "Open Hit", "aliases": ["open"] },
-    { "id": "hit-muted", "name": "Hit Muted", "aliases": ["muted-hit"] },
-    { "id": "portato-long", "name": "Portato Long", "aliases": ["long-portato"] },
-    { "id": "portato-short", "name": "Portato Short", "aliases": ["short-portato"] },
-    { "id": "repetitions-16th", "name": "Repetitions 1/16", "aliases": ["repetitions-16th"] },
-    { "id": "repetitions-1-8-triplet", "name": "Repetitions 1/8 Triplet", "aliases": ["repetitions-eighth-triplet"] },
-    { "id": "trills-single", "name": "Trills Single", "aliases": ["single-trills"] },
-    { "id": "trills-sforzando", "name": "Trills Sforzando", "aliases": ["sforzando-trills"] },
-    { "id": "trills-measured", "name": "Trills Measured", "aliases": ["measured-trills"] },
-    { "id": "trills-measured-down", "name": "Trills Measured Down", "aliases": ["measured-trills-down"] },
-    { "id": "trills-measured-up", "name": "Trills Measured Up", "aliases": ["measured-trills-up"] },
-    { "id": "doubles", "name": "Doubles", "aliases": ["double"] },
-    { "id": "triples", "name": "Triples", "aliases": ["triple"] },
-    { "id": "portamento", "name": "Portamento", "aliases": ["port"] },
-    { "id": "harmonics", "name": "Harmonics", "aliases": ["harmonic"] },
-    { "id": "trills-half-whole", "name": "Trills Half and Whole Tone", "aliases": ["half-and-whole-tone-trills"] },
-    { "id": "measured-tremolo", "name": "Measured Tremolo", "aliases": ["tremolo-sync", "free-sync-tremolo"] },
-    { "id": "bartok", "name": "Bartok", "aliases": ["bartok"] },
-    { "id": "marcato-fast-runs", "name": "Marcato / Fast Runs", "aliases": ["marcato-fast-runs"] },
-    { "id": "con-sordino", "name": "Con Sordino", "aliases": ["con-sordino-emulation"] },
-    { "id": "muted-short", "name": "Muted Short", "aliases": ["short-muted"] },
-    { "id": "double-tongue", "name": "Double Tongue", "aliases": ["double-tonguing"] },
-    { "id": "measured-repetitions", "name": "Measured Repetitions", "aliases": ["measured-reps"] }
-  ]
+    {
+      "id": "harmonics",
+      "name": "Harmonics",
+      "aliases": [
+        "harmonic"
+      ]
+    },
+    {
+      "id": "bartok",
+      "name": "Bartok",
+      "aliases": [
+        "bartok"
+      ]
+    },
+    {
+      "id": "double-tongue",
+      "name": "Double Tongue",
+      "aliases": [
+        "double-tonguing"
+      ]
+    },
+    {
+      "id": "bisbigliando-trem",
+      "name": "Bisbigliando Trem",
+      "aliases": []
+    },
+    {
+      "id": "con-sordino",
+      "name": "Con Sordino",
+      "aliases": [
+        "con-sordino-emulation"
+      ]
+    },
+    {
+      "id": "crescendo-long",
+      "name": "Crescendo Long",
+      "aliases": [
+        "cresc-long",
+        "cresc-l"
+      ]
+    },
+    {
+      "id": "crescendo-short",
+      "name": "Crescendo Short",
+      "aliases": [
+        "cresc-short",
+        "cresc-s"
+      ]
+    },
+    {
+      "id": "damped",
+      "name": "Damped",
+      "aliases": [
+        "damp"
+      ]
+    },
+    {
+      "id": "damped-medium",
+      "name": "Damped Medium",
+      "aliases": [
+        "medium-damp"
+      ]
+    },
+    {
+      "id": "flautando",
+      "name": "Flautando",
+      "aliases": [
+        "flautando"
+      ]
+    },
+    {
+      "id": "gliss-fx",
+      "name": "Gliss FX",
+      "aliases": [
+        "gliss-fx"
+      ]
+    },
+    {
+      "id": "hits-soft",
+      "name": "Hits Soft",
+      "aliases": [
+        "soft-hits"
+      ]
+    },
+    {
+      "id": "rolls-soft",
+      "name": "Rolls Soft",
+      "aliases": [
+        "soft-rolls"
+      ]
+    }
+
+	]
 }

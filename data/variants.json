@@ -91,6 +91,11 @@
       "name": "Soft",
       "aliases": ["soft", "gentle", "hollow"]
     },
+	{
+      "id": "acc",
+      "name": "Accented",
+      "aliases": ["acc", "accent", "accented"]
+    },
     {
       "id": "hard",
       "name": "Hard",
@@ -211,6 +216,11 @@
       "name": "Sul Ponticello",
       "aliases": ["sul ponticello", "sul-ponticello"]
     },
+	{
+      "id": "sul-tasto",
+      "name": "Sul Tasto",
+      "aliases": ["sul tasto", "sul-tasto"]
+    },
     {
       "id": "pentatonic",
       "name": "Pentatonic",
@@ -240,6 +250,23 @@
       "id": "triplets-continuous",
       "name": "Triplets Continuous",
       "aliases": ["triplets continuous", "triplets-continuous", "triplets continous"]
-    }
+    },
+	{
+      "id": "flautando",
+      "name": "Flautando",
+      "aliases": ["flaut", "flautando"]
+    },
+	{
+      "id": "zampano",
+      "name": "Zampano",
+      "aliases": ["zamp", "zampan"]
+    },
+	{
+      "id": "measured",
+      "name": "Measured",
+      "aliases": ["meas", "mes"]
+    },
+	{ "id": "damped", "name": "Damped", "aliases": ["damp"] },
+    { "id": "damped-medium", "name": "Damped Medium", "aliases": ["medium-damp"] }
   ]
 }
