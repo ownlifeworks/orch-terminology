@@ -61,14 +61,25 @@ class TerminologyResolver:
             document = json.loads((self.data_directory / filename).read_text(encoding="utf-8"))
             self._entities[kind] = list(document[PLURALS[kind]])
         mappings_file = self.data_directory / "articulation-variant-mappings.json"
+        mappings = list(json.loads(mappings_file.read_text(encoding="utf-8")).get("mappings", []))
         self._articulation_variant_mappings = {
             item["articulationId"]: item
-            for item in json.loads(mappings_file.read_text(encoding="utf-8")).get("mappings", [])
+            for item in mappings
             if isinstance(item, dict) and item.get("articulationId")
+        }
+        self._source_articulation_variant_mappings = {
+            normalize_text(item["articulationId"]): item
+            for item in mappings
+            if isinstance(item, dict)
+            and isinstance(item.get("articulationId"), str)
+            and isinstance(item.get("baseArticulationId"), str)
         }
 
         context_file = self.data_directory / "contexts.json"
-        self._contexts = list(json.loads(context_file.read_text(encoding="utf-8"))["contexts"])
+        if context_file.exists():
+            self._contexts = list(json.loads(context_file.read_text(encoding="utf-8"))["contexts"])
+        else:
+            self._contexts = []
 
     def resolve_vendor(self, value: str) -> Resolution:
         return self._resolve_exact("vendor", value)
@@ -117,8 +128,10 @@ class TerminologyResolver:
         remaining = [token for index, token in enumerate(terminology_tokens)
                      if library_span is None or not library_span[0] <= index < library_span[1]]
         instrument_result, instrument_span = self._resolve_tokens("instrument", remaining, effective_context)
-        articulation_result, articulation_span = self._resolve_tokens("articulation", remaining, effective_context)
-        articulation_result, mapped_variant_results = self._apply_articulation_variant_mapping(articulation_result)
+        articulation_result, articulation_span, mapped_variant_results = self._resolve_source_articulation_mapping(remaining)
+        if articulation_result.status != "resolved":
+            articulation_result, articulation_span = self._resolve_tokens("articulation", remaining, effective_context)
+            articulation_result, mapped_variant_results = self._apply_articulation_variant_mapping(articulation_result)
         used_indexes = set()
         if instrument_span is not None:
             used_indexes.update(range(instrument_span[0], instrument_span[1]))
@@ -166,6 +179,40 @@ class TerminologyResolver:
         if base_articulation is None:
             return articulation_result, mapped_variants
         return Resolution("resolved", articulation_result.input, entity=base_articulation), mapped_variants
+
+    def _resolve_source_articulation_mapping(
+        self, tokens: list[str]
+    ) -> tuple[Resolution, tuple[int, int] | None, list[Resolution]]:
+        matches: list[tuple[int, int, dict[str, Any]]] = []
+        for start in range(len(tokens)):
+            for end in range(len(tokens), start, -1):
+                normalized = " ".join(tokens[start:end])
+                mapping = self._source_articulation_variant_mappings.get(normalized)
+                if mapping is not None:
+                    matches.append((start, end, mapping))
+
+        if not matches:
+            return Resolution("unresolved", " ".join(tokens)), None, []
+
+        longest = max(end - start for start, end, _ in matches)
+        longest_matches = [(start, end, mapping) for start, end, mapping in matches if end - start == longest]
+        unique = {mapping["articulationId"]: (start, end, mapping) for start, end, mapping in longest_matches}
+        if len(unique) > 1:
+            return Resolution("ambiguous", " ".join(tokens), matches=tuple(
+                self._entity_by_id("articulation", mapping["baseArticulationId"])
+                for _, _, mapping in unique.values()
+                if self._entity_by_id("articulation", mapping["baseArticulationId"]) is not None
+            )), None, []
+
+        start, end, mapping = next(iter(unique.values()))
+        base_articulation = self._entity_by_id("articulation", mapping["baseArticulationId"])
+        mapped_variants = [
+            Resolution("resolved", variant_id, entity=self._entity_by_id("variant", variant_id))
+            for variant_id in mapping.get("variantIds", [])
+        ]
+        if base_articulation is None:
+            return Resolution("unresolved", " ".join(tokens)), None, []
+        return Resolution("resolved", " ".join(tokens[start:end]), entity=base_articulation), (start, end), mapped_variants
 
     def _combine_variant_results(self, results: list[Resolution]) -> Resolution:
         resolved_entities = []

@@ -1,0 +1,2189 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "anvil",
+    "articulations": [
+      {
+        "articulationId": "hit-choked",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "bass-clarinet",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "fast",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "bass-drum",
+    "articulations": [
+      {
+        "articulationId": "hand-muted-hit",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hard-sticks",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits-damped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "roll-hard",
+        "variantIds": []
+      },
+      {
+        "articulationId": "roll-soft",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      },
+      {
+        "articulationId": "super-ball",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "bass-flute",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "bass-trombones-a2",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "cuivre",
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "muted"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "con-sordino",
+          "flautando",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "basses-leader",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "con-sordino",
+          "flautando",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "bassoon",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "fast",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "bassoons-a3",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "celeste",
+    "articulations": [
+      {
+        "articulationId": "damped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "damped-medium",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "con-sordino",
+          "flautando",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "celli-leader",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "con-sordino",
+          "flautando",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "cimbasso",
+    "articulations": [
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "cuivre"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "clarinet",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "fast",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "clarinets-a3",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "contrabass-trombone",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "cuivre"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "contrabass-tuba",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "cuivre"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "crotales",
+    "articulations": [
+      {
+        "articulationId": "bowed",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "cymbal",
+    "articulations": [
+      {
+        "articulationId": "bowed",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crash",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crash-hard-stick",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crash-hard-stick-muted",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crash-muted",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo-long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "english-horn",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "fast",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "flute",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "fast",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "flutes-a3",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "fast",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "glockenspiel",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "harp",
+    "articulations": [
+      {
+        "articulationId": "bisbigliando-trem",
+        "variantIds": []
+      },
+      {
+        "articulationId": "damped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "damped-medium",
+        "variantIds": []
+      },
+      {
+        "articulationId": "gliss-fx",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "horn",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "fast",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "cuivre",
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "horns-a4",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "cuivre",
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "marimba",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "military-drum",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rimshot",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      },
+      {
+        "articulationId": "short-ruff",
+        "variantIds": []
+      },
+      {
+        "articulationId": "side-stick-hit",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "oboe",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "fast",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "oboes-a3",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "piatti",
+    "articulations": [
+      {
+        "articulationId": "clash-hit",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hit-choked",
+        "variantIds": []
+      },
+      {
+        "articulationId": "short-roll",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "piccolo",
+    "articulations": [
+      {
+        "articulationId": "falls",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "fast",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "snare",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rimshot",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      },
+      {
+        "articulationId": "short-ruff",
+        "variantIds": []
+      },
+      {
+        "articulationId": "side-stick-hit",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "tam-tam",
+    "articulations": [
+      {
+        "articulationId": "bowed",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo-long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits-damped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "tambourine",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      },
+      {
+        "articulationId": "shake",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "tenor-drum",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rimshot",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      },
+      {
+        "articulationId": "short-ruff",
+        "variantIds": []
+      },
+      {
+        "articulationId": "side-stick-hit",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "fast",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "cuivre",
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "muted"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "tenor-trombones-a3",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "cuivre",
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "muted"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "timpani",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits-damped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits-damped-soft",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits-hotrods",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits-soft",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits-super-damped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hotrods-hits-damped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long-rolls-hotrods",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls-soft",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "toys",
+    "articulations": [
+      {
+        "articulationId": "castanets",
+        "variantIds": []
+      },
+      {
+        "articulationId": "cowbell",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long-guiro",
+        "variantIds": []
+      },
+      {
+        "articulationId": "short-guiro",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sleigh-bells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "vibraslap",
+        "variantIds": []
+      },
+      {
+        "articulationId": "woodblock",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "triangle",
+    "articulations": [
+      {
+        "articulationId": "hit-muted",
+        "variantIds": []
+      },
+      {
+        "articulationId": "open-hit",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "trumpet",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "fast",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "cuivre",
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "trumpets-a3",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "cuivre",
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "tuba",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "cuivre"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "tubular-bells",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits-damped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "vibraphone",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "con-sordino",
+          "flautando",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "violas-leader",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "con-sordino",
+          "flautando",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "con-sordino",
+          "flautando",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "violins-i-leader",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "con-sordino",
+          "flautando",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "con-sordino",
+          "flautando",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "long"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "violins-ii-leader",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "con-sordino",
+          "flautando",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "bbcso",
+    "instrumentId": "xylophone",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      }
+    ]
+  }
+]

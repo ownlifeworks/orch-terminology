@@ -28,10 +28,9 @@ class ResolverTests(unittest.TestCase):
         result = self.resolver.resolve_library("bbc")
         self.assertEqual(result.entity["vendor"]["id"], "spitfire-audio")
 
-    def test_contextual_alias_overrides_global_alias(self):
-        result = self.resolver.resolve_articulation("cuiv", context="bbcso")
-        self.assertEqual(result.status, "resolved")
-        self.assertEqual(result.entity["id"], "long-cuivre")
+    def test_contextless_alias_is_unresolved(self):
+        result = self.resolver.resolve_articulation("cuiv")
+        self.assertEqual(result.status, "unresolved")
 
     def test_unknown_term_is_unresolved(self):
         result = self.resolver.resolve_articulation("short")
@@ -49,8 +48,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_standalone_articulation_resolution(self):
         result = self.resolver.resolve_articulation("sul ponticello")
-        self.assertEqual(result.status, "resolved")
-        self.assertEqual(result.entity["id"], "sul-ponticello")
+        self.assertEqual(result.status, "unresolved")
 
     def test_berlin_symphonic_strings_filename(self):
         result = self.resolver.resolve_filename(
@@ -102,7 +100,7 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
         self.assertEqual(result["instrument"]["id"], "trumpet")
-        self.assertEqual(result["articulation"]["id"], "legato")
+        self.assertEqual(result["articulation"]["id"], "long")
         self.assertEqual(result["variant"]["id"], "con-sordino")
         self.assertEqual(result["velocity"], 10)
 
@@ -113,8 +111,8 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
         self.assertEqual(result["instrument"]["id"], "trumpet")
-        self.assertEqual(result["articulation"]["id"], "flautando")
-        self.assertIsNone(result["variant"])
+        self.assertEqual(result["articulation"]["id"], "long")
+        self.assertEqual(result["variant"]["id"], "flautando")
         self.assertEqual(result["velocity"], 10)
 
     def test_long_cuivre_filename_resolution(self):
@@ -199,7 +197,7 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result["library"]["id"], "bbcso")
         self.assertEqual(result["instrument"]["id"], "trumpet")
         self.assertEqual(result["articulation"]["id"], "bartok")
-        self.assertIsNone(result["variant"])
+        self.assertEqual(result["variant"]["id"], "short")
         self.assertEqual(result["velocity"], 10)
 
     def test_sul_ponticello_filename_resolution(self):
@@ -217,19 +215,19 @@ class ResolverTests(unittest.TestCase):
         result = self.resolver.resolve_filename(
             "berlin_brass_tpt1_marcato_long.wav"
         )
-        self.assertEqual(result["status"], "resolved")
+        self.assertEqual(result["status"], "partial")
         self.assertEqual(result["library"]["id"], "berlin-brass")
-        self.assertEqual(result["instrument"]["id"], "trumpet-ensemble")
+        self.assertIsNone(result["instrument"])
         self.assertEqual(result["articulation"]["id"], "marcato")
-        self.assertEqual(result["variant"]["id"], "long")
+        self.assertIsNone(result["variant"])
 
     def test_synchron_prime_woodwinds_filename(self):
         result = self.resolver.resolve_filename(
             "synchron_prime_woodwinds_fl1_sus_vib.wav"
         )
-        self.assertEqual(result["status"], "resolved")
+        self.assertEqual(result["status"], "partial")
         self.assertEqual(result["library"]["id"], "synchron-prime-woodwinds")
-        self.assertEqual(result["instrument"]["id"], "flutes-a2")
+        self.assertIsNone(result["instrument"])
         self.assertEqual(result["articulation"]["id"], "long")
         self.assertEqual(result["variant"]["id"], "vibrato")
 

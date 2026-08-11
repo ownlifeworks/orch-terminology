@@ -2,274 +2,194 @@
   "schemaVersion": 1,
   "mappings": [
     {
+      "articulationId": "long-cs",
+      "baseArticulationId": "long",
+      "variantIds": [
+        "con-sordino"
+      ]
+    },
+    {
       "articulationId": "long-cuivre",
       "baseArticulationId": "long",
-      "variantIds": ["cuivre"]
-    },
-    {
-      "articulationId": "rapid-legato",
-      "baseArticulationId": "legato",
-      "variantIds": ["rapid"]
-    },
-    {
-      "articulationId": "pattern-legato",
-      "baseArticulationId": "legato",
-      "variantIds": ["pattern"]
-    },
-    {
-      "articulationId": "melodic-legato",
-      "baseArticulationId": "legato",
-      "variantIds": ["melodic"]
-    },
-    {
-      "articulationId": "marcato-long",
-      "baseArticulationId": "marcato",
-      "variantIds": ["long"]
-    },
-    {
-      "articulationId": "marcato-short",
-      "baseArticulationId": "marcato",
-      "variantIds": ["short"]
-    },
-    {
-      "articulationId": "glissandi-harmonic-minor",
-      "baseArticulationId": "glissandi",
-      "variantIds": ["harmonic-minor"]
-    },
-    {
-      "articulationId": "long-cs",
-      "baseArticulationId": "legato",
-      "variantIds": ["con-sordino"]
+      "variantIds": [
+        "cuivre"
+      ]
     },
     {
       "articulationId": "long-flautando",
-      "baseArticulationId": "flautando",
-      "variantIds": []
-    },
-    {
-      "articulationId": "repetitions-16th-phrase",
-      "baseArticulationId": "repetitions",
-      "variantIds": ["16th-phrase"]
-    },
-    {
-      "articulationId": "repetitions-16th-continuous",
-      "baseArticulationId": "repetitions",
-      "variantIds": ["16th-continuous"]
-    },
-    {
-      "articulationId": "repetitions-triplets-phrase",
-      "baseArticulationId": "repetitions",
-      "variantIds": ["triplets-phrase"]
-    },
-    {
-      "articulationId": "repetitions-triplets-continuous",
-      "baseArticulationId": "repetitions",
-      "variantIds": ["triplets-continuous"]
-    },
-    {
-      "articulationId": "crescendo-long",
-      "baseArticulationId": "crescendo",
-      "variantIds": ["long"]
-    },
-    {
-      "articulationId": "crescendo-short",
-      "baseArticulationId": "crescendo",
-      "variantIds": ["short"]
-    },
-    {
-      "articulationId": "swells-long",
-      "baseArticulationId": "swells",
-      "variantIds": ["long"]
-    },
-    {
-      "articulationId": "swells-short",
-      "baseArticulationId": "swells",
-      "variantIds": ["short"]
-    },
-    {
-      "articulationId": "playable-runs",
-      "baseArticulationId": "runs",
-      "variantIds": ["playable"]
-    },
-    {
-      "articulationId": "slurred",
-      "baseArticulationId": "legato",
-      "variantIds": ["slurred"]
-    },
-    {
-      "articulationId": "retongued",
-      "baseArticulationId": "legato",
-      "variantIds": ["retongued"]
-    },
-    {
-      "articulationId": "staccato-bold",
-      "baseArticulationId": "staccato",
-      "variantIds": ["bold"]
-    },
-    {
-      "articulationId": "portato-bold",
-      "baseArticulationId": "portato",
-      "variantIds": ["bold"]
+      "baseArticulationId": "long",
+      "variantIds": [
+        "flautando"
+      ]
     },
     {
       "articulationId": "long-flutter",
       "baseArticulationId": "flutter",
-      "variantIds": []
+      "variantIds": [
+        "long"
+      ]
     },
     {
       "articulationId": "long-flutter-brass",
       "baseArticulationId": "flutter",
-      "variantIds": []
-    },
-    {
-      "articulationId": "long-sul-tasto",
-      "baseArticulationId": "sul-tasto",
-      "variantIds": []
+      "variantIds": [
+        "long"
+      ]
     },
     {
       "articulationId": "long-harmonics",
       "baseArticulationId": "harmonics",
-      "variantIds": ["long"]
-    },
-    {
-      "articulationId": "short-harmonics",
-      "baseArticulationId": "harmonics",
-      "variantIds": ["short"]
-    },
-    {
-      "articulationId": "short-pizzicato-bartok",
-      "baseArticulationId": "bartok",
-      "variantIds": []
+      "variantIds": [
+        "long"
+      ]
     },
     {
       "articulationId": "long-marcato-attack",
       "baseArticulationId": "marcato",
-      "variantIds": ["long"]
+      "variantIds": [
+        "long"
+      ]
     },
     {
-      "articulationId": "tremolo-sul-pont",
-      "baseArticulationId": "tremolo",
-      "variantIds": ["sul-ponticello"]
-    },
-    {
-      "articulationId": "tremolo-cs",
-      "baseArticulationId": "tremolo",
-      "variantIds": ["con-sordino"]
-    },
-    {
-      "articulationId": "sul-ponticello",
-      "baseArticulationId": "long",
-      "variantIds": ["sul-ponticello"]
-    },
-    {
-      "articulationId": "long-sul-pont",
-      "baseArticulationId": "long",
-      "variantIds": ["sul-ponticello"]
-    },
-    {
-      "articulationId": "short-spiccato-cs",
-      "baseArticulationId": "spiccato",
-      "variantIds": ["con-sordino"]
-    },
-    {
-      "articulationId": "spiccato-cs",
-      "baseArticulationId": "spiccato",
-      "variantIds": ["con-sordino"]
-    },
-    {
-      "articulationId": "long-sfz",
-      "baseArticulationId": "sforzando",
-      "variantIds": []
-    },
-    {
-      "articulationId": "glissandi-pentatonic",
-      "baseArticulationId": "glissandi",
-      "variantIds": ["pentatonic"]
-    },
-    {
-      "articulationId": "glissandi-major",
-      "baseArticulationId": "glissandi",
-      "variantIds": ["major"]
-    },
-    {
-      "articulationId": "glissandi-wholetone",
-      "baseArticulationId": "glissandi",
-      "variantIds": ["wholetone"]
-    },
-    {
-      "articulationId": "performance-legato-no-vibrato",
-      "baseArticulationId": "legato",
-      "variantIds": ["performance", "non-vibrato"]
-    },
-    {
-      "articulationId": "performance-legato-vibrato",
-      "baseArticulationId": "legato",
-      "variantIds": ["performance", "vibrato"]
-    },
-    {
-      "articulationId": "sustain-soft",
-      "baseArticulationId": "long",
-      "variantIds": ["soft"]
-    },
-    {
-      "articulationId": "sustain-no-vibrato",
-      "baseArticulationId": "long",
-      "variantIds": ["non-vibrato"]
-    },
-    {
-      "articulationId": "sustain-vibrato",
-      "baseArticulationId": "long",
-      "variantIds": ["vibrato"]
-    },
-    {
-      "articulationId": "sustain-bold",
-      "baseArticulationId": "long",
-      "variantIds": ["hard"]
+      "articulationId": "marcato-long",
+      "baseArticulationId": "marcato",
+      "variantIds": [
+        "long"
+      ]
     },
     {
       "articulationId": "long-muted",
       "baseArticulationId": "long",
-      "variantIds": ["muted"]
+      "variantIds": [
+        "muted"
+      ]
     },
     {
-      "articulationId": "staccatissimo-muted",
-      "baseArticulationId": "staccatissimo",
-      "variantIds": ["muted"]
+      "articulationId": "long-sfz",
+      "baseArticulationId": "sforzando",
+      "variantIds": [
+        "long"
+      ]
+    },
+    {
+      "articulationId": "long-sul-pont",
+      "baseArticulationId": "long",
+      "variantIds": [
+        "sul-ponticello"
+      ]
+    },
+    {
+      "articulationId": "long-sul-tasto",
+      "baseArticulationId": "long",
+      "variantIds": [
+        "sul-tasto"
+      ]
     },
     {
       "articulationId": "marcato-muted",
       "baseArticulationId": "marcato",
-      "variantIds": ["muted"]
-    },
-    {
-      "articulationId": "trill-major-2nd",
-      "baseArticulationId": "trills",
-      "variantIds": ["major"]
-    },
-    {
-      "articulationId": "trill-minor-2nd",
-      "baseArticulationId": "trills",
-      "variantIds": ["minor"]
-    },
-    {
-      "articulationId": "short-spiccato",
-      "baseArticulationId": "spiccato",
-      "variantIds": ["short"]
-    },
-    {
-      "articulationId": "short-staccato",
-      "baseArticulationId": "staccato",
-      "variantIds": ["short"]
-    },
-    {
-      "articulationId": "short-pizzicato",
-      "baseArticulationId": "pizzicato",
-      "variantIds": []
+      "variantIds": [
+        "muted"
+      ]
     },
     {
       "articulationId": "short-col-legno",
       "baseArticulationId": "col-legno",
-      "variantIds": []
+      "variantIds": [
+        "short"
+      ]
+    },
+    {
+      "articulationId": "short-harmonics",
+      "baseArticulationId": "harmonics",
+      "variantIds": [
+        "short"
+      ]
+    },
+    {
+      "articulationId": "short-pizzicato",
+      "baseArticulationId": "pizzicato",
+      "variantIds": [
+        "short"
+      ]
+    },
+    {
+      "articulationId": "short-pizzicato-bartok",
+      "baseArticulationId": "bartok",
+      "variantIds": [
+        "short"
+      ]
+    },
+    {
+      "articulationId": "short-spiccato",
+      "baseArticulationId": "spiccato",
+      "variantIds": [
+        "short"
+      ]
+    },
+    {
+      "articulationId": "sul-ponticello",
+      "baseArticulationId": "long",
+      "variantIds": [
+        "sul-ponticello"
+      ]
+    },
+    {
+      "articulationId": "short-spiccato-cs",
+      "baseArticulationId": "spiccato",
+      "variantIds": [
+        "con-sordino",
+        "short"
+      ]
+    },
+    {
+      "articulationId": "short-staccato",
+      "baseArticulationId": "staccato",
+      "variantIds": [
+        "short"
+      ]
+    },
+    {
+      "articulationId": "spiccato-cs",
+      "baseArticulationId": "spiccato",
+      "variantIds": [
+        "con-sordino"
+      ]
+    },
+    {
+      "articulationId": "staccatissimo-muted",
+      "baseArticulationId": "staccatissimo",
+      "variantIds": [
+        "muted"
+      ]
+    },
+    {
+      "articulationId": "staccato-short",
+      "baseArticulationId": "staccato",
+      "variantIds": [
+        "short"
+      ]
+    },
+    {
+      "articulationId": "tremolo-cs",
+      "baseArticulationId": "tremolo",
+      "variantIds": [
+        "con-sordino"
+      ]
+    },
+    {
+      "articulationId": "tremolo-sul-pont",
+      "baseArticulationId": "tremolo",
+      "variantIds": [
+        "sul-ponticello"
+      ]
+    },
+    {
+      "articulationId": "glissandi-harmonic-minor",
+      "baseArticulationId": "glissandi",
+      "variantIds": [
+        "harmonic-minor"
+      ]
     }
   ]
 }

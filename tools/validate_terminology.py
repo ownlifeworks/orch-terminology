@@ -7,6 +7,10 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from orch_terminology.catalog import validate_catalog_document  # noqa: E402
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 KINDS = ("vendor", "library", "instrument", "articulation", "variant")
 PLURALS = {
@@ -72,54 +76,13 @@ def validate() -> list[str]:
         if library.get("vendorId") not in vendor_ids:
             errors.append(f"library[{index}]: unknown vendorId {library.get('vendorId')}")
 
-    contexts = load("contexts.json")
-    if contexts.get("schemaVersion") != 1:
-        errors.append("contexts: schemaVersion must be 1")
-    mappings = load("articulation-variant-mappings.json")
-    if mappings.get("schemaVersion") != 1:
-        errors.append("articulation-variant-mappings: schemaVersion must be 1")
-    library_ids = {item.get("id") for item in entities["library"]}
     entity_ids = {kind: {item.get("id") for item in entries} for kind, entries in entities.items()}
     for index, library in enumerate(entities["library"]):
         for kind in ("instrument", "articulation"):
             for entity_id in library.get(f"{kind}Ids", []):
                 if entity_id not in entity_ids[kind]:
                     errors.append(f"library[{index}]: unknown {kind}Id {entity_id}")
-    for index, context in enumerate(contexts.get("contexts", [])):
-        prefix = f"context[{index}]"
-        library_id = context.get("libraryId")
-        if library_id not in library_ids:
-            errors.append(f"{prefix}: unknown libraryId {library_id}")
-        for kind in ("instrument", "articulation", "variant"):
-            for alias, target in context.get(f"{kind}Aliases", {}).items():
-                targets = [target] if isinstance(target, str) else target
-                if not normalized(alias):
-                    errors.append(f"{prefix}: empty {kind} alias")
-                for target_id in targets:
-                    if target_id not in entity_ids[kind]:
-                        errors.append(f"{prefix}: unknown {kind} target {target_id}")
-        for instrument_id, articulation_ids in context.get("instrumentArticulations", {}).items():
-            if instrument_id not in entity_ids["instrument"]:
-                errors.append(f"{prefix}: unknown instrumentArticulations instrument {instrument_id}")
-            for articulation_id in articulation_ids:
-                if articulation_id not in entity_ids["articulation"]:
-                    errors.append(f"{prefix}: unknown instrumentArticulations articulation {articulation_id}")
-    seen_mappings: set[str] = set()
-    for index, mapping in enumerate(mappings.get("mappings", [])):
-        prefix = f"articulationVariantMapping[{index}]"
-        articulation_id = mapping.get("articulationId")
-        base_articulation_id = mapping.get("baseArticulationId")
-        if articulation_id in seen_mappings:
-            errors.append(f"{prefix}: duplicate articulationId {articulation_id}")
-        else:
-            seen_mappings.add(articulation_id)
-        if articulation_id not in entity_ids["articulation"]:
-            errors.append(f"{prefix}: unknown articulationId {articulation_id}")
-        if base_articulation_id not in entity_ids["articulation"]:
-            errors.append(f"{prefix}: unknown baseArticulationId {base_articulation_id}")
-        for variant_id in mapping.get("variantIds", []):
-            if variant_id not in entity_ids["variant"]:
-                errors.append(f"{prefix}: unknown variantId {variant_id}")
+    errors.extend(validate_catalog_document(DATA))
     return errors
 
 
