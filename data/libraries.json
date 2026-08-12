@@ -44,6 +44,30 @@
       "aliases": ["synchron-prime-woodwinds", "prime-woodwinds", "spw"]
     },
     {
+      "id": "synchron-prime-strings-1",
+      "name": "Synchron Prime Strings I",
+      "vendorId": "vienna-symphonic-library",
+      "aliases": [
+        "synchron-prime-strings-1",
+        "synchron-prime-strings-i",
+        "prime-strings-1",
+        "prime-strings-i",
+        "sps1"
+      ]
+    },
+    {
+      "id": "synchron-prime-strings-2",
+      "name": "Synchron Prime Strings II",
+      "vendorId": "vienna-symphonic-library",
+      "aliases": [
+        "synchron-prime-strings-2",
+        "synchron-prime-strings-ii",
+        "prime-strings-2",
+        "prime-strings-ii",
+        "sps2"
+      ]
+    },
+    {
       "id": "berlin-woodwinds",
       "name": "Berlin Woodwinds",
       "vendorId": "orchestral-tools",
@@ -60,6 +84,12 @@
       "name": "Synchron Prime Brass",
       "vendorId": "vienna-symphonic-library",
       "aliases": ["synchron-prime-brass", "prime-brass", "spb"]
+    },
+    {
+      "id": "synchron-prime-percussion",
+      "name": "Synchron Prime Percussion",
+      "vendorId": "vienna-symphonic-library",
+      "aliases": ["synchron-prime-percussion", "prime-percussion", "spp"]
     }
   ]
 }

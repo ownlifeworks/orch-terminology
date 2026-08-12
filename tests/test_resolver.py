@@ -36,6 +36,11 @@ class ResolverTests(unittest.TestCase):
         result = self.resolver.resolve_articulation("short")
         self.assertEqual(result.status, "unresolved")
 
+    def test_shorts_articulation_resolution(self):
+        result = self.resolver.resolve_articulation("shorts")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "shorts")
+
     def test_variant_resolution(self):
         result = self.resolver.resolve_variant("Low Latency")
         self.assertEqual(result.status, "resolved")
@@ -230,6 +235,35 @@ class ResolverTests(unittest.TestCase):
         self.assertIsNone(result["instrument"])
         self.assertEqual(result["articulation"]["id"], "long")
         self.assertEqual(result["variant"]["id"], "vibrato")
+
+    def test_synchron_prime_strings_i_library_resolution(self):
+        result = self.resolver.resolve_library("Synchron Prime Strings I")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "synchron-prime-strings-1")
+        self.assertEqual(result.entity["vendor"]["id"], "vienna-symphonic-library")
+
+    def test_synchron_prime_strings_ii_library_resolution(self):
+        result = self.resolver.resolve_library("Synchron Prime Strings II")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "synchron-prime-strings-2")
+        self.assertEqual(result.entity["vendor"]["id"], "vienna-symphonic-library")
+
+    def test_new_percussion_instrument_resolution(self):
+        result = self.resolver.resolve_instrument("Concert Toms")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "concert-toms")
+
+        result = self.resolver.resolve_instrument("Taiko")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "taiko")
+
+        result = self.resolver.resolve_instrument("Suspended Cymbals")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "suspended-cymbals")
+
+        result = self.resolver.resolve_instrument("Woodblocks")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "woodblocks")
 
     def test_harmon_mute_variant_filename(self):
         result = self.resolver.resolve_filename(

@@ -78,6 +78,13 @@
       ]
     },
     {
+      "id": "shorts",
+      "name": "Shorts",
+      "aliases": [
+        "shorts"
+      ]
+    },
+    {
       "id": "flageolet",
       "name": "Flageolet",
       "aliases": [

@@ -25,6 +25,125 @@ class CatalogTests(unittest.TestCase):
                 sorted(entry["articulations"], key=lambda item: item["articulationId"]),
             )
 
+    def test_vsl_synchron_prime_woodwinds_catalog_entry(self):
+        catalog, report = build_catalog_document(self.data_dir)
+        self.assertFalse(report.validation_errors)
+
+        flute_entry = next(
+            entry
+            for entry in catalog
+            if entry["vendorId"] == "vienna-symphonic-library"
+            and entry["libraryId"] == "synchron-prime-woodwinds"
+            and entry["instrumentId"] == "flute"
+        )
+
+        self.assertEqual(
+            flute_entry["articulations"],
+            [
+                {"articulationId": "legato", "variantIds": ["performance", "vibrato"]},
+                {"articulationId": "long", "variantIds": ["non-vibrato", "vibrato"]},
+                {"articulationId": "portato", "variantIds": ["bold", "rapid"]},
+                {"articulationId": "sforzando", "variantIds": ["non-vibrato", "vibrato"]},
+                {"articulationId": "sforzatissimo", "variantIds": ["non-vibrato", "vibrato"]},
+                {"articulationId": "staccato", "variantIds": ["bold", "rapid"]},
+            ],
+        )
+
+    def test_vsl_synchron_prime_strings_1_catalog_entry(self):
+        catalog, report = build_catalog_document(self.data_dir)
+        self.assertFalse(report.validation_errors)
+
+        ensemble_entry = next(
+            entry
+            for entry in catalog
+            if entry["vendorId"] == "vienna-symphonic-library"
+            and entry["libraryId"] == "synchron-prime-strings-1"
+            and entry["instrumentId"] == "strings-ensemble"
+        )
+
+        self.assertEqual(
+            ensemble_entry["articulations"],
+            [
+                {"articulationId": "bartok", "variantIds": []},
+                {"articulationId": "legato", "variantIds": ["soft"]},
+                {"articulationId": "long", "variantIds": ["soft"]},
+                {"articulationId": "marcato", "variantIds": []},
+                {"articulationId": "pizzicato", "variantIds": []},
+                {"articulationId": "sforzando", "variantIds": []},
+                {"articulationId": "staccato", "variantIds": ["bold", "rapid"]},
+                {"articulationId": "tremolo", "variantIds": []},
+            ],
+        )
+
+    def test_vsl_synchron_prime_strings_2_catalog_entry(self):
+        catalog, report = build_catalog_document(self.data_dir)
+        self.assertFalse(report.validation_errors)
+
+        ensemble_entry = next(
+            entry
+            for entry in catalog
+            if entry["vendorId"] == "vienna-symphonic-library"
+            and entry["libraryId"] == "synchron-prime-strings-2"
+            and entry["instrumentId"] == "strings-ensemble"
+        )
+
+        self.assertEqual(
+            ensemble_entry["articulations"],
+            [
+                {"articulationId": "bartok", "variantIds": []},
+                {"articulationId": "legato", "variantIds": ["soft"]},
+                {"articulationId": "long", "variantIds": ["soft"]},
+                {"articulationId": "marcato", "variantIds": []},
+                {"articulationId": "pizzicato", "variantIds": []},
+                {"articulationId": "sforzando", "variantIds": []},
+                {"articulationId": "staccato", "variantIds": ["bold", "rapid"]},
+                {"articulationId": "tremolo", "variantIds": []},
+            ],
+        )
+
+    def test_vsl_synchron_prime_brass_catalog_entry(self):
+        catalog, report = build_catalog_document(self.data_dir)
+        self.assertFalse(report.validation_errors)
+
+        trumpet_entry = next(
+            entry
+            for entry in catalog
+            if entry["vendorId"] == "vienna-symphonic-library"
+            and entry["libraryId"] == "synchron-prime-brass"
+            and entry["instrumentId"] == "trumpet"
+        )
+
+        self.assertEqual(
+            trumpet_entry["articulations"],
+            [
+                {"articulationId": "legato", "variantIds": ["non-vibrato", "vibrato"]},
+                {"articulationId": "long", "variantIds": ["non-vibrato", "vibrato"]},
+                {"articulationId": "portato", "variantIds": ["bold", "rapid"]},
+                {"articulationId": "sforzando", "variantIds": []},
+                {"articulationId": "sforzatissimo", "variantIds": []},
+                {"articulationId": "staccato", "variantIds": ["bold", "rapid"]},
+            ],
+        )
+
+    def test_vsl_synchron_prime_percussion_catalog_entry(self):
+        catalog, report = build_catalog_document(self.data_dir)
+        self.assertFalse(report.validation_errors)
+
+        taiko_entry = next(
+            entry
+            for entry in catalog
+            if entry["vendorId"] == "vienna-symphonic-library"
+            and entry["libraryId"] == "synchron-prime-percussion"
+            and entry["instrumentId"] == "taiko"
+        )
+
+        self.assertEqual(
+            taiko_entry["articulations"],
+            [
+                {"articulationId": "hits", "variantIds": ["hard", "soft"]},
+            ],
+        )
+
     def test_build_catalog_from_split_sources(self):
         with tempfile.TemporaryDirectory() as tmp:
             tmp_path = Path(tmp)

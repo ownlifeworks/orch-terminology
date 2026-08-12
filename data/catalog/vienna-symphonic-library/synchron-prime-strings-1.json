@@ -1,0 +1,236 @@
+[
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-strings-1",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-strings-1",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-strings-1",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-strings-1",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-strings-1",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-strings-1",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["soft"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  }
+]

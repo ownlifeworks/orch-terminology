@@ -1,0 +1,171 @@
+[
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "bass-drum",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "celeste",
+    "articulations": [
+      {
+        "articulationId": "natural",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "concert-toms",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "glockenspiel",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "piatti",
+    "articulations": [
+      {
+        "articulationId": "clash-hit",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "snare",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "suspended-cymbals",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": ["hard", "soft"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "taiko",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": ["hard", "soft"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "tam-tam",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "tambourine",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "timpani",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "triangle",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "tubular-bells",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "woodblocks",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-percussion",
+    "instrumentId": "xylophone",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  }
+]

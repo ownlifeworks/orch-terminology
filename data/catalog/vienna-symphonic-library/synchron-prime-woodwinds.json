@@ -1,0 +1,246 @@
+[
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-woodwinds",
+    "instrumentId": "bass-clarinet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["non-vibrato", "performance"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-woodwinds",
+    "instrumentId": "bassoon",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["performance", "vibrato"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-woodwinds",
+    "instrumentId": "clarinet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["non-vibrato", "performance"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-woodwinds",
+    "instrumentId": "contrabassoon",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["non-vibrato", "performance"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-woodwinds",
+    "instrumentId": "english-horn",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["performance", "vibrato"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-woodwinds",
+    "instrumentId": "flute",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["performance", "vibrato"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-woodwinds",
+    "instrumentId": "oboe",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["performance", "vibrato"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-woodwinds",
+    "instrumentId": "piccolo",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["performance", "vibrato"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  }
+]

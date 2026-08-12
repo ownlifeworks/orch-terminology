@@ -1,0 +1,238 @@
+[
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-brass",
+    "instrumentId": "bass-trombone",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-brass",
+    "instrumentId": "horn",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-brass",
+    "instrumentId": "horn-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-brass",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-brass",
+    "instrumentId": "trombone-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-brass",
+    "instrumentId": "trumpet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-brass",
+    "instrumentId": "trumpet-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-brass",
+    "instrumentId": "tuba",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["bold", "rapid"]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["bold", "rapid"]
+      }
+    ]
+  }
+]
