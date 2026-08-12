@@ -5,12 +5,8 @@
     "instrumentId": "anvil",
     "articulations": [
       {
-        "articulationId": "hit-choked",
-        "variantIds": []
-      },
-      {
         "articulationId": "hits",
-        "variantIds": []
+        "variantIds": ["choked"]
       }
     ]
   },
@@ -21,16 +17,11 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "fast",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -63,32 +54,12 @@
     "instrumentId": "bass-drum",
     "articulations": [
       {
-        "articulationId": "hand-muted-hit",
-        "variantIds": []
-      },
-      {
-        "articulationId": "hard-sticks",
-        "variantIds": []
-      },
-      {
         "articulationId": "hits",
-        "variantIds": []
-      },
-      {
-        "articulationId": "hits-damped",
-        "variantIds": []
-      },
-      {
-        "articulationId": "roll-hard",
-        "variantIds": []
-      },
-      {
-        "articulationId": "roll-soft",
-        "variantIds": []
+        "variantIds": ["hand-muted", "hard-sticks", "damped"]
       },
       {
         "articulationId": "rolls",
-        "variantIds": []
+        "variantIds": ["hard", "soft"]
       },
       {
         "articulationId": "super-ball",
@@ -103,9 +74,7 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -139,9 +108,7 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
@@ -200,10 +167,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "portamento",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -272,10 +236,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "portamento",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -321,16 +282,11 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "fast",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -364,9 +320,7 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
@@ -403,16 +357,8 @@
     "instrumentId": "celeste",
     "articulations": [
       {
-        "articulationId": "damped",
-        "variantIds": []
-      },
-      {
-        "articulationId": "damped-medium",
-        "variantIds": []
-      },
-      {
-        "articulationId": "long",
-        "variantIds": []
+        "articulationId": "natural",
+        "variantIds": ["damped", "damped-medium"]
       }
     ]
   },
@@ -438,10 +384,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "portamento",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -510,10 +453,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "portamento",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -586,16 +526,11 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "fast",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -633,9 +568,7 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
@@ -677,9 +610,7 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
@@ -718,9 +649,7 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
@@ -778,23 +707,11 @@
       },
       {
         "articulationId": "crash",
-        "variantIds": []
+        "variantIds": ["hard-sticks", "muted"]
       },
       {
-        "articulationId": "crash-hard-stick",
-        "variantIds": []
-      },
-      {
-        "articulationId": "crash-hard-stick-muted",
-        "variantIds": []
-      },
-      {
-        "articulationId": "crash-muted",
-        "variantIds": []
-      },
-      {
-        "articulationId": "crescendo-long",
-        "variantIds": []
+        "articulationId": "crescendo",
+        "variantIds": ["long"]
       },
       {
         "articulationId": "rolls",
@@ -809,10 +726,7 @@
     "articulations": [
       {
         "articulationId": "legato",
-        "variantIds": [
-          "fast",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -846,16 +760,11 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "fast",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -893,16 +802,11 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "fast",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -954,23 +858,15 @@
     "instrumentId": "harp",
     "articulations": [
       {
-        "articulationId": "bisbigliando-trem",
+        "articulationId": "bisbigliando",
         "variantIds": []
       },
       {
-        "articulationId": "damped",
-        "variantIds": []
-      },
-      {
-        "articulationId": "damped-medium",
-        "variantIds": []
+        "articulationId": "natural",
+        "variantIds": ["damped", "damped-medium"]
       },
       {
         "articulationId": "gliss-fx",
-        "variantIds": []
-      },
-      {
-        "articulationId": "long",
         "variantIds": []
       }
     ]
@@ -982,16 +878,11 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "fast",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -1038,9 +929,7 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
@@ -1102,7 +991,7 @@
     "articulations": [
       {
         "articulationId": "hits",
-        "variantIds": []
+        "variantIds": ["side-stick"]
       },
       {
         "articulationId": "rimshot",
@@ -1115,10 +1004,6 @@
       {
         "articulationId": "short-ruff",
         "variantIds": []
-      },
-      {
-        "articulationId": "side-stick-hit",
-        "variantIds": []
       }
     ]
   },
@@ -1129,16 +1014,11 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "fast",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -1176,9 +1056,7 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
@@ -1219,16 +1097,12 @@
     "instrumentId": "piatti",
     "articulations": [
       {
-        "articulationId": "clash-hit",
-        "variantIds": []
+        "articulationId": "hits",
+        "variantIds": ["choked"]
       },
       {
-        "articulationId": "hit-choked",
-        "variantIds": []
-      },
-      {
-        "articulationId": "short-roll",
-        "variantIds": []
+        "articulationId": "rolls",
+        "variantIds": ["short"]
       }
     ]
   },
@@ -1243,16 +1117,11 @@
       },
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "fast",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -1294,7 +1163,7 @@
     "articulations": [
       {
         "articulationId": "hits",
-        "variantIds": []
+        "variantIds": ["side-stick"]
       },
       {
         "articulationId": "rimshot",
@@ -1306,10 +1175,6 @@
       },
       {
         "articulationId": "short-ruff",
-        "variantIds": []
-      },
-      {
-        "articulationId": "side-stick-hit",
         "variantIds": []
       }
     ]
@@ -1324,16 +1189,12 @@
         "variantIds": []
       },
       {
-        "articulationId": "crescendo-long",
-        "variantIds": []
+        "articulationId": "crescendo",
+        "variantIds": ["long"]
       },
       {
         "articulationId": "hits",
-        "variantIds": []
-      },
-      {
-        "articulationId": "hits-damped",
-        "variantIds": []
+        "variantIds": ["damped"]
       },
       {
         "articulationId": "rolls",
@@ -1367,7 +1228,7 @@
     "articulations": [
       {
         "articulationId": "hits",
-        "variantIds": []
+        "variantIds": ["side-stick"]
       },
       {
         "articulationId": "rimshot",
@@ -1380,10 +1241,6 @@
       {
         "articulationId": "short-ruff",
         "variantIds": []
-      },
-      {
-        "articulationId": "side-stick-hit",
-        "variantIds": []
       }
     ]
   },
@@ -1394,16 +1251,11 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "fast",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -1443,9 +1295,7 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
@@ -1489,43 +1339,11 @@
     "articulations": [
       {
         "articulationId": "hits",
-        "variantIds": []
-      },
-      {
-        "articulationId": "hits-damped",
-        "variantIds": []
-      },
-      {
-        "articulationId": "hits-damped-soft",
-        "variantIds": []
-      },
-      {
-        "articulationId": "hits-hotrods",
-        "variantIds": []
-      },
-      {
-        "articulationId": "hits-soft",
-        "variantIds": []
-      },
-      {
-        "articulationId": "hits-super-damped",
-        "variantIds": []
-      },
-      {
-        "articulationId": "hotrods-hits-damped",
-        "variantIds": []
-      },
-      {
-        "articulationId": "long-rolls-hotrods",
-        "variantIds": []
+        "variantIds": ["damped", "hotrods", "soft", "damped-soft", "super-damped"]
       },
       {
         "articulationId": "rolls",
-        "variantIds": []
-      },
-      {
-        "articulationId": "rolls-soft",
-        "variantIds": []
+        "variantIds": ["long", "hotrods", "soft"]
       }
     ]
   },
@@ -1570,12 +1388,8 @@
     "instrumentId": "triangle",
     "articulations": [
       {
-        "articulationId": "hit-muted",
-        "variantIds": []
-      },
-      {
-        "articulationId": "open-hit",
-        "variantIds": []
+        "articulationId": "hits",
+        "variantIds": ["muted", "open"]
       },
       {
         "articulationId": "rolls",
@@ -1590,16 +1404,11 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "fast",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -1646,9 +1455,7 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
@@ -1699,9 +1506,7 @@
     "articulations": [
       {
         "articulationId": "flutter",
-        "variantIds": [
-          "long"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
@@ -1740,11 +1545,7 @@
     "articulations": [
       {
         "articulationId": "hits",
-        "variantIds": []
-      },
-      {
-        "articulationId": "hits-damped",
-        "variantIds": []
+        "variantIds": ["damped"]
       },
       {
         "articulationId": "rolls",
@@ -1785,10 +1586,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "portamento",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -1857,10 +1655,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "portamento",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -1921,10 +1716,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "portamento",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -1993,10 +1785,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "portamento",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -2057,10 +1846,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "portamento",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",
@@ -2129,10 +1915,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": [
-          "portamento",
-          "slurred"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "long",

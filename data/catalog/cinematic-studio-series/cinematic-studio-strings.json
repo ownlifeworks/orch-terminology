@@ -5,6 +5,10 @@
     "instrumentId": "basses",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "bartok",
         "variantIds": []
       },
@@ -14,10 +18,7 @@
       },
       {
         "articulationId": "harmonics",
-        "variantIds": [
-          "long",
-          "short"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
@@ -28,7 +29,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "pizzicato",
@@ -68,6 +69,10 @@
     "instrumentId": "celli",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "bartok",
         "variantIds": []
       },
@@ -77,24 +82,18 @@
       },
       {
         "articulationId": "harmonics",
-        "variantIds": [
-          "long",
-          "short"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "portamento",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": [
-          "fast"
-        ]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "pizzicato",
@@ -124,10 +123,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -137,6 +133,10 @@
     "instrumentId": "violas",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "bartok",
         "variantIds": []
       },
@@ -146,24 +146,18 @@
       },
       {
         "articulationId": "harmonics",
-        "variantIds": [
-          "long",
-          "short"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "portamento",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": [
-          "fast"
-        ]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "pizzicato",
@@ -193,10 +187,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -206,6 +197,10 @@
     "instrumentId": "violins-i",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "bartok",
         "variantIds": []
       },
@@ -215,24 +210,18 @@
       },
       {
         "articulationId": "harmonics",
-        "variantIds": [
-          "long",
-          "short"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "portamento",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": [
-          "fast"
-        ]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "pizzicato",
@@ -262,10 +251,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -275,6 +261,10 @@
     "instrumentId": "violins-ii",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "bartok",
         "variantIds": []
       },
@@ -284,24 +274,18 @@
       },
       {
         "articulationId": "harmonics",
-        "variantIds": [
-          "long",
-          "short"
-        ]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "portamento",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": [
-          "fast"
-        ]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "pizzicato",
@@ -331,10 +315,71 @@
       },
       {
         "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-strings",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
         "variantIds": [
-          "major",
-          "minor"
+          "expressive",
+          "low-latency"
         ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["rep-overlay"]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
       }
     ]
   }

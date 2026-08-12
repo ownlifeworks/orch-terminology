@@ -5,6 +5,10 @@
     "instrumentId": "bass-trombone",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "double-tongue",
         "variantIds": []
       },
@@ -54,6 +58,10 @@
     "instrumentId": "horn",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "double-tongue",
         "variantIds": []
       },
@@ -103,6 +111,10 @@
     "instrumentId": "horns-a4",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "double-tongue",
         "variantIds": []
       },
@@ -116,7 +128,9 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "rep-overlay"
+        ]
       },
       {
         "articulationId": "repetitions",
@@ -150,6 +164,10 @@
     "instrumentId": "tenor-trombone",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "double-tongue",
         "variantIds": []
       },
@@ -163,7 +181,9 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "rep-overlay"
+        ]
       },
       {
         "articulationId": "repetitions",
@@ -197,6 +217,10 @@
     "instrumentId": "trombones-a2",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "double-tongue",
         "variantIds": []
       },
@@ -210,7 +234,9 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "rep-overlay"
+        ]
       },
       {
         "articulationId": "repetitions",
@@ -244,6 +270,10 @@
     "instrumentId": "trumpet",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "double-tongue",
         "variantIds": []
       },
@@ -257,7 +287,9 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "rep-overlay"
+        ]
       },
       {
         "articulationId": "repetitions",
@@ -291,6 +323,10 @@
     "instrumentId": "trumpets-a2",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "double-tongue",
         "variantIds": []
       },
@@ -304,7 +340,9 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "rep-overlay"
+        ]
       },
       {
         "articulationId": "repetitions",
@@ -338,6 +376,10 @@
     "instrumentId": "tuba",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "double-tongue",
         "variantIds": []
       },
@@ -351,7 +393,9 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "rep-overlay"
+        ]
       },
       {
         "articulationId": "repetitions",

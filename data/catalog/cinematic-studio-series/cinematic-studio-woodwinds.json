@@ -5,37 +5,28 @@
     "instrumentId": "alto-flute",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "flutter",
         "variantIds": []
       },
       {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -52,10 +43,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -65,33 +53,24 @@
     "instrumentId": "bass-clarinet",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -108,10 +87,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -121,33 +97,24 @@
     "instrumentId": "bassoon",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -164,10 +131,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -177,33 +141,24 @@
     "instrumentId": "bassoons-a2",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -220,10 +175,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -233,33 +185,24 @@
     "instrumentId": "clarinet",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -276,10 +219,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -289,38 +229,25 @@
     "instrumentId": "clarinets-a2",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
         ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
-        ]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": []
       },
       {
         "articulationId": "staccatissimo",
@@ -332,10 +259,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -345,33 +269,24 @@
     "instrumentId": "contrabassoon",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -388,10 +303,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -401,33 +313,24 @@
     "instrumentId": "english-horn",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -444,10 +347,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -457,37 +357,28 @@
     "instrumentId": "flute",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "flutter",
         "variantIds": []
       },
       {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -504,10 +395,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -517,37 +405,28 @@
     "instrumentId": "flutes-a2",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "flutter",
         "variantIds": []
       },
       {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -564,10 +443,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -577,33 +453,24 @@
     "instrumentId": "oboe",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -620,10 +487,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -633,33 +497,24 @@
     "instrumentId": "oboes-a2",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -676,10 +531,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   },
@@ -689,37 +541,28 @@
     "instrumentId": "piccolo",
     "articulations": [
       {
+        "articulationId": "long",
+        "variantIds": []
+      },
+	  {
         "articulationId": "flutter",
         "variantIds": []
       },
       {
         "articulationId": "legato",
         "variantIds": [
-          "non-vibrato",
-          "vibrato"
-        ]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": [
-          "non-vibrato",
-          "vibrato"
+          "expressive",
+          "low-latency"
         ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "repetitions",
         "variantIds": [
           "measured"
-        ]
-      },
-      {
-        "articulationId": "runs",
-        "variantIds": [
-          "playable"
         ]
       },
       {
@@ -736,10 +579,7 @@
       },
       {
         "articulationId": "trills",
-        "variantIds": [
-          "major",
-          "minor"
-        ]
+        "variantIds": []
       }
     ]
   }

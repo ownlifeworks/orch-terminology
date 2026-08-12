@@ -101,6 +101,16 @@
       "name": "Hard",
       "aliases": ["hard", "aggressive", "nasty", "overblown"]
     },
+	{
+      "id": "hard-sticks",
+      "name": "Hard Sticks",
+      "aliases": ["hast", "hardsticks"]
+    },
+		{
+      "id": "side-stick",
+      "name": "Side Stick",
+      "aliases": ["sidestick"]
+    },
     {
       "id": "cuivre",
       "name": "Cuivre",
@@ -110,6 +120,11 @@
       "id": "muted",
       "name": "Muted",
       "aliases": ["muted", "mute", "con sord", "sord"]
+    },
+	{
+      "id": "hand-muted",
+      "name": "Hand Muted",
+      "aliases": ["hamut", "handmute"]
     },
     {
       "id": "con-sordino",
@@ -276,7 +291,25 @@
       "name": "Measured",
       "aliases": ["meas", "mes"]
     },
+	{
+      "id": "choked",
+      "name": "Choked",
+      "aliases": ["chkd"]
+    },
+	{
+      "id": "hotrods",
+      "name": "Hotrods",
+      "aliases": ["htrd"]
+    },
 	{ "id": "damped", "name": "Damped", "aliases": ["damp"] },
-    { "id": "damped-medium", "name": "Damped Medium", "aliases": ["medium-damp"] }
+    { "id": "damped-medium", "name": "Damped Medium", "aliases": ["medium-damp"] },
+	{ "id": "damped-soft", "name": "Damped Soft", "aliases": ["soft-damp"] },
+	{ "id": "super-damped", "name": "Super Damped", "aliases": ["super-damp", "damp-super"] },
+	{ "id": "open", "name": "Open", "aliases": ["opn"] },
+    {
+      "id": "bells-up",
+      "name": "Bells Up",
+      "aliases": ["belup", "bel-up"]
+    }
   ]
 }

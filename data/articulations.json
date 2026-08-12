@@ -2,6 +2,14 @@
   "schemaVersion": 1,
   "articulations": [
     {
+      "id": "natural",
+      "name": "Natural",
+      "aliases": [
+        "nat",
+        "norm"
+      ]
+    },
+	{
       "id": "long",
       "name": "Sustains",
       "aliases": [
@@ -271,27 +279,6 @@
       ]
     },
     {
-      "id": "hit-choked",
-      "name": "Hit Choked",
-      "aliases": [
-        "choked-hit"
-      ]
-    },
-    {
-      "id": "hard-sticks",
-      "name": "Hard Sticks",
-      "aliases": [
-        "hard-stick"
-      ]
-    },
-    {
-      "id": "hand-muted-hit",
-      "name": "Hand Muted Hit",
-      "aliases": [
-        "hand-mute"
-      ]
-    },
-    {
       "id": "roll-hard",
       "name": "Roll Hard",
       "aliases": [
@@ -380,13 +367,6 @@
       "name": "Side Stick Hit",
       "aliases": [
         "sidestick"
-      ]
-    },
-    {
-      "id": "hit-damped",
-      "name": "Hit Damped",
-      "aliases": [
-        "damped-hit"
       ]
     },
     {
@@ -493,45 +473,10 @@
       ]
     },
     {
-      "id": "bisbigliando-trem",
-      "name": "Bisbigliando Trem",
-      "aliases": []
-    },
-    {
       "id": "con-sordino",
       "name": "Con Sordino",
       "aliases": [
         "con-sordino-emulation"
-      ]
-    },
-    {
-      "id": "crescendo-long",
-      "name": "Crescendo Long",
-      "aliases": [
-        "cresc-long",
-        "cresc-l"
-      ]
-    },
-    {
-      "id": "crescendo-short",
-      "name": "Crescendo Short",
-      "aliases": [
-        "cresc-short",
-        "cresc-s"
-      ]
-    },
-    {
-      "id": "damped",
-      "name": "Damped",
-      "aliases": [
-        "damp"
-      ]
-    },
-    {
-      "id": "damped-medium",
-      "name": "Damped Medium",
-      "aliases": [
-        "medium-damp"
       ]
     },
     {
@@ -546,20 +491,6 @@
       "name": "Gliss FX",
       "aliases": [
         "gliss-fx"
-      ]
-    },
-    {
-      "id": "hits-soft",
-      "name": "Hits Soft",
-      "aliases": [
-        "soft-hits"
-      ]
-    },
-    {
-      "id": "rolls-soft",
-      "name": "Rolls Soft",
-      "aliases": [
-        "soft-rolls"
       ]
     }
 
