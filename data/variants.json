@@ -24,32 +24,32 @@
     {
       "id": "long",
       "name": "Long",
-      "aliases": ["long"]
+      "aliases": ["lng", "long"]
     },
     {
       "id": "short",
       "name": "Short",
-      "aliases": ["short"]
+      "aliases": ["shrt", "short"]
     },
     {
       "id": "bold",
       "name": "Bold",
-      "aliases": ["bold"]
+      "aliases": ["bld", "bold"]
     },
     {
       "id": "pattern",
       "name": "Pattern",
-      "aliases": ["pattern"]
+      "aliases": ["ptrn", "pattern"]
     },
     {
       "id": "melodic",
       "name": "Melodic",
-      "aliases": ["melodic"]
+      "aliases": ["mel", "melodic"]
     },
     {
       "id": "playable",
       "name": "Playable",
-      "aliases": ["playable"]
+      "aliases": ["play", "playable"]
     },
     {
       "id": "slurred",
@@ -74,7 +74,7 @@
     {
       "id": "performance",
       "name": "Performance",
-      "aliases": ["performance"]
+      "aliases": ["perf", "performance"]
     },
     {
       "id": "low-latency",
@@ -84,12 +84,12 @@
     {
       "id": "lyrical",
       "name": "Lyrical",
-      "aliases": ["lyrical"]
+      "aliases": ["lyr", "lyrical"]
     },
     {
       "id": "soft",
       "name": "Soft",
-      "aliases": ["soft", "gentle", "hollow"]
+      "aliases": ["sft", "soft", "gentle", "hollow"]
     },
 	{
       "id": "acc",
@@ -129,7 +129,7 @@
     {
       "id": "con-sordino",
       "name": "Con Sordino",
-      "aliases": ["con sordino", "cs"]
+      "aliases": ["cs", "con sordino"]
     },
 	{
       "id": "rep-overlay",
@@ -179,7 +179,7 @@
     {
       "id": "small",
       "name": "Small",
-      "aliases": ["small", "half"]
+      "aliases": ["sml", "small", "half"]
     },
     {
       "id": "harmonic",
@@ -239,12 +239,12 @@
     {
       "id": "sul-ponticello",
       "name": "Sul Ponticello",
-      "aliases": ["sul ponticello", "sul-ponticello"]
+      "aliases": ["sulpont", "sul ponticello", "sul-ponticello"]
     },
 	{
       "id": "sul-tasto",
       "name": "Sul Tasto",
-      "aliases": ["sul tasto", "sul-tasto"]
+      "aliases": ["sultas", "sul tasto", "sul-tasto"]
     },
     {
       "id": "pentatonic",

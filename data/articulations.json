@@ -95,7 +95,8 @@
       "id": "staccatissimo",
       "name": "Staccatissimo",
       "aliases": [
-        "staccatiss"
+        "staccmo",
+		"staccatiss"
       ]
     },
     {
@@ -204,7 +205,8 @@
       "id": "multitongue",
       "name": "Multitongue",
       "aliases": [
-        "multi-tongue"
+        "mltTng",
+		"multi-tongue"
       ]
     },
     {
