@@ -129,7 +129,7 @@
     {
       "id": "con-sordino",
       "name": "Con Sordino",
-      "aliases": ["con sordino"]
+      "aliases": ["con sordino", "cs"]
     },
 	{
       "id": "rep-overlay",

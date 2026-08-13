@@ -5,19 +5,11 @@
     "instrumentId": "basses",
     "articulations": [
       {
-        "articulationId": "bartok",
+        "articulationId": "legato",
         "variantIds": []
       },
       {
-        "articulationId": "legato",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "marcato",
+        "articulationId": "universal",
         "variantIds": []
       },
       {
@@ -25,12 +17,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
@@ -44,19 +32,11 @@
     "instrumentId": "celli",
     "articulations": [
       {
-        "articulationId": "bartok",
+        "articulationId": "legato",
         "variantIds": []
       },
       {
-        "articulationId": "legato",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "marcato",
+        "articulationId": "universal",
         "variantIds": []
       },
       {
@@ -64,12 +44,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
@@ -83,19 +59,11 @@
     "instrumentId": "strings-ensemble",
     "articulations": [
       {
-        "articulationId": "bartok",
+        "articulationId": "legato",
         "variantIds": []
       },
       {
-        "articulationId": "legato",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "marcato",
+        "articulationId": "universal",
         "variantIds": []
       },
       {
@@ -103,12 +71,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
@@ -122,19 +86,11 @@
     "instrumentId": "violas",
     "articulations": [
       {
-        "articulationId": "bartok",
+        "articulationId": "legato",
         "variantIds": []
       },
       {
-        "articulationId": "legato",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "marcato",
+        "articulationId": "universal",
         "variantIds": []
       },
       {
@@ -142,12 +98,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
@@ -161,19 +113,11 @@
     "instrumentId": "violins-i",
     "articulations": [
       {
-        "articulationId": "bartok",
+        "articulationId": "legato",
         "variantIds": []
       },
       {
-        "articulationId": "legato",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "marcato",
+        "articulationId": "universal",
         "variantIds": []
       },
       {
@@ -181,12 +125,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
@@ -200,19 +140,11 @@
     "instrumentId": "violins-ii",
     "articulations": [
       {
-        "articulationId": "bartok",
+        "articulationId": "legato",
         "variantIds": []
       },
       {
-        "articulationId": "legato",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": ["soft"]
-      },
-      {
-        "articulationId": "marcato",
+        "articulationId": "universal",
         "variantIds": []
       },
       {
@@ -220,12 +152,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",

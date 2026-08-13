@@ -10,12 +10,33 @@
       ]
     },
 	{
+      "id": "universal",
+      "name": "Universal",
+      "aliases": [
+        "uni",
+        "univ"
+      ]
+    },
+	{
+      "id": "performance",
+      "name": "Performance",
+      "aliases": [
+        "perf",
+        "prf"
+      ]
+    },
+	{
       "id": "long",
+      "name": "Long",
+      "aliases": [
+        "lng"
+      ]
+    },
+	{
+      "id": "sustains",
       "name": "Sustains",
       "aliases": [
-        "sus",
-        "sustain",
-        "sustained"
+        "sustains", "sustain"
       ]
     },
     {

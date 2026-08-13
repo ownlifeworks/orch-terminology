@@ -40,12 +40,10 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(
             flute_entry["articulations"],
             [
-                {"articulationId": "legato", "variantIds": ["performance", "vibrato"]},
-                {"articulationId": "long", "variantIds": ["non-vibrato", "vibrato"]},
-                {"articulationId": "portato", "variantIds": ["bold", "rapid"]},
-                {"articulationId": "sforzando", "variantIds": ["non-vibrato", "vibrato"]},
-                {"articulationId": "sforzatissimo", "variantIds": ["non-vibrato", "vibrato"]},
-                {"articulationId": "staccato", "variantIds": ["bold", "rapid"]},
+                {"articulationId": "legato", "variantIds": []},
+                {"articulationId": "portato", "variantIds": []},
+                {"articulationId": "staccato", "variantIds": []},
+                {"articulationId": "universal", "variantIds": []},
             ],
         )
 
@@ -64,14 +62,11 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(
             ensemble_entry["articulations"],
             [
-                {"articulationId": "bartok", "variantIds": []},
-                {"articulationId": "legato", "variantIds": ["soft"]},
-                {"articulationId": "long", "variantIds": ["soft"]},
-                {"articulationId": "marcato", "variantIds": []},
+                {"articulationId": "legato", "variantIds": []},
                 {"articulationId": "pizzicato", "variantIds": []},
-                {"articulationId": "sforzando", "variantIds": []},
-                {"articulationId": "staccato", "variantIds": ["bold", "rapid"]},
+                {"articulationId": "staccato", "variantIds": []},
                 {"articulationId": "tremolo", "variantIds": []},
+                {"articulationId": "universal", "variantIds": []},
             ],
         )
 
@@ -90,14 +85,11 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(
             ensemble_entry["articulations"],
             [
-                {"articulationId": "bartok", "variantIds": []},
-                {"articulationId": "legato", "variantIds": ["soft"]},
-                {"articulationId": "long", "variantIds": ["soft"]},
-                {"articulationId": "marcato", "variantIds": []},
+                {"articulationId": "legato", "variantIds": []},
                 {"articulationId": "pizzicato", "variantIds": []},
-                {"articulationId": "sforzando", "variantIds": []},
-                {"articulationId": "staccato", "variantIds": ["bold", "rapid"]},
+                {"articulationId": "staccato", "variantIds": []},
                 {"articulationId": "tremolo", "variantIds": []},
+                {"articulationId": "universal", "variantIds": []},
             ],
         )
 
@@ -116,12 +108,11 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(
             trumpet_entry["articulations"],
             [
-                {"articulationId": "legato", "variantIds": ["non-vibrato", "vibrato"]},
-                {"articulationId": "long", "variantIds": ["non-vibrato", "vibrato"]},
-                {"articulationId": "portato", "variantIds": ["bold", "rapid"]},
-                {"articulationId": "sforzando", "variantIds": []},
-                {"articulationId": "sforzatissimo", "variantIds": []},
-                {"articulationId": "staccato", "variantIds": ["bold", "rapid"]},
+                {"articulationId": "legato", "variantIds": []},
+                {"articulationId": "long", "variantIds": []},
+                {"articulationId": "portato", "variantIds": []},
+                {"articulationId": "staccato", "variantIds": []},
+                {"articulationId": "universal", "variantIds": []},
             ],
         )
 

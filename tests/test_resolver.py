@@ -233,7 +233,7 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result["status"], "partial")
         self.assertEqual(result["library"]["id"], "synchron-prime-woodwinds")
         self.assertIsNone(result["instrument"])
-        self.assertEqual(result["articulation"]["id"], "long")
+        self.assertIsNone(result["articulation"])
         self.assertEqual(result["variant"]["id"], "vibrato")
 
     def test_synchron_prime_strings_i_library_resolution(self):
@@ -276,10 +276,11 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result["variant"]["id"], "harmon-mute")
 
     def test_duplicate_alias_is_ambiguous(self):
-        self.resolver._entities["articulation"].append(
+        resolver = TerminologyResolver(Path(__file__).parents[1] / "data")
+        resolver._entities["articulation"].append(
             {"id": "long-alt", "name": "Long Alternative", "aliases": ["long"]}
         )
-        result = self.resolver.resolve_articulation("long")
+        result = resolver.resolve_articulation("long")
         self.assertEqual(result.status, "ambiguous")
         self.assertEqual(len(result.matches), 2)
 

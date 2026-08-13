@@ -5,28 +5,20 @@
     "instrumentId": "bass-clarinet",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": ["non-vibrato", "performance"]
+        "articulationId": "universal",
+        "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": ["non-vibrato"]
+        "articulationId": "legato",
+        "variantIds": []
       },
       {
         "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": ["non-vibrato"]
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": ["non-vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -36,28 +28,20 @@
     "instrumentId": "bassoon",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": ["performance", "vibrato"]
+        "articulationId": "universal",
+        "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "articulationId": "legato",
+        "variantIds": []
       },
       {
         "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": ["non-vibrato", "vibrato"]
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -67,28 +51,20 @@
     "instrumentId": "clarinet",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": ["non-vibrato", "performance"]
+        "articulationId": "universal",
+        "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": ["non-vibrato"]
+        "articulationId": "legato",
+        "variantIds": []
       },
       {
         "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": ["non-vibrato"]
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": ["non-vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -98,28 +74,20 @@
     "instrumentId": "contrabassoon",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": ["non-vibrato", "performance"]
+        "articulationId": "universal",
+        "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": ["non-vibrato"]
+        "articulationId": "legato",
+        "variantIds": []
       },
       {
         "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": ["non-vibrato"]
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": ["non-vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -129,28 +97,20 @@
     "instrumentId": "english-horn",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": ["performance", "vibrato"]
+        "articulationId": "universal",
+        "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "articulationId": "legato",
+        "variantIds": []
       },
       {
         "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": ["non-vibrato", "vibrato"]
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -160,28 +120,20 @@
     "instrumentId": "flute",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": ["performance", "vibrato"]
+        "articulationId": "universal",
+        "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "articulationId": "legato",
+        "variantIds": []
       },
       {
         "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": ["non-vibrato", "vibrato"]
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -191,28 +143,20 @@
     "instrumentId": "oboe",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": ["performance", "vibrato"]
+        "articulationId": "universal",
+        "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "articulationId": "legato",
+        "variantIds": []
       },
       {
         "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": ["non-vibrato", "vibrato"]
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -222,24 +166,20 @@
     "instrumentId": "piccolo",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": ["performance", "vibrato"]
+        "articulationId": "universal",
+        "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "articulationId": "legato",
+        "variantIds": []
       },
       {
         "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   }

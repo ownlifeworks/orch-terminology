@@ -5,7 +5,15 @@
     "instrumentId": "bass-trombone",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
         "variantIds": []
       },
       {
@@ -13,20 +21,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -36,7 +32,15 @@
     "instrumentId": "horn",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
         "variantIds": []
       },
       {
@@ -44,20 +48,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -67,7 +59,15 @@
     "instrumentId": "horn-ensemble",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
         "variantIds": []
       },
       {
@@ -75,16 +75,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -94,7 +86,15 @@
     "instrumentId": "tenor-trombone",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
         "variantIds": []
       },
       {
@@ -102,20 +102,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -125,7 +113,15 @@
     "instrumentId": "trombone-ensemble",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
         "variantIds": []
       },
       {
@@ -133,16 +129,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -152,28 +140,24 @@
     "instrumentId": "trumpet",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": ["non-vibrato", "vibrato"]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": ["non-vibrato", "vibrato"]
-      },
-      {
-        "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
+        "articulationId": "universal",
         "variantIds": []
       },
       {
-        "articulationId": "sforzatissimo",
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
         "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -183,7 +167,15 @@
     "instrumentId": "trumpet-ensemble",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
         "variantIds": []
       },
       {
@@ -191,16 +183,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   },
@@ -210,7 +194,15 @@
     "instrumentId": "tuba",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
         "variantIds": []
       },
       {
@@ -218,20 +210,8 @@
         "variantIds": []
       },
       {
-        "articulationId": "portato",
-        "variantIds": ["bold", "rapid"]
-      },
-      {
-        "articulationId": "sforzando",
-        "variantIds": []
-      },
-      {
-        "articulationId": "sforzatissimo",
-        "variantIds": []
-      },
-      {
         "articulationId": "staccato",
-        "variantIds": ["bold", "rapid"]
+        "variantIds": []
       }
     ]
   }

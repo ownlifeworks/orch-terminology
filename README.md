@@ -16,6 +16,57 @@ The first implementation slice is available: canonical seed data, JSON schemas, 
 
 Applications such as NTD Engine and NTD Detector must consume this repository's data rather than maintaining independent terminology sources.
 
+```mermaid
+flowchart TD
+    subgraph Canonical["Canonical Terminology Source"]
+        Vendors["data/vendors.json"]
+        Libraries["data/libraries.json"]
+        Instruments["data/instruments.json"]
+        Articulations["data/articulations.json"]
+        Variants["data/variants.json"]
+        CatalogSources["data/catalog/*.json"]
+    end
+
+    Build["tools/build_catalog.ps1<br/>or build_catalog.py"]
+    Aggregate["data/catalog.json"]
+    Validate["tools/validate_terminology.py"]
+    Resolver["orch_terminology/resolver.py"]
+    Tests["python -m unittest discover -s tests"]
+
+    subgraph Consumers["Consumer Applications and Mirrors"]
+        Website["OwnLifeAudioWebsite"]
+        Detector["NTD Detector"]
+        Engine["NTD Engine"]
+    end
+
+    CatalogSources --> Build --> Aggregate
+    Vendors --> Validate
+    Libraries --> Validate
+    Instruments --> Validate
+    Articulations --> Validate
+    Variants --> Validate
+    Aggregate --> Validate
+
+    Vendors --> Resolver
+    Libraries --> Resolver
+    Instruments --> Resolver
+    Articulations --> Resolver
+    Variants --> Resolver
+    Aggregate --> Resolver
+
+    Validate --> Tests
+    Resolver --> Tests
+
+    Aggregate --> Website
+    Aggregate --> Detector
+    Aggregate --> Engine
+    Vendors --> Website
+    Libraries --> Website
+    Instruments --> Website
+    Articulations --> Website
+    Variants --> Website
+```
+
 ## Editing terminology data
 
 Edit the canonical JSON files in `data/`. The copies in consuming applications, such as `OwnLifeAudioWebsite/src/data/terminology/`, are mirrors and can be overwritten during synchronization.

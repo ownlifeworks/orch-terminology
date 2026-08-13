@@ -6,6 +6,8 @@ from pathlib import Path
 import re
 from typing import Any, Iterable
 
+from orch_terminology.catalog import build_catalog_document
+
 
 KINDS = ("vendor", "library", "instrument", "articulation", "variant")
 PLURALS = {
@@ -17,6 +19,8 @@ PLURALS = {
 }
 _TOKEN_RE = re.compile(r"[a-z0-9]+(?:'[a-z0-9]+)?", re.IGNORECASE)
 _VELOCITY_RE = re.compile(r"^v(\d{1,3})$", re.IGNORECASE)
+ARTICULATION_PREFERRED_OVERLAPS = {"bartok", "harmonics"}
+VARIANT_PREFERRED_OVERLAPS = {"flautando", "performance"}
 
 
 def normalize_text(value: str) -> str:
@@ -43,6 +47,9 @@ class TerminologyResolver:
         self.data_directory = Path(data_directory)
         self._entities: dict[str, list[dict[str, Any]]] = {}
         self._contexts: list[dict[str, Any]] = []
+        self._catalog_entries: list[dict[str, Any]] = []
+        self._catalog_by_library: dict[str, list[dict[str, Any]]] = {}
+        self._catalog_by_library_instrument: dict[tuple[str, str], dict[str, Any]] = {}
         self._load()
 
     @classmethod
@@ -66,6 +73,15 @@ class TerminologyResolver:
             self._contexts = list(json.loads(context_file.read_text(encoding="utf-8"))["contexts"])
         else:
             self._contexts = []
+
+        self._catalog_entries, _ = build_catalog_document(self.data_directory)
+        for entry in self._catalog_entries:
+            library_id = entry.get("libraryId")
+            instrument_id = entry.get("instrumentId")
+            if isinstance(library_id, str):
+                self._catalog_by_library.setdefault(library_id, []).append(entry)
+                if isinstance(instrument_id, str):
+                    self._catalog_by_library_instrument[(library_id, instrument_id)] = entry
 
     def resolve_vendor(self, value: str) -> Resolution:
         return self._resolve_exact("vendor", value)
@@ -114,17 +130,17 @@ class TerminologyResolver:
         remaining = [token for index, token in enumerate(terminology_tokens)
                      if library_span is None or not library_span[0] <= index < library_span[1]]
         instrument_result, instrument_span = self._resolve_tokens("instrument", remaining, effective_context)
-        articulation_result, articulation_span = self._resolve_tokens("articulation", remaining, effective_context)
         used_indexes = set()
+        term_tokens = remaining
         if instrument_span is not None:
             used_indexes.update(range(instrument_span[0], instrument_span[1]))
-        if articulation_span is not None:
-            used_indexes.update(range(articulation_span[0], articulation_span[1]))
-        variant_tokens = [token for index, token in enumerate(remaining) if index not in used_indexes]
-        if variant_tokens:
-            variant_result, _ = self._resolve_tokens("variant", variant_tokens, effective_context)
-        else:
-            variant_result = Resolution("absent", "")
+        term_tokens = [token for index, token in enumerate(remaining) if index not in used_indexes]
+        articulation_result, variant_result = self._resolve_articulation_variant(
+            term_tokens,
+            effective_context,
+            library,
+            instrument_result.entity if instrument_result.status == "resolved" else None,
+        )
 
         statuses = {
             "vendor": "resolved" if vendor else "unresolved",
@@ -175,6 +191,216 @@ class TerminologyResolver:
             item = next(iter(unique.values()))
             return result, (item[0], item[1])
         return result, None
+
+    def _collect_matches(
+        self,
+        kind: str,
+        tokens: list[str],
+        context: str | dict[str, Any] | None,
+    ) -> list[tuple[int, int, dict[str, Any]]]:
+        matches: dict[tuple[int, int, str], tuple[int, int, dict[str, Any]]] = {}
+        for start in range(len(tokens)):
+            for end in range(len(tokens), start, -1):
+                normalized = " ".join(tokens[start:end])
+                for candidate in self._candidates(kind, normalized, context):
+                    matches[(start, end, candidate["id"])] = (start, end, candidate)
+        return list(matches.values())
+
+    def _resolve_articulation_variant(
+        self,
+        tokens: list[str],
+        context: str | dict[str, Any] | None,
+        library: dict[str, Any] | None,
+        instrument: dict[str, Any] | None,
+    ) -> tuple[Resolution, Resolution]:
+        if not tokens:
+            return Resolution("unresolved", ""), Resolution("absent", "")
+
+        articulation_matches = self._collect_matches("articulation", tokens, context)
+        variant_matches = self._collect_matches("variant", tokens, context)
+        supported = self._supported_pairs(library, instrument)
+        instrument_known = instrument is not None
+
+        candidates: list[tuple[tuple[int, int, int, int, int], Resolution, Resolution]] = []
+
+        for variant_start, variant_end, variant_entity in variant_matches:
+            remaining_tokens = [
+                token for index, token in enumerate(tokens)
+                if not variant_start <= index < variant_end
+            ]
+            articulation_result, articulation_span = self._resolve_tokens_with_preference(
+                "articulation",
+                remaining_tokens,
+                context,
+                prefer_later=True,
+            )
+            if articulation_result.status != "resolved":
+                inferred = self._infer_articulation_for_variant(variant_entity["id"], supported)
+                if inferred is not None:
+                    articulation_result = Resolution("resolved", " ".join(remaining_tokens), inferred)
+                    articulation_span = None
+
+            if articulation_result.status != "resolved":
+                continue
+
+            supported_pair = self._is_supported_pair(
+                articulation_result.entity["id"],
+                variant_entity["id"],
+                supported,
+            )
+            coverage = (variant_end - variant_start) + (0 if articulation_span is None else articulation_span[1] - articulation_span[0])
+            semantic_bonus = self._semantic_overlap_bonus(
+                articulation_result.entity["id"],
+                variant_entity["id"],
+            )
+            confidence = 1 if instrument_known or supported_pair else 0
+            candidates.append(
+                (
+                    (
+                        confidence,
+                        1,
+                        1 if articulation_span is not None else 0,
+                        coverage,
+                        semantic_bonus,
+                        1 if supported_pair else 0,
+                        -(variant_start),
+                        0 if articulation_span is None else articulation_span[0],
+                    ),
+                    articulation_result,
+                    Resolution("resolved", " ".join(tokens[variant_start:variant_end]), variant_entity),
+                )
+            )
+
+        articulation_result, articulation_span = self._resolve_tokens_with_preference(
+            "articulation",
+            tokens,
+            context,
+            prefer_later=False,
+        )
+        if articulation_result.status == "resolved":
+            supported_pair = self._is_supported_pair(
+                articulation_result.entity["id"],
+                None,
+                supported,
+            )
+            coverage = 0 if articulation_span is None else articulation_span[1] - articulation_span[0]
+            candidates.append(
+                (
+                    (
+                        1,
+                        0,
+                        1,
+                        coverage,
+                        self._semantic_overlap_bonus(articulation_result.entity["id"], None),
+                        1 if supported_pair else 0,
+                        0 if articulation_span is None else -(articulation_span[0]),
+                        0,
+                    ),
+                    articulation_result,
+                    Resolution("absent", ""),
+                )
+            )
+
+        if candidates:
+            _, best_articulation, best_variant = max(candidates, key=lambda item: item[0])
+            return best_articulation, best_variant
+
+        articulation_result, _ = self._resolve_tokens("articulation", tokens, context)
+        if articulation_result.status == "resolved":
+            return articulation_result, Resolution("absent", "")
+
+        variant_result, _ = self._resolve_tokens("variant", tokens, context)
+        if variant_result.status == "resolved":
+            inferred = self._infer_articulation_for_variant(variant_result.entity["id"], supported)
+            if inferred is not None:
+                return Resolution("resolved", " ".join(tokens), inferred), variant_result
+            return Resolution("unresolved", " ".join(tokens)), variant_result
+
+        return articulation_result, Resolution("absent", "")
+
+    def _resolve_tokens_with_preference(
+        self,
+        kind: str,
+        tokens: list[str],
+        context: str | dict[str, Any] | None,
+        *,
+        prefer_later: bool,
+    ) -> tuple[Resolution, tuple[int, int] | None]:
+        matches = self._collect_matches(kind, tokens, context)
+        if not matches:
+            return Resolution("unresolved", " ".join(tokens)), None
+
+        longest = max(end - start for start, end, _ in matches)
+        longest_matches = [(start, end, entity) for start, end, entity in matches if end - start == longest]
+        if prefer_later:
+            chosen = max(longest_matches, key=lambda item: (item[0], item[1], item[2]["id"]))
+        else:
+            chosen = min(longest_matches, key=lambda item: (item[0], item[1], item[2]["id"]))
+        return Resolution("resolved", " ".join(tokens[chosen[0]:chosen[1]]), chosen[2]), (chosen[0], chosen[1])
+
+    def _supported_pairs(
+        self,
+        library: dict[str, Any] | None,
+        instrument: dict[str, Any] | None,
+    ) -> dict[str, set[str]]:
+        if library is None:
+            return {}
+
+        library_id = library.get("id")
+        instrument_id = instrument.get("id") if instrument else None
+        if not isinstance(library_id, str):
+            return {}
+
+        supported: dict[str, set[str]] = {}
+        if isinstance(instrument_id, str):
+            entry = self._catalog_by_library_instrument.get((library_id, instrument_id))
+            if entry is not None:
+                for articulation in entry.get("articulations", []):
+                    supported.setdefault(articulation["articulationId"], set()).update(articulation.get("variantIds", []))
+        for entry in self._catalog_by_library.get(library_id, []):
+            for articulation in entry.get("articulations", []):
+                supported.setdefault(articulation["articulationId"], set()).update(articulation.get("variantIds", []))
+        return supported
+
+    @staticmethod
+    def _semantic_overlap_bonus(
+        articulation_id: str,
+        variant_id: str | None,
+    ) -> int:
+        bonus = 0
+        if articulation_id in ARTICULATION_PREFERRED_OVERLAPS:
+            bonus += 2
+        if variant_id in VARIANT_PREFERRED_OVERLAPS:
+            bonus += 2
+        return bonus
+
+    @staticmethod
+    def _is_supported_pair(
+        articulation_id: str,
+        variant_id: str | None,
+        supported: dict[str, set[str]],
+    ) -> bool:
+        if not supported:
+            return False
+        if articulation_id not in supported:
+            return False
+        if variant_id is None:
+            return True
+        return variant_id in supported[articulation_id]
+
+    def _infer_articulation_for_variant(
+        self,
+        variant_id: str,
+        supported: dict[str, set[str]],
+    ) -> dict[str, Any] | None:
+        matches = [articulation_id for articulation_id, variants in supported.items() if variant_id in variants]
+        if not matches:
+            return None
+        if len(matches) > 1:
+            if "long" in matches:
+                return self._entity_by_id("articulation", "long")
+            return None
+        return self._entity_by_id("articulation", matches[0])
 
     def _candidates(self, kind: str, normalized: str, context: str | dict[str, Any] | None) -> list[dict[str, Any]]:
         if not normalized:
