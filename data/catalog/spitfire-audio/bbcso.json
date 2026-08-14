@@ -764,7 +764,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": []
+        "variantIds": ["extended"]
       },
       {
         "articulationId": "long",
