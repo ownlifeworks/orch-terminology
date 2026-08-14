@@ -310,6 +310,11 @@
       "id": "bells-up",
       "name": "Bells Up",
       "aliases": ["belup", "bel-up"]
+    },
+	{
+      "id": "extended",
+      "name": "Extended",
+      "aliases": ["ext"]
     }
   ]
 }
