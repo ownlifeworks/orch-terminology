@@ -8,13 +8,13 @@
     },
     {
       "id": "trumpets-a3",
-      "name": "Trumpets A3",
-      "aliases": ["3trps", "3tpt", "3tpts", "trumpets3", "trumpets-a3", "tpt-a3"], "iconKey": "tpts3.png"
+      "name": "Trumpets a3",
+      "aliases": ["3trps", "3tpt", "3tpts", "trumpets3", "trumpets-a3", "tpt-a3"], "iconKey": "3tpts.png"
     },
 	{
       "id": "trumpets-a2",
-      "name": "Trumpets A2",
-      "aliases": ["trps2", "2tpt", "2tpts", "2-trumpets", "trumpets2", "trumpets-a2", "tpt-a2"], "iconKey": "tpts2.png"
+      "name": "Trumpets a2",
+      "aliases": ["trps2", "2tpt", "2tpts", "2-trumpets", "trumpets2", "trumpets-a2", "tpt-a2"], "iconKey": "2tpts.png"
     },
     {
       "id": "horn",
@@ -23,7 +23,7 @@
     },
     {
       "id": "horns-a4",
-      "name": "Horns A4",
+      "name": "Horns a4",
       "aliases": ["4hrns", "4hn", "4hns", "horns4", "horns-a4", "4hrns"], "iconKey": "hns4.png"
     },
     {
@@ -131,18 +131,18 @@
       "name": "Strings Ensemble",
       "aliases": ["strens", "str-ens"], "iconKey": "strens.png"
     },
-    { "id": "flutes-a3", "name": "Flutes A3", "aliases": ["flutes-a3", "fl-a3"], "iconKey": "fls3.png" },
+    { "id": "flutes-a3", "name": "Flutes a3", "aliases": ["flutes-a3", "fl-a3"], "iconKey": "fls3.png" },
     { "id": "oboe", "name": "Oboe", "aliases": ["ob"], "iconKey": "ob.png" },
-    { "id": "oboes-a3", "name": "Oboes A3", "aliases": ["oboes-a3", "ob-a3"], "iconKey": "obs3.png" },
+    { "id": "oboes-a3", "name": "Oboes a3", "aliases": ["oboes-a3", "ob-a3"], "iconKey": "obs3.png" },
     { "id": "clarinet", "name": "Clarinet", "aliases": ["cl"], "iconKey": "cl.png" },
-    { "id": "clarinets-a3", "name": "Clarinets A3", "aliases": ["clarinets-a3", "cl-a3"], "iconKey": "cls3.png" },
+    { "id": "clarinets-a3", "name": "Clarinets a3", "aliases": ["clarinets-a3", "cl-a3"], "iconKey": "cls3.png" },
     { "id": "bassoon", "name": "Bassoon", "aliases": ["bsn"], "iconKey": "bsn.png" },
     { "id": "crotales", "name": "Crotales", "aliases": [], "iconKey": "crotales.png" },
     { "id": "vibraphone", "name": "Vibraphone", "aliases": [], "iconKey": "vibraphone.png" },
-    { "id": "bassoons-a3", "name": "Bassoons A3", "aliases": ["bassoons-a3", "bsn-a3"], "iconKey": "bsns3.png" },
+    { "id": "bassoons-a3", "name": "Bassoons a3", "aliases": ["bassoons-a3", "bsn-a3"], "iconKey": "bsns3.png" },
     { "id": "tenor-trombone", "name": "Tenor Trombone", "aliases": ["tbn", "tenor-tbn", "tenor-trb", "trombone"], "iconKey": "tenortbn.png" },
-    { "id": "tenor-trombones-a3", "name": "Tenor Trombones A3", "aliases": ["tenor-trombones-a3", "tbn-a3"], "iconKey": "tenortbns3.png" },
-    { "id": "bass-trombones-a2", "name": "Bass Trombones A2", "aliases": ["bass-trombones-a2", "bass-tbn-a2"], "iconKey": "basstbns2.png" },
+    { "id": "tenor-trombones-a3", "name": "Tenor Trombones a3", "aliases": ["tenor-trombones-a3", "tbn-a3"], "iconKey": "tenortbns3.png" },
+    { "id": "bass-trombones-a2", "name": "Bass Trombones a2", "aliases": ["bass-trombones-a2", "bass-tbn-a2"], "iconKey": "basstbns2.png" },
     { "id": "contrabass-trombone", "name": "Contrabass Trombone", "aliases": ["cbtbn", "contrabass-trombone"], "iconKey": "cbtbn.png" },
     { "id": "contrabass-tuba", "name": "Contrabass Tuba", "aliases": ["cbtba", "contrabass-tuba"], "iconKey": "cbtba.png" },
     { "id": "cimbasso", "name": "Cimbasso", "aliases": [], "iconKey": "cimbasso.png" },
@@ -177,7 +177,7 @@
     { "id": "alto-flute", "name": "Alto Flute", "aliases": ["aflu", "alto-fl"], "iconKey": "altofl.png" },
     { "id": "eb-clarinet", "name": "E♭ Clarinet", "aliases": ["ebcl", "ebcla", "eb-clarinet", "e-flat-clarinet"], "iconKey": "ebcl.png" },
     { "id": "contrabass-clarinet", "name": "Contrabass Clarinet", "aliases": ["cbcl", "contra-clarinet"], "iconKey": "cbcl.png" },
-    { "id": "trombones-a2", "name": "Trombones A2", "aliases": ["2tbns", "2-trombones", "trombones-a2"], "iconKey": "tbns2.png" },
+    { "id": "trombones-a2", "name": "Trombones a2", "aliases": ["2tbns", "2-trombones", "trombones-a2"], "iconKey": "tbns2.png" },
     { "id": "flutes-a2", "name": "Flutes A2", "aliases": ["2flus", "2-flutes", "flutes-a2"], "iconKey": "fls2.png" },
     { "id": "oboes-a2", "name": "Oboes A2", "aliases": ["2obos", "2-oboes", "oboes-a2"], "iconKey": "obs2.png" },
     { "id": "clarinets-a2", "name": "Clarinets A2", "aliases": ["2clas", "2-clarinets", "clarinets-a2"], "iconKey": "cls2.png" },
