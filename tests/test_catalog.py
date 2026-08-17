@@ -40,7 +40,7 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(
             flute_entry["articulations"],
             [
-                {"articulationId": "legato", "variantIds": []},
+                {"articulationId": "long", "variantIds": []},
                 {"articulationId": "portato", "variantIds": []},
                 {"articulationId": "staccato", "variantIds": []},
                 {"articulationId": "universal", "variantIds": []},

@@ -4171,7 +4171,7 @@
     "instrumentId": "bass-clarinet",
     "articulations": [
       {
-        "articulationId": "legato",
+        "articulationId": "long",
         "variantIds": []
       },
       {
@@ -4194,7 +4194,7 @@
     "instrumentId": "bassoon",
     "articulations": [
       {
-        "articulationId": "legato",
+        "articulationId": "long",
         "variantIds": []
       },
       {
@@ -4217,7 +4217,7 @@
     "instrumentId": "clarinet",
     "articulations": [
       {
-        "articulationId": "legato",
+        "articulationId": "long",
         "variantIds": []
       },
       {
@@ -4240,7 +4240,7 @@
     "instrumentId": "contrabassoon",
     "articulations": [
       {
-        "articulationId": "legato",
+        "articulationId": "long",
         "variantIds": []
       },
       {
@@ -4263,7 +4263,7 @@
     "instrumentId": "english-horn",
     "articulations": [
       {
-        "articulationId": "legato",
+        "articulationId": "long",
         "variantIds": []
       },
       {
@@ -4286,7 +4286,7 @@
     "instrumentId": "flute",
     "articulations": [
       {
-        "articulationId": "legato",
+        "articulationId": "long",
         "variantIds": []
       },
       {
@@ -4309,7 +4309,7 @@
     "instrumentId": "oboe",
     "articulations": [
       {
-        "articulationId": "legato",
+        "articulationId": "long",
         "variantIds": []
       },
       {
@@ -4332,7 +4332,7 @@
     "instrumentId": "piccolo",
     "articulations": [
       {
-        "articulationId": "legato",
+        "articulationId": "long",
         "variantIds": []
       },
       {
