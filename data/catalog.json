@@ -3456,10 +3456,6 @@
     "instrumentId": "bass-trombone",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": []
-      },
-      {
         "articulationId": "long",
         "variantIds": []
       },
@@ -3482,10 +3478,6 @@
     "libraryId": "synchron-prime-brass",
     "instrumentId": "horn",
     "articulations": [
-      {
-        "articulationId": "legato",
-        "variantIds": []
-      },
       {
         "articulationId": "long",
         "variantIds": []
@@ -3510,10 +3502,6 @@
     "instrumentId": "horn-ensemble",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": []
-      },
-      {
         "articulationId": "long",
         "variantIds": []
       },
@@ -3536,10 +3524,6 @@
     "libraryId": "synchron-prime-brass",
     "instrumentId": "tenor-trombone",
     "articulations": [
-      {
-        "articulationId": "legato",
-        "variantIds": []
-      },
       {
         "articulationId": "long",
         "variantIds": []
@@ -3564,10 +3548,6 @@
     "instrumentId": "trombone-ensemble",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": []
-      },
-      {
         "articulationId": "long",
         "variantIds": []
       },
@@ -3590,10 +3570,6 @@
     "libraryId": "synchron-prime-brass",
     "instrumentId": "trumpet",
     "articulations": [
-      {
-        "articulationId": "legato",
-        "variantIds": []
-      },
       {
         "articulationId": "long",
         "variantIds": []
@@ -3618,10 +3594,6 @@
     "instrumentId": "trumpet-ensemble",
     "articulations": [
       {
-        "articulationId": "legato",
-        "variantIds": []
-      },
-      {
         "articulationId": "long",
         "variantIds": []
       },
@@ -3644,10 +3616,6 @@
     "libraryId": "synchron-prime-brass",
     "instrumentId": "tuba",
     "articulations": [
-      {
-        "articulationId": "legato",
-        "variantIds": []
-      },
       {
         "articulationId": "long",
         "variantIds": []
