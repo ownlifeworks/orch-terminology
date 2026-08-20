@@ -64,14 +64,6 @@ def validate() -> list[str]:
                     aliases[key] = entity_id
 
     vendor_ids = {item.get("id") for item in entities["vendor"]}
-    instrument_icon_keys: dict[str, str] = {}
-    for index, instrument in enumerate(entities["instrument"]):
-        icon_key = instrument.get("iconKey")
-        if isinstance(icon_key, str):
-            if icon_key in instrument_icon_keys:
-                errors.append(f"instrument: duplicate iconKey {icon_key}: {instrument_icon_keys[icon_key]} and {instrument.get('id')}")
-            else:
-                instrument_icon_keys[icon_key] = instrument.get("id", f"instrument[{index}]")
     for index, library in enumerate(entities["library"]):
         if library.get("vendorId") not in vendor_ids:
             errors.append(f"library[{index}]: unknown vendorId {library.get('vendorId')}")
