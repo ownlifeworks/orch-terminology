@@ -480,14 +480,6 @@
       "iconKey": "xyl.png"
     },
     {
-      "id": "marimba-rolled",
-      "name": "Marimba (Short Hits / Long Rolls)",
-      "aliases": [
-        "marimba-rolls"
-      ],
-      "iconKey": "mrbroll.png"
-    },
-    {
       "id": "tubular-bells",
       "name": "Tubular Bells",
       "aliases": [
