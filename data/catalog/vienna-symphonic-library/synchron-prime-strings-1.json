@@ -160,5 +160,16 @@
         "variantIds": []
       }
     ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-strings-1",
+    "instrumentId": "harp",
+    "articulations": [
+      {
+        "articulationId": "natural",
+        "variantIds": []
+      }
+    ]
   }
 ]

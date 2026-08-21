@@ -174,5 +174,24 @@
         "variantIds": []
       }
     ]
+  },
+    {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-brass",
+    "instrumentId": "brass-ensemble",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      }
+    ]
   }
 ]

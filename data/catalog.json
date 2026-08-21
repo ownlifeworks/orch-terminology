@@ -3529,6 +3529,25 @@
   {
     "vendorId": "vienna-symphonic-library",
     "libraryId": "synchron-prime-brass",
+    "instrumentId": "brass-ensemble",
+    "articulations": [
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-brass",
     "instrumentId": "horn",
     "articulations": [
       {
@@ -3904,6 +3923,17 @@
       },
       {
         "articulationId": "universal",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-prime-strings-1",
+    "instrumentId": "harp",
+    "articulations": [
+      {
+        "articulationId": "natural",
         "variantIds": []
       }
     ]
