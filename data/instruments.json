@@ -322,6 +322,87 @@
       ],
       "iconKey": "strens.png"
     },
+	{
+  "id": "woodwinds-ensemble",
+  "name": "Woodwinds Ensemble",
+  "aliases": [
+    "wwens",
+    "ww-ens"
+  ],
+  "iconKey": "wwens.png"
+},
+{
+  "id": "brass-ensemble",
+  "name": "Brass Ensemble",
+  "aliases": [
+    "brens",
+    "br-ens"
+  ],
+  "iconKey": "brens.png"
+},
+{
+  "id": "high-strings-ensemble",
+  "name": "High Strings Ensemble",
+  "aliases": [
+    "hstrens",
+    "hstr-ens"
+  ],
+  "iconKey": "hstrens.png"
+},
+{
+  "id": "low-strings-ensemble",
+  "name": "Low Strings Ensemble",
+  "aliases": [
+    "lstrens",
+    "lstr-ens"
+  ],
+  "iconKey": "lstrens.png"
+},
+{
+  "id": "high-woodwinds-ensemble",
+  "name": "High Woodwinds Ensemble",
+  "aliases": [
+    "hwwens",
+    "hww-ens"
+  ],
+  "iconKey": "hwwens.png"
+},
+{
+  "id": "low-woodwinds-ensemble",
+  "name": "Low Woodwinds Ensemble",
+  "aliases": [
+    "lwwens",
+    "lww-ens"
+  ],
+  "iconKey": "lwwens.png"
+},
+{
+  "id": "high-brass-ensemble",
+  "name": "High Brass Ensemble",
+  "aliases": [
+    "hbrens",
+    "hbr-ens"
+  ],
+  "iconKey": "hbrens.png"
+},
+{
+  "id": "mid-brass-ensemble",
+  "name": "Mid Brass Ensemble",
+  "aliases": [
+    "mbrens",
+    "mbr-ens"
+  ],
+  "iconKey": "mbrens.png"
+},
+{
+  "id": "low-brass-ensemble",
+  "name": "Low Brass Ensemble",
+  "aliases": [
+    "lbrens",
+    "lbr-ens"
+  ],
+  "iconKey": "lbrens.png"
+},
     {
       "id": "flutes-a3",
       "name": "Flutes a3",
