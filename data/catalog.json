@@ -17,10 +17,6 @@
         "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
           "rep-overlay"
@@ -44,7 +40,15 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
       },
       {
         "articulationId": "trills",
@@ -70,10 +74,6 @@
         "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
           "rep-overlay"
@@ -97,7 +97,15 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
       },
       {
         "articulationId": "trills",
@@ -123,10 +131,6 @@
         "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
           "rep-overlay"
@@ -150,7 +154,15 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
       },
       {
         "articulationId": "trills",
@@ -176,10 +188,6 @@
         "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
           "rep-overlay"
@@ -203,7 +211,15 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
       },
       {
         "articulationId": "trills",
@@ -229,10 +245,6 @@
         "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
           "rep-overlay"
@@ -256,7 +268,15 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
       },
       {
         "articulationId": "trills",
@@ -282,10 +302,6 @@
         "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
           "rep-overlay"
@@ -309,7 +325,15 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
       },
       {
         "articulationId": "trills",
@@ -335,10 +359,6 @@
         "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
           "rep-overlay"
@@ -362,7 +382,15 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
       },
       {
         "articulationId": "trills",
@@ -388,10 +416,6 @@
         "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
           "rep-overlay"
@@ -415,7 +439,15 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
       },
       {
         "articulationId": "trills",
@@ -441,10 +473,6 @@
         "variantIds": []
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
           "rep-overlay"
@@ -468,7 +496,15 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
       },
       {
         "articulationId": "trills",
@@ -501,13 +537,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "rep-overlay"
+          "spic-overlay"
         ]
       },
       {
@@ -528,6 +560,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -567,13 +603,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "rep-overlay"
+          "spic-overlay"
         ]
       },
       {
@@ -594,6 +626,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -633,13 +669,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "rep-overlay"
+          "spic-overlay"
         ]
       },
       {
@@ -660,6 +692,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -699,13 +735,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "rep-overlay"
+          "spic-overlay"
         ]
       },
       {
@@ -726,6 +758,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -765,13 +801,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "rep-overlay"
+          "spic-overlay"
         ]
       },
       {
@@ -792,6 +824,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -831,13 +867,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "rep-overlay"
+          "spic-overlay"
         ]
       },
       {
@@ -858,6 +890,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -889,13 +925,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -914,6 +946,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -935,13 +971,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -960,6 +992,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -981,13 +1017,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -1006,6 +1038,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -1027,13 +1063,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -1052,6 +1084,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -1073,13 +1109,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -1098,6 +1130,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -1119,13 +1155,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -1135,11 +1167,19 @@
         ]
       },
       {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccatissimo",
         "variantIds": []
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -1161,13 +1201,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -1186,6 +1222,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -1207,13 +1247,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -1232,6 +1268,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -1257,13 +1297,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -1282,6 +1318,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -1307,13 +1347,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -1332,6 +1368,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -1353,13 +1393,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -1378,6 +1414,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -1399,13 +1439,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -1424,6 +1460,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -1449,13 +1489,9 @@
         ]
       },
       {
-        "articulationId": "long",
-        "variantIds": []
-      },
-      {
         "articulationId": "marcato",
         "variantIds": [
-          "spic-overlay"
+          "rep-overlay"
         ]
       },
       {
@@ -1474,6 +1510,10 @@
       },
       {
         "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
         "variantIds": []
       },
       {
@@ -3785,10 +3825,7 @@
     "articulations": [
       {
         "articulationId": "hits",
-        "variantIds": [
-          "hard",
-          "soft"
-        ]
+        "variantIds": []
       }
     ]
   },

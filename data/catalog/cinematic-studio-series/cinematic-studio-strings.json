@@ -5,7 +5,7 @@
     "instrumentId": "basses",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -29,7 +29,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["rep-overlay"]
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "pizzicato",
@@ -69,7 +69,7 @@
     "instrumentId": "celli",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -93,7 +93,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["rep-overlay"]
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "pizzicato",
@@ -133,7 +133,7 @@
     "instrumentId": "violas",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -157,7 +157,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["rep-overlay"]
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "pizzicato",
@@ -197,7 +197,7 @@
     "instrumentId": "violins-i",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -221,7 +221,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["rep-overlay"]
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "pizzicato",
@@ -261,7 +261,7 @@
     "instrumentId": "violins-ii",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -285,7 +285,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["rep-overlay"]
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "pizzicato",
@@ -325,7 +325,7 @@
     "instrumentId": "strings-ensemble",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -349,7 +349,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["rep-overlay"]
+        "variantIds": ["spic-overlay"]
       },
       {
         "articulationId": "pizzicato",

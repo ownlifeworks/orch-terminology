@@ -5,8 +5,8 @@
     "instrumentId": "bass-trombone",
     "articulations": [
       {
-        "articulationId": "long",
-        "variantIds": []
+        "articulationId": "sustains",
+        "variantIds": ["muted"]
       },
 	  {
         "articulationId": "double-tongue",
@@ -44,7 +44,7 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": ["muted"]
       },
       {
         "articulationId": "trills",
@@ -58,8 +58,8 @@
     "instrumentId": "horn",
     "articulations": [
       {
-        "articulationId": "long",
-        "variantIds": []
+        "articulationId": "sustains",
+        "variantIds": ["muted"]
       },
 	  {
         "articulationId": "double-tongue",
@@ -97,7 +97,7 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": ["muted"]
       },
       {
         "articulationId": "trills",
@@ -111,8 +111,8 @@
     "instrumentId": "horns-a4",
     "articulations": [
       {
-        "articulationId": "long",
-        "variantIds": []
+        "articulationId": "sustains",
+        "variantIds": ["muted"]
       },
 	  {
         "articulationId": "double-tongue",
@@ -150,7 +150,7 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": ["muted"]
       },
       {
         "articulationId": "trills",
@@ -164,8 +164,8 @@
     "instrumentId": "tenor-trombone",
     "articulations": [
       {
-        "articulationId": "long",
-        "variantIds": []
+        "articulationId": "sustains",
+        "variantIds": ["muted"]
       },
 	  {
         "articulationId": "double-tongue",
@@ -203,7 +203,7 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": ["muted"]
       },
       {
         "articulationId": "trills",
@@ -217,8 +217,8 @@
     "instrumentId": "trombones-a2",
     "articulations": [
       {
-        "articulationId": "long",
-        "variantIds": []
+        "articulationId": "sustains",
+        "variantIds": ["muted"]
       },
 	  {
         "articulationId": "double-tongue",
@@ -256,7 +256,7 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": ["muted"]
       },
       {
         "articulationId": "trills",
@@ -270,8 +270,8 @@
     "instrumentId": "trumpet",
     "articulations": [
       {
-        "articulationId": "long",
-        "variantIds": []
+        "articulationId": "sustains",
+        "variantIds": ["muted"]
       },
 	  {
         "articulationId": "double-tongue",
@@ -309,7 +309,7 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": ["muted"]
       },
       {
         "articulationId": "trills",
@@ -323,8 +323,8 @@
     "instrumentId": "trumpets-a2",
     "articulations": [
       {
-        "articulationId": "long",
-        "variantIds": []
+        "articulationId": "sustains",
+        "variantIds": ["muted"]
       },
 	  {
         "articulationId": "double-tongue",
@@ -362,7 +362,7 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": ["muted"]
       },
       {
         "articulationId": "trills",
@@ -376,8 +376,8 @@
     "instrumentId": "tuba",
     "articulations": [
       {
-        "articulationId": "long",
-        "variantIds": []
+        "articulationId": "sustains",
+        "variantIds": ["muted"]
       },
 	  {
         "articulationId": "double-tongue",
@@ -415,7 +415,7 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": ["muted"]
       },
       {
         "articulationId": "trills",
@@ -429,8 +429,8 @@
     "instrumentId": "brass-ensemble",
     "articulations": [
       {
-        "articulationId": "long",
-        "variantIds": []
+        "articulationId": "sustains",
+        "variantIds": ["muted"]
       },
 	  {
         "articulationId": "double-tongue",
@@ -468,7 +468,7 @@
       },
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": ["muted"]
       },
       {
         "articulationId": "trills",

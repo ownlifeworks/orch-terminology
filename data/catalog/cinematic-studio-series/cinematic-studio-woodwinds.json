@@ -5,7 +5,7 @@
     "instrumentId": "alto-flute",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -21,7 +21,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -53,7 +53,7 @@
     "instrumentId": "bass-clarinet",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -65,7 +65,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -97,7 +97,7 @@
     "instrumentId": "bassoon",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -109,7 +109,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -141,7 +141,7 @@
     "instrumentId": "bassoons-a2",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -153,7 +153,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -185,7 +185,7 @@
     "instrumentId": "clarinet",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -197,7 +197,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -229,7 +229,7 @@
     "instrumentId": "clarinets-a2",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -241,7 +241,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -257,6 +257,10 @@
         "articulationId": "staccato",
         "variantIds": []
       },
+	  {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
       {
         "articulationId": "trills",
         "variantIds": []
@@ -269,7 +273,7 @@
     "instrumentId": "contrabassoon",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -281,7 +285,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -313,7 +317,7 @@
     "instrumentId": "english-horn",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -325,7 +329,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -357,7 +361,7 @@
     "instrumentId": "flute",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -373,7 +377,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -405,7 +409,7 @@
     "instrumentId": "flutes-a2",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -421,7 +425,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -453,7 +457,7 @@
     "instrumentId": "oboe",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -465,7 +469,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -497,7 +501,7 @@
     "instrumentId": "oboes-a2",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -509,7 +513,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",
@@ -541,7 +545,7 @@
     "instrumentId": "piccolo",
     "articulations": [
       {
-        "articulationId": "long",
+        "articulationId": "sustains",
         "variantIds": []
       },
 	  {
@@ -557,7 +561,7 @@
       },
       {
         "articulationId": "marcato",
-        "variantIds": ["spic-overlay"]
+        "variantIds": ["rep-overlay"]
       },
       {
         "articulationId": "repetitions",

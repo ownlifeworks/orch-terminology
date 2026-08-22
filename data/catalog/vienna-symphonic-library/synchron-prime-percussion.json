@@ -83,7 +83,7 @@
     "articulations": [
       {
         "articulationId": "hits",
-        "variantIds": ["hard", "soft"]
+        "variantIds": []
       }
     ]
   },
