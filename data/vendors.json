@@ -2,6 +2,11 @@
   "schemaVersion": 1,
   "vendors": [
     {
+      "id": "audio-imperia",
+      "name": "Audio Imperia",
+      "aliases": ["audioimperia", "ai"]
+    },
+    {
       "id": "spitfire-audio",
       "name": "Spitfire Audio",
       "aliases": ["spitfire", "spitfireaudio", "sa"]

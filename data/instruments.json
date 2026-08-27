@@ -258,6 +258,16 @@
       "iconKey": "tba.png"
     },
     {
+      "id": "tubas-a2",
+      "name": "Tubas a2",
+      "aliases": [
+        "2tbas",
+        "2-tubas",
+        "tubas-a2"
+      ],
+      "iconKey": "tbas2.png"
+    },
+    {
       "id": "piccolo",
       "name": "Piccolo",
       "aliases": [
@@ -587,6 +597,26 @@
       "iconKey": "anvil.png"
     },
     {
+      "id": "gran-cassa",
+      "name": "Gran Cassa",
+      "aliases": [
+        "gran cassa",
+        "grancassa"
+      ],
+      "iconKey": "grancassa.png"
+    },
+    {
+      "id": "gran-cassas-a2",
+      "name": "Gran Cassa a2",
+      "aliases": [
+        "2-gran-cassas",
+        "2 gran cassas",
+        "gran-cassa-a2",
+        "gran-cassas-a2"
+      ],
+      "iconKey": "grancassas2.png"
+    },
+    {
       "id": "bass-drum",
       "name": "Bass Drum",
       "aliases": [
@@ -637,6 +667,24 @@
         "snare2"
       ],
       "iconKey": "snare.png"
+    },
+    {
+      "id": "snare-ensemble",
+      "name": "Snare Ensemble",
+      "aliases": [
+        "snare-ens",
+        "snare ensemble"
+      ],
+      "iconKey": "snareens.png"
+    },
+    {
+      "id": "sticks",
+      "name": "Sticks",
+      "aliases": [
+        "stick",
+        "sticks"
+      ],
+      "iconKey": "sticks.png"
     },
     {
       "id": "suspended-cymbals",

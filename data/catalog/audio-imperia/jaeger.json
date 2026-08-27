@@ -1,0 +1,662 @@
+[
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "gran-cassas-a2",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": ["long"]
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "performance",
+        "variantIds": ["non-vibrato", "performance", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "performance",
+        "variantIds": ["non-vibrato", "performance", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "horns-a12",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": ["performance"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "high-strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["non-vibrato", "octave", "vibrato"]
+      },
+      {
+        "articulationId": "performance",
+        "variantIds": ["non-vibrato", "octave", "performance", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato", "octave", "vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": ["octave"]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "concert-toms",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": ["long", "low"]
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": ["low"]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": ["low"]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "concert-toms",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": ["high", "long"]
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": ["high"]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": ["high"]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "horns-a6",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "performance",
+        "variantIds": ["performance"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "piatti",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "high-brass-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "performance",
+        "variantIds": ["octave", "performance"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["octave"]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "low-strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "performance",
+        "variantIds": ["non-vibrato", "octave", "performance", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["octave"]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato", "octave", "vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": ["octave"]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "low-brass-ensemble",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": ["performance"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "snare-ensemble",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": ["long", "low"]
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": ["low"]
+      },
+      {
+        "articulationId": "rimshot",
+        "variantIds": ["low"]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": ["low"]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "snare-ensemble",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": ["high", "long"]
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": ["high"]
+      },
+      {
+        "articulationId": "rimshot",
+        "variantIds": ["high"]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": ["high"]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "sticks",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "performance",
+        "variantIds": ["non-vibrato", "performance", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "brass-ensemble",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "taiko",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": ["high", "low", "mid"]
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": ["high", "low", "mid"]
+      },
+      {
+        "articulationId": "rim-hit",
+        "variantIds": ["high", "low", "mid"]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": ["high", "low", "mid"]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "tam-tam",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": ["long"]
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "trombone-ensemble",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": ["performance"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "trumpets-a3",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "performance",
+        "variantIds": ["performance"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "tubas-a2",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": ["performance"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "performance",
+        "variantIds": ["non-vibrato", "performance", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "jaeger",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "performance",
+        "variantIds": ["non-vibrato", "performance", "vibrato"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  }
+]

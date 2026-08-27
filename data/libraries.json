@@ -2,6 +2,12 @@
   "schemaVersion": 1,
   "libraries": [
     {
+      "id": "jaeger",
+      "name": "Jaeger",
+      "vendorId": "audio-imperia",
+      "aliases": ["jaeger"]
+    },
+    {
       "id": "bbcso",
       "name": "BBC Symphony Orchestra",
       "vendorId": "spitfire-audio",

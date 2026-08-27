@@ -91,6 +91,21 @@
       "name": "Soft",
       "aliases": ["sft", "soft", "gentle", "hollow"]
     },
+    {
+      "id": "low",
+      "name": "Low",
+      "aliases": ["low"]
+    },
+    {
+      "id": "high",
+      "name": "High",
+      "aliases": ["high"]
+    },
+    {
+      "id": "mid",
+      "name": "Mid",
+      "aliases": ["mid"]
+    },
 	{
       "id": "acc",
       "name": "Accented",

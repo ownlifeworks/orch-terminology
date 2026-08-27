@@ -387,6 +387,14 @@
       ]
     },
     {
+      "id": "rim-hit",
+      "name": "Rim Hit",
+      "aliases": [
+        "rim hit",
+        "rim-hit"
+      ]
+    },
+    {
       "id": "short-ruff",
       "name": "Short Ruff",
       "aliases": [
