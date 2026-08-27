@@ -224,7 +224,7 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result["library"]["id"], "berlin-brass")
         self.assertIsNone(result["instrument"])
         self.assertEqual(result["articulation"]["id"], "marcato")
-        self.assertIsNone(result["variant"])
+        self.assertEqual(result["variant"]["id"], "long")
 
     def test_synchron_prime_woodwinds_filename(self):
         result = self.resolver.resolve_filename(

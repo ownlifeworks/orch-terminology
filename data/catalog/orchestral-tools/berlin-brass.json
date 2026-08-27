@@ -1,0 +1,201 @@
+[
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-brass",
+    "instrumentId": "trumpet",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["soft", "acc", "bold", "zampano"] },
+      { "articulationId": "marcato", "variantIds": ["long", "short", "zampano"] },
+      { "articulationId": "staccato", "variantIds": ["short", "zampano"] },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "16th-phrase",
+          "16th-continuous",
+          "triplets-phrase",
+          "triplets-continuous"
+        ]
+      },
+      { "articulationId": "fortepiano", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": ["long", "short"] },
+      { "articulationId": "swells", "variantIds": ["long", "short"] },
+      { "articulationId": "trills", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
+      { "articulationId": "legato", "variantIds": ["slurred", "retongued", "zampano"] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-brass",
+    "instrumentId": "trumpet-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["soft", "acc", "bold"] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "16th-phrase",
+          "16th-continuous",
+          "triplets-phrase",
+          "triplets-continuous"
+        ]
+      },
+      { "articulationId": "fortepiano", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": ["long", "short"] },
+      { "articulationId": "swells", "variantIds": ["long", "short"] },
+      { "articulationId": "trills", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
+      { "articulationId": "legato", "variantIds": ["slurred", "retongued"] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-brass",
+    "instrumentId": "horn",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["soft", "acc", "bold"] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "16th-phrase",
+          "16th-continuous",
+          "triplets-phrase",
+          "triplets-continuous"
+        ]
+      },
+      { "articulationId": "fortepiano", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": ["long", "short"] },
+      { "articulationId": "swells", "variantIds": ["long", "short"] },
+      { "articulationId": "trills", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
+      { "articulationId": "legato", "variantIds": ["slurred", "retongued"] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-brass",
+    "instrumentId": "horn-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["soft", "acc", "bold", "bells-up"] },
+      { "articulationId": "marcato", "variantIds": ["long", "short", "bells-up"] },
+      { "articulationId": "staccato", "variantIds": ["short", "bells-up"] },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "16th-phrase",
+          "16th-continuous",
+          "triplets-phrase",
+          "triplets-continuous"
+        ]
+      },
+      { "articulationId": "fortepiano", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": ["long", "short"] },
+      { "articulationId": "swells", "variantIds": ["long", "short"] },
+      { "articulationId": "trills", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
+      { "articulationId": "legato", "variantIds": ["slurred", "retongued"] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-brass",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["soft", "acc", "bold"] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "16th-phrase",
+          "16th-continuous",
+          "triplets-phrase",
+          "triplets-continuous"
+        ]
+      },
+      { "articulationId": "fortepiano", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": ["long", "short"] },
+      { "articulationId": "swells", "variantIds": ["long", "short"] },
+      { "articulationId": "trills", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
+      { "articulationId": "legato", "variantIds": ["slurred", "retongued"] },
+      { "articulationId": "glissando", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-brass",
+    "instrumentId": "trombone-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["soft", "acc"] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "16th-phrase",
+          "16th-continuous",
+          "triplets-phrase",
+          "triplets-continuous"
+        ]
+      },
+      { "articulationId": "fortepiano", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": ["long", "short"] },
+      { "articulationId": "swells", "variantIds": ["long", "short"] },
+      { "articulationId": "legato", "variantIds": ["slurred"] },
+      { "articulationId": "glissando", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-brass",
+    "instrumentId": "bass-trombone",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["soft", "acc", "bold"] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "16th-phrase",
+          "16th-continuous",
+          "triplets-phrase",
+          "triplets-continuous"
+        ]
+      },
+      { "articulationId": "fortepiano", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": ["long", "short"] },
+      { "articulationId": "swells", "variantIds": ["long", "short"] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "glissando", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-brass",
+    "instrumentId": "tuba",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["soft", "acc"] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "16th-phrase",
+          "16th-continuous",
+          "triplets-phrase",
+          "triplets-continuous"
+        ]
+      },
+      { "articulationId": "fortepiano", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": ["long", "short"] },
+      { "articulationId": "swells", "variantIds": ["long", "short"] },
+      { "articulationId": "trills", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
+      { "articulationId": "legato", "variantIds": ["slurred", "retongued"] }
+    ]
+  }
+]
