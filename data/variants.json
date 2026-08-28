@@ -346,10 +346,45 @@
       "name": "Bells Up",
       "aliases": ["belup", "bel-up"]
     },
-	{
+    {
       "id": "extended",
       "name": "Extended",
       "aliases": ["ext"]
+    },
+    {
+      "id": "aah",
+      "name": "Aah",
+      "aliases": ["aah"]
+    },
+    {
+      "id": "ooh",
+      "name": "Ooh",
+      "aliases": ["ooh"]
+    },
+    {
+      "id": "pedal",
+      "name": "Pedal",
+      "aliases": ["pedal"]
+    },
+    {
+      "id": "plucked",
+      "name": "Plucked",
+      "aliases": ["plucked"]
+    },
+    {
+      "id": "slid",
+      "name": "Slid",
+      "aliases": ["slid"]
+    },
+    {
+      "id": "finger",
+      "name": "Finger",
+      "aliases": ["finger"]
+    },
+    {
+      "id": "metal",
+      "name": "Metal",
+      "aliases": ["metal"]
     }
   ]
 }

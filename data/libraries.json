@@ -8,6 +8,12 @@
       "aliases": ["jag", "jaeger"]
     },
     {
+      "id": "nucleus",
+      "name": "Nucleus",
+      "vendorId": "audio-imperia",
+      "aliases": ["nuc", "nucleus"]
+    },
+    {
       "id": "cinebrass-core",
       "name": "CineBrass Core",
       "vendorId": "cinesamples",
@@ -47,7 +53,8 @@
       "name": "Abbey Road Orchestra: Flutes",
       "vendorId": "spitfire-audio",
       "aliases": [
-        "aro-flutes-pro",
+        "arofl",
+		"aro-flutes-pro",
         "abbey-road-orchestra-flutes"
       ]
     },
@@ -56,7 +63,8 @@
       "name": "Abbey Road Orchestra: Clarinets",
       "vendorId": "spitfire-audio",
       "aliases": [
-        "aro-clarinets-pro",
+        "arocl",
+		"aro-clarinets-pro",
         "abbey-road-orchestra-clarinets"
       ]
     },
@@ -65,7 +73,8 @@
       "name": "Abbey Road Orchestra: Oboes",
       "vendorId": "spitfire-audio",
       "aliases": [
-        "aro-oboes-pro",
+        "aroob",
+		"aro-oboes-pro",
         "abbey-road-orchestra-oboes"
       ]
     },
@@ -74,7 +83,8 @@
       "name": "Abbey Road Orchestra: Bassoons",
       "vendorId": "spitfire-audio",
       "aliases": [
-        "aro-bassoons-pro",
+        "arobsn",
+		"aro-bassoons-pro",
         "abbey-road-orchestra-bassoons"
       ]
     },

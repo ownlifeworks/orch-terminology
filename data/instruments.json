@@ -115,6 +115,24 @@
       "iconKey": "hns12.png"
     },
     {
+      "id": "violin",
+      "name": "Violin",
+      "aliases": [
+        "solo-violin",
+        "vln-solo"
+      ],
+      "iconKey": "solvln.png"
+    },
+    {
+      "id": "violins",
+      "name": "Violins",
+      "aliases": [
+        "violins",
+        "vlns"
+      ],
+      "iconKey": "vlnI.png"
+    },
+    {
       "id": "violins-i",
       "name": "Violins I",
       "aliases": [
@@ -141,25 +159,53 @@
       "iconKey": "vlnII.png"
     },
     {
+      "id": "viola",
+      "name": "Viola",
+      "aliases": [
+        "viola",
+        "solo-viola",
+        "vla-solo"
+      ],
+      "iconKey": "solvla.png"
+    },
+    {
       "id": "violas",
       "name": "Violas",
       "aliases": [
-        "viola",
         "vla"
       ],
       "iconKey": "vlas.png"
     },
     {
+      "id": "cello",
+      "name": "Cello",
+      "aliases": [
+        "cello",
+        "solo-cello",
+        "vc-solo"
+      ],
+      "iconKey": "solvlc.png"
+    },
+    {
       "id": "celli",
       "name": "Cellos",
       "aliases": [
-        "cello",
         "celli",
         "cellos",
         "vc",
         "vlc"
       ],
       "iconKey": "vcs.png"
+    },
+    {
+      "id": "doublebass",
+      "name": "Doublebass",
+      "aliases": [
+        "doublebass",
+        "solo-doublebass",
+        "db-solo"
+      ],
+      "iconKey": "soldbs.png"
     },
     {
       "id": "basses",
@@ -681,6 +727,15 @@
       "iconKey": "chimes.png"
     },
     {
+      "id": "mark-tree",
+      "name": "Mark Tree",
+      "aliases": [
+        "mark-tree",
+        "marktree"
+      ],
+      "iconKey": "marktree.png"
+    },
+    {
       "id": "marching-drum-ensemble",
       "name": "Marching Drum Ensemble",
       "aliases": [
@@ -775,6 +830,15 @@
         "taosDrum"
       ],
       "iconKey": "taosdrum.png"
+    },
+    {
+      "id": "drum-kit",
+      "name": "Drum Kit",
+      "aliases": [
+        "drum-kit",
+        "drumkit"
+      ],
+      "iconKey": "drumkit.png"
     },
     {
       "id": "tam-tam",
@@ -981,6 +1045,43 @@
         "bassoons-a2"
       ],
       "iconKey": "bsns2.png"
+    },
+    {
+      "id": "sopranos",
+      "name": "Sopranos",
+      "aliases": [
+        "sopranos",
+        "soprano-choir"
+      ],
+      "iconKey": "sopranos.png"
+    },
+    {
+      "id": "altos",
+      "name": "Altos",
+      "aliases": [
+        "altos",
+        "alto-choir"
+      ],
+      "iconKey": "altos.png"
+    },
+    {
+      "id": "tenors",
+      "name": "Tenors",
+      "aliases": [
+        "tenors",
+        "tenor-choir"
+      ],
+      "iconKey": "tenors.png"
+    },
+    {
+      "id": "basses-voice",
+      "name": "Choir Basses",
+      "aliases": [
+        "basses-voice",
+        "choir-basses",
+        "bass-choir"
+      ],
+      "iconKey": "bassesvoice.png"
     }
   ]
 }

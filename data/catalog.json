@@ -661,6 +661,715 @@
     ]
   },
   {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "altos",
+    "articulations": [
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "aah",
+          "ooh"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "basses-voice",
+    "articulations": [
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "aah",
+          "ooh"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "bassoon",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "bassoons-a2",
+    "articulations": [
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor",
+          "wholetone"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "celeste",
+    "articulations": [
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "pedal"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "cello",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "clarinet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "clarinets-a2",
+    "articulations": [
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor",
+          "wholetone"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "concert-toms",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "high",
+          "low"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "high",
+          "low"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "drum-kit",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "flute",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "flutes-a2",
+    "articulations": [
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor",
+          "wholetone"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "glockenspiel",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "gran-cassas-a2",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "harp",
+    "articulations": [
+      {
+        "articulationId": "flageolet",
+        "variantIds": []
+      },
+      {
+        "articulationId": "natural",
+        "variantIds": [
+          "plucked",
+          "slid"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "horn",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "horns-a6",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "low-brass-ensemble",
+    "articulations": [
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "marimba",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "mark-tree",
+    "articulations": [
+      {
+        "articulationId": "natural",
+        "variantIds": [
+          "finger",
+          "metal"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "oboe",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "oboes-a2",
+    "articulations": [
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor",
+          "wholetone"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "piatti",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "snare-ensemble",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "high",
+          "low"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "high",
+          "low"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "sopranos",
+    "articulations": [
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "aah",
+          "ooh"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "suspended-cymbals",
+    "articulations": [
+      {
+        "articulationId": "bowed",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "damped",
+          "open"
+        ]
+      },
+      {
+        "articulationId": "scraped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "tam-tam",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "tenors",
+    "articulations": [
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "aah",
+          "ooh"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "timpani",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "triangle",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "damped",
+          "open"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "trombone-ensemble",
+    "articulations": [
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "trumpet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "trumpets-a3",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "tubas-a2",
+    "articulations": [
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "tubular-bells",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "violin",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "violins",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "nucleus",
+    "instrumentId": "xylophone",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
     "vendorId": "cinematic-studio-series",
     "libraryId": "cinematic-studio-brass",
     "instrumentId": "bass-trombone",
