@@ -253,7 +253,7 @@
       "aliases": [
         "tub",
         "tba",
-        "bass tuba"
+        "bassTuba"
       ],
       "iconKey": "tba.png"
     },
@@ -618,7 +618,7 @@
       "id": "gran-cassa",
       "name": "Gran Cassa",
       "aliases": [
-        "gran cassa",
+        "granCassa",
         "grancassa"
       ],
       "iconKey": "grancassa.png"
@@ -628,7 +628,7 @@
       "name": "Gran Cassa a2",
       "aliases": [
         "2-gran-cassas",
-        "2 gran cassas",
+        "2GranCassas",
         "gran-cassa-a2",
         "gran-cassas-a2"
       ],
@@ -649,7 +649,7 @@
       "name": "Concert Toms",
       "aliases": [
         "concert-toms",
-        "concert toms",
+        "concertToms",
         "toms"
       ],
       "iconKey": "concerttoms.png"
@@ -718,7 +718,7 @@
       "name": "Snare Ensemble",
       "aliases": [
         "snare-ens",
-        "snare ensemble"
+        "snareEnsemble"
       ],
       "iconKey": "snareens.png"
     },
@@ -744,7 +744,7 @@
       "name": "Sleigh Bells",
       "aliases": [
         "sleigh-bells",
-        "sleigh bells"
+        "sleighBells"
       ],
       "iconKey": "sleighbells.png"
     },
@@ -753,7 +753,7 @@
       "name": "Suspended Cymbals",
       "aliases": [
         "suspended-cymbals",
-        "suspended cymbals",
+        "suspendedCymbals",
         "suspended-cymbal"
       ],
       "iconKey": "suscym.png"
@@ -772,7 +772,7 @@
       "name": "Taos Drum",
       "aliases": [
         "taos-drum",
-        "taos drum"
+        "taosDrum"
       ],
       "iconKey": "taosdrum.png"
     },
@@ -818,7 +818,7 @@
       "name": "Woodblocks",
       "aliases": [
         "woodblocks",
-        "wood blocks"
+        "woodBlocks"
       ],
       "iconKey": "woodblocks.png"
     },
@@ -827,7 +827,7 @@
       "name": "Temple Blocks",
       "aliases": [
         "temple-blocks",
-        "temple blocks"
+        "templeBlocks"
       ],
       "iconKey": "templeblocks.png"
     },

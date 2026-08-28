@@ -4,7 +4,7 @@
     {
       "id": "default",
       "name": "Default",
-      "aliases": ["default", "normal", "regular", "generic"]
+      "aliases": ["def", "normal", "regular", "generic"]
     },
     {
       "id": "alternative",
@@ -19,7 +19,7 @@
     {
       "id": "rapid",
       "name": "Rapid",
-      "aliases": ["rapid", "agile"]
+      "aliases": ["rap", "rapid", "agile"]
     },
     {
       "id": "long",
@@ -59,7 +59,7 @@
     {
       "id": "slurred",
       "name": "Slurred",
-      "aliases": ["slur", "slurred", "legato runs"]
+      "aliases": ["slur", "slurred", "legatoRuns"]
     },
     {
       "id": "retongued",
@@ -84,7 +84,7 @@
     {
       "id": "low-latency",
       "name": "Low Latency",
-      "aliases": ["low latency", "low-latency", "low_latency", "ll"]
+      "aliases": ["lowLat", "lowLatency", "low-latency", "low_latency"]
     },
     {
       "id": "lyrical",
@@ -139,7 +139,7 @@
     {
       "id": "muted",
       "name": "Muted",
-      "aliases": ["muted", "mute", "con sord", "sord"]
+      "aliases": ["muted", "mute", "conSord", "sord"]
     },
 	{
       "id": "hand-muted",
@@ -149,7 +149,7 @@
     {
       "id": "con-sordino",
       "name": "Con Sordino",
-      "aliases": ["cs", "con sordino"]
+      "aliases": ["cs", "conSordino"]
     },
 	{
       "id": "rep-overlay",
@@ -164,32 +164,32 @@
     {
       "id": "senza-sordino",
       "name": "Senza Sordino",
-      "aliases": ["senza sordino", "unmuted", "without mute", "sans sourdine", "ohne dämpfer"]
+      "aliases": ["senzaSordino", "unmuted", "withoutMute", "sansSourdine"]
     },
     {
       "id": "harmon-mute",
       "name": "Harmon Mute",
-      "aliases": ["harmon mute", "harmon-mute", "harmon_mute", "harmon", "hm", "harm mute"]
+      "aliases": ["harmonMute", "harmon-mute", "harmon_mute", "harmon", "hm", "harmMute"]
     },
     {
       "id": "cup-mute",
       "name": "Cup Mute",
-      "aliases": ["cup", "cup mute", "cm"]
+      "aliases": ["cup", "cupMute", "cm"]
     },
     {
       "id": "straight-mute",
       "name": "Straight Mute",
-      "aliases": ["straight", "straight mute", "sm"]
+      "aliases": ["straight", "straightMute", "sm"]
     },
     {
       "id": "bucket-mute",
       "name": "Bucket Mute",
-      "aliases": ["bucket", "bucket mute"]
+      "aliases": ["bucket", "bucketMute"]
     },
     {
       "id": "plunger-mute",
       "name": "Plunger Mute",
-      "aliases": ["plunger", "plunger mute"]
+      "aliases": ["plunger", "plungerMute"]
     },
     {
       "id": "octave",
@@ -209,7 +209,7 @@
     {
       "id": "harmonic-minor",
       "name": "Harmonic Minor",
-      "aliases": ["harmonic minor", "harmonic-minor"]
+      "aliases": ["harmMin", "harmonicMinor", "harmonic-minor"]
     },
     {
       "id": "vibrato",
@@ -219,17 +219,17 @@
     {
       "id": "non-vibrato",
       "name": "Non Vibrato",
-      "aliases": ["non vib", "non-vib", "non vibrato", "non-vibrato", "nv", "senza vib"]
+      "aliases": ["nonVib", "non-vib", "nonVibrato", "non-vibrato", "nv", "senzaVib"]
     },
     {
       "id": "molto-vibrato",
       "name": "Molto Vibrato",
-      "aliases": ["molto vib", "molto vibrato", "mv"]
+      "aliases": ["moltoVib", "moltoVibrato", "mv"]
     },
     {
       "id": "single-string",
       "name": "Single String",
-      "aliases": ["single string", "sul c", "sul g", "sul d", "sul a"]
+      "aliases": ["singleString", "sulC", "sulG", "sulD", "sulA"]
     },
     {
       "id": "portamento",
@@ -259,12 +259,12 @@
     {
       "id": "sul-ponticello",
       "name": "Sul Ponticello",
-      "aliases": ["sulpont", "sul ponticello", "sul-ponticello"]
+      "aliases": ["sulpont", "sulPonticello", "sul-ponticello"]
     },
 	{
       "id": "sul-tasto",
       "name": "Sul Tasto",
-      "aliases": ["sultas", "sul tasto", "sul-tasto"]
+      "aliases": ["sultas", "sulTasto", "sul-tasto"]
     },
     {
       "id": "pentatonic",
@@ -274,7 +274,7 @@
     {
       "id": "wholetone",
       "name": "Wholetone",
-      "aliases": ["wholetone", "whole tone", "whole-tone"]
+      "aliases": ["wholetone", "wholeTone", "whole-tone"]
     },
     {
       "id": "whisper",
@@ -284,22 +284,22 @@
     {
       "id": "16th-phrase",
       "name": "16th Phrase",
-      "aliases": ["16th phrase", "16th-phrase"]
+      "aliases": ["16thPhrase", "16th-phrase"]
     },
     {
       "id": "16th-continuous",
       "name": "16th Continuous",
-      "aliases": ["16th continuous", "16th-continuous", "16th continous"]
+      "aliases": ["16thContinuous", "16th-continuous", "16thContinous"]
     },
     {
       "id": "triplets-phrase",
       "name": "Triplets Phrase",
-      "aliases": ["triplets phrase", "triplets-phrase"]
+      "aliases": ["tripletsPhrase", "triplets-phrase"]
     },
     {
       "id": "triplets-continuous",
       "name": "Triplets Continuous",
-      "aliases": ["triplets continuous", "triplets-continuous", "triplets continous"]
+      "aliases": ["tripletsContinuous", "triplets-continuous", "tripletsContinous"]
     },
 	{
       "id": "flautando",

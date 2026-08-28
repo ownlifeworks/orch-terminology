@@ -4,37 +4,37 @@
     {
       "id": "audio-imperia",
       "name": "Audio Imperia",
-      "aliases": ["audioimperia", "ai"]
+      "aliases": ["ai", "audioimperia"]
     },
     {
       "id": "cinesamples",
       "name": "Cinesamples",
-      "aliases": ["cinesamples"]
+      "aliases": ["cs", "cinesamples"]
     },
     {
       "id": "performance-samples",
       "name": "Performance Samples",
-      "aliases": ["performance-samples", "performancesamples"]
+      "aliases": ["ps", "performance-samples", "performancesamples"]
     },
     {
       "id": "eastwest-sounds",
       "name": "EastWest Sounds",
-      "aliases": ["eastwest", "east-west", "eastwest-sounds", "soundsonline"]
+      "aliases": ["ew", "eastwest", "east-west", "eastwest-sounds", "soundsonline"]
     },
     {
       "id": "spitfire-audio",
       "name": "Spitfire Audio",
-      "aliases": ["spitfire", "spitfireaudio", "sa"]
+      "aliases": ["sa", "spitfire", "spitfireaudio"]
     },
     {
       "id": "cinematic-studio-series",
       "name": "Cinematic Studio Series",
-      "aliases": ["cinematic-studio", "cinematicstudio", "css"]
+      "aliases": ["css", "cinematic-studio", "cinematicstudio"]
     },
     {
       "id": "orchestral-tools",
       "name": "Orchestral Tools",
-      "aliases": ["orchestraltools", "ot"]
+      "aliases": ["ot", "orchestraltools"]
     },
     {
       "id": "vienna-symphonic-library",

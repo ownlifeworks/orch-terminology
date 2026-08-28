@@ -5,20 +5,21 @@
       "id": "jaeger",
       "name": "Jaeger",
       "vendorId": "audio-imperia",
-      "aliases": ["jaeger"]
+      "aliases": ["jag", "jaeger"]
     },
     {
       "id": "cinebrass-core",
       "name": "CineBrass Core",
       "vendorId": "cinesamples",
-      "aliases": ["cinebrass-core", "cinebrasscore"]
+      "aliases": ["cbc", "cinebrass-core", "cinebrasscore"]
     },
     {
       "id": "pacific-ensemble-strings",
       "name": "Pacific - Ensemble Strings",
       "vendorId": "performance-samples",
       "aliases": [
-        "pacific-ensemble-strings",
+        "pacs",
+		"pacific-ensemble-strings",
         "pacific-strings",
         "pacificensemblestrings"
       ]
@@ -28,7 +29,8 @@
       "name": "Hollywood Orchestra Opus Edition",
       "vendorId": "eastwest-sounds",
       "aliases": [
-        "hollywood-orchestra-opus-edition",
+        "hwo",
+		"hollywood-orchestra-opus-edition",
         "hollywood-orchestra-opus",
         "ew-hollywood-orchestra-opus-edition",
         "hollywood-orchestra"
@@ -74,18 +76,18 @@
       "id": "synchron-prime-woodwinds",
       "name": "Synchron Prime Woodwinds",
       "vendorId": "vienna-symphonic-library",
-      "aliases": ["synchron-prime-woodwinds", "prime-woodwinds", "spw"]
+      "aliases": ["spw", "synchron-prime-woodwinds", "prime-woodwinds"]
     },
     {
       "id": "synchron-prime-strings-1",
       "name": "Synchron Prime Strings I",
       "vendorId": "vienna-symphonic-library",
       "aliases": [
-        "synchron-prime-strings-1",
+        "sps1",
+		"synchron-prime-strings-1",
         "synchron-prime-strings-i",
         "prime-strings-1",
-        "prime-strings-i",
-        "sps1"
+        "prime-strings-i"
       ]
     },
     {
@@ -93,36 +95,36 @@
       "name": "Synchron Prime Strings II",
       "vendorId": "vienna-symphonic-library",
       "aliases": [
-        "synchron-prime-strings-2",
+        "sps2",
+		"synchron-prime-strings-2",
         "synchron-prime-strings-ii",
         "prime-strings-2",
-        "prime-strings-ii",
-        "sps2"
+        "prime-strings-ii"
       ]
     },
     {
       "id": "berlin-woodwinds",
       "name": "Berlin Woodwinds",
       "vendorId": "orchestral-tools",
-      "aliases": ["berlin-woodwinds", "bbw"]
+      "aliases": ["bbw", "berlin-woodwinds"]
     },
     {
       "id": "berlin-woodwinds-additional",
       "name": "Berlin Woodwinds Additional Instruments",
       "vendorId": "orchestral-tools",
-      "aliases": ["berlin-woodwinds-additional", "berlin-woodwinds-additional-instruments", "bbw-additional"]
+      "aliases": ["bwAdd", "berlin-woodwinds-additional", "berlin-woodwinds-additional-instruments"]
     },
     {
       "id": "synchron-prime-brass",
       "name": "Synchron Prime Brass",
       "vendorId": "vienna-symphonic-library",
-      "aliases": ["synchron-prime-brass", "prime-brass", "spb"]
+      "aliases": ["spb", "synchron-prime-brass", "prime-brass"]
     },
     {
       "id": "synchron-prime-percussion",
       "name": "Synchron Prime Percussion",
       "vendorId": "vienna-symphonic-library",
-      "aliases": ["synchron-prime-percussion", "prime-percussion", "spp"]
+      "aliases": ["spp", "synchron-prime-percussion", "prime-percussion"]
     }
   ]
 }
