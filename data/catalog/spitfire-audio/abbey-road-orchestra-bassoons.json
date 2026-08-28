@@ -1,0 +1,69 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-bassoons",
+    "instrumentId": "bassoons-a2",
+    "articulations": [
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["lyrical"]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["allegro"]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": ["sforzando"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "multitongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": ["major", "minor"]
+      }
+    ]
+  }
+]

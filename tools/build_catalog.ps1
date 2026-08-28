@@ -18,7 +18,11 @@ if (-not $sourceFiles) {
 
 $index = @{}
 foreach ($file in $sourceFiles) {
-    $payload = Get-Content -Raw -LiteralPath $file.FullName | ConvertFrom-Json
+    $raw = Get-Content -Raw -LiteralPath $file.FullName
+    $payload = $raw | ConvertFrom-Json
+    if ($payload -isnot [System.Collections.IEnumerable] -and $raw.TrimStart().StartsWith("[")) {
+        $payload = @($payload)
+    }
     if ($payload -isnot [System.Collections.IEnumerable]) {
         throw "Catalog source file must contain a JSON array: $($file.FullName)"
     }

@@ -43,6 +43,42 @@
       "aliases": ["bbc", "bbcso", "bbc-symphony-orchestra"]
     },
     {
+      "id": "abbey-road-orchestra-flutes",
+      "name": "Abbey Road Orchestra: Flutes",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "aro-flutes-pro",
+        "abbey-road-orchestra-flutes"
+      ]
+    },
+    {
+      "id": "abbey-road-orchestra-clarinets",
+      "name": "Abbey Road Orchestra: Clarinets",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "aro-clarinets-pro",
+        "abbey-road-orchestra-clarinets"
+      ]
+    },
+    {
+      "id": "abbey-road-orchestra-oboes",
+      "name": "Abbey Road Orchestra: Oboes",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "aro-oboes-pro",
+        "abbey-road-orchestra-oboes"
+      ]
+    },
+    {
+      "id": "abbey-road-orchestra-bassoons",
+      "name": "Abbey Road Orchestra: Bassoons",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "aro-bassoons-pro",
+        "abbey-road-orchestra-bassoons"
+      ]
+    },
+    {
       "id": "cinematic-studio-woodwinds",
       "name": "Cinematic Studio Woodwinds",
       "vendorId": "cinematic-studio-series",

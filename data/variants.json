@@ -62,6 +62,11 @@
       "aliases": ["slur", "slurred", "legatoRuns"]
     },
     {
+      "id": "allegro",
+      "name": "Allegro",
+      "aliases": ["allegro"]
+    },
+    {
       "id": "retongued",
       "name": "Retongued",
       "aliases": ["retongued"]
