@@ -28,6 +28,24 @@ class ResolverTests(unittest.TestCase):
         result = self.resolver.resolve_library("bbc")
         self.assertEqual(result.entity["vendor"]["id"], "spitfire-audio")
 
+    def test_cinebrass_core_library_resolution(self):
+        result = self.resolver.resolve_library("CineBrass Core")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "cinebrass-core")
+        self.assertEqual(result.entity["vendor"]["id"], "cinesamples")
+
+    def test_pacific_ensemble_strings_library_resolution(self):
+        result = self.resolver.resolve_library("Pacific Ensemble Strings")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "pacific-ensemble-strings")
+        self.assertEqual(result.entity["vendor"]["id"], "performance-samples")
+
+    def test_hollywood_orchestra_opus_library_resolution(self):
+        result = self.resolver.resolve_library("Hollywood Orchestra Opus Edition")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "hollywood-orchestra-opus-edition")
+        self.assertEqual(result.entity["vendor"]["id"], "eastwest-sounds")
+
     def test_contextless_alias_is_unresolved(self):
         result = self.resolver.resolve_articulation("cuiv")
         self.assertEqual(result.status, "unresolved")
@@ -264,6 +282,54 @@ class ResolverTests(unittest.TestCase):
         result = self.resolver.resolve_instrument("Woodblocks")
         self.assertEqual(result.status, "resolved")
         self.assertEqual(result.entity["id"], "woodblocks")
+
+        result = self.resolver.resolve_instrument("Marching Drum Ensemble")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "marching-drum-ensemble")
+
+        result = self.resolver.resolve_instrument("Brake Drum")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "brake-drum")
+
+        result = self.resolver.resolve_instrument("Taos Drum")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "taos-drum")
+
+        result = self.resolver.resolve_instrument("Chimes")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "chimes")
+
+        result = self.resolver.resolve_instrument("Sleigh Bells")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "sleigh-bells")
+
+        result = self.resolver.resolve_instrument("Castanets")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "castanets")
+
+        result = self.resolver.resolve_instrument("Temple Blocks")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "temple-blocks")
+
+    def test_tuba_bass_trombone_instrument_resolution(self):
+        result = self.resolver.resolve_instrument("Tuba + Bass Trombone")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "tuba-bass-trombone")
+
+    def test_cimbasso_bass_trombone_instrument_resolution(self):
+        result = self.resolver.resolve_instrument("Cimbasso + Bass Trombone")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "cimbasso-bass-trombone")
+
+    def test_horns_tuba_bass_trombone_instrument_resolution(self):
+        result = self.resolver.resolve_instrument("Horns + Tuba + Bass Trombone")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "horns-tuba-bass-trombone")
+
+    def test_trumpets_trombones_instrument_resolution(self):
+        result = self.resolver.resolve_instrument("Trumpets + Trombones")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "trumpets-trombones")
 
     def test_harmon_mute_variant_filename(self):
         result = self.resolver.resolve_filename(

@@ -194,6 +194,14 @@
       ]
     },
     {
+      "id": "detache",
+      "name": "Detache",
+      "aliases": [
+        "détaché",
+        "detache"
+      ]
+    },
+    {
       "id": "flutter",
       "name": "Flutter",
       "aliases": [
@@ -215,6 +223,13 @@
       "name": "Rips",
       "aliases": [
         "rip"
+      ]
+    },
+    {
+      "id": "ricochet",
+      "name": "Ricochet",
+      "aliases": [
+        "ricochet"
       ]
     },
     {

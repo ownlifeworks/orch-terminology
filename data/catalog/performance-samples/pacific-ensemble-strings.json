@@ -1,0 +1,184 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-ensemble-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["con-sordino", "whisper"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-ensemble-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["con-sordino", "whisper"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-ensemble-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["con-sordino", "whisper"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-ensemble-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["con-sordino", "whisper"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-ensemble-strings",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["con-sordino"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-ensemble-strings",
+    "instrumentId": "harp",
+    "articulations": [
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "natural",
+        "variantIds": []
+      }
+    ]
+  }
+]

@@ -258,6 +258,15 @@
       "iconKey": "tba.png"
     },
     {
+      "id": "tuba-bass-trombone",
+      "name": "Tuba + Bass Trombone",
+      "aliases": [
+        "tuba-and-bass-trombone",
+        "tuba-bass-trombone"
+      ],
+      "iconKey": "tbabtbn.png"
+    },
+    {
       "id": "tubas-a2",
       "name": "Tubas a2",
       "aliases": [
@@ -539,6 +548,15 @@
       "iconKey": "cimbasso.png"
     },
     {
+      "id": "cimbasso-bass-trombone",
+      "name": "Cimbasso + Bass Trombone",
+      "aliases": [
+        "cimbasso-and-bass-trombone",
+        "cimbasso-bass-trombone"
+      ],
+      "iconKey": "cimbassobtbn.png"
+    },
+    {
       "id": "celeste",
       "name": "Celeste",
       "aliases": [
@@ -645,6 +663,33 @@
       "iconKey": "cym.png"
     },
     {
+      "id": "brake-drum",
+      "name": "Brake Drum",
+      "aliases": [
+        "brake-drum",
+        "brakedrum"
+      ],
+      "iconKey": "brakedrum.png"
+    },
+    {
+      "id": "chimes",
+      "name": "Chimes",
+      "aliases": [
+        "orchestral-chimes",
+        "chimes"
+      ],
+      "iconKey": "chimes.png"
+    },
+    {
+      "id": "marching-drum-ensemble",
+      "name": "Marching Drum Ensemble",
+      "aliases": [
+        "marching-drum-ensemble",
+        "marching-drum-ens"
+      ],
+      "iconKey": "marchdrums.png"
+    },
+    {
       "id": "military-drum",
       "name": "Military Drum",
       "aliases": [],
@@ -687,6 +732,23 @@
       "iconKey": "sticks.png"
     },
     {
+      "id": "castanets",
+      "name": "Castanets",
+      "aliases": [
+        "castanets"
+      ],
+      "iconKey": "castanets.png"
+    },
+    {
+      "id": "sleigh-bells",
+      "name": "Sleigh Bells",
+      "aliases": [
+        "sleigh-bells",
+        "sleigh bells"
+      ],
+      "iconKey": "sleighbells.png"
+    },
+    {
       "id": "suspended-cymbals",
       "name": "Suspended Cymbals",
       "aliases": [
@@ -704,6 +766,15 @@
         "odaiko"
       ],
       "iconKey": "taiko.png"
+    },
+    {
+      "id": "taos-drum",
+      "name": "Taos Drum",
+      "aliases": [
+        "taos-drum",
+        "taos drum"
+      ],
+      "iconKey": "taosdrum.png"
     },
     {
       "id": "tam-tam",
@@ -752,6 +823,15 @@
       "iconKey": "woodblocks.png"
     },
     {
+      "id": "temple-blocks",
+      "name": "Temple Blocks",
+      "aliases": [
+        "temple-blocks",
+        "temple blocks"
+      ],
+      "iconKey": "templeblocks.png"
+    },
+    {
       "id": "horn-ensemble",
       "name": "Horn Ensemble",
       "aliases": [
@@ -763,6 +843,15 @@
       "iconKey": "hnens.png"
     },
     {
+      "id": "horns-tuba-bass-trombone",
+      "name": "Horns + Tuba + Bass Trombone",
+      "aliases": [
+        "horns-and-tuba-and-bass-trombone",
+        "horns-tuba-bass-trombone"
+      ],
+      "iconKey": "hnstbabtbn.png"
+    },
+    {
       "id": "trumpet-ensemble",
       "name": "Trumpet Ensemble",
       "aliases": [
@@ -772,6 +861,15 @@
         "tpt-ens"
       ],
       "iconKey": "tptens.png"
+    },
+    {
+      "id": "trumpets-trombones",
+      "name": "Trumpets + Trombones",
+      "aliases": [
+        "trumpets-and-trombones",
+        "trumpets-trombones"
+      ],
+      "iconKey": "tptstbns.png"
     },
     {
       "id": "tin-whistle",

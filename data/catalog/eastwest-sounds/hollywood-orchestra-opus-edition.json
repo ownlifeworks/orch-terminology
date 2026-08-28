@@ -1,0 +1,1562 @@
+[
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "cimbasso",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["short"]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "horn",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "horns-a2",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "horns-a6",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "low-brass-ensemble",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "falls",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato", "vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "trombone-ensemble",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "trumpet",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["expressive", "non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "trumpets-a2",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "trumpets-a3",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "trombones-a2",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rips",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "tuba",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "bass-drum",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "brake-drum",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "castanets",
+    "articulations": [
+      {
+        "articulationId": "castanets",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "chimes",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "concert-toms",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "crotales",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "glockenspiel",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "marching-drum-ensemble",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "snare",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "sleigh-bells",
+    "articulations": [
+      {
+        "articulationId": "shake",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "suspended-cymbals",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "taos-drum",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "tambourine",
+    "articulations": [
+      {
+        "articulationId": "shake",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "temple-blocks",
+    "articulations": [
+      {
+        "articulationId": "woodblock",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "timpani",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "triangle",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "vibraphone",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "woodblocks",
+    "articulations": [
+      {
+        "articulationId": "woodblock",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "xylophone",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "alto-flute",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["expressive", "non-vibrato", "vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "bass-clarinet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["short"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["expressive", "non-vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "bass-flute",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["expressive", "vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "bassoon",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": ["major", "minor", "octave", "wholetone"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["expressive", "non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "bassoons-a3",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato", "vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "clarinet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": ["major", "minor", "octave", "wholetone"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["expressive", "non-vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "clarinets-a3",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "contrabass-clarinet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "contrabassoon",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["short"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["expressive", "non-vibrato", "vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "eb-clarinet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "english-horn",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["short"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["expressive", "non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "flute",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["short"]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": ["major", "minor", "octave", "wholetone"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["expressive", "non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "flutes-a3",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato", "vibrato"]
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "oboe",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["short"]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": ["major", "minor", "octave", "wholetone"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["expressive", "non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "piccolo",
+    "articulations": [
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": ["major", "minor", "octave", "wholetone"]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato", "vibrato"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["portamento", "slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short", "vibrato"]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ricochet",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": ["major", "minor", "octave", "wholetone"]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": ["sul-ponticello"]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["portamento", "slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ricochet",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["portamento", "slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["short"]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ricochet",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": ["major", "minor", "octave", "wholetone"]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["portamento", "slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["short"]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ricochet",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": ["major", "minor", "octave"]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": ["long", "short"]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ricochet",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "eastwest-sounds",
+    "libraryId": "hollywood-orchestra-opus-edition",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": ["slurred"]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": ["non-vibrato"]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  }
+]

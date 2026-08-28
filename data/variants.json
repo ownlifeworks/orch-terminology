@@ -37,6 +37,11 @@
       "aliases": ["bld", "bold"]
     },
     {
+      "id": "brassy",
+      "name": "Brassy",
+      "aliases": ["brassy"]
+    },
+    {
       "id": "pattern",
       "name": "Pattern",
       "aliases": ["ptrn", "pattern"]
@@ -272,6 +277,11 @@
       "aliases": ["wholetone", "whole tone", "whole-tone"]
     },
     {
+      "id": "whisper",
+      "name": "Whisper",
+      "aliases": ["whisper"]
+    },
+    {
       "id": "16th-phrase",
       "name": "16th Phrase",
       "aliases": ["16th phrase", "16th-phrase"]
@@ -301,10 +311,15 @@
       "name": "Zampano",
       "aliases": ["zamp", "zampan"]
     },
-	{
+    {
       "id": "measured",
       "name": "Measured",
       "aliases": ["meas", "mes"]
+    },
+    {
+      "id": "mellow",
+      "name": "Mellow",
+      "aliases": ["mellow"]
     },
 	{
       "id": "choked",

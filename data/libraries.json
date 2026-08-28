@@ -8,6 +8,33 @@
       "aliases": ["jaeger"]
     },
     {
+      "id": "cinebrass-core",
+      "name": "CineBrass Core",
+      "vendorId": "cinesamples",
+      "aliases": ["cinebrass-core", "cinebrasscore"]
+    },
+    {
+      "id": "pacific-ensemble-strings",
+      "name": "Pacific - Ensemble Strings",
+      "vendorId": "performance-samples",
+      "aliases": [
+        "pacific-ensemble-strings",
+        "pacific-strings",
+        "pacificensemblestrings"
+      ]
+    },
+    {
+      "id": "hollywood-orchestra-opus-edition",
+      "name": "Hollywood Orchestra Opus Edition",
+      "vendorId": "eastwest-sounds",
+      "aliases": [
+        "hollywood-orchestra-opus-edition",
+        "hollywood-orchestra-opus",
+        "ew-hollywood-orchestra-opus-edition",
+        "hollywood-orchestra"
+      ]
+    },
+    {
       "id": "bbcso",
       "name": "BBC Symphony Orchestra",
       "vendorId": "spitfire-audio",

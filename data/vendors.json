@@ -7,6 +7,21 @@
       "aliases": ["audioimperia", "ai"]
     },
     {
+      "id": "cinesamples",
+      "name": "Cinesamples",
+      "aliases": ["cinesamples"]
+    },
+    {
+      "id": "performance-samples",
+      "name": "Performance Samples",
+      "aliases": ["performance-samples", "performancesamples"]
+    },
+    {
+      "id": "eastwest-sounds",
+      "name": "EastWest Sounds",
+      "aliases": ["eastwest", "east-west", "eastwest-sounds", "soundsonline"]
+    },
+    {
       "id": "spitfire-audio",
       "name": "Spitfire Audio",
       "aliases": ["spitfire", "spitfireaudio", "sa"]
