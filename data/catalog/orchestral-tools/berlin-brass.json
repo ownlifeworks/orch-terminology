@@ -20,8 +20,8 @@
       { "articulationId": "crescendo", "variantIds": ["long", "short"] },
       { "articulationId": "swells", "variantIds": ["long", "short"] },
       { "articulationId": "trills", "variantIds": [] },
-      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
-      { "articulationId": "legato", "variantIds": ["slurred", "retongued", "zampano"] }
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["zampano"] }
     ]
   },
   {
@@ -45,8 +45,8 @@
       { "articulationId": "crescendo", "variantIds": ["long", "short"] },
       { "articulationId": "swells", "variantIds": ["long", "short"] },
       { "articulationId": "trills", "variantIds": [] },
-      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
-      { "articulationId": "legato", "variantIds": ["slurred", "retongued"] }
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] }
     ]
   },
   {
@@ -70,8 +70,8 @@
       { "articulationId": "crescendo", "variantIds": ["long", "short"] },
       { "articulationId": "swells", "variantIds": ["long", "short"] },
       { "articulationId": "trills", "variantIds": [] },
-      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
-      { "articulationId": "legato", "variantIds": ["slurred", "retongued"] }
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] }
     ]
   },
   {
@@ -95,8 +95,8 @@
       { "articulationId": "crescendo", "variantIds": ["long", "short"] },
       { "articulationId": "swells", "variantIds": ["long", "short"] },
       { "articulationId": "trills", "variantIds": [] },
-      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
-      { "articulationId": "legato", "variantIds": ["slurred", "retongued"] }
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] }
     ]
   },
   {
@@ -120,8 +120,8 @@
       { "articulationId": "crescendo", "variantIds": ["long", "short"] },
       { "articulationId": "swells", "variantIds": ["long", "short"] },
       { "articulationId": "trills", "variantIds": [] },
-      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
-      { "articulationId": "legato", "variantIds": ["slurred", "retongued"] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
       { "articulationId": "glissando", "variantIds": [] }
     ]
   },
@@ -145,7 +145,7 @@
       { "articulationId": "fortepiano", "variantIds": [] },
       { "articulationId": "crescendo", "variantIds": ["long", "short"] },
       { "articulationId": "swells", "variantIds": ["long", "short"] },
-      { "articulationId": "legato", "variantIds": ["slurred"] },
+      { "articulationId": "legato", "variantIds": [] },
       { "articulationId": "glissando", "variantIds": [] }
     ]
   },
@@ -194,8 +194,8 @@
       { "articulationId": "crescendo", "variantIds": ["long", "short"] },
       { "articulationId": "swells", "variantIds": ["long", "short"] },
       { "articulationId": "trills", "variantIds": [] },
-      { "articulationId": "runs", "variantIds": ["playable", "slurred", "retongued"] },
-      { "articulationId": "legato", "variantIds": ["slurred", "retongued"] }
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] }
     ]
   }
 ]

@@ -33,7 +33,7 @@
       },
       {
         "articulationId": "performance",
-        "variantIds": ["non-vibrato", "performance", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "portato",
@@ -49,7 +49,7 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
@@ -72,11 +72,11 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "performance",
-        "variantIds": ["non-vibrato", "performance", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "portato",
@@ -92,7 +92,7 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
@@ -107,7 +107,7 @@
     "articulations": [
       {
         "articulationId": "performance",
-        "variantIds": ["performance"]
+        "variantIds": []
       },
       {
         "articulationId": "staccatissimo",
@@ -126,39 +126,39 @@
     "articulations": [
       {
         "articulationId": "bartok",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "col-legno",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "legato",
-        "variantIds": ["non-vibrato", "octave", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "performance",
-        "variantIds": ["non-vibrato", "octave", "performance", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "portato",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "spiccato",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "sustains",
-        "variantIds": ["non-vibrato", "octave", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
-        "variantIds": ["octave"]
+        "variantIds": []
       }
     ]
   },
@@ -211,7 +211,7 @@
       },
       {
         "articulationId": "performance",
-        "variantIds": ["performance"]
+        "variantIds": []
       },
       {
         "articulationId": "portato",
@@ -249,27 +249,27 @@
     "articulations": [
       {
         "articulationId": "legato",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "performance",
-        "variantIds": ["octave", "performance"]
+        "variantIds": []
       },
       {
         "articulationId": "portato",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "staccatissimo",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "sustains",
-        "variantIds": ["octave"]
+        "variantIds": []
       }
     ]
   },
@@ -280,35 +280,35 @@
     "articulations": [
       {
         "articulationId": "bartok",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "col-legno",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "performance",
-        "variantIds": ["non-vibrato", "octave", "performance", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "portato",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "spiccato",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "staccato",
-        "variantIds": ["octave"]
+        "variantIds": []
       },
       {
         "articulationId": "sustains",
-        "variantIds": ["non-vibrato", "octave", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
-        "variantIds": ["octave"]
+        "variantIds": []
       }
     ]
   },
@@ -319,7 +319,7 @@
     "articulations": [
       {
         "articulationId": "performance",
-        "variantIds": ["performance"]
+        "variantIds": []
       },
       {
         "articulationId": "staccatissimo",
@@ -407,7 +407,7 @@
       },
       {
         "articulationId": "performance",
-        "variantIds": ["non-vibrato", "performance", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "portato",
@@ -423,7 +423,7 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
@@ -499,7 +499,7 @@
     "articulations": [
       {
         "articulationId": "performance",
-        "variantIds": ["performance"]
+        "variantIds": []
       },
       {
         "articulationId": "portato",
@@ -530,7 +530,7 @@
       },
       {
         "articulationId": "performance",
-        "variantIds": ["performance"]
+        "variantIds": []
       },
       {
         "articulationId": "portato",
@@ -557,7 +557,7 @@
     "articulations": [
       {
         "articulationId": "performance",
-        "variantIds": ["performance"]
+        "variantIds": []
       },
       {
         "articulationId": "staccatissimo",
@@ -588,11 +588,11 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "performance",
-        "variantIds": ["non-vibrato", "performance", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "portato",
@@ -608,7 +608,7 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
@@ -631,11 +631,11 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "performance",
-        "variantIds": ["non-vibrato", "performance", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "portato",
@@ -651,7 +651,7 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": ["non-vibrato", "vibrato"]
+        "variantIds": []
       },
       {
         "articulationId": "tremolo",
