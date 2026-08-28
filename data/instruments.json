@@ -1048,7 +1048,7 @@
     },
     {
       "id": "sopranos",
-      "name": "Sopranos",
+      "name": "Choir Sopranos",
       "aliases": [
         "sopranos",
         "soprano-choir"
@@ -1057,7 +1057,7 @@
     },
     {
       "id": "altos",
-      "name": "Altos",
+      "name": "Choir Altos",
       "aliases": [
         "altos",
         "alto-choir"
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "tenors",
-      "name": "Tenors",
+      "name": "Choir Tenors",
       "aliases": [
         "tenors",
         "tenor-choir"
