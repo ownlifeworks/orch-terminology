@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OwnLife Audio Instrument Properties",
+  "type": "object",
+  "required": ["schemaVersion", "loudnessReference", "instruments"],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "loudnessReference": {
+      "type": "object",
+      "required": ["version", "unit", "dynamicAnchors"],
+      "properties": {
+        "version": {
+          "const": 1
+        },
+        "unit": {
+          "const": "LUFS"
+        },
+        "dynamicAnchors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["pp", "mf", "fff"]
+          },
+          "minItems": 3,
+          "maxItems": 3,
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "instruments": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["pitch", "loudness"],
+        "properties": {
+          "pitch": {
+            "type": "object",
+            "required": ["range", "measurementRange"],
+            "properties": {
+              "range": {
+                "$ref": "#/$defs/midiRange"
+              },
+              "measurementRange": {
+                "$ref": "#/$defs/midiRange"
+              }
+            },
+            "additionalProperties": false
+          },
+          "loudness": {
+            "type": "object",
+            "required": ["long", "short"],
+            "properties": {
+              "long": {
+                "$ref": "#/$defs/loudnessTargets"
+              },
+              "short": {
+                "$ref": "#/$defs/loudnessTargets"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "midiRange": {
+      "type": "object",
+      "required": ["min", "max"],
+      "properties": {
+        "min": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 127
+        },
+        "max": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 127
+        }
+      },
+      "additionalProperties": false
+    },
+    "loudnessTargets": {
+      "type": "object",
+      "required": ["pp", "mf", "fff"],
+      "properties": {
+        "pp": {
+          "type": "number"
+        },
+        "mf": {
+          "type": "number"
+        },
+        "fff": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

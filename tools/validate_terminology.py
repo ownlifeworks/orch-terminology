@@ -20,6 +20,8 @@ PLURALS = {
     "articulation": "articulations",
     "variant": "variants",
 }
+LOUDNESS_CAPTURE_KINDS = ("long", "short")
+EXPECTED_DYNAMIC_ANCHORS = ("pp", "mf", "fff")
 
 
 def normalized(value: str) -> str:
@@ -28,6 +30,100 @@ def normalized(value: str) -> str:
 
 def load(name: str) -> dict:
     return json.loads((DATA / name).read_text(encoding="utf-8"))
+
+
+def validate_midi_range(value: object, prefix: str, errors: list[str]) -> None:
+    if not isinstance(value, dict):
+        errors.append(f"{prefix}: expected an object")
+        return
+
+    minimum = value.get("min")
+    maximum = value.get("max")
+
+    if not isinstance(minimum, int) or not isinstance(maximum, int):
+        errors.append(f"{prefix}: min and max must be integers")
+        return
+
+    if minimum < 0 or minimum > 127 or maximum < 0 or maximum > 127:
+        errors.append(f"{prefix}: min and max must be within MIDI note range 0-127")
+        return
+
+    if minimum > maximum:
+        errors.append(f"{prefix}: min must not exceed max")
+
+
+def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
+    errors: list[str] = []
+    document = load("instrument-properties.json")
+
+    if document.get("schemaVersion") != 1:
+        errors.append("instrument-properties: schemaVersion must be 1")
+
+    loudness_reference = document.get("loudnessReference")
+    if not isinstance(loudness_reference, dict):
+        errors.append("instrument-properties: loudnessReference is required")
+    else:
+        if loudness_reference.get("version") != 1:
+            errors.append("instrument-properties: loudnessReference.version must be 1")
+        if loudness_reference.get("unit") != "LUFS":
+            errors.append("instrument-properties: loudnessReference.unit must be LUFS")
+        if loudness_reference.get("dynamicAnchors") != list(EXPECTED_DYNAMIC_ANCHORS):
+            errors.append("instrument-properties: dynamicAnchors must be ['pp', 'mf', 'fff']")
+
+    instruments = document.get("instruments")
+    if not isinstance(instruments, dict):
+        errors.append("instrument-properties: instruments must be an object keyed by instrument id")
+        return errors
+
+    for instrument_id, properties in instruments.items():
+        prefix = f"instrument-properties[{instrument_id}]"
+
+        if instrument_id not in instrument_ids:
+            errors.append(f"{prefix}: unknown instrument id")
+            continue
+
+        if not isinstance(properties, dict):
+            errors.append(f"{prefix}: expected an object")
+            continue
+
+        pitch = properties.get("pitch")
+        if not isinstance(pitch, dict):
+            errors.append(f"{prefix}.pitch: expected an object")
+        else:
+            validate_midi_range(pitch.get("range"), f"{prefix}.pitch.range", errors)
+            validate_midi_range(pitch.get("measurementRange"), f"{prefix}.pitch.measurementRange", errors)
+
+            full_range = pitch.get("range")
+            measurement_range = pitch.get("measurementRange")
+            if isinstance(full_range, dict) and isinstance(measurement_range, dict):
+                full_min = full_range.get("min")
+                full_max = full_range.get("max")
+                measurement_min = measurement_range.get("min")
+                measurement_max = measurement_range.get("max")
+
+                if all(isinstance(value, int) for value in (full_min, full_max, measurement_min, measurement_max)):
+                    if measurement_min < full_min or measurement_max > full_max:
+                        errors.append(f"{prefix}.pitch.measurementRange: must be contained within pitch.range")
+
+        loudness = properties.get("loudness")
+        if not isinstance(loudness, dict):
+            errors.append(f"{prefix}.loudness: expected an object")
+            continue
+
+        for capture_kind in LOUDNESS_CAPTURE_KINDS:
+            targets = loudness.get(capture_kind)
+            if not isinstance(targets, dict):
+                errors.append(f"{prefix}.loudness.{capture_kind}: expected an object")
+                continue
+
+            if set(targets.keys()) != set(EXPECTED_DYNAMIC_ANCHORS):
+                errors.append(f"{prefix}.loudness.{capture_kind}: keys must be pp, mf, fff")
+
+            for anchor in EXPECTED_DYNAMIC_ANCHORS:
+                if not isinstance(targets.get(anchor), (int, float)):
+                    errors.append(f"{prefix}.loudness.{capture_kind}.{anchor}: must be numeric")
+
+    return errors
 
 
 def validate() -> list[str]:
@@ -74,6 +170,7 @@ def validate() -> list[str]:
             for entity_id in library.get(f"{kind}Ids", []):
                 if entity_id not in entity_ids[kind]:
                     errors.append(f"library[{index}]: unknown {kind}Id {entity_id}")
+    errors.extend(validate_instrument_properties(entity_ids["instrument"]))
     errors.extend(validate_catalog_document(DATA))
     return errors
 

@@ -31,6 +31,7 @@ SOURCE_FILES = [
     "vendors.json",
     "libraries.json",
     "instruments.json",
+    "instrument-properties.json",
     "articulations.json",
     "variants.json",
     "catalog.json",
@@ -43,6 +44,8 @@ class BuildReport:
     vendors: int
     libraries: int
     instruments: int
+    instrument_properties: int
+    instrument_loudness_targets: int
     articulations: int
     variants: int
     catalog_entries: int
@@ -178,6 +181,7 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
         for kind, filename in DATA_FILENAMES.items()
     }
     schema_version_doc = load_json(data_dir / "schema-version.json")
+    instrument_properties_doc = load_json(data_dir / "instrument-properties.json")
     catalog = load_json(data_dir / "catalog.json")
 
     vendors = index_entities(documents["vendor"], "vendors")
@@ -191,6 +195,13 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
 
     normalized_catalog = normalize_catalog(catalog)
     validate_sources(vendors, libraries, instruments, articulations, variants, normalized_catalog)
+
+    loudness_reference = instrument_properties_doc.get("loudnessReference", {})
+    instrument_properties = instrument_properties_doc.get("instruments", {})
+    if not isinstance(loudness_reference, dict):
+        raise ValueError("instrument-properties.json: loudnessReference must be an object")
+    if not isinstance(instrument_properties, dict):
+        raise ValueError("instrument-properties.json: instruments must be an object")
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     if output_path.exists():
@@ -243,6 +254,35 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
                 alias TEXT NOT NULL,
                 PRIMARY KEY (instrument_id, alias),
                 FOREIGN KEY (instrument_id) REFERENCES instruments(id)
+            );
+
+            CREATE TABLE loudness_reference_info (
+                version INTEGER NOT NULL,
+                unit TEXT NOT NULL
+            );
+
+            CREATE TABLE loudness_reference_dynamic_anchors (
+                anchor TEXT PRIMARY KEY,
+                sort_order INTEGER NOT NULL UNIQUE
+            );
+
+            CREATE TABLE instrument_properties (
+                instrument_id TEXT PRIMARY KEY,
+                range_min INTEGER NOT NULL,
+                range_max INTEGER NOT NULL,
+                measurement_range_min INTEGER NOT NULL,
+                measurement_range_max INTEGER NOT NULL,
+                FOREIGN KEY (instrument_id) REFERENCES instruments(id)
+            );
+
+            CREATE TABLE instrument_loudness_targets (
+                instrument_id TEXT NOT NULL,
+                capture_kind TEXT NOT NULL,
+                dynamic_anchor TEXT NOT NULL,
+                lufs REAL NOT NULL,
+                PRIMARY KEY (instrument_id, capture_kind, dynamic_anchor),
+                FOREIGN KEY (instrument_id) REFERENCES instruments(id),
+                FOREIGN KEY (dynamic_anchor) REFERENCES loudness_reference_dynamic_anchors(anchor)
             );
 
             CREATE TABLE articulations (
@@ -303,6 +343,7 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
             CREATE INDEX idx_catalog_instrument ON catalog_entries(instrument_id);
             CREATE INDEX idx_catalog_articulation ON catalog_articulations(articulation_id);
             CREATE INDEX idx_catalog_variant ON catalog_variants(variant_id);
+            CREATE INDEX idx_instrument_loudness_targets_instrument ON instrument_loudness_targets(instrument_id);
             """
         )
 
@@ -342,6 +383,73 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
         insert_entities("vendors", vendors)
         insert_entities("libraries", libraries)
         insert_entities("instruments", instruments)
+        dynamic_anchors = loudness_reference.get("dynamicAnchors", [])
+        if not isinstance(dynamic_anchors, list):
+            raise ValueError("instrument-properties.json: loudnessReference.dynamicAnchors must be an array")
+        connection.execute(
+            "INSERT INTO loudness_reference_info (version, unit) VALUES (?, ?)",
+            (int(loudness_reference.get("version", 0)), str(loudness_reference.get("unit", ""))),
+        )
+        for sort_order, anchor in enumerate(dynamic_anchors):
+            if not isinstance(anchor, str):
+                raise ValueError("instrument-properties.json: dynamic anchors must be strings")
+            connection.execute(
+                "INSERT INTO loudness_reference_dynamic_anchors (anchor, sort_order) VALUES (?, ?)",
+                (anchor, sort_order),
+            )
+        for instrument_id in sorted(instrument_properties):
+            properties = instrument_properties[instrument_id]
+            if instrument_id not in instruments:
+                raise ValueError(f"instrument-properties.json references unknown instrument id: {instrument_id}")
+            if not isinstance(properties, dict):
+                raise ValueError(f"instrument-properties.json: {instrument_id} must be an object")
+
+            pitch = properties.get("pitch", {})
+            full_range = pitch.get("range", {}) if isinstance(pitch, dict) else {}
+            measurement_range = pitch.get("measurementRange", {}) if isinstance(pitch, dict) else {}
+            if not isinstance(full_range, dict) or not isinstance(measurement_range, dict):
+                raise ValueError(f"instrument-properties.json: {instrument_id}.pitch ranges must be objects")
+
+            connection.execute(
+                """
+                INSERT INTO instrument_properties (
+                    instrument_id,
+                    range_min,
+                    range_max,
+                    measurement_range_min,
+                    measurement_range_max
+                ) VALUES (?, ?, ?, ?, ?)
+                """,
+                (
+                    instrument_id,
+                    int(full_range["min"]),
+                    int(full_range["max"]),
+                    int(measurement_range["min"]),
+                    int(measurement_range["max"]),
+                ),
+            )
+
+            loudness = properties.get("loudness", {})
+            if not isinstance(loudness, dict):
+                raise ValueError(f"instrument-properties.json: {instrument_id}.loudness must be an object")
+            for capture_kind in ("long", "short"):
+                targets = loudness.get(capture_kind)
+                if not isinstance(targets, dict):
+                    raise ValueError(f"instrument-properties.json: {instrument_id}.loudness.{capture_kind} must be an object")
+                for anchor in dynamic_anchors:
+                    if anchor not in targets:
+                        raise ValueError(f"instrument-properties.json: {instrument_id}.loudness.{capture_kind} missing {anchor}")
+                    connection.execute(
+                        """
+                        INSERT INTO instrument_loudness_targets (
+                            instrument_id,
+                            capture_kind,
+                            dynamic_anchor,
+                            lufs
+                        ) VALUES (?, ?, ?, ?)
+                        """,
+                        (instrument_id, capture_kind, anchor, float(targets[anchor])),
+                    )
         insert_entities("articulations", articulations)
         insert_entities("variants", variants)
 
@@ -390,6 +498,8 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
             vendors=connection.execute("SELECT COUNT(*) FROM vendors").fetchone()[0],
             libraries=connection.execute("SELECT COUNT(*) FROM libraries").fetchone()[0],
             instruments=connection.execute("SELECT COUNT(*) FROM instruments").fetchone()[0],
+            instrument_properties=connection.execute("SELECT COUNT(*) FROM instrument_properties").fetchone()[0],
+            instrument_loudness_targets=connection.execute("SELECT COUNT(*) FROM instrument_loudness_targets").fetchone()[0],
             articulations=connection.execute("SELECT COUNT(*) FROM articulations").fetchone()[0],
             variants=connection.execute("SELECT COUNT(*) FROM variants").fetchone()[0],
             catalog_entries=connection.execute("SELECT COUNT(*) FROM catalog_entries").fetchone()[0],
@@ -429,6 +539,8 @@ def main(argv: list[str]) -> int:
     print(f"Vendors: {report.vendors}")
     print(f"Libraries: {report.libraries}")
     print(f"Instruments: {report.instruments}")
+    print(f"Instrument properties: {report.instrument_properties}")
+    print(f"Instrument loudness targets: {report.instrument_loudness_targets}")
     print(f"Articulations: {report.articulations}")
     print(f"Variants: {report.variants}")
     print(f"Catalog entries: {report.catalog_entries}")

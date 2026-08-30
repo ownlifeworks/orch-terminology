@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "loudnessReference": {
+    "version": 1,
+    "unit": "LUFS",
+    "dynamicAnchors": ["pp", "mf", "fff"]
+  },
+  "instruments": {
+    "trumpet": {
+      "pitch": {
+        "range": {
+          "min": 54,
+          "max": 82
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "pp": -40.0,
+          "mf": -31.0,
+          "fff": -22.0
+        },
+        "short": {
+          "pp": -38.0,
+          "mf": -29.0,
+          "fff": -20.0
+        }
+      }
+    }
+  }
+}
