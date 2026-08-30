@@ -16,6 +16,7 @@ class InstrumentPropertiesTests(unittest.TestCase):
         cls.repo_root = Path(__file__).parents[1]
         cls.data_dir = cls.repo_root / "data"
         instruments_doc = json.loads((cls.data_dir / "instruments.json").read_text(encoding="utf-8"))
+        cls.instrument_properties_doc = json.loads((cls.data_dir / "instrument-properties.json").read_text(encoding="utf-8"))
         cls.instrument_ids = {entry["id"] for entry in instruments_doc["instruments"]}
 
     def test_repository_instrument_properties_validate(self):
@@ -43,11 +44,15 @@ class InstrumentPropertiesTests(unittest.TestCase):
             output_path = Path(tmp) / "orch.db"
             report = build_database(self.data_dir, output_path)
 
-            self.assertEqual(report.instrument_properties, 1)
-            self.assertEqual(report.instrument_loudness_targets, 6)
+            instrument_properties = self.instrument_properties_doc["instruments"]
+            dynamic_anchors = self.instrument_properties_doc["loudnessReference"]["dynamicAnchors"]
+
+            self.assertEqual(report.instrument_properties, len(instrument_properties))
+            self.assertEqual(report.instrument_loudness_targets, len(instrument_properties) * 2 * len(dynamic_anchors))
 
             connection = sqlite3.connect(output_path)
             try:
+                trumpet_properties = instrument_properties["trumpet"]
                 row = connection.execute(
                     """
                     SELECT range_min, range_max, measurement_range_min, measurement_range_max
@@ -56,7 +61,15 @@ class InstrumentPropertiesTests(unittest.TestCase):
                     """,
                     ("trumpet",),
                 ).fetchone()
-                self.assertEqual(row, (54, 82, 60, 72))
+                self.assertEqual(
+                    row,
+                    (
+                        trumpet_properties["pitch"]["range"]["min"],
+                        trumpet_properties["pitch"]["range"]["max"],
+                        trumpet_properties["pitch"]["measurementRange"]["min"],
+                        trumpet_properties["pitch"]["measurementRange"]["max"],
+                    ),
+                )
 
                 targets = connection.execute(
                     """
@@ -67,16 +80,14 @@ class InstrumentPropertiesTests(unittest.TestCase):
                     """,
                     ("trumpet",),
                 ).fetchall()
+                expected_targets = [
+                    (capture_kind, dynamic_anchor, float(trumpet_properties["loudness"][capture_kind][dynamic_anchor]))
+                    for capture_kind in ("long", "short")
+                    for dynamic_anchor in sorted(dynamic_anchors)
+                ]
                 self.assertEqual(
                     targets,
-                    [
-                        ("long", "fff", -22.0),
-                        ("long", "mf", -31.0),
-                        ("long", "pp", -40.0),
-                        ("short", "fff", -20.0),
-                        ("short", "mf", -29.0),
-                        ("short", "pp", -38.0),
-                    ],
+                    expected_targets,
                 )
             finally:
                 connection.close()

@@ -12,6 +12,16 @@
       "iconKey": "tpt.png"
     },
     {
+      "id": "piccolo-trumpet",
+      "name": "Piccolo Trumpet",
+      "aliases": [
+        "picc-trumpet",
+        "picc-tpt",
+        "piccolo-tpt"
+      ],
+      "iconKey": "tpt.png"
+    },
+    {
       "id": "trumpets-a3",
       "name": "Trumpets a3",
       "aliases": [
