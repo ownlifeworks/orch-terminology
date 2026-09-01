@@ -519,6 +519,54 @@
         }
       }
     },
+	"horns-a8": {
+      "pitch": {
+        "range": {
+          "min": 35,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 52,
+          "max": 64
+        }
+      },
+      "loudness": {
+        "long": {
+          "soft": -26.5,
+          "medium": -20.3,
+          "full": -13.1
+        },
+        "short": {
+          "soft": -43.4,
+          "medium": -38.2,
+          "full": -18.5
+        }
+      }
+    },
+	"horns-a12": {
+      "pitch": {
+        "range": {
+          "min": 35,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 52,
+          "max": 64
+        }
+      },
+      "loudness": {
+        "long": {
+          "soft": -28.1,
+          "medium": -19.1,
+          "full": -11.3
+        },
+        "short": {
+          "soft": -43.1,
+          "medium": -37.4,
+          "full": -18.3
+        }
+      }
+    },
     "tenor-trombone": {
       "pitch": {
         "range": {
@@ -532,14 +580,14 @@
       },
       "loudness": {
         "long": {
-          "soft": -39.0,
-          "medium": -29.0,
-          "full": -22.0
+          "soft": -37.8,
+          "medium": -29.3,
+          "full": -22.4
         },
         "short": {
-          "soft": -37.0,
-          "medium": -27.0,
-          "full": -20.0
+          "soft": -45.4,
+          "medium": -39.7,
+          "full": -29.9
         }
       }
     },
@@ -556,14 +604,14 @@
       },
       "loudness": {
         "long": {
-          "soft": -39.0,
-          "medium": -29.0,
-          "full": -21.0
+          "soft": -37.2,
+          "medium": -27.7,
+          "full": -16.3
         },
         "short": {
-          "soft": -37.0,
-          "medium": -27.0,
-          "full": -19.0
+          "soft": -42.3,
+          "medium": -36.8,
+          "full": -26.3
         }
       }
     },
