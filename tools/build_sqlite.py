@@ -515,7 +515,7 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
 def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build orch-terminology.db from canonical JSON.")
     parser.add_argument("--data-dir", type=Path, default=ROOT / "data")
-    parser.add_argument("--output", type=Path, default=ROOT / "dist" / "orch-terminology.db")
+    parser.add_argument("--output", type=Path, default=ROOT / "dist" / "orch.db")
     return parser.parse_args(argv)
 
 

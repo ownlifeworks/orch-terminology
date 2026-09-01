@@ -7,6 +7,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
+ICONS = ROOT / "assets" / "instrument-icons"
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
@@ -21,7 +22,7 @@ PLURALS = {
     "variant": "variants",
 }
 LOUDNESS_CAPTURE_KINDS = ("long", "short")
-EXPECTED_DYNAMIC_ANCHORS = ("pp", "mf", "fff")
+EXPECTED_DYNAMIC_ANCHORS = ("soft", "medium", "full")
 
 
 def normalized(value: str) -> str:
@@ -68,7 +69,7 @@ def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
         if loudness_reference.get("unit") != "LUFS":
             errors.append("instrument-properties: loudnessReference.unit must be LUFS")
         if loudness_reference.get("dynamicAnchors") != list(EXPECTED_DYNAMIC_ANCHORS):
-            errors.append("instrument-properties: dynamicAnchors must be ['pp', 'mf', 'fff']")
+            errors.append("instrument-properties: dynamicAnchors must be ['soft', 'medium', 'full']")
 
     instruments = document.get("instruments")
     if not isinstance(instruments, dict):
@@ -117,11 +118,37 @@ def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
                 continue
 
             if set(targets.keys()) != set(EXPECTED_DYNAMIC_ANCHORS):
-                errors.append(f"{prefix}.loudness.{capture_kind}: keys must be pp, mf, fff")
+                errors.append(f"{prefix}.loudness.{capture_kind}: keys must be soft, medium, full")
 
             for anchor in EXPECTED_DYNAMIC_ANCHORS:
                 if not isinstance(targets.get(anchor), (int, float)):
                     errors.append(f"{prefix}.loudness.{capture_kind}.{anchor}: must be numeric")
+
+    return errors
+
+
+def validate_instrument_icon_assets(
+    instruments: list[dict],
+    icons_dir: Path | None = None,
+) -> list[str]:
+    errors: list[str] = []
+    icon_root = icons_dir or ICONS
+
+    if not icon_root.exists():
+        return [f"instrument-icons: directory not found: {icon_root}"]
+    if not icon_root.is_dir():
+        return [f"instrument-icons: expected a directory: {icon_root}"]
+    if not (icon_root / "default.png").is_file():
+        errors.append("instrument-icons: default.png is required")
+
+    available_icons = {path.name for path in icon_root.glob("*.png") if path.is_file()}
+    for index, instrument in enumerate(instruments):
+        icon_key = instrument.get("iconKey")
+        instrument_id = instrument.get("id", f"instrument[{index}]")
+        if not isinstance(icon_key, str) or not icon_key:
+            continue
+        if icon_key not in available_icons:
+            errors.append(f"instrument-icons: missing {icon_key} for instrument {instrument_id}")
 
     return errors
 
@@ -158,6 +185,8 @@ def validate() -> list[str]:
                     errors.append(f"{kind}: alias collision for {key}: {aliases[key]} and {entity_id}")
                 else:
                     aliases[key] = entity_id
+
+    errors.extend(validate_instrument_icon_assets(entities["instrument"]))
 
     vendor_ids = {item.get("id") for item in entities["vendor"]}
     for index, library in enumerate(entities["library"]):

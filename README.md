@@ -4,18 +4,19 @@ Canonical terminology data and deterministic alias-resolution support shared by 
 
 ## Status
 
-The first implementation slice is available: canonical seed data, JSON schemas, a deterministic Python resolver, and a validation tool. Consumer integrations and generated artifacts remain future work.
+The first implementation slice is available: canonical seed data, JSON schemas, a deterministic Python resolver, validation tooling, and a generated distribution/sync pipeline for runtime consumers.
 
 ## Repository layout
 
 - `data/` — authoritative terminology JSON files, including the generated `catalog.json`
 - `data/instrument-properties.json` — canonical per-instrument pitch and loudness-reference properties for `orch.db` consumers such as SymphonicBalance
 - `data/catalog/` — per-library catalog source files that are combined into `catalog.json`
+- `assets/instrument-icons/` — canonical instrument icon PNGs keyed by `iconKey` from `data/instruments.json`
 - `schema/` — JSON Schema definitions
 - `tests/` — resolver and validation fixtures
 - `tools/` — validation and generation tooling
 
-Applications such as NTD Engine and NTD Detector must consume this repository's data rather than maintaining independent terminology sources. Applications that need canonical instrument pitch or loudness-reference metadata, such as SymphonicBalance, must consume the generated `orch.db` representation of `instrument-properties.json` rather than creating an independent authority.
+Applications such as NTD Engine and NTD Detector must consume this repository's data rather than maintaining independent terminology sources. Applications that need canonical instrument pitch or loudness-reference metadata, such as SymphonicBalance, must consume the generated `orch.db` representation of `instrument-properties.json` rather than creating an independent authority. Instrument icon PNGs are also canonical here under `assets/instrument-icons/`; NtdEngine currently consumes that icon set at runtime, while other consumers should mirror it only if they actually render instrument icons.
 
 ```mermaid
 flowchart TD
@@ -23,6 +24,7 @@ flowchart TD
         Vendors["data/vendors.json"]
         Libraries["data/libraries.json"]
         Instruments["data/instruments.json"]
+        InstrumentIcons["assets/instrument-icons/*.png"]
         InstrumentProps["data/instrument-properties.json"]
         Articulations["data/articulations.json"]
         Variants["data/variants.json"]
@@ -46,6 +48,7 @@ flowchart TD
     Vendors --> Validate
     Libraries --> Validate
     Instruments --> Validate
+    InstrumentIcons --> Validate
     InstrumentProps --> Validate
     Articulations --> Validate
     Variants --> Validate
@@ -64,6 +67,9 @@ flowchart TD
     Aggregate --> Website
     Aggregate --> Detector
     Aggregate --> Engine
+    InstrumentIcons --> Detector
+    InstrumentIcons --> Engine
+    InstrumentIcons --> SymphonicBalance
     InstrumentProps --> SymphonicBalance
     Aggregate --> SymphonicBalance
     Vendors --> Website
@@ -75,21 +81,20 @@ flowchart TD
 
 ## Editing terminology data
 
-Edit the canonical JSON files in `data/`. The copies in consuming applications, such as `OwnLifeAudioWebsite/src/data/terminology/`, are mirrors and can be overwritten during synchronization.
+Edit the canonical JSON files in `data/` and the canonical instrument PNGs in `assets/instrument-icons/`. The copies in consuming applications are mirrors and can be overwritten during synchronization when those consumers actually need the icon assets.
 
 For catalog relationships, edit the per-library source files in `data/catalog/` and then run `pwsh -File tools/build_catalog.ps1` to regenerate the aggregate `data/catalog.json`.
 
-Keep entity IDs stable because libraries and `contexts.json` reference them directly. Aliases/abbreviations must never contain whitespace; use hyphens instead. Alias order matters: the first alias is used as the default abbreviation in the website's clipboard string. Avoid alias collisions within a category, preserve `schemaVersion: 1`, and keep every instrument's `iconKey` unique. When changing an ID, update all references in `libraries.json` and `contexts.json`.
+Keep entity IDs stable because libraries and `contexts.json` reference them directly. Aliases/abbreviations must never contain whitespace; use hyphens instead. Alias order matters: the first alias is used as the default abbreviation in the website's clipboard string. Avoid alias collisions within a category and preserve `schemaVersion: 1`. Each instrument `iconKey` must resolve to a PNG in `assets/instrument-icons/`.
 
 The canonical vocabulary now includes `variants.json` for optional articulation qualifiers. Use `variant` as a separate normalized field rather than folding qualifiers back into `articulation`.
 
 `instrument-properties.json` is keyed by instrument ID from `instruments.json`. It currently supports pitch range, recommended measurement range, and factory loudness-reference targets for `long` and `short` capture modes. Treat it as canonical source data that is exported into `orch.db` for consumer applications.
 
-After editing, validate the data and run the tests:
+After editing, validate the data, rebuild the runtime distribution, and run the tests:
 
 ```powershell
-python tools/validate_terminology.py
-pwsh -File tools/build_catalog.ps1
+python tools/build_distribution.py
 python -m unittest discover -s tests
 ```
 
@@ -98,8 +103,7 @@ python -m unittest discover -s tests
 From the repository root:
 
 ```powershell
-python tools/validate_terminology.py
-python tools/build_catalog.py
+python tools/build_distribution.py --skip-sync
 python -m unittest discover -s tests
 ```
 

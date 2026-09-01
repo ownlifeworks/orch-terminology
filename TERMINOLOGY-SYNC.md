@@ -1,32 +1,35 @@
 # Terminology synchronization checklist
 
-Use this checklist whenever the canonical terminology database changes. The canonical source is `data/` in this repository. Never treat a consumer copy as authoritative.
+Use this checklist whenever the canonical terminology data or canonical instrument icons change. The authoritative sources are `data/` and `assets/instrument-icons/` in this repository. Never treat a consumer copy as authoritative.
 
 ## Consumers that must be checked
 
-- `OwnLifeAudioWebsite/src/data/terminology/`
-- `website/data/` (the Orch Terminology browser)
-- `NtdEngine/Source/Assets/terminology/instruments.json`
-- `python_ntd` / NTDDetector terminology integration
+- `OwnLifeAudioWebsite/src/data/terminology/orch.db`
+- `NtdEngine/Source/Assets/terminology/orch.db`
+- `NtdEngine/Source/Assets/inst/`
+- `NtdEngine/tools/NtdDetector/backend/assets/terminology/`
+- `NtdEngine/tools/NtdDetector/frontend/public/terminology/`
+- `SymphonicBalance/Resources/orch.db`
+- `SymphonicBalance/Resources/instrument-icons/`
 
 ## Required workflow
 
-1. Edit only the canonical files in `data/`.
+1. Edit only the canonical files in `data/` and `assets/instrument-icons/`.
 2. Keep IDs stable. Update all `libraries.json` and `contexts.json` references when an ID changes.
 3. Run:
 
    ```powershell
-   python tools/validate_terminology.py
+   python tools/build_distribution.py
    python -m unittest discover -s tests
    ```
 
-4. Synchronize every consumer mirror from the canonical data. Do not update only the website.
-5. Verify that NTD Engine's embedded terminology resource contains the same relevant instrument names and aliases, then rebuild it.
-6. Verify that NTDDetector uses the same terminology source or generated artifact. If it does not, fix the integration before proceeding.
+4. If only one consumer needs to be refreshed, rerun `python tools/build_distribution.py --targets <consumer-key>`.
+5. Verify that NTD Engine's embedded terminology resource and instrument PNG resources match the synchronized mirrors, then rebuild it.
+6. Verify that NTDDetector uses the synchronized `orch.db` mirrors in both backend and frontend paths. Do not mirror instrument icons there unless the detector UI starts rendering them.
 7. Build the affected websites and applications.
 8. Inspect `git diff` and `git status` in every affected repository.
 9. Commit and push the canonical data plus all synchronized consumer changes together, or clearly record any consumer that is blocked.
 
 ## Current implementation warning
 
-There is not yet a fully automatic synchronization generator. Website mirrors and NTD Engine data may therefore drift unless they are explicitly updated during the same task. Never report terminology work as complete until each consumer above has been checked.
+`python tools/build_distribution.py` is the canonical sync entry point. Never report terminology work as complete until each affected consumer above has either been synchronized by that script or explicitly marked blocked.
