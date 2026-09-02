@@ -1,0 +1,74 @@
+[
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "adventure-strings",
+    "instrumentId": "violins",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "adventure-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "adventure-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "adventure-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "adventure-strings",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] }
+    ]
+  }
+]

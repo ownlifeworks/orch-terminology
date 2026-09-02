@@ -40,6 +40,26 @@
       "id": "vienna-symphonic-library",
       "name": "Vienna Symphonic Library",
       "aliases": ["vsl", "vienna-library", "vienna-symphonic"]
+    },
+    {
+      "id": "8dio",
+      "name": "8DIO",
+      "aliases": ["8dio"]
+    },
+    {
+      "id": "aaron-venture",
+      "name": "Aaron Venture",
+      "aliases": ["aaronventure", "aaron-venture"]
+    },
+    {
+      "id": "samplemodeling",
+      "name": "Samplemodeling",
+      "aliases": ["sm", "samplemodeling", "sample-modeling"]
+    },
+    {
+      "id": "musical-sampling",
+      "name": "Musical Sampling",
+      "aliases": ["ms", "musical-sampling", "musicalsampling"]
     }
   ]
 }

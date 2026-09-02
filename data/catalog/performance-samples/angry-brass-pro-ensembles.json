@@ -1,0 +1,35 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-brass-pro-ensembles",
+    "instrumentId": "horns-a4",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-brass-pro-ensembles",
+    "instrumentId": "bass-trombones-a3",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-brass-pro-ensembles",
+    "instrumentId": "trumpets-a3",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  }
+]

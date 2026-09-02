@@ -1,0 +1,106 @@
+[
+  {
+    "vendorId": "8dio",
+    "libraryId": "anthology-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": ["advanced", "long", "muted"] },
+      { "articulationId": "bartok", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["chordal", "fast", "muted", "slurred"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": ["muted"] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["muted"] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["major", "minor"] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "anthology-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": ["advanced", "long", "muted"] },
+      { "articulationId": "bartok", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["chordal", "fast", "muted", "slurred"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": ["muted"] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["muted"] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["major", "minor"] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "anthology-strings",
+    "instrumentId": "doublebass",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["chordal"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "anthology-strings",
+    "instrumentId": "viola",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["chordal"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "anthology-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": ["advanced", "long", "muted"] },
+      { "articulationId": "bartok", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["chordal", "fast", "muted", "slurred"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": ["muted"] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["muted"] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["major", "minor"] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "anthology-strings",
+    "instrumentId": "violin",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["chordal"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "anthology-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": ["advanced", "long", "muted"] },
+      { "articulationId": "bartok", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["chordal", "fast", "muted", "slurred"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": ["muted"] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["muted"] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["major", "minor"] }
+    ]
+  }
+]

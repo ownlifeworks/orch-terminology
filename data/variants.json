@@ -17,9 +17,24 @@
       "aliases": ["expr", "exp", "expressive", "espressivo"]
     },
     {
+      "id": "advanced",
+      "name": "Advanced",
+      "aliases": ["advanced"]
+    },
+    {
+      "id": "chordal",
+      "name": "Chordal",
+      "aliases": ["chordal"]
+    },
+    {
+      "id": "agile",
+      "name": "Agile",
+      "aliases": ["agile"]
+    },
+    {
       "id": "rapid",
       "name": "Rapid",
-      "aliases": ["rap", "rapid", "agile"]
+      "aliases": ["rap", "rapid"]
     },
     {
       "id": "long",
@@ -32,6 +47,11 @@
       "aliases": ["shrt", "short"]
     },
     {
+      "id": "medium",
+      "name": "Medium",
+      "aliases": ["med", "medium"]
+    },
+    {
       "id": "bold",
       "name": "Bold",
       "aliases": ["bld", "bold"]
@@ -40,6 +60,21 @@
       "id": "brassy",
       "name": "Brassy",
       "aliases": ["brassy"]
+    },
+    {
+      "id": "fanfare",
+      "name": "Fanfare",
+      "aliases": ["fanfare"]
+    },
+    {
+      "id": "soaring",
+      "name": "Soaring",
+      "aliases": ["soaring"]
+    },
+    {
+      "id": "flowing",
+      "name": "Flowing",
+      "aliases": ["flowing"]
     },
     {
       "id": "pattern",
@@ -245,6 +280,11 @@
       "id": "tremolo",
       "name": "Tremolo",
       "aliases": ["trem", "tremolo"]
+    },
+    {
+      "id": "motion",
+      "name": "Motion",
+      "aliases": ["motion"]
     },
     {
       "id": "major",

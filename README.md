@@ -85,7 +85,7 @@ Edit the canonical JSON files in `data/` and the canonical instrument PNGs in `a
 
 For catalog relationships, edit the per-library source files in `data/catalog/` and then run `pwsh -File tools/build_catalog.ps1` to regenerate the aggregate `data/catalog.json`.
 
-Keep entity IDs stable because libraries and `contexts.json` reference them directly. Aliases/abbreviations must never contain whitespace; use hyphens instead. Alias order matters: the first alias is used as the default abbreviation in the website's clipboard string. Avoid alias collisions within a category and preserve `schemaVersion: 1`. Each instrument `iconKey` must resolve to a PNG in `assets/instrument-icons/`.
+Keep entity IDs stable because libraries and `contexts.json` reference them directly. Aliases/abbreviations must never contain whitespace; use hyphens instead. Alias order matters: the first alias is used as the default abbreviation in the website's clipboard string. Avoid alias collisions within a category and preserve `schemaVersion: 1`. Each instrument `iconKey` identifies its preferred PNG in `assets/instrument-icons/`; consumers must fall back to `default.png` when that file is unavailable.
 
 The canonical vocabulary now includes `variants.json` for optional articulation qualifiers. Use `variant` as a separate normalized field rather than folding qualifiers back into `articulation`.
 

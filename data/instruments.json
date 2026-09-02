@@ -12,12 +12,39 @@
       "iconKey": "tpt.png"
     },
     {
+      "id": "bass-trumpet",
+      "name": "Bass Trumpet",
+      "aliases": [
+        "bass-tpt",
+        "bass-trp",
+        "bass-trumpet"
+      ],
+      "iconKey": "basstpt.png"
+    },
+    {
       "id": "piccolo-trumpet",
       "name": "Piccolo Trumpet",
       "aliases": [
         "picc-trumpet",
         "picc-tpt",
         "piccolo-tpt"
+      ],
+      "iconKey": "tpt.png"
+    },
+    {
+      "id": "german-trumpet",
+      "name": "German Trumpet",
+      "aliases": [
+        "german-tpt",
+        "german-trumpet"
+      ],
+      "iconKey": "tpt.png"
+    },
+    {
+      "id": "cornet",
+      "name": "Cornet",
+      "aliases": [
+        "cornet"
       ],
       "iconKey": "tpt.png"
     },
@@ -33,6 +60,46 @@
         "tpt-a3"
       ],
       "iconKey": "3tpts.png"
+    },
+    {
+      "id": "trumpets-a4",
+      "name": "Trumpets a4",
+      "aliases": [
+        "4trps",
+        "4tpt",
+        "4tpts",
+        "4-trumpets",
+        "trumpets4",
+        "trumpets-a4",
+        "tpt-a4"
+      ],
+      "iconKey": "4tpts.png"
+    },
+    {
+      "id": "trumpets-a6",
+      "name": "Trumpets a6",
+      "aliases": [
+        "6trps",
+        "6tpt",
+        "6tpts",
+        "trumpets6",
+        "trumpets-a6",
+        "tpt-a6"
+      ],
+      "iconKey": "6tpts.png"
+    },
+    {
+      "id": "trumpets-a8",
+      "name": "Trumpets a8",
+      "aliases": [
+        "8trps",
+        "8tpt",
+        "8tpts",
+        "trumpets8",
+        "trumpets-a8",
+        "tpt-a8"
+      ],
+      "iconKey": "8tpts.png"
     },
     {
       "id": "trumpets-a2",
@@ -58,6 +125,35 @@
         "hrn"
       ],
       "iconKey": "hn.png"
+    },
+    {
+      "id": "descant-horn",
+      "name": "Descant Horn",
+      "aliases": [
+        "descant-horn",
+        "descant-hrn"
+      ],
+      "iconKey": "hn.png"
+    },
+    {
+      "id": "flugelhorn",
+      "name": "Flügelhorn",
+      "aliases": [
+        "flugel",
+        "flugel-horn",
+        "flugelhorn",
+        "fluegelhorn"
+      ],
+      "iconKey": "flugelhorn.png"
+    },
+    {
+      "id": "euphonium",
+      "name": "Euphonium",
+      "aliases": [
+        "euph",
+        "euphonium"
+      ],
+      "iconKey": "euphonium.png"
     },
 	{
       "id": "horns-a2",
@@ -282,6 +378,15 @@
       "iconKey": "hrp.png"
     },
     {
+      "id": "grand-piano",
+      "name": "Grand Piano",
+      "aliases": [
+        "grand-piano",
+        "piano"
+      ],
+      "iconKey": "piano.png"
+    },
+    {
       "id": "bass-trombone",
       "name": "Bass Trombone",
       "aliases": [
@@ -291,6 +396,15 @@
         "btrb"
       ],
       "iconKey": "btbn.png"
+    },
+    {
+      "id": "valve-trombone",
+      "name": "Valve Trombone",
+      "aliases": [
+        "valve-tbn",
+        "valve-trombone"
+      ],
+      "iconKey": "tbn.png"
     },
     {
       "id": "trombone-ensemble",
@@ -496,6 +610,15 @@
       "iconKey": "ob.png"
     },
     {
+      "id": "bass-oboe",
+      "name": "Bass Oboe",
+      "aliases": [
+        "bass-oboe",
+        "bassoboe"
+      ],
+      "iconKey": "ob.png"
+    },
+    {
       "id": "oboes-a3",
       "name": "Oboes a3",
       "aliases": [
@@ -528,6 +651,46 @@
         "bsn"
       ],
       "iconKey": "bsn.png"
+    },
+    {
+      "id": "soprano-saxophone",
+      "name": "Soprano Saxophone",
+      "aliases": [
+        "soprano-sax",
+        "sopranosax",
+        "soprano-saxophone"
+      ],
+      "iconKey": "cl.png"
+    },
+    {
+      "id": "alto-saxophone",
+      "name": "Alto Saxophone",
+      "aliases": [
+        "alto-sax",
+        "altosax",
+        "alto-saxophone"
+      ],
+      "iconKey": "cl.png"
+    },
+    {
+      "id": "tenor-saxophone",
+      "name": "Tenor Saxophone",
+      "aliases": [
+        "tenor-sax",
+        "tenorsax",
+        "tenor-saxophone"
+      ],
+      "iconKey": "cl.png"
+    },
+    {
+      "id": "baritone-saxophone",
+      "name": "Baritone Saxophone",
+      "aliases": [
+        "baritone-sax",
+        "baritonesax",
+        "baritone-saxophone"
+      ],
+      "iconKey": "cl.png"
     },
     {
       "id": "crotales",
@@ -571,6 +734,15 @@
       "iconKey": "tenortbns3.png"
     },
     {
+      "id": "tenor-trombones-a5",
+      "name": "Tenor Trombones a5",
+      "aliases": [
+        "tenor-trombones-a5",
+        "tbn-a5"
+      ],
+      "iconKey": "tenortbns3.png"
+    },
+    {
       "id": "bass-trombones-a2",
       "name": "Bass Trombones a2",
       "aliases": [
@@ -578,6 +750,15 @@
         "bass-tbn-a2"
       ],
       "iconKey": "basstbns2.png"
+    },
+    {
+      "id": "bass-trombones-a3",
+      "name": "Bass Trombones a3",
+      "aliases": [
+        "bass-trombones-a3",
+        "bass-tbn-a3"
+      ],
+      "iconKey": "basstbns3.png"
     },
     {
       "id": "contrabass-trombone",
@@ -602,6 +783,15 @@
       "name": "Cimbasso",
       "aliases": [],
       "iconKey": "cimbasso.png"
+    },
+    {
+      "id": "cimbassi-a2",
+      "name": "Cimbassi a2",
+      "aliases": [
+        "cimbassi-a2",
+        "cimbasso-a2"
+      ],
+      "iconKey": "2cimbassi.png"
     },
     {
       "id": "cimbasso-bass-trombone",
@@ -669,6 +859,14 @@
         "anv"
       ],
       "iconKey": "anvil.png"
+    },
+    {
+      "id": "bongos",
+      "name": "Bongos",
+      "aliases": [
+        "bongo"
+      ],
+      "iconKey": "bongos.png"
     },
     {
       "id": "gran-cassa",
@@ -1017,6 +1215,36 @@
       "iconKey": "tbns2.png"
     },
     {
+      "id": "trombones-a4",
+      "name": "Trombones a4",
+      "aliases": [
+        "4tbns",
+        "4-trombones",
+        "trombones-a4"
+      ],
+      "iconKey": "4tbns.png"
+    },
+    {
+      "id": "trombones-a6",
+      "name": "Trombones a6",
+      "aliases": [
+        "6tbns",
+        "6-trombones",
+        "trombones-a6"
+      ],
+      "iconKey": "6tbns.png"
+    },
+    {
+      "id": "trombones-a8",
+      "name": "Trombones a8",
+      "aliases": [
+        "8tbns",
+        "8-trombones",
+        "trombones-a8"
+      ],
+      "iconKey": "8tbns.png"
+    },
+    {
       "id": "flutes-a2",
       "name": "Flutes A2",
       "aliases": [
@@ -1092,6 +1320,96 @@
         "bass-choir"
       ],
       "iconKey": "bassesvoice.png"
+    },
+    {
+      "id": "desk-bells",
+      "name": "Desk Bells",
+      "aliases": ["desk-bells", "desk bells"],
+      "iconKey": "deskbells.png"
+    },
+    {
+      "id": "conga",
+      "name": "Conga",
+      "aliases": ["conga", "congas"],
+      "iconKey": "conga.png"
+    },
+    {
+      "id": "rototoms",
+      "name": "Rototoms",
+      "aliases": ["rototoms", "roto-toms"],
+      "iconKey": "rototoms.png"
+    },
+    {
+      "id": "timbales",
+      "name": "Timbales",
+      "aliases": ["timbales", "timbale"],
+      "iconKey": "timbales.png"
+    },
+    {
+      "id": "field-drum",
+      "name": "Field Drum",
+      "aliases": ["field-drum", "field drum"],
+      "iconKey": "fielddrum.png"
+    },
+    {
+      "id": "unpitched-metal",
+      "name": "Unpitched Metal",
+      "aliases": ["unpitched-metal", "unpitched metal"],
+      "iconKey": "unpitchedmetal.png"
+    },
+    {
+      "id": "unpitched-wood",
+      "name": "Unpitched Wood",
+      "aliases": ["unpitched-wood", "unpitched wood"],
+      "iconKey": "unpitchedwood.png"
+    },
+    {
+      "id": "claves",
+      "name": "Claves",
+      "aliases": ["claves"],
+      "iconKey": "claves.png"
+    },
+    {
+      "id": "agogo",
+      "name": "Agogo",
+      "aliases": ["agogo", "agogo bells"],
+      "iconKey": "agogo.png"
+    },
+    {
+      "id": "cabasa",
+      "name": "Cabasa",
+      "aliases": ["cabasa"],
+      "iconKey": "cabasa.png"
+    },
+    {
+      "id": "cowbells",
+      "name": "Cowbells",
+      "aliases": ["cowbells", "cow-bells"],
+      "iconKey": "cowbells.png"
+    },
+    {
+      "id": "guiro",
+      "name": "Guiro",
+      "aliases": ["guiro", "güiro"],
+      "iconKey": "guiro.png"
+    },
+    {
+      "id": "shakers",
+      "name": "Shakers",
+      "aliases": ["shakers", "shaker"],
+      "iconKey": "shakers.png"
+    },
+    {
+      "id": "drums",
+      "name": "Drums",
+      "aliases": ["drums", "drum percussion", "gong-drum", "gong drum", "tom-ensemble", "tom ensemble"],
+      "iconKey": "drums.png"
+    },
+    {
+      "id": "percussion",
+      "name": "Percussion",
+      "aliases": ["percussion", "percussions", "gankogui", "jawbone", "ratchet", "ships-bell", "ships bell", "rain-sheet", "rain sheet"],
+      "iconKey": "percussion.png"
     }
   ]
 }

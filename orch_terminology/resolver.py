@@ -4,6 +4,7 @@ from dataclasses import dataclass
 import json
 from pathlib import Path
 import re
+import unicodedata
 from typing import Any, Iterable
 
 from orch_terminology.catalog import build_catalog_document
@@ -27,7 +28,12 @@ def normalize_text(value: str) -> str:
     """Normalize an alias without applying fuzzy or semantic matching."""
     if not isinstance(value, str):
         return ""
-    return " ".join(_TOKEN_RE.findall(value.lower().replace("_", " ").replace("-", " ")))
+    folded = "".join(
+        character
+        for character in unicodedata.normalize("NFKD", value.lower())
+        if not unicodedata.combining(character)
+    )
+    return " ".join(_TOKEN_RE.findall(folded.replace("_", " ").replace("-", " ")))
 
 
 def _tokens(value: str) -> list[str]:

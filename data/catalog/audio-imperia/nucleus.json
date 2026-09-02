@@ -366,8 +366,7 @@
     "libraryId": "nucleus",
     "instrumentId": "harp",
     "articulations": [
-      { "articulationId": "natural", "variantIds": ["plucked"] },
-      { "articulationId": "natural", "variantIds": ["slid"] },
+      { "articulationId": "natural", "variantIds": ["plucked", "slid"] },
       { "articulationId": "flageolet", "variantIds": [] }
     ]
   },
@@ -376,7 +375,6 @@
     "libraryId": "nucleus",
     "instrumentId": "celeste",
     "articulations": [
-      { "articulationId": "sustains", "variantIds": [] },
       { "articulationId": "sustains", "variantIds": ["pedal"] },
       { "articulationId": "staccato", "variantIds": [] }
     ]

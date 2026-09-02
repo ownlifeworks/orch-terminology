@@ -21,15 +21,17 @@ class InstrumentIconTests(unittest.TestCase):
     def test_repository_icon_assets_validate(self):
         self.assertEqual(validator_module.validate_instrument_icon_assets(self.instruments, self.icon_dir), [])
 
-    def test_validation_rejects_missing_icon_file(self):
+    def test_missing_icon_file_is_reported_as_warning(self):
         with tempfile.TemporaryDirectory() as tmp:
             tmp_icon_dir = Path(tmp) / "instrument-icons"
             shutil.copytree(self.icon_dir, tmp_icon_dir)
             (tmp_icon_dir / "tpt.png").unlink()
 
             errors = validator_module.validate_instrument_icon_assets(self.instruments, tmp_icon_dir)
+            warnings = validator_module.missing_instrument_icon_warnings(self.instruments, tmp_icon_dir)
 
-        self.assertTrue(any("missing tpt.png" in error for error in errors))
+        self.assertEqual(errors, [])
+        self.assertTrue(any("missing tpt.png" in warning for warning in warnings))
 
 
 if __name__ == "__main__":

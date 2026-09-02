@@ -1,0 +1,42 @@
+[
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "the-trumpet",
+    "instrumentId": "trumpet",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "the-trumpet",
+    "instrumentId": "flugelhorn",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "the-trumpet",
+    "instrumentId": "german-trumpet",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "the-trumpet",
+    "instrumentId": "cornet",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "the-trumpet",
+    "instrumentId": "piccolo-trumpet",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] }
+    ]
+  }
+]

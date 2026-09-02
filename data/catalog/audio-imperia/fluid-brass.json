@@ -1,0 +1,42 @@
+[
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "fluid-brass",
+    "instrumentId": "trumpets-a2",
+    "articulations": [
+      { "articulationId": "shorts", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "fluid-brass",
+    "instrumentId": "horns-a2",
+    "articulations": [
+      { "articulationId": "shorts", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "fluid-brass",
+    "instrumentId": "trombones-a2",
+    "articulations": [
+      { "articulationId": "shorts", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "fluid-brass",
+    "instrumentId": "bass-trombones-a2",
+    "articulations": [
+      { "articulationId": "shorts", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "fluid-brass",
+    "instrumentId": "tuba",
+    "articulations": [
+      { "articulationId": "shorts", "variantIds": [] }
+    ]
+  }
+]

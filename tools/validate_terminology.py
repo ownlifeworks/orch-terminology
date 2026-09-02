@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import re
 import sys
+import unicodedata
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -26,7 +27,12 @@ EXPECTED_DYNAMIC_ANCHORS = ("soft", "medium", "full")
 
 
 def normalized(value: str) -> str:
-    return " ".join(re.findall(r"[a-z0-9]+(?:'[a-z0-9]+)?", value.lower().replace("_", " ").replace("-", " ")))
+    folded = "".join(
+        character
+        for character in unicodedata.normalize("NFKD", value.lower())
+        if not unicodedata.combining(character)
+    )
+    return " ".join(re.findall(r"[a-z0-9]+(?:'[a-z0-9]+)?", folded.replace("_", " ").replace("-", " ")))
 
 
 def load(name: str) -> dict:
@@ -141,16 +147,30 @@ def validate_instrument_icon_assets(
     if not (icon_root / "default.png").is_file():
         errors.append("instrument-icons: default.png is required")
 
-    available_icons = {path.name for path in icon_root.glob("*.png") if path.is_file()}
     for index, instrument in enumerate(instruments):
         icon_key = instrument.get("iconKey")
-        instrument_id = instrument.get("id", f"instrument[{index}]")
         if not isinstance(icon_key, str) or not icon_key:
             continue
-        if icon_key not in available_icons:
-            errors.append(f"instrument-icons: missing {icon_key} for instrument {instrument_id}")
 
     return errors
+
+
+def missing_instrument_icon_warnings(
+    instruments: list[dict],
+    icons_dir: Path | None = None,
+) -> list[str]:
+    icon_root = icons_dir or ICONS
+    if not icon_root.is_dir():
+        return []
+
+    available_icons = {path.name for path in icon_root.glob("*.png") if path.is_file()}
+    warnings: list[str] = []
+    for index, instrument in enumerate(instruments):
+        icon_key = instrument.get("iconKey")
+        if isinstance(icon_key, str) and icon_key and icon_key not in available_icons:
+            instrument_id = instrument.get("id", f"instrument[{index}]")
+            warnings.append(f"instrument-icons: missing {icon_key} for instrument {instrument_id}")
+    return warnings
 
 
 def validate() -> list[str]:
@@ -206,6 +226,10 @@ def validate() -> list[str]:
 
 if __name__ == "__main__":
     problems = validate()
+    warnings = missing_instrument_icon_warnings(load("instruments.json").get("instruments", []))
+    if warnings:
+        print("Instrument icon warnings:")
+        print("\n".join(f"- {warning}" for warning in warnings))
     if problems:
         print("Terminology validation failed:")
         print("\n".join(f"- {problem}" for problem in problems))

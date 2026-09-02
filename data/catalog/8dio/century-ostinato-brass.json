@@ -1,0 +1,54 @@
+[
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-brass",
+    "instrumentId": "horns-a4",
+    "articulations": [
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "ostinato", "variantIds": ["agile", "flowing"] },
+      { "articulationId": "runs", "variantIds": ["fast", "harmonic", "melodic", "major", "octave"] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "triples", "variantIds": ["fast"] },
+      { "articulationId": "tuplet", "variantIds": ["fast"] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-brass",
+    "instrumentId": "trumpets-a2",
+    "articulations": [
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "ostinato", "variantIds": ["agile", "flowing"] },
+      { "articulationId": "runs", "variantIds": ["fast", "harmonic", "melodic", "major", "octave"] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "triples", "variantIds": ["fast"] },
+      { "articulationId": "tuplet", "variantIds": ["fast"] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-brass",
+    "instrumentId": "trombones-a2",
+    "articulations": [
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "ostinato", "variantIds": ["agile", "flowing"] },
+      { "articulationId": "runs", "variantIds": ["fast", "harmonic", "melodic", "major", "octave"] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "triples", "variantIds": ["fast"] },
+      { "articulationId": "tuplet", "variantIds": ["fast"] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-brass",
+    "instrumentId": "tuba",
+    "articulations": [
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "ostinato", "variantIds": ["agile", "flowing"] },
+      { "articulationId": "runs", "variantIds": ["fast", "harmonic", "melodic", "major", "octave"] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "triples", "variantIds": ["fast"] },
+      { "articulationId": "tuplet", "variantIds": ["fast"] }
+    ]
+  }
+]

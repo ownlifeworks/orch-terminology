@@ -1,0 +1,90 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-percussion",
+    "instrumentId": "anvil",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-percussion",
+    "instrumentId": "bongos",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-percussion",
+    "instrumentId": "bass-drum",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-percussion",
+    "instrumentId": "concert-toms",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-percussion",
+    "instrumentId": "piatti",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-percussion",
+    "instrumentId": "snare",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-percussion",
+    "instrumentId": "sticks",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-percussion",
+    "instrumentId": "suspended-cymbals",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-percussion",
+    "instrumentId": "taiko",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-percussion",
+    "instrumentId": "tenor-drum",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-percussion",
+    "instrumentId": "timpani",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] }
+    ]
+  }
+]

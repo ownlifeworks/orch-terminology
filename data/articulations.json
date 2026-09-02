@@ -129,6 +129,20 @@
       ]
     },
     {
+      "id": "secco",
+      "name": "Secco",
+      "aliases": [
+        "secco"
+      ]
+    },
+    {
+      "id": "accent",
+      "name": "Accent",
+      "aliases": [
+        "accent"
+      ]
+    },
+    {
       "id": "crescendo",
       "name": "Crescendo",
       "aliases": [
@@ -149,6 +163,28 @@
       "name": "Runs",
       "aliases": [
         "run"
+      ]
+    },
+    {
+      "id": "ostinato",
+      "name": "Ostinato",
+      "aliases": [
+        "ostinato"
+      ]
+    },
+    {
+      "id": "phrase",
+      "name": "Phrase",
+      "aliases": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "tuplet",
+      "name": "Tuplet",
+      "aliases": [
+        "tuplet",
+        "tuplets"
       ]
     },
     {
@@ -552,6 +588,13 @@
       "name": "Scraped",
       "aliases": [
         "scraped"
+      ]
+    },
+    {
+      "id": "arc",
+      "name": "Arc",
+      "aliases": [
+        "arc"
       ]
     }
 

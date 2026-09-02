@@ -1,0 +1,26 @@
+[
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "the-trombone",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "the-trombone",
+    "instrumentId": "valve-trombone",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "the-trombone",
+    "instrumentId": "bass-trombone",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] }
+    ]
+  }
+]

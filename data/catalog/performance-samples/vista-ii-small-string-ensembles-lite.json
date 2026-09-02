@@ -1,0 +1,14 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "vista-ii-small-string-ensembles-lite",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["whisper"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] }
+    ]
+  }
+]

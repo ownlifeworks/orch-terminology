@@ -15,6 +15,12 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result.status, "resolved")
         self.assertEqual(result.entity["id"], "bbcso")
 
+    def test_accented_instrument_name_resolution(self):
+        self.assertEqual(normalize_text("Flügelhorn"), "flugelhorn")
+        result = self.resolver.resolve_instrument("Flügelhorn")
+        self.assertEqual(result.status, "resolved")
+        self.assertEqual(result.entity["id"], "flugelhorn")
+
     def test_filename_metadata_resolution(self):
         result = self.resolver.resolve_filename("bbc_tpt_marcato_v10.wav")
         self.assertEqual(result["status"], "resolved")

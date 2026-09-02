@@ -1,0 +1,54 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "vista-strings",
+    "instrumentId": "violins",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "vista-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "vista-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "vista-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "vista-strings",
+    "instrumentId": "harp",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "vista-strings",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  }
+]

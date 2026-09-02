@@ -14,10 +14,58 @@
       "aliases": ["nuc", "nucleus"]
     },
     {
+      "id": "fluid-brass",
+      "name": "Fluid Brass",
+      "vendorId": "audio-imperia",
+      "aliases": ["fluid-brass", "fluidbrass"]
+    },
+    {
+      "id": "fluid-woods",
+      "name": "Fluid Woods",
+      "vendorId": "audio-imperia",
+      "aliases": ["fluid-woods", "fluidwoods"]
+    },
+    {
+      "id": "solo",
+      "name": "Solo",
+      "vendorId": "audio-imperia",
+      "aliases": ["ai-solo", "solo"]
+    },
+    {
       "id": "cinebrass-core",
       "name": "CineBrass Core",
       "vendorId": "cinesamples",
       "aliases": ["cbc", "cinebrass-core", "cinebrasscore"]
+    },
+    {
+      "id": "cinebrass-pro",
+      "name": "CineBrass Pro",
+      "vendorId": "cinesamples",
+      "aliases": ["cbp", "cinebrass-pro", "cinebrasspro"]
+    },
+    {
+      "id": "cinebrass-sonore",
+      "name": "CineBrass Sonore",
+      "vendorId": "cinesamples",
+      "aliases": ["cbs", "cinebrass-sonore", "cinebrasssonore"]
+    },
+    {
+      "id": "the-trumpet",
+      "name": "The Trumpet",
+      "vendorId": "samplemodeling",
+      "aliases": ["sm-trumpet", "the-trumpet", "thetrumpet"]
+    },
+    {
+      "id": "the-trombone",
+      "name": "The Trombone",
+      "vendorId": "samplemodeling",
+      "aliases": ["sm-trombone", "the-trombone", "thetrombone"]
+    },
+    {
+      "id": "french-horn-tuba",
+      "name": "French Horn & Tuba",
+      "vendorId": "samplemodeling",
+      "aliases": ["sm-french-horn-tuba", "french-horn-tuba", "frenchhorntuba"]
     },
     {
       "id": "pacific-ensemble-strings",
@@ -87,6 +135,12 @@
 		"aro-bassoons-pro",
         "abbey-road-orchestra-bassoons"
       ]
+    },
+    {
+      "id": "spitfire-symphony-orchestra",
+      "name": "Spitfire Symphony Orchestra",
+      "vendorId": "spitfire-audio",
+      "aliases": ["sso", "spitfire-symphony-orchestra", "spitfiresymphonyorchestra"]
     },
     {
       "id": "cinematic-studio-woodwinds",
@@ -171,6 +225,102 @@
       "name": "Synchron Prime Percussion",
       "vendorId": "vienna-symphonic-library",
       "aliases": ["spp", "synchron-prime-percussion", "prime-percussion"]
+    },
+    {
+      "id": "anthology-strings",
+      "name": "Anthology Strings",
+      "vendorId": "8dio",
+      "aliases": ["anthology", "anthology-strings"]
+    },
+    {
+      "id": "century-ensemble-brass",
+      "name": "Century Ensemble Brass",
+      "vendorId": "8dio",
+      "aliases": ["century-brass", "century-ensemble-brass"]
+    },
+    {
+      "id": "century-ostinato-brass",
+      "name": "Century Ostinato Brass",
+      "vendorId": "8dio",
+      "aliases": ["century-ostinato", "century-ostinato-brass"]
+    },
+    {
+      "id": "century-solo-brass",
+      "name": "Century Solo Brass",
+      "vendorId": "8dio",
+      "aliases": ["century-brass-solo", "century-solo-brass"]
+    },
+    {
+      "id": "infinite-brass",
+      "name": "Infinite Brass",
+      "vendorId": "aaron-venture",
+      "aliases": ["infinite", "infinite-brass"]
+    },
+    {
+      "id": "infinite-woodwinds",
+      "name": "Infinite Woodwinds",
+      "vendorId": "aaron-venture",
+      "aliases": ["infinite-ww", "infinite-woodwinds"]
+    },
+    {
+      "id": "angry-brass-pro-ensembles",
+      "name": "Angry Brass Pro - Ensembles",
+      "vendorId": "performance-samples",
+      "aliases": ["abp-ensembles", "angry-brass-pro-ensembles", "angrybrasspro-ensembles"]
+    },
+    {
+      "id": "angry-brass-pro-soloists",
+      "name": "Angry Brass Pro - Soloists",
+      "vendorId": "performance-samples",
+      "aliases": ["abp-soloists", "angry-brass-pro-soloists", "angrybrasspro-soloists"]
+    },
+    {
+      "id": "angry-woodwinds-pro",
+      "name": "Angry Woodwinds Pro",
+      "vendorId": "performance-samples",
+      "aliases": ["awp", "angry-woodwinds-pro", "angrywoodwindspro"]
+    },
+    {
+      "id": "pacific-solo-strings",
+      "name": "Pacific - Solo Strings",
+      "vendorId": "performance-samples",
+      "aliases": ["pss", "pacific-solo-strings", "pacific-solostrings"]
+    },
+    {
+      "id": "pacific-brass",
+      "name": "Pacific - Brass",
+      "vendorId": "performance-samples",
+      "aliases": ["pb", "pacific-brass"]
+    },
+    {
+      "id": "pacific-woodwinds",
+      "name": "Pacific - Woodwinds",
+      "vendorId": "performance-samples",
+      "aliases": ["pww", "pacific-woodwinds"]
+    },
+    {
+      "id": "pacific-percussion",
+      "name": "Pacific - Percussion",
+      "vendorId": "performance-samples",
+      "aliases": ["pp", "pacific-percussion"]
+    },
+    {
+      "id": "vista-strings",
+      "name": "Vista Strings",
+      "vendorId": "performance-samples",
+      "aliases": ["vista-strings"]
+    },
+    {
+      "id": "vista-ii-small-string-ensembles-lite",
+      "name": "Vista II - Small String Ensembles Lite",
+      "vendorId": "performance-samples",
+      "aliases": ["vista-ii-ssel", "vista-ii-small-string-ensembles-lite"]
+    },
+    {
+      "id": "adventure-strings",
+      "name": "Adventure Strings",
+      "vendorId": "musical-sampling",
+      "aliases": ["adventure-strings", "adventure strings"]
     }
   ]
 }

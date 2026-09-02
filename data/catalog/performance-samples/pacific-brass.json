@@ -1,0 +1,55 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-brass",
+    "instrumentId": "horns-a2",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-brass",
+    "instrumentId": "trumpets-a2",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-brass",
+    "instrumentId": "trombones-a2",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-brass",
+    "instrumentId": "bass-trombones-a2",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-brass",
+    "instrumentId": "tubas-a2",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-brass",
+    "instrumentId": "contrabass-trombone",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] }
+    ]
+  }
+]

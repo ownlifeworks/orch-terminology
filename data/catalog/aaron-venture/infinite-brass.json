@@ -1,0 +1,56 @@
+[
+  {
+    "vendorId": "aaron-venture",
+    "libraryId": "infinite-brass",
+    "instrumentId": "cimbasso",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "aaron-venture",
+    "libraryId": "infinite-brass",
+    "instrumentId": "bass-trumpet",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "aaron-venture",
+    "libraryId": "infinite-brass",
+    "instrumentId": "contrabass-tuba",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "aaron-venture",
+    "libraryId": "infinite-brass",
+    "instrumentId": "euphonium",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "aaron-venture",
+    "libraryId": "infinite-brass",
+    "instrumentId": "horn",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "aaron-venture",
+    "libraryId": "infinite-brass",
+    "instrumentId": "piccolo-trumpet",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "aaron-venture",
+    "libraryId": "infinite-brass",
+    "instrumentId": "tenor-trombone",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "aaron-venture",
+    "libraryId": "infinite-brass",
+    "instrumentId": "trumpet",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "aaron-venture",
+    "libraryId": "infinite-brass",
+    "instrumentId": "tuba",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  }
+]

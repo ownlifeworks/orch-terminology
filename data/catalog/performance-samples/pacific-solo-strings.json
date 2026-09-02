@@ -1,0 +1,30 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-solo-strings",
+    "instrumentId": "violin",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": ["motion"] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-solo-strings",
+    "instrumentId": "cello",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": ["motion"] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] }
+    ]
+  }
+]

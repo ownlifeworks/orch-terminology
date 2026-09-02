@@ -1,0 +1,53 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-woodwinds",
+    "instrumentId": "flutes-a2",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-woodwinds",
+    "instrumentId": "clarinets-a2",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-woodwinds",
+    "instrumentId": "bassoons-a2",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-woodwinds",
+    "instrumentId": "oboes-a2",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "pacific-woodwinds",
+    "instrumentId": "piccolo",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  }
+]

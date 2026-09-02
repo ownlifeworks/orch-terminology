@@ -1,0 +1,96 @@
+[
+  {
+    "vendorId": "cinesamples",
+    "libraryId": "cinebrass-pro",
+    "instrumentId": "trumpet",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tenuto", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "cinesamples",
+    "libraryId": "cinebrass-pro",
+    "instrumentId": "trumpet-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["harmon-mute", "muted"] },
+      { "articulationId": "staccato", "variantIds": ["harmon-mute", "muted"] },
+      { "articulationId": "tenuto", "variantIds": ["harmon-mute", "muted"] },
+      { "articulationId": "marcato", "variantIds": ["harmon-mute", "muted"] }
+    ]
+  },
+  {
+    "vendorId": "cinesamples",
+    "libraryId": "cinebrass-pro",
+    "instrumentId": "horn",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tenuto", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "cinesamples",
+    "libraryId": "cinebrass-pro",
+    "instrumentId": "horns-a4",
+    "articulations": [
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["muted"] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "rips", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "cinesamples",
+    "libraryId": "cinebrass-pro",
+    "instrumentId": "horns-a12",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["muted"] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tenuto", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "cinesamples",
+    "libraryId": "cinebrass-pro",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tenuto", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "cinesamples",
+    "libraryId": "cinebrass-pro",
+    "instrumentId": "trombone-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["harmon-mute", "muted"] },
+      { "articulationId": "staccato", "variantIds": ["harmon-mute", "muted"] },
+      { "articulationId": "tenuto", "variantIds": ["harmon-mute", "muted"] },
+      { "articulationId": "marcato", "variantIds": ["harmon-mute", "muted"] },
+      { "articulationId": "flutter", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "cinesamples",
+    "libraryId": "cinebrass-pro",
+    "instrumentId": "tuba",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tenuto", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] }
+    ]
+  }
+]

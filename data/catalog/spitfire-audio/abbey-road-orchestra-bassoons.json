@@ -10,23 +10,7 @@
       },
       {
         "articulationId": "legato",
-        "variantIds": []
-      },
-      {
-        "articulationId": "legato",
-        "variantIds": ["lyrical"]
-      },
-      {
-        "articulationId": "legato",
-        "variantIds": ["slurred"]
-      },
-      {
-        "articulationId": "legato",
-        "variantIds": ["allegro"]
-      },
-      {
-        "articulationId": "long",
-        "variantIds": []
+        "variantIds": ["allegro", "lyrical", "slurred"]
       },
       {
         "articulationId": "long",

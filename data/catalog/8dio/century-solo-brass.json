@@ -1,0 +1,119 @@
+[
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-solo-brass",
+    "instrumentId": "bass-trombone",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": ["long", "short"] },
+      { "articulationId": "crescendo", "variantIds": ["long", "sforzando"] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["soaring"] },
+      { "articulationId": "marcato", "variantIds": ["short"] },
+      { "articulationId": "shorts", "variantIds": ["soaring"] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["vibrato"] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-solo-brass",
+    "instrumentId": "cimbasso",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": ["long", "short"] },
+      { "articulationId": "crescendo", "variantIds": ["long", "sforzando"] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["soaring"] },
+      { "articulationId": "marcato", "variantIds": ["medium", "short"] },
+      { "articulationId": "shorts", "variantIds": ["fanfare", "soaring"] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-solo-brass",
+    "instrumentId": "flugelhorn",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": ["long", "vibrato"] },
+      { "articulationId": "crescendo", "variantIds": ["long", "sforzando", "vibrato"] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["soaring", "vibrato"] },
+      { "articulationId": "shorts", "variantIds": ["fanfare", "soaring", "vibrato"] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["vibrato"] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-solo-brass",
+    "instrumentId": "horn",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": ["long", "short"] },
+      { "articulationId": "crescendo", "variantIds": ["long", "sforzando"] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["soaring"] },
+      { "articulationId": "marcato", "variantIds": ["long", "short", "muted"] },
+      { "articulationId": "multitongue", "variantIds": [] },
+      { "articulationId": "rips", "variantIds": [] },
+      { "articulationId": "shorts", "variantIds": ["fanfare", "soaring"] },
+      { "articulationId": "staccatissimo", "variantIds": ["muted"] },
+      { "articulationId": "sustains", "variantIds": ["muted", "vibrato"] },
+      { "articulationId": "trills", "variantIds": ["major", "minor"] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-solo-brass",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": ["long", "short"] },
+      { "articulationId": "crescendo", "variantIds": ["long", "sforzando"] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["soaring"] },
+      { "articulationId": "marcato", "variantIds": ["short", "muted"] },
+      { "articulationId": "multitongue", "variantIds": [] },
+      { "articulationId": "rips", "variantIds": [] },
+      { "articulationId": "shorts", "variantIds": ["fanfare", "soaring"] },
+      { "articulationId": "staccato", "variantIds": ["muted"] },
+      { "articulationId": "staccatissimo", "variantIds": ["muted"] },
+      { "articulationId": "sustains", "variantIds": ["muted", "vibrato"] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-solo-brass",
+    "instrumentId": "trumpet",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": ["long", "short"] },
+      { "articulationId": "crescendo", "variantIds": ["long", "sforzando"] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["soaring", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": ["short"] },
+      { "articulationId": "multitongue", "variantIds": [] },
+      { "articulationId": "shorts", "variantIds": ["soaring", "vibrato"] },
+      { "articulationId": "staccatissimo", "variantIds": ["muted"] },
+      { "articulationId": "sustains", "variantIds": ["muted", "vibrato"] },
+      { "articulationId": "trills", "variantIds": ["major", "minor"] }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-solo-brass",
+    "instrumentId": "tuba",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": ["long", "short"] },
+      { "articulationId": "crescendo", "variantIds": ["long", "sforzando"] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["short"] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  }
+]

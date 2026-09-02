@@ -1,0 +1,28 @@
+[
+  {
+    "vendorId": "cinesamples",
+    "libraryId": "cinebrass-sonore",
+    "instrumentId": "trumpets-a4",
+    "articulations": [
+      { "articulationId": "accent", "variantIds": [] },
+      { "articulationId": "fortepiano", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "secco", "variantIds": [] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "swells", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "cinesamples",
+    "libraryId": "cinebrass-sonore",
+    "instrumentId": "horns-a4",
+    "articulations": [
+      { "articulationId": "fortepiano", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "secco", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  }
+]

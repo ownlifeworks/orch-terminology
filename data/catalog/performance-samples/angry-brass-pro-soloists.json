@@ -1,0 +1,46 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-brass-pro-soloists",
+    "instrumentId": "bass-trombone",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-brass-pro-soloists",
+    "instrumentId": "horn",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-brass-pro-soloists",
+    "instrumentId": "trumpet",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-brass-pro-soloists",
+    "instrumentId": "tuba",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  }
+]

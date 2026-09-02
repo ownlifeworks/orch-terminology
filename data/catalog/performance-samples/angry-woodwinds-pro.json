@@ -1,0 +1,57 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-woodwinds-pro",
+    "instrumentId": "bassoon",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-woodwinds-pro",
+    "instrumentId": "clarinet",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-woodwinds-pro",
+    "instrumentId": "flute",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-woodwinds-pro",
+    "instrumentId": "oboe",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "angry-woodwinds-pro",
+    "instrumentId": "piccolo",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  }
+]

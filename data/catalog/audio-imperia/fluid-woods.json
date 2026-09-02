@@ -1,0 +1,42 @@
+[
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "fluid-woods",
+    "instrumentId": "piccolo",
+    "articulations": [
+      { "articulationId": "shorts", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "fluid-woods",
+    "instrumentId": "flute",
+    "articulations": [
+      { "articulationId": "shorts", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "fluid-woods",
+    "instrumentId": "oboe",
+    "articulations": [
+      { "articulationId": "shorts", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "fluid-woods",
+    "instrumentId": "clarinet",
+    "articulations": [
+      { "articulationId": "shorts", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "fluid-woods",
+    "instrumentId": "bassoon",
+    "articulations": [
+      { "articulationId": "shorts", "variantIds": [] }
+    ]
+  }
+]

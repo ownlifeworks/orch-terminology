@@ -1,0 +1,134 @@
+[
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "violin",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "viola",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "cello",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "flute",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "clarinet",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "oboe",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "english-horn",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "bassoon",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "trumpet",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "horn",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "descant-horn",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "solo",
+    "instrumentId": "sopranos",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] }
+    ]
+  }
+]
