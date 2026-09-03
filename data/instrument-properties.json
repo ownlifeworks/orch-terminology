@@ -71,12 +71,12 @@
       },
       "loudness": {
         "long": {
-          "working": -33.2,
-          "max": -28.8
+          "working": -31.0,
+          "max": -27.3
         },
         "short": {
-          "working": -40.8,
-          "max": -35.0
+          "working": -39.1,
+          "max": -33.9
         }
       }
     },
@@ -335,11 +335,11 @@
       },
       "loudness": {
         "long": {
-          "working": -26.5,
-          "max": -21.3
+          "working": -25.1,
+          "max": -21.0
         },
         "short": {
-          "working": -40.8,
+          "working": -36.0,
           "max": -26.8
         }
       }
@@ -357,8 +357,8 @@
       },
       "loudness": {
         "long": {
-          "working": -25.5,
-          "max": -18.6
+          "working": -22.6,
+          "max": -17.1
         },
         "short": {
           "working": -39.0,
@@ -379,12 +379,12 @@
       },
       "loudness": {
         "long": {
-          "working": -26.7,
-          "max": -16.8
+          "working": -20.5,
+          "max": -16.0
         },
         "short": {
-          "working": -34.4,
-          "max": -25.9
+          "working": -32.0,
+          "max": -22.0
         }
       }
     },
@@ -775,12 +775,12 @@
       },
       "loudness": {
         "long": {
-          "working": -38.0,
-          "max": -30.0
+          "working": -34.6,
+          "max": -30.3
         },
         "short": {
-          "working": -36.0,
-          "max": -28.0
+          "working": -36.5,
+          "max": -28.5
         }
       }
     },
@@ -797,12 +797,12 @@
       },
       "loudness": {
         "long": {
-          "working": -44.0,
-          "max": -36.0
+          "working": -40.5,
+          "max": -35.3
         },
         "short": {
-          "working": -42.0,
-          "max": -34.0
+          "working": -40.7,
+          "max": -33.1
         }
       }
     },
@@ -1061,12 +1061,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -19.4,
+          "max": -14.1
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -32.0,
+          "max": -19.8
         }
       }
     },
@@ -1655,12 +1655,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -29.9,
+          "max": -24.0
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -36.0,
+          "max": -30.0
         }
       }
     },
