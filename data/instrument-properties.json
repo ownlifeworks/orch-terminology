@@ -4,9 +4,8 @@
     "version": 1,
     "unit": "LUFS",
     "dynamicAnchors": [
-      "soft",
-      "medium",
-      "full"
+      "working",
+      "max"
     ],
     "pitchConvention": "MIDI note numbers at sounding/concert pitch (C4 = 60)",
     "measurementRangeMeaning": "Recommended representative calibration tessitura; not the full playable range.",
@@ -28,14 +27,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -39.0,
-          "medium": -32.2,
-          "full": -26.7
+          "working": -32.2,
+          "max": -26.7
         },
         "short": {
-          "soft": -42.5,
-          "medium": -37.0,
-          "full": -32.0
+          "working": -37.0,
+          "max": -32.0
         }
       }
     },
@@ -52,14 +49,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -37.9,
-          "medium": -34.1,
-          "full": -30.4
+          "working": -34.1,
+          "max": -30.4
         },
         "short": {
-          "soft": -46.3,
-          "medium": -41.8,
-          "full": -36.2
+          "working": -41.8,
+          "max": -36.2
         }
       }
     },
@@ -76,14 +71,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -37.3,
-          "medium": -33.2,
-          "full": -28.8
+          "working": -33.2,
+          "max": -28.8
         },
         "short": {
-          "soft": -46.0,
-          "medium": -40.8,
-          "full": -35.0
+          "working": -40.8,
+          "max": -35.0
         }
       }
     },
@@ -100,14 +93,12 @@
       },
       "loudness": {
     "long": {
-      "soft": -39.5,
-      "medium": -35.8,
-      "full": -32.4
+      "working": -35.8,
+      "max": -32.4
     },
     "short": {
-      "soft": -47.2,
-      "medium": -42.8,
-      "full": -37.8
+      "working": -42.8,
+      "max": -37.8
     }
   }
     },
@@ -124,14 +115,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -41.1,
-          "medium": -32.9,
-          "full": -27.3
+          "working": -32.9,
+          "max": -27.3
         },
         "short": {
-          "soft": -46.6,
-          "medium": -37.7,
-          "full": -32.0
+          "working": -37.7,
+          "max": -32.0
         }
       }
     },
@@ -148,14 +137,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -39.7,
-          "medium": -31.2,
-          "full": -25.5
+          "working": -31.2,
+          "max": -25.5
         },
         "short": {
-          "soft": -45.1,
-          "medium": -36.2,
-          "full": -30.3
+          "working": -36.2,
+          "max": -30.3
         }
       }
     },
@@ -172,14 +159,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -46.0,
-          "medium": -39.5,
-          "full": -34.0
+          "working": -39.5,
+          "max": -34.0
         },
         "short": {
-          "soft": -51.2,
-          "medium": -43.5,
-          "full": -37.7
+          "working": -43.5,
+          "max": -37.7
         }
       }
     },
@@ -196,14 +181,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -42.1,
-          "medium": -36.3,
-          "full": -29.8
+          "working": -36.3,
+          "max": -29.8
         },
         "short": {
-          "soft": -54.6,
-          "medium": -49.0,
-          "full": -34.5
+          "working": -49.0,
+          "max": -34.5
         }
       }
     },
@@ -220,14 +203,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -39.0,
-          "medium": -33.9,
-          "full": -26.8
+          "working": -33.9,
+          "max": -26.8
         },
         "short": {
-          "soft": -50.4,
-          "medium": -44.7,
-          "full": -32.5
+          "working": -44.7,
+          "max": -32.5
         }
       }
     },
@@ -244,14 +225,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -49.3,
-          "medium": -45.6,
-          "full": -35.2
+          "working": -45.6,
+          "max": -35.2
         },
         "short": {
-          "soft": -56.8,
-          "medium": -51.2,
-          "full": -43.8
+          "working": -51.2,
+          "max": -43.8
         }
       }
     },
@@ -268,14 +247,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -41.9,
-          "medium": -36.9,
-          "full": -29.6
+          "working": -36.9,
+          "max": -29.6
         },
         "short": {
-          "soft": -58.5,
-          "medium": -46.3,
-          "full": -38.1
+          "working": -46.3,
+          "max": -38.1
         }
       }
     },
@@ -292,14 +269,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -45.5,
-          "medium": -39.2,
-          "full": -34.7
+          "working": -39.2,
+          "max": -34.7
         },
         "short": {
-          "soft": -51.8,
-          "medium": -45.7,
-          "full": -40.2
+          "working": -45.7,
+          "max": -40.2
         }
       }
     },
@@ -316,14 +291,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -37.6,
-          "medium": -32.6,
-          "full": -26.7
+          "working": -32.6,
+          "max": -26.7
         },
         "short": {
-          "soft": -47.7,
-          "medium": -42.4,
-          "full": -34.5
+          "working": -42.4,
+          "max": -34.5
         }
       }
     },
@@ -340,14 +313,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -44.0,
-          "medium": -35.0,
-          "full": -25.0
+          "working": -35.0,
+          "max": -25.0
         },
         "short": {
-          "soft": -42.0,
-          "medium": -33.0,
-          "full": -23.0
+          "working": -33.0,
+          "max": -23.0
         }
       }
     },
@@ -364,14 +335,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -37.8,
-          "medium": -26.5,
-          "full": -21.3
+          "working": -26.5,
+          "max": -21.3
         },
         "short": {
-          "soft": -51.5,
-          "medium": -40.8,
-          "full": -26.8
+          "working": -40.8,
+          "max": -26.8
         }
       }
     },
@@ -388,14 +357,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -35.4,
-          "medium": -25.5,
-          "full": -18.6
+          "working": -25.5,
+          "max": -18.6
         },
         "short": {
-          "soft": -46.6,
-          "medium": -39.0,
-          "full": -23.3
+          "working": -39.0,
+          "max": -23.3
         }
       }
     },
@@ -412,14 +379,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -32.6,
-          "medium": -26.7,
-          "full": -16.8
+          "working": -26.7,
+          "max": -16.8
         },
         "short": {
-          "soft": -39.5,
-          "medium": -34.4,
-          "full": -25.9
+          "working": -34.4,
+          "max": -25.9
         }
       }
     },
@@ -436,14 +401,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -34.6,
-          "medium": -28.0,
-          "full": -21.0
+          "working": -28.0,
+          "max": -21.0
         },
         "short": {
-          "soft": -49.3,
-          "medium": -44.3,
-          "full": -27.1
+          "working": -44.3,
+          "max": -27.1
         }
       }
     },
@@ -460,14 +423,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -31.8,
-          "medium": -23.6,
-          "full": -18.6
+          "working": -23.6,
+          "max": -18.6
         },
         "short": {
-          "soft": -46.4,
-          "medium": -39.6,
-          "full": -25.2
+          "working": -39.6,
+          "max": -25.2
         }
       }
     },
@@ -484,14 +445,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -30.1,
-          "medium": -21.8,
-          "full": -16.0
+          "working": -21.8,
+          "max": -16.0
         },
         "short": {
-          "soft": -47.1,
-          "medium": -39.7,
-          "full": -22.2
+          "working": -39.7,
+          "max": -22.2
         }
       }
     },
@@ -508,14 +467,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -27.9,
-          "medium": -19.7,
-          "full": -14.0
+          "working": -19.7,
+          "max": -14.0
         },
         "short": {
-          "soft": -43.7,
-          "medium": -36.5,
-          "full": -20.3
+          "working": -36.5,
+          "max": -20.3
         }
       }
     },
@@ -532,14 +489,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -26.5,
-          "medium": -20.3,
-          "full": -13.1
+          "working": -20.3,
+          "max": -13.1
         },
         "short": {
-          "soft": -43.4,
-          "medium": -38.2,
-          "full": -18.5
+          "working": -38.2,
+          "max": -18.5
         }
       }
     },
@@ -556,14 +511,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -28.1,
-          "medium": -19.1,
-          "full": -11.3
+          "working": -19.1,
+          "max": -11.3
         },
         "short": {
-          "soft": -43.1,
-          "medium": -37.4,
-          "full": -18.3
+          "working": -37.4,
+          "max": -18.3
         }
       }
     },
@@ -580,14 +533,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -37.8,
-          "medium": -29.3,
-          "full": -22.4
+          "working": -29.3,
+          "max": -22.4
         },
         "short": {
-          "soft": -45.4,
-          "medium": -39.7,
-          "full": -29.9
+          "working": -39.7,
+          "max": -29.9
         }
       }
     },
@@ -604,14 +555,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -37.2,
-          "medium": -27.7,
-          "full": -16.3
+          "working": -27.7,
+          "max": -16.3
         },
         "short": {
-          "soft": -42.3,
-          "medium": -36.8,
-          "full": -26.3
+          "working": -36.8,
+          "max": -26.3
         }
       }
     },
@@ -628,14 +577,34 @@
       },
       "loudness": {
         "long": {
-          "soft": -37.0,
-          "medium": -27.0,
-          "full": -19.0
+          "working": -26.9,
+          "max": -21.7
         },
         "short": {
-          "soft": -35.0,
-          "medium": -25.0,
-          "full": -17.0
+          "working": -41.6,
+          "max": -19.0
+        }
+      }
+    },
+	"trombones-a4": {
+      "pitch": {
+        "range": {
+          "min": 40,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 46,
+          "max": 58
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": -24.9,
+          "max": -19.1
+        },
+        "short": {
+          "working": -37.5,
+          "max": -22.0
         }
       }
     },
@@ -652,14 +621,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -40.0,
-          "medium": -30.0,
-          "full": -22.0
+          "working": -30.6,
+          "max": -22.6
         },
         "short": {
-          "soft": -38.0,
-          "medium": -28.0,
-          "full": -20.0
+          "working": -37.1,
+          "max": -26.8
         }
       }
     },
@@ -676,14 +643,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -40.0,
-          "medium": -30.0,
-          "full": -23.0
+          "working": -29.6,
+          "max": -21.2
         },
         "short": {
-          "soft": -38.0,
-          "medium": -28.0,
-          "full": -21.0
+          "working": -36.4,
+          "max": -25.9
         }
       }
     },
@@ -700,14 +665,34 @@
       },
       "loudness": {
         "long": {
-          "soft": -38.0,
-          "medium": -28.0,
-          "full": -20.0
+          "working": -28.7,
+          "max": -18.9
         },
         "short": {
-          "soft": -36.0,
-          "medium": -26.0,
-          "full": -18.0
+          "working": -35.3,
+          "max": -21.5
+        }
+      }
+    },
+	"bass-trombones-a3": {
+      "pitch": {
+        "range": {
+          "min": 22,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 41,
+          "max": 53
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": -24.7,
+          "max": -20.4
+        },
+        "short": {
+          "working": -35.8,
+          "max": -25.4
         }
       }
     },
@@ -724,14 +709,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -40.0,
-          "medium": -30.0,
-          "full": -24.0
+          "working": -33.1,
+          "max": -21.0
         },
         "short": {
-          "soft": -38.0,
-          "medium": -28.0,
-          "full": -22.0
+          "working": -45.0,
+          "max": -26.3
         }
       }
     },
@@ -748,14 +731,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -38.0,
-          "medium": -28.0,
-          "full": -22.0
+          "working": -30.0,
+          "max": -17.3
         },
         "short": {
-          "soft": -36.0,
-          "medium": -26.0,
-          "full": -20.0
+          "working": -40.8,
+          "max": -20.6
         }
       }
     },
@@ -772,14 +753,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -40.0,
-          "medium": -30.0,
-          "full": -25.0
+          "working": -32.1,
+          "max": -19.6
         },
         "short": {
-          "soft": -38.0,
-          "medium": -28.0,
-          "full": -23.0
+          "working": -44.3,
+          "max": -25.4
         }
       }
     },
@@ -796,14 +775,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -49.0,
-          "medium": -38.0,
-          "full": -30.0
+          "working": -38.0,
+          "max": -30.0
         },
         "short": {
-          "soft": -47.0,
-          "medium": -36.0,
-          "full": -28.0
+          "working": -36.0,
+          "max": -28.0
         }
       }
     },
@@ -820,14 +797,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -55.0,
-          "medium": -44.0,
-          "full": -36.0
+          "working": -44.0,
+          "max": -36.0
         },
         "short": {
-          "soft": -53.0,
-          "medium": -42.0,
-          "full": -34.0
+          "working": -42.0,
+          "max": -34.0
         }
       }
     },
@@ -844,14 +819,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -51.0,
-          "medium": -40.0,
-          "full": -32.0
+          "working": -40.0,
+          "max": -32.0
         },
         "short": {
-          "soft": -49.0,
-          "medium": -38.0,
-          "full": -30.0
+          "working": -38.0,
+          "max": -30.0
         }
       }
     },
@@ -868,14 +841,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -57.0,
-          "medium": -46.0,
-          "full": -38.0
+          "working": -46.0,
+          "max": -38.0
         },
         "short": {
-          "soft": -55.0,
-          "medium": -44.0,
-          "full": -36.0
+          "working": -44.0,
+          "max": -36.0
         }
       }
     },
@@ -892,14 +863,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -51.0,
-          "medium": -40.0,
-          "full": -33.0
+          "working": -40.0,
+          "max": -33.0
         },
         "short": {
-          "soft": -49.0,
-          "medium": -38.0,
-          "full": -31.0
+          "working": -38.0,
+          "max": -31.0
         }
       }
     },
@@ -916,14 +885,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -59.0,
-          "medium": -48.0,
-          "full": -41.0
+          "working": -48.0,
+          "max": -41.0
         },
         "short": {
-          "soft": -57.0,
-          "medium": -46.0,
-          "full": -39.0
+          "working": -46.0,
+          "max": -39.0
         }
       }
     },
@@ -940,14 +907,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -48.0,
-          "medium": -37.0,
-          "full": -30.0
+          "working": -37.0,
+          "max": -30.0
         },
         "short": {
-          "soft": -46.0,
-          "medium": -35.0,
-          "full": -28.0
+          "working": -35.0,
+          "max": -28.0
         }
       }
     },
@@ -964,14 +929,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -56.0,
-          "medium": -45.0,
-          "full": -28.0
+          "working": -45.0,
+          "max": -28.0
         },
         "short": {
-          "soft": -54.0,
-          "medium": -43.0,
-          "full": -26.0
+          "working": -43.0,
+          "max": -26.0
         }
       }
     },
@@ -988,14 +951,12 @@
       },
       "loudness": {
         "long": {
-          "soft": -51.0,
-          "medium": -40.0,
-          "full": -34.0
+          "working": -40.0,
+          "max": -34.0
         },
         "short": {
-          "soft": -49.0,
-          "medium": -38.0,
-          "full": -32.0
+          "working": -38.0,
+          "max": -32.0
         }
       }
     },
@@ -1012,14 +973,2454 @@
       },
       "loudness": {
         "long": {
-          "soft": -59.0,
-          "medium": -48.0,
-          "full": -42.0
+          "working": -48.0,
+          "max": -42.0
         },
         "short": {
-          "soft": -57.0,
-          "medium": -46.0,
-          "full": -40.0
+          "working": -46.0,
+          "max": -40.0
+        }
+      }
+    },
+    "bass-trumpet": {
+      "pitch": {
+        "range": {
+          "min": 40,
+          "max": 70
+        },
+        "measurementRange": {
+          "min": 48,
+          "max": 65
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "german-trumpet": {
+      "pitch": {
+        "range": {
+          "min": 52,
+          "max": 84
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "cornet": {
+      "pitch": {
+        "range": {
+          "min": 52,
+          "max": 84
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "trumpets-a4": {
+      "pitch": {
+        "range": {
+          "min": 52,
+          "max": 84
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "trumpets-a6": {
+      "pitch": {
+        "range": {
+          "min": 52,
+          "max": 84
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "trumpets-a8": {
+      "pitch": {
+        "range": {
+          "min": 52,
+          "max": 84
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "descant-horn": {
+      "pitch": {
+        "range": {
+          "min": 47,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 55,
+          "max": 69
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "flugelhorn": {
+      "pitch": {
+        "range": {
+          "min": 48,
+          "max": 79
+        },
+        "measurementRange": {
+          "min": 55,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "euphonium": {
+      "pitch": {
+        "range": {
+          "min": 40,
+          "max": 70
+        },
+        "measurementRange": {
+          "min": 46,
+          "max": 60
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "violin": {
+      "pitch": {
+        "range": {
+          "min": 55,
+          "max": 105
+        },
+        "measurementRange": {
+          "min": 67,
+          "max": 79
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "violins": {
+      "pitch": {
+        "range": {
+          "min": 55,
+          "max": 105
+        },
+        "measurementRange": {
+          "min": 67,
+          "max": 79
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "viola": {
+      "pitch": {
+        "range": {
+          "min": 48,
+          "max": 93
+        },
+        "measurementRange": {
+          "min": 55,
+          "max": 67
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "cello": {
+      "pitch": {
+        "range": {
+          "min": 36,
+          "max": 81
+        },
+        "measurementRange": {
+          "min": 48,
+          "max": 60
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "doublebass": {
+      "pitch": {
+        "range": {
+          "min": 23,
+          "max": 67
+        },
+        "measurementRange": {
+          "min": 28,
+          "max": 40
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "harp": {
+      "pitch": {
+        "range": {
+          "min": 24,
+          "max": 103
+        },
+        "measurementRange": {
+          "min": 48,
+          "max": 84
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "grand-piano": {
+      "pitch": {
+        "range": {
+          "min": 21,
+          "max": 108
+        },
+        "measurementRange": {
+          "min": 36,
+          "max": 96
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "valve-trombone": {
+      "pitch": {
+        "range": {
+          "min": 40,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 46,
+          "max": 58
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "trombone-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 22,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 40,
+          "max": 58
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "tuba-bass-trombone": {
+      "pitch": {
+        "range": {
+          "min": 22,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 36,
+          "max": 53
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "bass-flute": {
+      "pitch": {
+        "range": {
+          "min": 48,
+          "max": 84
+        },
+        "measurementRange": {
+          "min": 55,
+          "max": 67
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "strings-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 23,
+          "max": 105
+        },
+        "measurementRange": {
+          "min": 48,
+          "max": 79
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "woodwinds-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 34,
+          "max": 110
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 79
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "brass-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 26,
+          "max": 91
+        },
+        "measurementRange": {
+          "min": 46,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "high-strings-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 48,
+          "max": 105
+        },
+        "measurementRange": {
+          "min": 67,
+          "max": 79
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "low-strings-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 23,
+          "max": 81
+        },
+        "measurementRange": {
+          "min": 36,
+          "max": 60
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "high-woodwinds-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 50,
+          "max": 110
+        },
+        "measurementRange": {
+          "min": 67,
+          "max": 84
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "low-woodwinds-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 34,
+          "max": 83
+        },
+        "measurementRange": {
+          "min": 43,
+          "max": 60
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "high-brass-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 35,
+          "max": 91
+        },
+        "measurementRange": {
+          "min": 52,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "mid-brass-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 35,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 46,
+          "max": 64
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "low-brass-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 26,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 36,
+          "max": 53
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "flutes-a3": {
+      "pitch": {
+        "range": {
+          "min": 59,
+          "max": 98
+        },
+        "measurementRange": {
+          "min": 72,
+          "max": 84
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "bass-oboe": {
+      "pitch": {
+        "range": {
+          "min": 47,
+          "max": 78
+        },
+        "measurementRange": {
+          "min": 52,
+          "max": 64
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "oboes-a3": {
+      "pitch": {
+        "range": {
+          "min": 58,
+          "max": 91
+        },
+        "measurementRange": {
+          "min": 67,
+          "max": 79
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "clarinets-a3": {
+      "pitch": {
+        "range": {
+          "min": 50,
+          "max": 94
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "soprano-saxophone": {
+      "pitch": {
+        "range": {
+          "min": 56,
+          "max": 88
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 76
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "alto-saxophone": {
+      "pitch": {
+        "range": {
+          "min": 49,
+          "max": 80
+        },
+        "measurementRange": {
+          "min": 55,
+          "max": 69
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "tenor-saxophone": {
+      "pitch": {
+        "range": {
+          "min": 44,
+          "max": 76
+        },
+        "measurementRange": {
+          "min": 48,
+          "max": 64
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "baritone-saxophone": {
+      "pitch": {
+        "range": {
+          "min": 37,
+          "max": 69
+        },
+        "measurementRange": {
+          "min": 43,
+          "max": 57
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "crotales": {
+      "pitch": {
+        "range": {
+          "min": 84,
+          "max": 113
+        },
+        "measurementRange": {
+          "min": 89,
+          "max": 108
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "vibraphone": {
+      "pitch": {
+        "range": {
+          "min": 53,
+          "max": 89
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 84
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "bassoons-a3": {
+      "pitch": {
+        "range": {
+          "min": 34,
+          "max": 75
+        },
+        "measurementRange": {
+          "min": 43,
+          "max": 55
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "tenor-trombones-a5": {
+      "pitch": {
+        "range": {
+          "min": 40,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 46,
+          "max": 58
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "cimbasso": {
+      "pitch": {
+        "range": {
+          "min": 35,
+          "max": 65
+        },
+        "measurementRange": {
+          "min": 40,
+          "max": 60
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "cimbassi-a2": {
+      "pitch": {
+        "range": {
+          "min": 35,
+          "max": 65
+        },
+        "measurementRange": {
+          "min": 40,
+          "max": 60
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "cimbasso-bass-trombone": {
+      "pitch": {
+        "range": {
+          "min": 34,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 40,
+          "max": 58
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "celeste": {
+      "pitch": {
+        "range": {
+          "min": 60,
+          "max": 108
+        },
+        "measurementRange": {
+          "min": 72,
+          "max": 96
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "glockenspiel": {
+      "pitch": {
+        "range": {
+          "min": 77,
+          "max": 108
+        },
+        "measurementRange": {
+          "min": 84,
+          "max": 103
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "timpani": {
+      "pitch": {
+        "range": {
+          "min": 36,
+          "max": 60
+        },
+        "measurementRange": {
+          "min": 40,
+          "max": 55
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "xylophone": {
+      "pitch": {
+        "range": {
+          "min": 65,
+          "max": 108
+        },
+        "measurementRange": {
+          "min": 72,
+          "max": 96
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "tubular-bells": {
+      "pitch": {
+        "range": {
+          "min": 60,
+          "max": 89
+        },
+        "measurementRange": {
+          "min": 65,
+          "max": 84
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "marimba": {
+      "pitch": {
+        "range": {
+          "min": 36,
+          "max": 96
+        },
+        "measurementRange": {
+          "min": 48,
+          "max": 84
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "anvil": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "bongos": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "gran-cassa": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "gran-cassas-a2": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "bass-drum": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "concert-toms": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "cymbal": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "brake-drum": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "chimes": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "mark-tree": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "marching-drum-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "military-drum": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "piatti": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "snare": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "snare-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "sticks": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "castanets": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "sleigh-bells": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "suspended-cymbals": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "taiko": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "taos-drum": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "drum-kit": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "tam-tam": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "tambourine": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "tenor-drum": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "toys": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "triangle": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "woodblocks": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "temple-blocks": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "horn-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 35,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 52,
+          "max": 64
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "horns-tuba-bass-trombone": {
+      "pitch": {
+        "range": {
+          "min": 22,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 36,
+          "max": 53
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "trumpet-ensemble": {
+      "pitch": {
+        "range": {
+          "min": 52,
+          "max": 84
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "trumpets-trombones": {
+      "pitch": {
+        "range": {
+          "min": 40,
+          "max": 84
+        },
+        "measurementRange": {
+          "min": 52,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "tin-whistle": {
+      "pitch": {
+        "range": {
+          "min": 74,
+          "max": 98
+        },
+        "measurementRange": {
+          "min": 79,
+          "max": 91
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "bansuri": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "dizi": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "shakuhachi": {
+      "pitch": {
+        "range": {
+          "min": 62,
+          "max": 86
+        },
+        "measurementRange": {
+          "min": 67,
+          "max": 79
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "eb-clarinet": {
+      "pitch": {
+        "range": {
+          "min": 53,
+          "max": 91
+        },
+        "measurementRange": {
+          "min": 65,
+          "max": 79
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "contrabass-clarinet": {
+      "pitch": {
+        "range": {
+          "min": 24,
+          "max": 60
+        },
+        "measurementRange": {
+          "min": 43,
+          "max": 55
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "trombones-a6": {
+      "pitch": {
+        "range": {
+          "min": 40,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 46,
+          "max": 58
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "trombones-a8": {
+      "pitch": {
+        "range": {
+          "min": 40,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 46,
+          "max": 58
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "sopranos": {
+      "pitch": {
+        "range": {
+          "min": 60,
+          "max": 81
+        },
+        "measurementRange": {
+          "min": 64,
+          "max": 76
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "altos": {
+      "pitch": {
+        "range": {
+          "min": 53,
+          "max": 74
+        },
+        "measurementRange": {
+          "min": 57,
+          "max": 69
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "tenors": {
+      "pitch": {
+        "range": {
+          "min": 48,
+          "max": 69
+        },
+        "measurementRange": {
+          "min": 52,
+          "max": 64
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "basses-voice": {
+      "pitch": {
+        "range": {
+          "min": 36,
+          "max": 60
+        },
+        "measurementRange": {
+          "min": 40,
+          "max": 53
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "desk-bells": {
+      "pitch": {
+        "range": {
+          "min": 55,
+          "max": 89
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 84
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "conga": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "rototoms": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "timbales": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "field-drum": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "unpitched-metal": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "unpitched-wood": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "claves": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "agogo": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "cabasa": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "cowbells": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "guiro": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "shakers": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "drums": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "percussion": {
+      "pitch": {
+        "range": {
+          "min": 0,
+          "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
         }
       }
     }

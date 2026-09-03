@@ -23,7 +23,7 @@ PLURALS = {
     "variant": "variants",
 }
 LOUDNESS_CAPTURE_KINDS = ("long", "short")
-EXPECTED_DYNAMIC_ANCHORS = ("soft", "medium", "full")
+EXPECTED_DYNAMIC_ANCHORS = ("working", "max")
 
 
 def normalized(value: str) -> str:
@@ -75,7 +75,7 @@ def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
         if loudness_reference.get("unit") != "LUFS":
             errors.append("instrument-properties: loudnessReference.unit must be LUFS")
         if loudness_reference.get("dynamicAnchors") != list(EXPECTED_DYNAMIC_ANCHORS):
-            errors.append("instrument-properties: dynamicAnchors must be ['soft', 'medium', 'full']")
+            errors.append("instrument-properties: dynamicAnchors must be ['working', 'max']")
 
     instruments = document.get("instruments")
     if not isinstance(instruments, dict):
@@ -124,7 +124,7 @@ def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
                 continue
 
             if set(targets.keys()) != set(EXPECTED_DYNAMIC_ANCHORS):
-                errors.append(f"{prefix}.loudness.{capture_kind}: keys must be soft, medium, full")
+                errors.append(f"{prefix}.loudness.{capture_kind}: keys must be working, max")
 
             for anchor in EXPECTED_DYNAMIC_ANCHORS:
                 if not isinstance(targets.get(anchor), (int, float)):
