@@ -22,7 +22,11 @@ PLURALS = {
     "articulation": "articulations",
     "variant": "variants",
 }
-LOUDNESS_CAPTURE_KINDS = ("long", "short")
+LOUDNESS_CAPTURE_KINDS = {
+    "long": ("working", "max"),
+    "short": ("working", "max"),
+    "percussion": ("max",),
+}
 EXPECTED_DYNAMIC_ANCHORS = ("working", "max")
 
 
@@ -117,18 +121,30 @@ def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
             errors.append(f"{prefix}.loudness: expected an object")
             continue
 
-        for capture_kind in LOUDNESS_CAPTURE_KINDS:
+        supported_capture_kinds = set(LOUDNESS_CAPTURE_KINDS)
+        unknown_capture_kinds = set(loudness) - supported_capture_kinds
+        if unknown_capture_kinds:
+            errors.append(f"{prefix}.loudness: unsupported modes {', '.join(sorted(unknown_capture_kinds))}")
+
+        supported_mode_count = 0
+        for capture_kind, expected_anchors in LOUDNESS_CAPTURE_KINDS.items():
             targets = loudness.get(capture_kind)
+            if targets is None:
+                continue
+            supported_mode_count += 1
             if not isinstance(targets, dict):
                 errors.append(f"{prefix}.loudness.{capture_kind}: expected an object")
                 continue
 
-            if set(targets.keys()) != set(EXPECTED_DYNAMIC_ANCHORS):
-                errors.append(f"{prefix}.loudness.{capture_kind}: keys must be working, max")
+            if set(targets.keys()) != set(expected_anchors):
+                errors.append(f"{prefix}.loudness.{capture_kind}: keys must be {', '.join(expected_anchors)}")
 
-            for anchor in EXPECTED_DYNAMIC_ANCHORS:
+            for anchor in expected_anchors:
                 if not isinstance(targets.get(anchor), (int, float)):
                     errors.append(f"{prefix}.loudness.{capture_kind}.{anchor}: must be numeric")
+
+        if supported_mode_count == 0:
+            errors.append(f"{prefix}.loudness: must define at least one supported mode")
 
     return errors
 

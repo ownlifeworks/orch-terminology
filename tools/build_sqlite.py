@@ -432,11 +432,18 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
             loudness = properties.get("loudness", {})
             if not isinstance(loudness, dict):
                 raise ValueError(f"instrument-properties.json: {instrument_id}.loudness must be an object")
-            for capture_kind in ("long", "short"):
+            capture_kinds = {
+                "long": ("working", "max"),
+                "short": ("working", "max"),
+                "percussion": ("max",),
+            }
+            for capture_kind, expected_anchors in capture_kinds.items():
                 targets = loudness.get(capture_kind)
+                if targets is None:
+                    continue
                 if not isinstance(targets, dict):
                     raise ValueError(f"instrument-properties.json: {instrument_id}.loudness.{capture_kind} must be an object")
-                for anchor in dynamic_anchors:
+                for anchor in expected_anchors:
                     if anchor not in targets:
                         raise ValueError(f"instrument-properties.json: {instrument_id}.loudness.{capture_kind} missing {anchor}")
                     connection.execute(

@@ -92,15 +92,15 @@
         }
       },
       "loudness": {
-    "long": {
-      "working": -35.8,
-      "max": -32.4
-    },
-    "short": {
-      "working": -42.8,
-      "max": -37.8
-    }
-  }
+        "long": {
+          "working": -35.8,
+          "max": -32.4
+        },
+        "short": {
+          "working": -42.8,
+          "max": -37.8
+        }
+      }
     },
     "oboe": {
       "pitch": {
@@ -256,7 +256,7 @@
         }
       }
     },
-	"contrabassoon": {
+    "contrabassoon": {
       "pitch": {
         "range": {
           "min": 22,
@@ -476,7 +476,7 @@
         }
       }
     },
-	"horns-a8": {
+    "horns-a8": {
       "pitch": {
         "range": {
           "min": 35,
@@ -498,7 +498,7 @@
         }
       }
     },
-	"horns-a12": {
+    "horns-a12": {
       "pitch": {
         "range": {
           "min": 35,
@@ -586,7 +586,7 @@
         }
       }
     },
-	"trombones-a4": {
+    "trombones-a4": {
       "pitch": {
         "range": {
           "min": 40,
@@ -674,7 +674,7 @@
         }
       }
     },
-	"bass-trombones-a3": {
+    "bass-trombones-a3": {
       "pitch": {
         "range": {
           "min": 22,
@@ -2028,12 +2028,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2116,12 +2111,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2138,12 +2128,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2160,12 +2145,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2182,12 +2162,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2204,12 +2179,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2226,12 +2196,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2248,12 +2213,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2270,12 +2230,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2292,12 +2247,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2314,12 +2264,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2336,12 +2281,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2358,12 +2298,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2380,12 +2315,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2402,12 +2332,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2424,12 +2349,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2446,12 +2366,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2468,12 +2383,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2490,12 +2400,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2512,12 +2417,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2534,12 +2434,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2556,12 +2451,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2578,12 +2468,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2600,12 +2485,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2622,12 +2502,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2644,12 +2519,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2666,12 +2536,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2688,12 +2553,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2710,12 +2570,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -2732,12 +2587,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3106,12 +2956,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3128,12 +2973,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3150,12 +2990,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3172,12 +3007,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3194,12 +3024,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3216,12 +3041,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3238,12 +3058,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3260,12 +3075,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3282,12 +3092,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3304,12 +3109,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3326,12 +3126,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3348,12 +3143,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3370,12 +3160,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3392,12 +3177,7 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
@@ -3414,16 +3194,10 @@
         }
       },
       "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
+        "percussion": {
           "max": 0
         }
       }
     }
   }
 }
-
