@@ -1,0 +1,108 @@
+[
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-woodwinds",
+    "instrumentId": "alto-flute",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "portato", "variantIds": ["long", "short"] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      { "articulationId": "sustains", "variantIds": ["soft"] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-woodwinds",
+    "instrumentId": "bassoon",
+    "articulations": [
+      { "articulationId": "doubles", "variantIds": [] },
+      { "articulationId": "fortepiano", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "portato", "variantIds": ["long", "short"] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] },
+      { "articulationId": "triples", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-woodwinds",
+    "instrumentId": "clarinet",
+    "articulations": [
+      { "articulationId": "doubles", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "portato", "variantIds": ["long", "short"] },
+      { "articulationId": "repetitions", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      { "articulationId": "sustains", "variantIds": ["acc", "soft"] },
+      { "articulationId": "trills", "variantIds": ["measured", "sforzando"] },
+      { "articulationId": "triples", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-woodwinds",
+    "instrumentId": "english-horn",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "portato", "variantIds": ["long", "short"] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      { "articulationId": "sustains", "variantIds": ["acc", "soft"] },
+      { "articulationId": "trills", "variantIds": ["measured", "sforzando"] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-woodwinds",
+    "instrumentId": "flute",
+    "articulations": [
+      { "articulationId": "doubles", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "portato", "variantIds": ["long", "short"] },
+      { "articulationId": "repetitions", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      { "articulationId": "sustains", "variantIds": ["acc", "soft"] },
+      { "articulationId": "trills", "variantIds": ["measured", "sforzando"] },
+      { "articulationId": "triples", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-woodwinds",
+    "instrumentId": "oboe",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "portato", "variantIds": ["long", "short"] },
+      { "articulationId": "repetitions", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      { "articulationId": "sustains", "variantIds": ["acc", "soft"] },
+      { "articulationId": "trills", "variantIds": ["measured", "sforzando"] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-woodwinds",
+    "instrumentId": "piccolo",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "repetitions", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      { "articulationId": "sustains", "variantIds": ["acc"] },
+      { "articulationId": "trills", "variantIds": ["sforzando"] }
+    ]
+  }
+]

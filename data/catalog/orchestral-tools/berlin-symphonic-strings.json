@@ -1,0 +1,92 @@
+[
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-symphonic-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["acc", "soft"] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-symphonic-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "portato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["acc", "soft"] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-symphonic-strings",
+    "instrumentId": "harp",
+    "articulations": [
+      { "articulationId": "flageolet", "variantIds": [] },
+      { "articulationId": "glissandi", "variantIds": ["harmonic-minor", "major", "pentatonic", "wholetone"] },
+      { "articulationId": "portato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-symphonic-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "portato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["acc", "soft"] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-symphonic-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "portato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["acc", "soft"] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-symphonic-strings",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["long", "short"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["acc", "soft"] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  }
+]

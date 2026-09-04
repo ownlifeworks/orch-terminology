@@ -57,8 +57,12 @@ foreach ($file in $sourceFiles) {
     }
 }
 
-$catalog = foreach ($entryKey in ($index.Keys | Sort-Object)) {
-    $entry = $index[$entryKey]
+$orderedEntries = @($index.Values | Sort-Object `
+    @{ Expression = { $_.vendorId } }, `
+    @{ Expression = { $_.libraryId } }, `
+    @{ Expression = { $_.instrumentId } })
+
+$catalog = foreach ($entry in $orderedEntries) {
     $articulations = foreach ($artKey in ($entry.articulations.Keys | Sort-Object)) {
         [ordered]@{
             articulationId = $artKey

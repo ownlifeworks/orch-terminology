@@ -1,0 +1,46 @@
+[
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "adventure-brass",
+    "instrumentId": "horns-a4",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "adventure-brass",
+    "instrumentId": "trombones-a2",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "adventure-brass",
+    "instrumentId": "trumpets-a2",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] },
+      { "articulationId": "repetitions", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "adventure-brass",
+    "instrumentId": "tuba",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] }
+    ]
+  }
+]

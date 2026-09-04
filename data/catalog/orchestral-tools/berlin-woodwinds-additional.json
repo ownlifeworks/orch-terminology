@@ -1,0 +1,57 @@
+[
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-woodwinds-additional",
+    "instrumentId": "bass-clarinet",
+    "articulations": [
+      { "articulationId": "doubles", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "portato", "variantIds": ["long", "short"] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] },
+      { "articulationId": "triples", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-woodwinds-additional",
+    "instrumentId": "eb-clarinet",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "portato", "variantIds": ["short"] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-woodwinds-additional",
+    "instrumentId": "contrabass-clarinet",
+    "articulations": [
+      { "articulationId": "doubles", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "portato", "variantIds": ["long", "short"] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": ["short"] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "triples", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-woodwinds-additional",
+    "instrumentId": "contrabassoon",
+    "articulations": [
+      { "articulationId": "doubles", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "portato", "variantIds": ["long", "short"] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "triples", "variantIds": [] }
+    ]
+  }
+]

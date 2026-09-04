@@ -167,10 +167,22 @@
       "aliases": ["bss", "berlin-symphonic", "berlin-strings-symphonic"]
     },
     {
+      "id": "berlin-strings-first-chairs",
+      "name": "Berlin Strings First Chairs",
+      "vendorId": "orchestral-tools",
+      "aliases": ["bsfc", "berlin-strings-first-chairs", "berlin-first-chairs"]
+    },
+    {
       "id": "berlin-brass",
       "name": "Berlin Brass",
       "vendorId": "orchestral-tools",
       "aliases": ["bbr", "berlin-brass"]
+    },
+    {
+      "id": "berlin-percussion",
+      "name": "Berlin Percussion",
+      "vendorId": "orchestral-tools",
+      "aliases": ["bper", "berlin-percussion"]
     },
     {
       "id": "synchron-prime-woodwinds",
@@ -321,6 +333,18 @@
       "name": "Adventure Strings",
       "vendorId": "musical-sampling",
       "aliases": ["adventure-strings", "adventure strings"]
+    },
+    {
+      "id": "adventure-brass",
+      "name": "Adventure Brass",
+      "vendorId": "musical-sampling",
+      "aliases": ["adventure-brass", "adventure brass"]
+    },
+    {
+      "id": "classic-brass",
+      "name": "Classic Brass",
+      "vendorId": "musical-sampling",
+      "aliases": ["classic-brass", "classic brass"]
     }
   ]
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "classic-brass",
+    "instrumentId": "bass-trombones-a3",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "classic-brass",
+    "instrumentId": "horns-a4",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "classic-brass",
+    "instrumentId": "trumpets-a2",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "classic-brass",
+    "instrumentId": "tuba",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  }
+]

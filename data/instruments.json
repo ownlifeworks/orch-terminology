@@ -1246,7 +1246,7 @@
     },
     {
       "id": "flutes-a2",
-      "name": "Flutes A2",
+      "name": "Flutes a2",
       "aliases": [
         "2flus",
         "2-flutes",
@@ -1256,7 +1256,7 @@
     },
     {
       "id": "oboes-a2",
-      "name": "Oboes A2",
+      "name": "Oboes a2",
       "aliases": [
         "2obos",
         "2-oboes",
@@ -1266,7 +1266,7 @@
     },
     {
       "id": "clarinets-a2",
-      "name": "Clarinets A2",
+      "name": "Clarinets a2",
       "aliases": [
         "2clas",
         "2-clarinets",
