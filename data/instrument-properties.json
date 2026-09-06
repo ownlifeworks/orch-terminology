@@ -1809,12 +1809,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -33.9,
+          "max": -27.6
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -35.4,
+          "max": -29.0
         }
       }
     },
@@ -1963,12 +1963,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -42.6,
+          "max": -37.2
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -40.9,
+          "max": -36.1
         }
       }
     },
@@ -2002,12 +2002,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -40.4,
+          "max": -31.0
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -41.3,
+          "max": -32.2
         }
       }
     },
@@ -2024,12 +2024,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -38.1,
+          "max": -27.7
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -34.3,
+          "max": -26.3
         }
       }
     },
@@ -2046,12 +2046,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -37.5,
+          "max": -30.0
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -37.4,
+          "max": -30.0
         }
       }
     },
@@ -2272,7 +2272,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -8.8
         }
       }
     },
@@ -2357,7 +2357,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -32.1
         }
       }
     },
@@ -2391,7 +2391,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -17.4
         }
       }
     },
@@ -2429,23 +2429,6 @@
         }
       }
     },
-    "drum-kit": {
-      "pitch": {
-        "range": {
-          "min": 0,
-          "max": 0
-        },
-        "measurementRange": {
-          "min": 0,
-          "max": 0
-        }
-      },
-      "loudness": {
-        "percussion": {
-          "max": 0
-        }
-      }
-    },
     "tam-tam": {
       "pitch": {
         "range": {
@@ -2459,7 +2442,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -11.7
         }
       }
     },
@@ -2476,28 +2459,11 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -25.0
         }
       }
     },
     "tenor-drum": {
-      "pitch": {
-        "range": {
-          "min": 0,
-          "max": 0
-        },
-        "measurementRange": {
-          "min": 0,
-          "max": 0
-        }
-      },
-      "loudness": {
-        "percussion": {
-          "max": 0
-        }
-      }
-    },
-    "toys": {
       "pitch": {
         "range": {
           "min": 0,
@@ -2527,7 +2493,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -32.6
         }
       }
     },
@@ -2544,7 +2510,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -22.0
         }
       }
     },
@@ -2561,7 +2527,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -33.0
         }
       }
     },
@@ -2958,40 +2924,6 @@
         }
       }
     },
-    "unpitched-metal": {
-      "pitch": {
-        "range": {
-          "min": 0,
-          "max": 0
-        },
-        "measurementRange": {
-          "min": 0,
-          "max": 0
-        }
-      },
-      "loudness": {
-        "percussion": {
-          "max": 0
-        }
-      }
-    },
-    "unpitched-wood": {
-      "pitch": {
-        "range": {
-          "min": 0,
-          "max": 0
-        },
-        "measurementRange": {
-          "min": 0,
-          "max": 0
-        }
-      },
-      "loudness": {
-        "percussion": {
-          "max": 0
-        }
-      }
-    },
     "claves": {
       "pitch": {
         "range": {
@@ -3005,7 +2937,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -28.1
         }
       }
     },
@@ -3073,7 +3005,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -36.7
         }
       }
     },
@@ -3090,43 +3022,8 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
-        }
-      }
-    },
-    "drums": {
-      "pitch": {
-        "range": {
-          "min": 0,
-          "max": 0
-        },
-        "measurementRange": {
-          "min": 0,
-          "max": 0
-        }
-      },
-      "loudness": {
-        "percussion": {
-          "max": 0
-        }
-      }
-    },
-    "percussion": {
-      "pitch": {
-        "range": {
-          "min": 0,
-          "max": 0
-        },
-        "measurementRange": {
-          "min": 0,
-          "max": 0
-        }
-      },
-      "loudness": {
-        "percussion": {
-          "max": 0
+          "max": -48.4
         }
       }
     }
-  }
 }
