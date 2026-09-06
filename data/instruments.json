@@ -977,6 +977,15 @@
       "iconKey": "snare.png"
     },
     {
+      "id": "snare-piccolo",
+      "name": "Piccolo Snare Drum",
+      "aliases": [
+        "snare-piccolo",
+        "piccolo-snare"
+      ],
+      "iconKey": "snare.png"
+    },
+    {
       "id": "snare-ensemble",
       "name": "Snare Ensemble",
       "aliases": [

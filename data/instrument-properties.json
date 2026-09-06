@@ -757,8 +757,8 @@
           "max": -20.0
         },
         "short": {
-          "working": 39.5,
-          "max": 25.5
+          "working": -39.5,
+          "max": -25.5
         }
       }
     },
@@ -907,12 +907,12 @@
       },
       "loudness": {
         "long": {
-          "working": -37.0,
-          "max": -30.0
+          "working": -29.3,
+          "max": -24.0
         },
         "short": {
-          "working": -35.0,
-          "max": -28.0
+          "working": -37.8,
+          "max": -28.3
         }
       }
     },
@@ -929,12 +929,12 @@
       },
       "loudness": {
         "long": {
-          "working": -45.0,
-          "max": -28.0
+          "working": -37.3,
+          "max": -32.4
         },
         "short": {
-          "working": -43.0,
-          "max": -26.0
+          "working": -42.0,
+          "max": -34.3
         }
       }
     },
@@ -951,12 +951,12 @@
       },
       "loudness": {
         "long": {
-          "working": -40.0,
-          "max": -34.0
+          "working": -30.7,
+          "max": -27.2
         },
         "short": {
-          "working": -38.0,
-          "max": -32.0
+          "working": -38.4,
+          "max": -27.1
         }
       }
     },
@@ -973,12 +973,12 @@
       },
       "loudness": {
         "long": {
-          "working": -48.0,
-          "max": -42.0
+          "working": -36.9,
+          "max": -31.7
         },
         "short": {
-          "working": -46.0,
-          "max": -40.0
+          "working": -37.5,
+          "max": -32.2
         }
       }
     },
@@ -1281,12 +1281,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -46.7,
+          "max": -37.1
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -45.7,
+          "max": -35.3
         }
       }
     },
@@ -1941,12 +1941,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -36.3,
+          "max": -28.0
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -36.1,
+          "max": -27.5
         }
       }
     },
@@ -2085,7 +2085,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -20.4
         }
       }
     },
@@ -2102,7 +2102,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -7.5
         }
       }
     },
@@ -2136,7 +2136,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -13.2
         }
       }
     },
@@ -2153,7 +2153,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -15.5
         }
       }
     },
@@ -2289,7 +2289,24 @@
       },
       "loudness": {
         "percussion": {
+          "max": -15.3
+        }
+      }
+    },
+	"snare-piccolo": {
+      "pitch": {
+        "range": {
+          "min": 0,
           "max": 0
+        },
+        "measurementRange": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "loudness": {
+        "percussion": {
+          "max": -15.6
         }
       }
     },
@@ -2886,7 +2903,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -20.2
         }
       }
     },
@@ -2920,7 +2937,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -18.7
         }
       }
     },
@@ -2937,7 +2954,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": 0
+          "max": -11.1
         }
       }
     },
