@@ -27,11 +27,11 @@
       },
       "loudness": {
         "long": {
-          "working": -32.2,
-          "max": -26.7
+          "working": -32.9,
+          "max": -25.9
         },
         "short": {
-          "working": -37.0,
+          "working": -39.1,
           "max": -32.0
         }
       }
@@ -115,11 +115,11 @@
       },
       "loudness": {
         "long": {
-          "working": -32.9,
-          "max": -27.3
+          "working": -30.5,
+          "max": -26.5
         },
         "short": {
-          "working": -37.7,
+          "working": -37.6,
           "max": -32.0
         }
       }
@@ -137,12 +137,12 @@
       },
       "loudness": {
         "long": {
-          "working": -31.2,
-          "max": -25.5
+          "working": -27.7,
+          "max": -22.5
         },
         "short": {
-          "working": -36.2,
-          "max": -30.3
+          "working": -34.9,
+          "max": -29.0
         }
       }
     },
@@ -159,11 +159,11 @@
       },
       "loudness": {
         "long": {
-          "working": -39.5,
-          "max": -34.0
+          "working": -35.2,
+          "max": -31.6
         },
         "short": {
-          "working": -43.5,
+          "working": -42.1,
           "max": -37.7
         }
       }
@@ -181,11 +181,11 @@
       },
       "loudness": {
         "long": {
-          "working": -36.3,
-          "max": -29.8
+          "working": -32.5,
+          "max": -29.7
         },
         "short": {
-          "working": -49.0,
+          "working": -44.4,
           "max": -34.5
         }
       }
@@ -203,12 +203,12 @@
       },
       "loudness": {
         "long": {
-          "working": -33.9,
+          "working": -29.2,
           "max": -26.8
         },
         "short": {
-          "working": -44.7,
-          "max": -32.5
+          "working": -39.9,
+          "max": -32.4
         }
       }
     },
@@ -225,11 +225,11 @@
       },
       "loudness": {
         "long": {
-          "working": -45.6,
-          "max": -35.2
+          "working": -41.3,
+          "max": -34.6
         },
         "short": {
-          "working": -51.2,
+          "working": -47.8,
           "max": -43.8
         }
       }
@@ -247,11 +247,11 @@
       },
       "loudness": {
         "long": {
-          "working": -36.9,
-          "max": -29.6
+          "working": -31.7,
+          "max": -29.0
         },
         "short": {
-          "working": -46.3,
+          "working": -42.9,
           "max": -38.1
         }
       }
@@ -269,11 +269,11 @@
       },
       "loudness": {
         "long": {
-          "working": -39.2,
-          "max": -34.7
+          "working": -38.1,
+          "max": -34.4
         },
         "short": {
-          "working": -45.7,
+          "working": -45.5,
           "max": -40.2
         }
       }
@@ -291,12 +291,12 @@
       },
       "loudness": {
         "long": {
-          "working": -32.6,
-          "max": -26.7
+          "working": -28.6,
+          "max": -25.8
         },
         "short": {
-          "working": -42.4,
-          "max": -34.5
+          "working": -39.0,
+          "max": -34.2
         }
       }
     },
@@ -401,11 +401,11 @@
       },
       "loudness": {
         "long": {
-          "working": -28.0,
-          "max": -21.0
+          "working": -25.0,
+          "max": -20.8
         },
         "short": {
-          "working": -44.3,
+          "working": -39.5,
           "max": -27.1
         }
       }
@@ -423,11 +423,11 @@
       },
       "loudness": {
         "long": {
-          "working": -23.6,
-          "max": -18.6
+          "working": -22.1,
+          "max": -17.5
         },
         "short": {
-          "working": -39.6,
+          "working": -36.6,
           "max": -25.2
         }
       }
@@ -445,12 +445,12 @@
       },
       "loudness": {
         "long": {
-          "working": -21.8,
-          "max": -16.0
+          "working": -21.0,
+          "max": -15.5
         },
         "short": {
-          "working": -39.7,
-          "max": -22.2
+          "working": -30.2,
+          "max": -21.0
         }
       }
     },
@@ -467,11 +467,11 @@
       },
       "loudness": {
         "long": {
-          "working": -19.7,
-          "max": -14.0
+          "working": -18.9,
+          "max": -13.4
         },
         "short": {
-          "working": -36.5,
+          "working": -29.6,
           "max": -20.3
         }
       }
@@ -489,12 +489,12 @@
       },
       "loudness": {
         "long": {
-          "working": -20.3,
-          "max": -13.1
+          "working": -18.1,
+          "max": -12.6
         },
         "short": {
-          "working": -38.2,
-          "max": -18.5
+          "working": -28.6,
+          "max": -19.3
         }
       }
     },
@@ -511,11 +511,11 @@
       },
       "loudness": {
         "long": {
-          "working": -19.1,
-          "max": -11.3
+          "working": -16.9,
+          "max": -11.5
         },
         "short": {
-          "working": -37.4,
+          "working": -27.6,
           "max": -18.3
         }
       }
@@ -533,11 +533,11 @@
       },
       "loudness": {
         "long": {
-          "working": -29.3,
-          "max": -22.4
+          "working": -27.1,
+          "max": -20.4
         },
         "short": {
-          "working": -39.7,
+          "working": -37.8,
           "max": -29.9
         }
       }
@@ -555,12 +555,12 @@
       },
       "loudness": {
         "long": {
-          "working": -27.7,
-          "max": -16.3
+          "working": -24.5,
+          "max": -17.3
         },
         "short": {
-          "working": -36.8,
-          "max": -26.3
+          "working": -33.9,
+          "max": -26.0
         }
       }
     },
@@ -577,12 +577,12 @@
       },
       "loudness": {
         "long": {
-          "working": -26.9,
-          "max": -21.7
+          "working": -22.3,
+          "max": -15.1
         },
         "short": {
-          "working": -41.6,
-          "max": -19.0
+          "working": -32.3,
+          "max": -24.5
         }
       }
     },
@@ -599,12 +599,12 @@
       },
       "loudness": {
         "long": {
-          "working": -24.9,
-          "max": -19.1
+          "working": -21.0,
+          "max": -14.3
         },
         "short": {
-          "working": -37.5,
-          "max": -22.0
+          "working": -31.1,
+          "max": -22.3
         }
       }
     },
@@ -621,11 +621,11 @@
       },
       "loudness": {
         "long": {
-          "working": -30.6,
-          "max": -22.6
+          "working": -28.0,
+          "max": -22.5
         },
         "short": {
-          "working": -37.1,
+          "working": -34.4,
           "max": -26.8
         }
       }
@@ -643,12 +643,12 @@
       },
       "loudness": {
         "long": {
-          "working": -29.6,
-          "max": -21.2
+          "working": -29.5,
+          "max": -21.5
         },
         "short": {
-          "working": -36.4,
-          "max": -25.9
+          "working": -36.5,
+          "max": -26.0
         }
       }
     },
@@ -665,12 +665,12 @@
       },
       "loudness": {
         "long": {
-          "working": -28.7,
-          "max": -18.9
+          "working": -24.9,
+          "max": -18.6
         },
         "short": {
-          "working": -35.3,
-          "max": -21.5
+          "working": -32.3,
+          "max": -23.0
         }
       }
     },
@@ -687,12 +687,12 @@
       },
       "loudness": {
         "long": {
-          "working": -24.7,
-          "max": -20.4
+          "working": -23.7,
+          "max": -17.7
         },
         "short": {
-          "working": -35.8,
-          "max": -25.4
+          "working": -28.5,
+          "max": -22.5
         }
       }
     },
@@ -709,11 +709,11 @@
       },
       "loudness": {
         "long": {
-          "working": -33.1,
+          "working": -27.4,
           "max": -21.0
         },
         "short": {
-          "working": -45.0,
+          "working": -34.2,
           "max": -26.3
         }
       }
@@ -731,12 +731,12 @@
       },
       "loudness": {
         "long": {
-          "working": -30.0,
-          "max": -17.3
+          "working": -24.7,
+          "max": -17.9
         },
         "short": {
-          "working": -40.8,
-          "max": -20.6
+          "working": -30.5,
+          "max": -22.9
         }
       }
     },
@@ -753,12 +753,12 @@
       },
       "loudness": {
         "long": {
-          "working": -32.1,
-          "max": -19.6
+          "working": -31.0,
+          "max": -20.0
         },
         "short": {
-          "working": -44.3,
-          "max": -25.4
+          "working": 39.5,
+          "max": 25.5
         }
       }
     },
@@ -819,12 +819,12 @@
       },
       "loudness": {
         "long": {
-          "working": -40.0,
-          "max": -32.0
+          "working": -37.4,
+          "max": -30.2
         },
         "short": {
-          "working": -38.0,
-          "max": -30.0
+          "working": -34.9,
+          "max": -28.2
         }
       }
     },
@@ -841,12 +841,12 @@
       },
       "loudness": {
         "long": {
-          "working": -46.0,
-          "max": -38.0
+          "working": -38.2,
+          "max": -34.7
         },
         "short": {
-          "working": -44.0,
-          "max": -36.0
+          "working": -40.9,
+          "max": -33.7
         }
       }
     },
@@ -863,12 +863,12 @@
       },
       "loudness": {
         "long": {
-          "working": -40.0,
-          "max": -33.0
+          "working": -33.8,
+          "max": -26.8
         },
         "short": {
-          "working": -38.0,
-          "max": -31.0
+          "working": -37.1,
+          "max": -26.6
         }
       }
     },
@@ -885,12 +885,12 @@
       },
       "loudness": {
         "long": {
-          "working": -48.0,
-          "max": -41.0
+          "working": -34.4,
+          "max": -31.1
         },
         "short": {
-          "working": -46.0,
-          "max": -39.0
+          "working": -43.7,
+          "max": -34.4
         }
       }
     },
@@ -1202,28 +1202,6 @@
         }
       }
     },
-    "violins": {
-      "pitch": {
-        "range": {
-          "min": 55,
-          "max": 105
-        },
-        "measurementRange": {
-          "min": 67,
-          "max": 79
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      }
-    },
     "viola": {
       "pitch": {
         "range": {
@@ -1342,28 +1320,6 @@
         },
         "measurementRange": {
           "min": 46,
-          "max": 58
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      }
-    },
-    "trombone-ensemble": {
-      "pitch": {
-        "range": {
-          "min": 22,
-          "max": 77
-        },
-        "measurementRange": {
-          "min": 40,
           "max": 58
         }
       },
@@ -1699,12 +1655,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -26.1,
+          "max": -20.6
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -36.5,
+          "max": -28.8
         }
       }
     },
@@ -1721,12 +1677,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -28.4,
+          "max": -23.9
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -41.0,
+          "max": -30.2
         }
       }
     },
@@ -1875,12 +1831,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -26.9,
+          "max": -23.8
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -38.4,
+          "max": -28.4
         }
       }
     },
@@ -1897,12 +1853,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -20.1,
+          "max": -13.2
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -30.1,
+          "max": -22.0
         }
       }
     },
@@ -1919,12 +1875,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": -27.5,
+          "max": -21.5
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": -34.0,
+          "max": -26.0
         }
       }
     },
@@ -2592,28 +2548,6 @@
         }
       }
     },
-    "horn-ensemble": {
-      "pitch": {
-        "range": {
-          "min": 35,
-          "max": 77
-        },
-        "measurementRange": {
-          "min": 52,
-          "max": 64
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      }
-    },
     "horns-tuba-bass-trombone": {
       "pitch": {
         "range": {
@@ -2623,28 +2557,6 @@
         "measurementRange": {
           "min": 36,
           "max": 53
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      }
-    },
-    "trumpet-ensemble": {
-      "pitch": {
-        "range": {
-          "min": 52,
-          "max": 84
-        },
-        "measurementRange": {
-          "min": 60,
-          "max": 72
         }
       },
       "loudness": {
