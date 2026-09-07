@@ -22,6 +22,27 @@ class InstrumentPropertiesTests(unittest.TestCase):
     def test_repository_instrument_properties_validate(self):
         self.assertEqual(validator_module.validate_instrument_properties(self.instrument_ids), [])
 
+    def test_wagner_tuba_is_marked_as_approximation(self):
+        wagner_tuba = self.instrument_properties_doc["instruments"]["wagner-tuba"]
+        self.assertEqual(wagner_tuba["dataQuality"], "approximation")
+
+    def test_inferred_composites_have_zero_loudness_targets(self):
+        ids = (
+            "2cl-2bn-in-octaves",
+            "4-horns-tuba-in-octaves",
+            "4-horns-10-celli",
+            "picc-2fl-in-octaves",
+            "2ob-2cl-in-octaves",
+            "2ob-2cl-cor-anglais-in-octaves",
+        )
+        for instrument_id in ids:
+            properties = self.instrument_properties_doc["instruments"][instrument_id]
+            self.assertEqual(properties["dataQuality"], "approximation")
+            self.assertEqual(properties["loudness"], {
+                "long": {"working": 0, "max": 0},
+                "short": {"working": 0, "max": 0},
+            })
+
     def test_validation_rejects_unknown_instrument_id(self):
         document = json.loads((self.data_dir / "instrument-properties.json").read_text(encoding="utf-8"))
         document["instruments"]["unknown-instrument"] = document["instruments"]["trumpet"]

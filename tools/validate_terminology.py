@@ -97,6 +97,10 @@ def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
             errors.append(f"{prefix}: expected an object")
             continue
 
+        data_quality = properties.get("dataQuality", "measured")
+        if data_quality not in {"measured", "approximation"}:
+            errors.append(f"{prefix}.dataQuality: must be 'measured' or 'approximation'")
+
         pitch = properties.get("pitch")
         if not isinstance(pitch, dict):
             errors.append(f"{prefix}.pitch: expected an object")

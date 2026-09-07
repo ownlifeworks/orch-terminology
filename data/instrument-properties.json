@@ -718,6 +718,29 @@
         }
       }
     },
+    "wagner-tuba": {
+      "dataQuality": "approximation",
+      "pitch": {
+        "range": {
+          "min": 35,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 48,
+          "max": 65
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": -25.0,
+          "max": -20.8
+        },
+        "short": {
+          "working": -39.5,
+          "max": -27.1
+        }
+      }
+    },
     "tubas-a2": {
       "pitch": {
         "range": {
@@ -1386,6 +1409,144 @@
         },
         "measurementRange": {
           "min": 48,
+          "max": 79
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "2cl-2bn-in-octaves": {
+      "dataQuality": "approximation",
+      "pitch": {
+        "range": {
+          "min": 34,
+          "max": 94
+        },
+        "measurementRange": {
+          "min": 43,
+          "max": 72
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "4-horns-tuba-in-octaves": {
+      "dataQuality": "approximation",
+      "pitch": {
+        "range": {
+          "min": 26,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 36,
+          "max": 64
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "4-horns-10-celli": {
+      "dataQuality": "approximation",
+      "pitch": {
+        "range": {
+          "min": 35,
+          "max": 81
+        },
+        "measurementRange": {
+          "min": 48,
+          "max": 64
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "picc-2fl-in-octaves": {
+      "dataQuality": "approximation",
+      "pitch": {
+        "range": {
+          "min": 59,
+          "max": 110
+        },
+        "measurementRange": {
+          "min": 72,
+          "max": 91
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "2ob-2cl-in-octaves": {
+      "dataQuality": "approximation",
+      "pitch": {
+        "range": {
+          "min": 50,
+          "max": 94
+        },
+        "measurementRange": {
+          "min": 60,
+          "max": 79
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": 0,
+          "max": 0
+        },
+        "short": {
+          "working": 0,
+          "max": 0
+        }
+      }
+    },
+    "2ob-2cl-cor-anglais-in-octaves": {
+      "dataQuality": "approximation",
+      "pitch": {
+        "range": {
+          "min": 50,
+          "max": 94
+        },
+        "measurementRange": {
+          "min": 60,
           "max": 79
         }
       },
