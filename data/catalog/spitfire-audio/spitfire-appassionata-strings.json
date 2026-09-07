@@ -1,0 +1,57 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "spitfire-appassionata-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["combo", "slurred"] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "glancing-attack", "variantIds": [] },
+      { "articulationId": "hairpin", "variantIds": ["short", "medium", "rebow"] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "spitfire-appassionata-strings",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["combo", "slurred"] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "glancing-attack", "variantIds": [] },
+      { "articulationId": "hairpin", "variantIds": ["short", "medium", "rebow"] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "spitfire-appassionata-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["combo", "slurred"] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "glancing-attack", "variantIds": [] },
+      { "articulationId": "hairpin", "variantIds": ["short", "medium", "rebow"] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "spitfire-appassionata-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["combo", "slurred"] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "glancing-attack", "variantIds": [] },
+      { "articulationId": "hairpin", "variantIds": ["short", "medium", "rebow"] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "spitfire-appassionata-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["combo", "slurred"] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "glancing-attack", "variantIds": [] },
+      { "articulationId": "hairpin", "variantIds": ["short", "medium", "rebow"] }
+    ]
+  }
+]

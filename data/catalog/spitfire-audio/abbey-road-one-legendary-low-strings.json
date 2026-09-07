@@ -1,0 +1,13 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-legendary-low-strings",
+    "instrumentId": "low-strings-ensemble",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] }
+    ]
+  }
+]

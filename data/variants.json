@@ -17,6 +17,11 @@
       "aliases": ["expr", "exp", "expressive", "espressivo"]
     },
     {
+      "id": "vibrant",
+      "name": "Vibrant",
+      "aliases": ["vibrant"]
+    },
+    {
       "id": "advanced",
       "name": "Advanced",
       "aliases": ["advanced"]
@@ -87,6 +92,21 @@
       "aliases": ["mel", "melodic"]
     },
     {
+      "id": "energetic",
+      "name": "Energetic",
+      "aliases": ["energetic"]
+    },
+    {
+      "id": "tight",
+      "name": "Tight",
+      "aliases": ["tight"]
+    },
+    {
+      "id": "ultra-tight",
+      "name": "Ultra-Tight",
+      "aliases": ["ultra-tight", "ultratight"]
+    },
+    {
       "id": "playable",
       "name": "Playable",
       "aliases": ["play", "playable"]
@@ -95,6 +115,36 @@
       "id": "slurred",
       "name": "Slurred",
       "aliases": ["slur", "slurred", "legatoRuns"]
+    },
+    {
+      "id": "legato",
+      "name": "Legato",
+      "aliases": ["legato"]
+    },
+    {
+      "id": "spiccato",
+      "name": "Spiccato",
+      "aliases": ["spiccato"]
+    },
+    {
+      "id": "staccato",
+      "name": "Staccato",
+      "aliases": ["staccato"]
+    },
+    {
+      "id": "sustains",
+      "name": "Sustains",
+      "aliases": ["sustain", "sustains"]
+    },
+    {
+      "id": "combo",
+      "name": "Combo",
+      "aliases": ["combo", "combination"]
+    },
+    {
+      "id": "rebow",
+      "name": "Rebow",
+      "aliases": ["rebow", "re-bow"]
     },
     {
       "id": "allegro",
@@ -295,6 +345,26 @@
       "id": "minor",
       "name": "Minor",
       "aliases": ["min"]
+    },
+    {
+      "id": "minor-2nd",
+      "name": "Minor 2nd",
+      "aliases": ["minor-second", "min-2nd"]
+    },
+    {
+      "id": "major-2nd",
+      "name": "Major 2nd",
+      "aliases": ["major-second", "maj-2nd"]
+    },
+    {
+      "id": "minor-3rd",
+      "name": "Minor 3rd",
+      "aliases": ["minor-third", "min-3rd"]
+    },
+    {
+      "id": "major-3rd",
+      "name": "Major 3rd",
+      "aliases": ["major-third", "maj-3rd"]
     },
     {
       "id": "sforzando",

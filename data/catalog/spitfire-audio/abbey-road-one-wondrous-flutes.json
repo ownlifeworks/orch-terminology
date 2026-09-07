@@ -1,0 +1,17 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-wondrous-flutes",
+    "instrumentId": "picc-2fl-in-octaves",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      {
+        "articulationId": "mordent",
+        "variantIds": ["minor-2nd", "major-2nd", "minor-3rd", "major-3rd"]
+      }
+    ]
+  }
+]

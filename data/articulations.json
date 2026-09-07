@@ -92,6 +92,13 @@
       ]
     },
     {
+      "id": "mordent",
+      "name": "Mordent",
+      "aliases": [
+        "mord"
+      ]
+    },
+    {
       "id": "staccatissimo",
       "name": "Staccatissimo",
       "aliases": [
@@ -595,6 +602,21 @@
       "name": "Arc",
       "aliases": [
         "arc"
+      ]
+    },
+    {
+      "id": "hairpin",
+      "name": "Hairpin",
+      "aliases": [
+        "hairpin"
+      ]
+    },
+    {
+      "id": "glancing-attack",
+      "name": "Glancing Attack",
+      "aliases": [
+        "glancing-attack",
+        "glancing"
       ]
     }
 

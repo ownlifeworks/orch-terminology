@@ -1,0 +1,20 @@
+[
+  {
+    "vendorId": "acousticsamples",
+    "libraryId": "vbrass-french-horns",
+    "instrumentId": "horn",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "acousticsamples",
+    "libraryId": "vbrass-french-horns",
+    "instrumentId": "triple-horn",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "acousticsamples",
+    "libraryId": "vbrass-french-horns",
+    "instrumentId": "wagner-tuba",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  }
+]

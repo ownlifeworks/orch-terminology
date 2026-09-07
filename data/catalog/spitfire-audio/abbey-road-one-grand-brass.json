@@ -1,0 +1,23 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-grand-brass",
+    "instrumentId": "4-horns-tuba-in-octaves",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tenuto", "variantIds": [] },
+      { "articulationId": "swells", "variantIds": ["short", "medium", "long"] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-grand-brass",
+    "instrumentId": "4-horns-10-celli",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["soaring"] },
+      { "articulationId": "long", "variantIds": ["soaring"] }
+    ]
+  }
+]

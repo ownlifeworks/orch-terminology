@@ -2,6 +2,11 @@
   "schemaVersion": 1,
   "vendors": [
     {
+      "id": "other",
+      "name": "Other",
+      "aliases": ["generic", "any", "other"]
+    },
+	{
       "id": "audio-imperia",
       "name": "Audio Imperia",
       "aliases": ["ai", "audioimperia"]
@@ -55,6 +60,14 @@
       "id": "samplemodeling",
       "name": "Samplemodeling",
       "aliases": ["sm", "samplemodeling", "sample-modeling"]
+    },
+    {
+      "id": "acousticsamples",
+      "name": "Acousticsamples"
+    },
+    {
+      "id": "audio-ollie",
+      "name": "Audio Ollie"
     },
     {
       "id": "musical-sampling",

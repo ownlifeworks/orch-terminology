@@ -1,0 +1,16 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-thematic-trumpets",
+    "instrumentId": "trumpets-a4",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tenuto", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] }
+    ]
+  }
+]

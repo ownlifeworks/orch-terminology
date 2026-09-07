@@ -1,0 +1,79 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-iii",
+    "instrumentId": "doublebass",
+    "articulations": [
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-iii",
+    "instrumentId": "cello",
+    "articulations": [
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-iii",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-iii",
+    "instrumentId": "basses",
+    "articulations": [
+      { "articulationId": "spiccato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-iii",
+    "instrumentId": "celli",
+    "articulations": [
+      { "articulationId": "spiccato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-iii",
+    "instrumentId": "violas",
+    "articulations": [
+      { "articulationId": "spiccato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-iii",
+    "instrumentId": "violins",
+    "articulations": [
+      { "articulationId": "spiccato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-iii",
+    "instrumentId": "viola",
+    "articulations": [
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-iii",
+    "instrumentId": "violin",
+    "articulations": [
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] }
+    ]
+  }
+]

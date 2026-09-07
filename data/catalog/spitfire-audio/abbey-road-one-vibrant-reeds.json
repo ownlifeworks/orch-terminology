@@ -1,0 +1,30 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-vibrant-reeds",
+    "instrumentId": "2ob-2cl-in-octaves",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["vibrant"] },
+      { "articulationId": "long", "variantIds": ["vibrant"] },
+      { "articulationId": "staccato", "variantIds": ["vibrant"] },
+      {
+        "articulationId": "mordent",
+        "variantIds": ["minor-2nd", "major-2nd", "minor-3rd", "major-3rd"]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-vibrant-reeds",
+    "instrumentId": "2ob-2cl-cor-anglais-in-octaves",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["vibrant"] },
+      { "articulationId": "long", "variantIds": ["vibrant"] },
+      { "articulationId": "staccato", "variantIds": ["vibrant"] },
+      {
+        "articulationId": "mordent",
+        "variantIds": ["minor-2nd", "major-2nd", "minor-3rd", "major-3rd"]
+      }
+    ]
+  }
+]

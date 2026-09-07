@@ -1,0 +1,104 @@
+[
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "dolce",
+    "instrumentId": "basses",
+    "articulations": [
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["melodic"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "shorts", "variantIds": ["energetic"] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["con-sordino"] },
+      { "articulationId": "tremolo", "variantIds": ["sul-ponticello"] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "dolce",
+    "instrumentId": "celli",
+    "articulations": [
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["melodic"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "shorts", "variantIds": ["energetic"] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["con-sordino"] },
+      { "articulationId": "tremolo", "variantIds": ["sul-ponticello"] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "dolce",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["melodic"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "shorts", "variantIds": ["energetic"] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["con-sordino"] },
+      { "articulationId": "tremolo", "variantIds": ["sul-ponticello"] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "dolce",
+    "instrumentId": "violins-i",
+    "articulations": [
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["melodic"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "shorts", "variantIds": ["energetic"] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["con-sordino"] },
+      { "articulationId": "tremolo", "variantIds": ["sul-ponticello"] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "dolce",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["melodic"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "shorts", "variantIds": ["energetic"] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["con-sordino"] },
+      { "articulationId": "tremolo", "variantIds": ["sul-ponticello"] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "audio-imperia",
+    "libraryId": "dolce",
+    "instrumentId": "violas",
+    "articulations": [
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["melodic"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "shorts", "variantIds": ["energetic"] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["con-sordino"] },
+      { "articulationId": "tremolo", "variantIds": ["sul-ponticello"] },
+      { "articulationId": "trills", "variantIds": ["minor", "wholetone"] }
+    ]
+  }
+]

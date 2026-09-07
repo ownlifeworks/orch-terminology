@@ -1,0 +1,16 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-thematic-horns",
+    "instrumentId": "horns-a8",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["performance", "lyrical"] },
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tenuto", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] }
+    ]
+  }
+]

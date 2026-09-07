@@ -1,0 +1,22 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-mysterious-reeds",
+    "instrumentId": "2ob-2cl-in-octaves",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-mysterious-reeds",
+    "instrumentId": "2cl-2bn-in-octaves",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "vendorId": "acousticsamples",
+    "libraryId": "vhorns-brass-section",
+    "instrumentId": "trumpet",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "acousticsamples",
+    "libraryId": "vhorns-brass-section",
+    "instrumentId": "tenor-trombone",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  },
+  {
+    "vendorId": "acousticsamples",
+    "libraryId": "vhorns-brass-section",
+    "instrumentId": "flugelhorn",
+    "articulations": [{ "articulationId": "performance", "variantIds": [] }]
+  }
+]

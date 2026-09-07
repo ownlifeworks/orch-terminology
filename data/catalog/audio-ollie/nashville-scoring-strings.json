@@ -1,0 +1,58 @@
+[
+  {
+    "vendorId": "audio-ollie",
+    "libraryId": "nashville-scoring-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      { "articulationId": "col-legno", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-ollie",
+    "libraryId": "nashville-scoring-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      { "articulationId": "col-legno", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-ollie",
+    "libraryId": "nashville-scoring-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      { "articulationId": "col-legno", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "audio-ollie",
+    "libraryId": "nashville-scoring-strings",
+    "instrumentId": "violins",
+    "articulations": [
+      { "articulationId": "col-legno", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] }
+    ]
+  }
+]

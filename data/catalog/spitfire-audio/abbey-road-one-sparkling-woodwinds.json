@@ -1,0 +1,12 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-sparkling-woodwinds",
+    "instrumentId": "woodwinds-glock-in-octaves",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] }
+    ]
+  }
+]

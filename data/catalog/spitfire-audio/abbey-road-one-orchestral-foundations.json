@@ -1,0 +1,171 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "full-orchestra",
+    "articulations": [
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "swells", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "high-strings-ensemble",
+    "articulations": [
+      { "articulationId": "long", "variantIds": ["muted"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "high-woodwinds-ensemble",
+    "articulations": [
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "tenuto", "variantIds": [] },
+      { "articulationId": "swells", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "low-brass-ensemble",
+    "articulations": [
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "tenuto", "variantIds": [] },
+      { "articulationId": "swells", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "low-strings-ensemble",
+    "articulations": [
+      { "articulationId": "long", "variantIds": ["muted"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "low-woodwinds-ensemble",
+    "articulations": [
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "swells", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "anvil",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "bass-drum",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "bass-drum-snare-drum",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "concert-toms",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "glockenspiel",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "octoban",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "piatti",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "ribbon-crasher",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "snare",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "snare-piccolo",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "soft-boom",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "suspended-cymbals",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "tam-tam",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "timpani",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "toms-octobans",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "verdi-drum",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-orchestral-foundations",
+    "instrumentId": "xylophone",
+    "articulations": [{ "articulationId": "hits", "variantIds": [] }]
+  }
+]

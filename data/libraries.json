@@ -1,6 +1,12 @@
 {
   "schemaVersion": 1,
   "libraries": [
+   {
+      "id": "other",
+      "name": "Other",
+      "vendorId": "other",
+      "aliases": ["generic", "any", "other"]
+    },
     {
       "id": "jaeger",
       "name": "Jaeger",
@@ -131,9 +137,140 @@
       "name": "Abbey Road Orchestra: Bassoons",
       "vendorId": "spitfire-audio",
       "aliases": [
-        "arobsn",
+		"arobsn",
 		"aro-bassoons-pro",
         "abbey-road-orchestra-bassoons"
+      ]
+    },
+    {
+      "id": "abbey-road-one-orchestral-foundations",
+      "name": "Abbey Road One: Orchestral Foundations",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "ar1of",
+        "abbey-road-one-orchestral-foundations",
+        "abbey-road-one"
+      ]
+    },
+    {
+      "id": "abbey-road-one-wondrous-flutes",
+      "name": "Abbey Road One: Wondrous Flutes",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "arowf",
+        "abbey-road-one-wondrous-flutes",
+        "wondrous-flutes"
+      ]
+    },
+    {
+      "id": "abbey-road-one-vibrant-reeds",
+      "name": "Abbey Road One: Vibrant Reeds",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "arovr",
+        "abbey-road-one-vibrant-reeds",
+        "vibrant-reeds"
+      ]
+    },
+    {
+      "id": "abbey-road-one-sparkling-woodwinds",
+      "name": "Abbey Road One: Sparkling Woodwinds",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "arosw",
+        "abbey-road-one-sparkling-woodwinds",
+        "sparkling-woodwinds"
+      ]
+    },
+    {
+      "id": "abbey-road-one-mysterious-reeds",
+      "name": "Abbey Road One: Mysterious Reeds",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "aromr",
+        "abbey-road-one-mysterious-reeds",
+        "mysterious-reeds"
+      ]
+    },
+    {
+      "id": "abbey-road-one-thematic-trumpets",
+      "name": "Abbey Road One: Thematic Trumpets",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "arott",
+        "abbey-road-one-thematic-trumpets",
+        "thematic-trumpets"
+      ]
+    },
+    {
+      "id": "abbey-road-one-thematic-horns",
+      "name": "Abbey Road One: Thematic Horns",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "aroth",
+        "abbey-road-one-thematic-horns",
+        "thematic-horns"
+      ]
+    },
+    {
+      "id": "abbey-road-one-grand-brass",
+      "name": "Abbey Road One: Grand Brass",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "arogb",
+        "abbey-road-one-grand-brass",
+        "grand-brass"
+      ]
+    },
+    {
+      "id": "abbey-road-one-soaring-high-strings",
+      "name": "Abbey Road One: Soaring High Strings",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "aroshs",
+        "abbey-road-one-soaring-high-strings",
+        "soaring-high-strings"
+      ]
+    },
+    {
+      "id": "abbey-road-one-legendary-low-strings",
+      "name": "Abbey Road One: Legendary Low Strings",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "arolls",
+        "abbey-road-one-legendary-low-strings",
+        "legendary-low-strings"
+      ]
+    },
+    {
+      "id": "spitfire-appassionata-strings",
+      "name": "Spitfire Appassionata Strings",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "appassionata-strings",
+        "spitfire-appassionata-strings",
+        "appassionata"
+      ]
+    },
+    {
+      "id": "spitfire-chamber-strings-essentials",
+      "name": "Spitfire Chamber Strings Essentials",
+      "vendorId": "spitfire-audio",
+      "aliases": [
+        "chamber-strings-essentials",
+        "spitfire-chamber-strings-essentials",
+        "chamber-strings"
+      ]
+    },
+    {
+      "id": "special-edition-vol-1",
+      "name": "Special Edition Vol. 1 Essential Orchestra",
+      "vendorId": "vienna-symphonic-library",
+      "aliases": [
+        "special-edition-1",
+        "special-edition-vol-1",
+        "vsl-special-edition-vol-1",
+        "essential-orchestra"
       ]
     },
     {
@@ -345,6 +482,46 @@
       "name": "Classic Brass",
       "vendorId": "musical-sampling",
       "aliases": ["classic-brass", "classic brass"]
+    },
+    {
+      "id": "vbrass-french-horns",
+      "name": "VBrass French Horns",
+      "vendorId": "acousticsamples"
+    },
+    {
+      "id": "vhorns-brass-section",
+      "name": "VHorns Brass Section",
+      "vendorId": "acousticsamples"
+    },
+    {
+      "id": "cinematic-strings-2",
+      "name": "Cinematic Strings 2",
+      "vendorId": "cinematic-studio-series"
+    },
+    {
+      "id": "dolce",
+      "name": "Dolce",
+      "vendorId": "audio-imperia"
+    },
+    {
+      "id": "fluid-shorts",
+      "name": "Fluid Shorts",
+      "vendorId": "performance-samples"
+    },
+    {
+      "id": "fluid-shorts-ii",
+      "name": "Fluid Shorts II",
+      "vendorId": "performance-samples"
+    },
+    {
+      "id": "fluid-shorts-iii",
+      "name": "Fluid Shorts III",
+      "vendorId": "performance-samples"
+    },
+    {
+      "id": "nashville-scoring-strings",
+      "name": "Nashville Scoring Strings",
+      "vendorId": "audio-ollie"
     }
   ]
 }

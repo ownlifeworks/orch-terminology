@@ -1,0 +1,12 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-one-soaring-high-strings",
+    "instrumentId": "high-strings-ensemble",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "long", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] }
+    ]
+  }
+]

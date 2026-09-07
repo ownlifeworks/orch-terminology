@@ -1,0 +1,26 @@
+[
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-ii",
+    "instrumentId": "basses",
+    "articulations": [{ "articulationId": "shorts", "variantIds": [] }]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-ii",
+    "instrumentId": "celli",
+    "articulations": [{ "articulationId": "shorts", "variantIds": [] }]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-ii",
+    "instrumentId": "violas",
+    "articulations": [{ "articulationId": "shorts", "variantIds": [] }]
+  },
+  {
+    "vendorId": "performance-samples",
+    "libraryId": "fluid-shorts-ii",
+    "instrumentId": "violins",
+    "articulations": [{ "articulationId": "shorts", "variantIds": [] }]
+  }
+]

@@ -127,6 +127,11 @@
       "iconKey": "hn.png"
     },
     {
+      "id": "triple-horn",
+      "name": "Triple Horn",
+      "iconKey": "triple-horn.png"
+    },
+    {
       "id": "descant-horn",
       "name": "Descant Horn",
       "aliases": [
@@ -428,6 +433,11 @@
       "iconKey": "tba.png"
     },
     {
+      "id": "wagner-tuba",
+      "name": "Wagner Tuba",
+      "iconKey": "wagner-tuba.png"
+    },
+    {
       "id": "tuba-bass-trombone",
       "name": "Tuba + Bass Trombone",
       "aliases": [
@@ -511,7 +521,7 @@
       ],
       "iconKey": "strens.png"
     },
-	{
+{
   "id": "woodwinds-ensemble",
   "name": "Woodwinds Ensemble",
   "aliases": [
@@ -519,6 +529,42 @@
     "ww-ens"
   ],
   "iconKey": "wwens.png"
+},
+    {
+      "id": "woodwinds-glock-in-octaves",
+      "name": "Woodwinds + Glock in octaves",
+  "aliases": [
+    "woodwinds-glockenspiel-octaves",
+    "ww-glock-octaves"
+  ],
+  "iconKey": "woodwinds-glock-in-octaves.png"
+},
+{
+  "id": "2cl-2bn-in-octaves",
+  "name": "2cl + 2bn in octaves",
+  "aliases": [
+    "2-clarinets-2-bassoons-octaves",
+    "clarinets-bassoons-octaves"
+  ],
+  "iconKey": "2cl-2bn-in-octaves.png"
+},
+{
+  "id": "4-horns-tuba-in-octaves",
+  "name": "4 horns + tuba in octaves",
+  "aliases": [
+    "4-horns-tuba-octaves",
+    "horns-tuba-octaves"
+  ],
+  "iconKey": "4-horns-tuba-in-octaves.png"
+},
+{
+  "id": "4-horns-10-celli",
+  "name": "4 horns + 10 celli",
+  "aliases": [
+    "4-horns-10-cellos",
+    "horns-celli"
+  ],
+  "iconKey": "4-horns-10-celli.png"
 },
 {
   "id": "brass-ensemble",
@@ -845,6 +891,15 @@
       "iconKey": "tubbells.png"
     },
     {
+      "id": "plate-bells",
+      "name": "Plate Bells",
+      "aliases": [
+        "plate-bells",
+        "platebells"
+      ],
+      "iconKey": "platebells.png"
+    },
+    {
       "id": "marimba",
       "name": "Marimba",
       "aliases": [
@@ -859,6 +914,12 @@
         "anv"
       ],
       "iconKey": "anvil.png"
+    },
+    {
+      "id": "ribbon-crasher",
+      "name": "Ribbon Crasher",
+      "aliases": [],
+      "iconKey": "ribbon-crasher.png"
     },
     {
       "id": "bongos",
@@ -899,6 +960,33 @@
       "iconKey": "bd.png"
     },
     {
+      "id": "soft-boom",
+      "name": "Soft Boom",
+      "aliases": [],
+      "iconKey": "soft-boom.png"
+    },
+    {
+      "id": "thundersheet",
+      "name": "Thundersheet",
+      "aliases": [
+        "thundersheet",
+        "thunder-sheet"
+      ],
+      "iconKey": "thundersheet.png"
+    },
+    {
+      "id": "verdi-drum",
+      "name": "Verdi Drum",
+      "aliases": [],
+      "iconKey": "verdi-drum.png"
+    },
+    {
+      "id": "bass-drum-snare-drum",
+      "name": "Bass Drum + Snare Drum",
+      "aliases": [],
+      "iconKey": "bass-drum-snare-drum.png"
+    },
+    {
       "id": "concert-toms",
       "name": "Concert Toms",
       "aliases": [
@@ -907,6 +995,18 @@
         "toms"
       ],
       "iconKey": "concerttoms.png"
+    },
+    {
+      "id": "toms-octobans",
+      "name": "Toms + Octobans",
+      "aliases": [],
+      "iconKey": "toms-octobans.png"
+    },
+    {
+      "id": "octoban",
+      "name": "Octoban",
+      "aliases": [],
+      "iconKey": "octoban.png"
     },
     {
       "id": "cymbal",
@@ -942,6 +1042,14 @@
         "marktree"
       ],
       "iconKey": "marktree.png"
+    },
+    {
+      "id": "rails",
+      "name": "Rails",
+      "aliases": [
+        "rails"
+      ],
+      "iconKey": "rails.png"
     },
     {
       "id": "marching-drum-ensemble",
@@ -1061,10 +1169,17 @@
       "id": "tam-tam",
       "name": "Tam Tam",
       "aliases": [
-        "tam-tam",
-        "gong"
+        "tam-tam"
       ],
       "iconKey": "tamtam.png"
+    },
+    {
+      "id": "gong",
+      "name": "Gong",
+      "aliases": [
+        "gong"
+      ],
+      "iconKey": "gong.png"
     },
     {
       "id": "tambourine",
@@ -1264,6 +1379,15 @@
       "iconKey": "fls2.png"
     },
     {
+      "id": "picc-2fl-in-octaves",
+      "name": "Picc + 2fl in Octaves",
+      "aliases": [
+        "picc-2fl-octaves",
+        "piccolo-2-flutes-octaves"
+      ],
+      "iconKey": "picc-2fl-in-octaves.png"
+    },
+    {
       "id": "oboes-a2",
       "name": "Oboes a2",
       "aliases": [
@@ -1282,6 +1406,24 @@
         "clarinets-a2"
       ],
       "iconKey": "cls2.png"
+    },
+    {
+      "id": "2ob-2cl-in-octaves",
+      "name": "2ob + 2cl in octaves",
+      "aliases": [
+        "2-oboes-2-clarinets-octaves",
+        "oboes-clarinets-octaves"
+      ],
+      "iconKey": "2ob-2cl-in-octaves.png"
+    },
+    {
+      "id": "2ob-2cl-cor-anglais-in-octaves",
+      "name": "2ob + 2cl + cor anglais in octaves",
+      "aliases": [
+        "2-oboes-2-clarinets-cor-anglais-octaves",
+        "oboes-clarinets-english-horn-octaves"
+      ],
+      "iconKey": "2ob-2cl-cor-anglais-in-octaves.png"
     },
     {
       "id": "bassoons-a2",
@@ -1419,6 +1561,12 @@
       "name": "Percussion",
       "aliases": ["percussion", "percussions", "gankogui", "jawbone", "ratchet", "ships-bell", "ships bell", "rain-sheet", "rain sheet"],
       "iconKey": "percussion.png"
+    },
+    {
+      "id": "full-orchestra",
+      "name": "Full Orchestra",
+      "aliases": [],
+      "iconKey": "full-orchestra.png"
     }
   ]
 }
