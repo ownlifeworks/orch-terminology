@@ -48,7 +48,12 @@ class InstrumentPropertiesTests(unittest.TestCase):
             dynamic_anchors = self.instrument_properties_doc["loudnessReference"]["dynamicAnchors"]
 
             self.assertEqual(report.instrument_properties, len(instrument_properties))
-            self.assertEqual(report.instrument_loudness_targets, len(instrument_properties) * 2 * len(dynamic_anchors))
+            expected_loudness_targets = sum(
+                len(targets)
+                for properties in instrument_properties.values()
+                for targets in properties.get("loudness", {}).values()
+            )
+            self.assertEqual(report.instrument_loudness_targets, expected_loudness_targets)
 
             connection = sqlite3.connect(output_path)
             try:
