@@ -4,14 +4,39 @@
     "libraryId": "spitfire-chamber-strings-essentials",
     "instrumentId": "violins-i",
     "articulations": [
-      { "articulationId": "legato", "variantIds": [] },
-      { "articulationId": "long", "variantIds": [] },
-      { "articulationId": "spiccato", "variantIds": [] },
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "pizzicato", "variantIds": [] },
-      { "articulationId": "long", "variantIds": ["harmonic"] },
-      { "articulationId": "tremolo", "variantIds": [] },
-      { "articulationId": "trills", "variantIds": ["minor-2nd", "major-2nd"] }
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd"
+        ]
+      }
     ]
   },
   {
@@ -19,14 +44,39 @@
     "libraryId": "spitfire-chamber-strings-essentials",
     "instrumentId": "violins-ii",
     "articulations": [
-      { "articulationId": "legato", "variantIds": [] },
-      { "articulationId": "long", "variantIds": [] },
-      { "articulationId": "spiccato", "variantIds": [] },
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "pizzicato", "variantIds": [] },
-      { "articulationId": "long", "variantIds": ["harmonic"] },
-      { "articulationId": "tremolo", "variantIds": [] },
-      { "articulationId": "trills", "variantIds": ["minor-2nd", "major-2nd"] }
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd"
+        ]
+      }
     ]
   },
   {
@@ -34,14 +84,39 @@
     "libraryId": "spitfire-chamber-strings-essentials",
     "instrumentId": "violas",
     "articulations": [
-      { "articulationId": "legato", "variantIds": [] },
-      { "articulationId": "long", "variantIds": [] },
-      { "articulationId": "spiccato", "variantIds": [] },
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "pizzicato", "variantIds": [] },
-      { "articulationId": "long", "variantIds": ["harmonic"] },
-      { "articulationId": "tremolo", "variantIds": [] },
-      { "articulationId": "trills", "variantIds": ["minor-2nd", "major-2nd"] }
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd"
+        ]
+      }
     ]
   },
   {
@@ -49,14 +124,39 @@
     "libraryId": "spitfire-chamber-strings-essentials",
     "instrumentId": "celli",
     "articulations": [
-      { "articulationId": "legato", "variantIds": [] },
-      { "articulationId": "long", "variantIds": [] },
-      { "articulationId": "spiccato", "variantIds": [] },
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "pizzicato", "variantIds": [] },
-      { "articulationId": "long", "variantIds": ["harmonic"] },
-      { "articulationId": "tremolo", "variantIds": [] },
-      { "articulationId": "trills", "variantIds": ["minor-2nd", "major-2nd"] }
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd"
+        ]
+      }
     ]
   },
   {
@@ -64,14 +164,39 @@
     "libraryId": "spitfire-chamber-strings-essentials",
     "instrumentId": "basses",
     "articulations": [
-      { "articulationId": "legato", "variantIds": [] },
-      { "articulationId": "long", "variantIds": [] },
-      { "articulationId": "spiccato", "variantIds": [] },
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "pizzicato", "variantIds": [] },
-      { "articulationId": "long", "variantIds": ["harmonic"] },
-      { "articulationId": "tremolo", "variantIds": [] },
-      { "articulationId": "trills", "variantIds": ["minor-2nd", "major-2nd"] }
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd"
+        ]
+      }
     ]
   },
   {
@@ -79,13 +204,35 @@
     "libraryId": "spitfire-chamber-strings-essentials",
     "instrumentId": "strings-ensemble",
     "articulations": [
-      { "articulationId": "long", "variantIds": [] },
-      { "articulationId": "spiccato", "variantIds": [] },
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "pizzicato", "variantIds": [] },
-      { "articulationId": "long", "variantIds": ["harmonic"] },
-      { "articulationId": "tremolo", "variantIds": [] },
-      { "articulationId": "trills", "variantIds": ["minor-2nd", "major-2nd"] }
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd"
+        ]
+      }
     ]
   }
 ]

@@ -270,7 +270,10 @@
     "articulations": [
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "detache",
@@ -280,15 +283,23 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "tremolo",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "legato",
@@ -325,33 +336,6 @@
         "variantIds": [
           "staccato",
           "sustains"
-        ]
-      },
-      {
-        "articulationId": "staccato",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "sustains",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "tremolo",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "marcato",
-        "variantIds": [
-          "con-sordino"
         ]
       }
     ]
@@ -363,7 +347,10 @@
     "articulations": [
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "detache",
@@ -373,15 +360,23 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "tremolo",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "legato",
@@ -418,33 +413,6 @@
         "variantIds": [
           "staccato",
           "sustains"
-        ]
-      },
-      {
-        "articulationId": "staccato",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "sustains",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "tremolo",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "marcato",
-        "variantIds": [
-          "con-sordino"
         ]
       }
     ]
@@ -456,7 +424,10 @@
     "articulations": [
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "detache",
@@ -466,15 +437,23 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "tremolo",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "legato",
@@ -511,33 +490,6 @@
         "variantIds": [
           "staccato",
           "sustains"
-        ]
-      },
-      {
-        "articulationId": "staccato",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "sustains",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "tremolo",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "marcato",
-        "variantIds": [
-          "con-sordino"
         ]
       }
     ]
@@ -549,7 +501,10 @@
     "articulations": [
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "detache",
@@ -559,15 +514,23 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "tremolo",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "legato",
@@ -604,33 +567,6 @@
         "variantIds": [
           "staccato",
           "sustains"
-        ]
-      },
-      {
-        "articulationId": "staccato",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "sustains",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "tremolo",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "marcato",
-        "variantIds": [
-          "con-sordino"
         ]
       }
     ]
@@ -642,7 +578,10 @@
     "articulations": [
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "detache",
@@ -652,15 +591,23 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "tremolo",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "legato",
@@ -697,33 +644,6 @@
         "variantIds": [
           "staccato",
           "sustains"
-        ]
-      },
-      {
-        "articulationId": "staccato",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "sustains",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "tremolo",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "marcato",
-        "variantIds": [
-          "con-sordino"
         ]
       }
     ]
@@ -1904,10 +1824,6 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "celeste",
     "articulations": [
-      {
-        "articulationId": "natural",
-        "variantIds": []
-      },
       {
         "articulationId": "natural",
         "variantIds": [

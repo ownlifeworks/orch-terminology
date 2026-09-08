@@ -73,6 +73,11 @@
       "id": "musical-sampling",
       "name": "Musical Sampling",
       "aliases": ["ms", "musical-sampling", "musicalsampling"]
+    },
+    {
+      "id": "soundpaint",
+      "name": "Soundpaint",
+      "aliases": ["soundpaint"]
     }
   ]
 }

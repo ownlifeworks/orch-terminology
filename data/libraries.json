@@ -533,6 +533,76 @@
       "id": "nashville-scoring-strings",
       "name": "Nashville Scoring Strings",
       "vendorId": "audio-ollie"
+    },
+    {
+      "id": "1967-clarinet-paris",
+      "name": "1967 Clarinet Paris",
+      "vendorId": "soundpaint",
+      "aliases": [
+        "1967-clarinet-paris",
+        "clarinet-paris",
+        "soundpaint-clarinet"
+      ]
+    },
+    {
+      "id": "1982-oboe-amore",
+      "name": "1982 Oboe Amore",
+      "vendorId": "soundpaint",
+      "aliases": [
+        "1982-oboe-amore",
+        "oboe-amore",
+        "soundpaint-oboe-amore"
+      ]
+    },
+    {
+      "id": "1987-alto-flute-savana",
+      "name": "1987 Alto Flute Savana",
+      "vendorId": "soundpaint",
+      "aliases": [
+        "1987-alto-flute-savana",
+        "alto-flute-savana",
+        "soundpaint-alto-flute"
+      ]
+    },
+    {
+      "id": "1995-english-horn-lorium",
+      "name": "1995 English Horn Lorium",
+      "vendorId": "soundpaint",
+      "aliases": [
+        "1995-english-horn-lorium",
+        "english-horn-lorium",
+        "soundpaint-english-horn"
+      ]
+    },
+    {
+      "id": "2001-piccolo-shire",
+      "name": "2001 Piccolo Shire",
+      "vendorId": "soundpaint",
+      "aliases": [
+        "2001-piccolo-shire",
+        "piccolo-shire",
+        "soundpaint-piccolo"
+      ]
+    },
+    {
+      "id": "2004-flute-platinus",
+      "name": "2004 Flute Platinus",
+      "vendorId": "soundpaint",
+      "aliases": [
+        "2004-flute-platinus",
+        "flute-platinus",
+        "soundpaint-flute"
+      ]
+    },
+    {
+      "id": "2010-bassoon-firebird",
+      "name": "2010 Bassoon Firebird",
+      "vendorId": "soundpaint",
+      "aliases": [
+        "2010-bassoon-firebird",
+        "bassoon-firebird",
+        "soundpaint-bassoon"
+      ]
     }
   ]
 }

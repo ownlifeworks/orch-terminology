@@ -6,7 +6,10 @@
     "articulations": [
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "detache",
@@ -16,15 +19,23 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "tremolo",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "legato",
@@ -61,33 +72,6 @@
         "variantIds": [
           "staccato",
           "sustains"
-        ]
-      },
-      {
-        "articulationId": "staccato",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "sustains",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "tremolo",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "marcato",
-        "variantIds": [
-          "con-sordino"
         ]
       }
     ]
@@ -97,32 +81,12 @@
     "libraryId": "special-edition-vol-2",
     "instrumentId": "violins-ii",
     "articulations": [
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "detache", "variantIds": ["short"] },
-      { "articulationId": "sustains", "variantIds": [] },
-      { "articulationId": "marcato", "variantIds": [] },
-      { "articulationId": "tremolo", "variantIds": [] },
-      { "articulationId": "legato", "variantIds": ["portamento"] },
-      { "articulationId": "sforzando", "variantIds": [] },
-      { "articulationId": "fortepiano", "variantIds": [] },
-      { "articulationId": "repetitions", "variantIds": ["legato", "spiccato", "fast"] },
-      { "articulationId": "pizzicato", "variantIds": [] },
-      { "articulationId": "col-legno", "variantIds": [] },
-      { "articulationId": "harmonics", "variantIds": ["staccato", "sustains"] },
-      { "articulationId": "staccato", "variantIds": ["sul-ponticello", "con-sordino"] },
-      { "articulationId": "sustains", "variantIds": ["sul-ponticello", "con-sordino"] },
-      { "articulationId": "tremolo", "variantIds": ["sul-ponticello", "con-sordino"] },
-      { "articulationId": "marcato", "variantIds": ["con-sordino"] }
-    ]
-  },
-  {
-    "vendorId": "vienna-symphonic-library",
-    "libraryId": "special-edition-vol-2",
-    "instrumentId": "violas",
-    "articulations": [
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "detache",
@@ -132,15 +96,23 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "tremolo",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "legato",
@@ -178,7 +150,14 @@
           "staccato",
           "sustains"
         ]
-      },
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "violas",
+    "articulations": [
       {
         "articulationId": "staccato",
         "variantIds": [
@@ -187,9 +166,21 @@
         ]
       },
       {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
         "articulationId": "sustains",
         "variantIds": [
           "sul-ponticello",
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
           "con-sordino"
         ]
       },
@@ -201,9 +192,40 @@
         ]
       },
       {
-        "articulationId": "marcato",
+        "articulationId": "legato",
         "variantIds": [
-          "con-sordino"
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "legato",
+          "spiccato",
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "staccato",
+          "sustains"
         ]
       }
     ]
@@ -215,7 +237,10 @@
     "articulations": [
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "detache",
@@ -225,15 +250,23 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "tremolo",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "legato",
@@ -270,33 +303,6 @@
         "variantIds": [
           "staccato",
           "sustains"
-        ]
-      },
-      {
-        "articulationId": "staccato",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "sustains",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "tremolo",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "marcato",
-        "variantIds": [
-          "con-sordino"
         ]
       }
     ]
@@ -308,7 +314,10 @@
     "articulations": [
       {
         "articulationId": "staccato",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "detache",
@@ -318,15 +327,23 @@
       },
       {
         "articulationId": "sustains",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "marcato",
-        "variantIds": []
+        "variantIds": [
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "tremolo",
-        "variantIds": []
+        "variantIds": [
+          "sul-ponticello",
+          "con-sordino"
+        ]
       },
       {
         "articulationId": "legato",
@@ -363,33 +380,6 @@
         "variantIds": [
           "staccato",
           "sustains"
-        ]
-      },
-      {
-        "articulationId": "staccato",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "sustains",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "tremolo",
-        "variantIds": [
-          "sul-ponticello",
-          "con-sordino"
-        ]
-      },
-      {
-        "articulationId": "marcato",
-        "variantIds": [
-          "con-sordino"
         ]
       }
     ]
@@ -631,16 +621,57 @@
     "libraryId": "special-edition-vol-2",
     "instrumentId": "viennese-oboe",
     "articulations": [
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "detache", "variantIds": ["short"] },
-      { "articulationId": "portato", "variantIds": [] },
-      { "articulationId": "sustains", "variantIds": [] },
-      { "articulationId": "marcato", "variantIds": [] },
-      { "articulationId": "legato", "variantIds": ["portamento"] },
-      { "articulationId": "sforzando", "variantIds": [] },
-      { "articulationId": "fortepiano", "variantIds": [] },
-      { "articulationId": "trills", "variantIds": ["minor", "major"] },
-      { "articulationId": "repetitions", "variantIds": ["legato", "spiccato", "fast"] }
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor",
+          "major"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "legato",
+          "spiccato",
+          "fast"
+        ]
+      }
     ]
   },
   {
@@ -648,16 +679,57 @@
     "libraryId": "special-edition-vol-2",
     "instrumentId": "basset-horn",
     "articulations": [
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "detache", "variantIds": ["short"] },
-      { "articulationId": "portato", "variantIds": [] },
-      { "articulationId": "sustains", "variantIds": [] },
-      { "articulationId": "marcato", "variantIds": [] },
-      { "articulationId": "legato", "variantIds": ["portamento"] },
-      { "articulationId": "sforzando", "variantIds": [] },
-      { "articulationId": "fortepiano", "variantIds": [] },
-      { "articulationId": "trills", "variantIds": ["minor", "major"] },
-      { "articulationId": "repetitions", "variantIds": ["legato", "spiccato", "fast"] }
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor",
+          "major"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "legato",
+          "spiccato",
+          "fast"
+        ]
+      }
     ]
   },
   {
@@ -665,16 +737,57 @@
     "libraryId": "special-edition-vol-2",
     "instrumentId": "oboe-damore",
     "articulations": [
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "detache", "variantIds": ["short"] },
-      { "articulationId": "portato", "variantIds": [] },
-      { "articulationId": "sustains", "variantIds": [] },
-      { "articulationId": "marcato", "variantIds": [] },
-      { "articulationId": "legato", "variantIds": ["portamento"] },
-      { "articulationId": "sforzando", "variantIds": [] },
-      { "articulationId": "fortepiano", "variantIds": [] },
-      { "articulationId": "trills", "variantIds": ["minor", "major"] },
-      { "articulationId": "repetitions", "variantIds": ["legato", "spiccato", "fast"] }
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor",
+          "major"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "legato",
+          "spiccato",
+          "fast"
+        ]
+      }
     ]
   },
   {
@@ -1759,9 +1872,18 @@
     "libraryId": "special-edition-vol-2",
     "instrumentId": "electric-guitar",
     "articulations": [
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "sustains", "variantIds": [] },
-      { "articulationId": "legato", "variantIds": [] }
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      }
     ]
   },
   {
@@ -1769,9 +1891,18 @@
     "libraryId": "special-edition-vol-2",
     "instrumentId": "concert-guitar",
     "articulations": [
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "sustains", "variantIds": [] },
-      { "articulationId": "legato", "variantIds": [] }
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      }
     ]
   },
   {
@@ -1779,10 +1910,22 @@
     "libraryId": "special-edition-vol-2",
     "instrumentId": "upright-bass",
     "articulations": [
-      { "articulationId": "staccato", "variantIds": [] },
-      { "articulationId": "portato", "variantIds": [] },
-      { "articulationId": "sustains", "variantIds": [] },
-      { "articulationId": "legato", "variantIds": [] }
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      }
     ]
   },
   {
@@ -1801,10 +1944,6 @@
     "libraryId": "special-edition-vol-2",
     "instrumentId": "celeste",
     "articulations": [
-      {
-        "articulationId": "natural",
-        "variantIds": []
-      },
       {
         "articulationId": "natural",
         "variantIds": [

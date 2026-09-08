@@ -11907,6 +11907,302 @@
     ]
   },
   {
+    "vendorId": "soundpaint",
+    "libraryId": "1967-clarinet-paris",
+    "instrumentId": "clarinet",
+    "articulations": [
+      {
+        "articulationId": "arc",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "combo",
+          "lyrical",
+          "strong"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "soundpaint",
+    "libraryId": "1982-oboe-amore",
+    "instrumentId": "oboe-damore",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "combo",
+          "lyrical",
+          "strong"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "soundpaint",
+    "libraryId": "1987-alto-flute-savana",
+    "instrumentId": "alto-flute",
+    "articulations": [
+      {
+        "articulationId": "arc",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "combo",
+          "lyrical",
+          "strong"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "soundpaint",
+    "libraryId": "1995-english-horn-lorium",
+    "instrumentId": "english-horn",
+    "articulations": [
+      {
+        "articulationId": "arc",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "combo",
+          "lyrical",
+          "strong"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "soundpaint",
+    "libraryId": "2001-piccolo-shire",
+    "instrumentId": "piccolo",
+    "articulations": [
+      {
+        "articulationId": "arc",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "combo",
+          "lyrical",
+          "strong"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "soundpaint",
+    "libraryId": "2004-flute-platinus",
+    "instrumentId": "flute",
+    "articulations": [
+      {
+        "articulationId": "arc",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "combo",
+          "lyrical",
+          "strong"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "soundpaint",
+    "libraryId": "2010-bassoon-firebird",
+    "instrumentId": "bassoon",
+    "articulations": [
+      {
+        "articulationId": "arc",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "combo",
+          "lyrical",
+          "strong"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
     "vendorId": "spitfire-audio",
     "libraryId": "abbey-road-one-grand-brass",
     "instrumentId": "4-horns-10-celli",

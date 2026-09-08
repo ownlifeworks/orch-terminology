@@ -1,0 +1,16 @@
+[
+  {
+    "vendorId": "soundpaint",
+    "libraryId": "1987-alto-flute-savana",
+    "instrumentId": "alto-flute",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["combo", "lyrical", "strong"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["major-2nd", "minor-2nd"] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] }
+    ]
+  }
+]

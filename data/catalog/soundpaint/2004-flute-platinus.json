@@ -1,0 +1,17 @@
+[
+  {
+    "vendorId": "soundpaint",
+    "libraryId": "2004-flute-platinus",
+    "instrumentId": "flute",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["combo", "lyrical", "strong"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["major-2nd", "minor-2nd"] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "vendorId": "soundpaint",
+    "libraryId": "1967-clarinet-paris",
+    "instrumentId": "clarinet",
+    "articulations": [
+      { "articulationId": "arc", "variantIds": [] },
+      { "articulationId": "legato", "variantIds": ["combo", "lyrical", "strong"] },
+      { "articulationId": "trills", "variantIds": ["major-2nd", "minor-2nd"] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] }
+    ]
+  }
+]

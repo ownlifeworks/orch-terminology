@@ -74,6 +74,17 @@ class CatalogTests(unittest.TestCase):
                 [("horn", "staccato"), ("trumpet", "legato")],
             )
 
+    def test_library_sources_consolidate_articulations_per_instrument(self):
+        source_dir = self.data_dir / "catalog"
+        for source_path in source_dir.rglob("*.json"):
+            for entry in json.loads(source_path.read_text(encoding="utf-8")):
+                articulation_ids = [item["articulationId"] for item in entry["articulations"]]
+                self.assertEqual(
+                    len(articulation_ids),
+                    len(set(articulation_ids)),
+                    f"{source_path.name}: duplicate articulation for {entry['instrumentId']}",
+                )
+
     def test_catalog_validation_rejects_unknown_variant(self):
         with tempfile.TemporaryDirectory() as tmp:
             tmp_path = Path(tmp)

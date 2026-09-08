@@ -182,6 +182,11 @@
       "aliases": ["lyr", "lyrical"]
     },
     {
+      "id": "strong",
+      "name": "Strong",
+      "aliases": ["strong"]
+    },
+    {
       "id": "soft",
       "name": "Soft",
       "aliases": ["sft", "soft", "gentle", "hollow"]
