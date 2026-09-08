@@ -274,6 +274,17 @@
       ]
     },
     {
+      "id": "special-edition-vol-2",
+      "name": "Special Edition Vol. 2 Extended Orchestra",
+      "vendorId": "vienna-symphonic-library",
+      "aliases": [
+        "special-edition-2",
+        "special-edition-vol-2",
+        "vsl-special-edition-vol-2",
+        "extended-orchestra"
+      ]
+    },
+    {
       "id": "spitfire-symphony-orchestra",
       "name": "Spitfire Symphony Orchestra",
       "vendorId": "spitfire-audio",

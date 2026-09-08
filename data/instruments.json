@@ -392,6 +392,57 @@
       "iconKey": "piano.png"
     },
     {
+      "id": "organ",
+      "name": "Organ",
+      "aliases": [
+        "organ"
+      ],
+      "iconKey": "organ.png"
+    },
+    {
+      "id": "harpsichord",
+      "name": "Harpsichord",
+      "aliases": [
+        "harpsichord",
+        "cembalo"
+      ],
+      "iconKey": "harpsichord.png"
+    },
+    {
+      "id": "harmonium",
+      "name": "Harmonium",
+      "aliases": [
+        "harmonium"
+      ],
+      "iconKey": "harmonium.png"
+    },
+    {
+      "id": "electric-guitar",
+      "name": "Electric Guitar",
+      "aliases": [
+        "electric-guitar",
+        "overdrive-guitar"
+      ],
+      "iconKey": "electric-guitar.png"
+    },
+    {
+      "id": "concert-guitar",
+      "name": "Concert Guitar",
+      "aliases": [
+        "concert-guitar"
+      ],
+      "iconKey": "concert-guitar.png"
+    },
+    {
+      "id": "upright-bass",
+      "name": "Upright Bass",
+      "aliases": [
+        "upright-bass",
+        "uprightbass"
+      ],
+      "iconKey": "upright-bass.png"
+    },
+    {
       "id": "bass-trombone",
       "name": "Bass Trombone",
       "aliases": [
@@ -654,6 +705,33 @@
         "ob"
       ],
       "iconKey": "ob.png"
+    },
+    {
+      "id": "viennese-oboe",
+      "name": "Viennese Oboe",
+      "aliases": [
+        "viennese-oboe",
+        "wiener-oboe"
+      ],
+      "iconKey": "viennese-oboe.png"
+    },
+    {
+      "id": "oboe-damore",
+      "name": "Oboe d’Amore",
+      "aliases": [
+        "oboe-damore",
+        "oboe-d-amore"
+      ],
+      "iconKey": "oboe-damore.png"
+    },
+    {
+      "id": "basset-horn",
+      "name": "Basset Horn",
+      "aliases": [
+        "basset-horn",
+        "bassethorn"
+      ],
+      "iconKey": "basset-horn.png"
     },
     {
       "id": "bass-oboe",

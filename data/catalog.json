@@ -18948,6 +18948,2055 @@
   },
   {
     "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "alto-flute",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "alto-saxophone",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "baritone-saxophone",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "bass-drum",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "staccato",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "basset-horn",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "bassoons-a3",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "celeste",
+    "articulations": [
+      {
+        "articulationId": "natural",
+        "variantIds": [
+          "soft"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "staccato",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "clarinet",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "clarinets-a3",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "concert-guitar",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "concert-toms",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "contrabass-trombone",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "contrabass-tuba",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "cymbal",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "eb-clarinet",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "electric-guitar",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "flute",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "flutes-a3",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "grand-piano",
+    "articulations": [
+      {
+        "articulationId": "natural",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "harmonium",
+    "articulations": [
+      {
+        "articulationId": "natural",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "harpsichord",
+    "articulations": [
+      {
+        "articulationId": "natural",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "horn",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "horns-a8",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "oboe",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "oboe-damore",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "oboes-a3",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "organ",
+    "articulations": [
+      {
+        "articulationId": "natural",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "piatti",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "piccolo-trumpet",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "snare",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "tam-tam",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "tambourine",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "tenor-saxophone",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "tenor-trombones-a3",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "timpani",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": []
+      },
+      {
+        "articulationId": "secco",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "trumpet",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "trumpets-a3",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "upright-bass",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "viennese-oboe",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "staccato",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "staccato",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "staccato",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino",
+          "sul-ponticello"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "special-edition-vol-2",
+    "instrumentId": "wagner-tuba",
+    "articulations": [
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "fast",
+          "legato",
+          "spiccato"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
     "libraryId": "synchron-prime-brass",
     "instrumentId": "bass-trombone",
     "articulations": [
