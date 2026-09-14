@@ -414,13 +414,13 @@
       "id": "infinite-brass",
       "name": "Infinite Brass",
       "vendorId": "aaron-venture",
-      "aliases": ["infinite", "infinite-brass"]
+      "aliases": ["infbrs", "infinite-brass"]
     },
     {
       "id": "infinite-woodwinds",
       "name": "Infinite Woodwinds",
       "vendorId": "aaron-venture",
-      "aliases": ["infinite-ww", "infinite-woodwinds"]
+      "aliases": ["infww", "infinite-ww", "infinite-woodwinds"]
     },
     {
       "id": "angry-brass-pro-ensembles",
