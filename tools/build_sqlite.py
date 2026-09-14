@@ -175,12 +175,21 @@ def sha256_of(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def exported_schema_version(schema_version_doc: dict[str, Any]) -> int:
+    schema_version = schema_version_doc.get("schemaVersion")
+    if not isinstance(schema_version, int):
+        raise ValueError("schema-version.json: schemaVersion must be an integer")
+
+    return schema_version + 1
+
+
 def build_database(data_dir: Path, output_path: Path) -> BuildReport:
     documents = {
         kind: load_json(data_dir / filename)
         for kind, filename in DATA_FILENAMES.items()
     }
     schema_version_doc = load_json(data_dir / "schema-version.json")
+    sqlite_schema_version = exported_schema_version(schema_version_doc)
     instrument_properties_doc = load_json(data_dir / "instrument-properties.json")
     catalog = load_json(data_dir / "catalog.json")
 
@@ -484,7 +493,7 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
         connection.executemany(
             "INSERT INTO schema_info (key, value) VALUES (?, ?)",
             [
-                ("schema_version", str(schema_version_doc.get("schemaVersion", ""))),
+                ("schema_version", str(sqlite_schema_version)),
                 ("source_format", "canonical-json"),
                 ("source_files", ",".join(sorted(source_hashes))),
                 ("source_hashes", json.dumps(source_hashes, sort_keys=True)),
