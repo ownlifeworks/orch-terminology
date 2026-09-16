@@ -2,12 +2,22 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+import shutil
 import sqlite3
 import tempfile
 import unittest
 
 import tools.validate_terminology as validator_module
 from tools.build_sqlite import build_database
+
+
+def expected_loudness_tuple(capture_kind, dynamic_anchor, value):
+    if isinstance(value, list):
+        low, high = float(value[0]), float(value[1])
+        return (capture_kind, dynamic_anchor, (low + high) / 2.0, low, high)
+
+    scalar = float(value)
+    return (capture_kind, dynamic_anchor, scalar, scalar, scalar)
 
 
 class InstrumentPropertiesTests(unittest.TestCase):
@@ -31,7 +41,6 @@ class InstrumentPropertiesTests(unittest.TestCase):
             "2cl-2bn-in-octaves",
             "4-horns-tuba-in-octaves",
             "4-horns-10-celli",
-            "picc-2fl-in-octaves",
             "2ob-2cl-in-octaves",
             "2ob-2cl-cor-anglais-in-octaves",
         )
@@ -99,7 +108,7 @@ class InstrumentPropertiesTests(unittest.TestCase):
 
                 targets = connection.execute(
                     """
-                    SELECT capture_kind, dynamic_anchor, lufs
+                    SELECT capture_kind, dynamic_anchor, lufs, lufs_min, lufs_max
                     FROM instrument_loudness_targets
                     WHERE instrument_id = ?
                     ORDER BY capture_kind, dynamic_anchor
@@ -107,7 +116,11 @@ class InstrumentPropertiesTests(unittest.TestCase):
                     ("trumpet",),
                 ).fetchall()
                 expected_targets = [
-                    (capture_kind, dynamic_anchor, float(trumpet_properties["loudness"][capture_kind][dynamic_anchor]))
+                    expected_loudness_tuple(
+                        capture_kind,
+                        dynamic_anchor,
+                        trumpet_properties["loudness"][capture_kind][dynamic_anchor],
+                    )
                     for capture_kind in ("long", "short")
                     for dynamic_anchor in sorted(dynamic_anchors)
                 ]
@@ -115,6 +128,35 @@ class InstrumentPropertiesTests(unittest.TestCase):
                     targets,
                     expected_targets,
                 )
+            finally:
+                connection.close()
+
+    def test_sqlite_build_exports_loudness_ranges(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            fixture_data = tmp_path / "data"
+            shutil.copytree(self.data_dir, fixture_data)
+
+            document = json.loads((fixture_data / "instrument-properties.json").read_text(encoding="utf-8"))
+            document["instruments"]["trumpet"]["loudness"]["long"]["working"] = [-37.3, -36.8]
+            (fixture_data / "instrument-properties.json").write_text(json.dumps(document, indent=2), encoding="utf-8")
+
+            output_path = tmp_path / "orch.db"
+            build_database(fixture_data, output_path)
+
+            connection = sqlite3.connect(output_path)
+            try:
+                row = connection.execute(
+                    """
+                    SELECT lufs, lufs_min, lufs_max
+                    FROM instrument_loudness_targets
+                    WHERE instrument_id = ?
+                      AND capture_kind = ?
+                      AND dynamic_anchor = ?
+                    """,
+                    ("trumpet", "long", "working"),
+                ).fetchone()
+                self.assertEqual(row, ((-37.3 + -36.8) / 2.0, -37.3, -36.8))
             finally:
                 connection.close()
 

@@ -21,11 +21,23 @@
           "type": "array",
           "items": {
             "type": "string",
-            "enum": ["pp", "mf", "fff"]
+            "enum": ["working", "max"]
           },
-          "minItems": 3,
-          "maxItems": 3,
+          "minItems": 1,
+          "maxItems": 2,
           "uniqueItems": true
+        },
+        "pitchConvention": {
+          "type": "string"
+        },
+        "measurementRangeMeaning": {
+          "type": "string"
+        },
+        "instrumentConventions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
         }
       },
       "additionalProperties": false
@@ -36,6 +48,10 @@
         "type": "object",
         "required": ["pitch", "loudness"],
         "properties": {
+          "dataQuality": {
+            "type": "string",
+            "enum": ["measured", "approximation"]
+          },
           "pitch": {
             "type": "object",
             "required": ["range", "measurementRange"],
@@ -51,16 +67,37 @@
           },
           "loudness": {
             "type": "object",
-            "required": ["long", "short"],
             "properties": {
               "long": {
-                "$ref": "#/$defs/loudnessTargets"
+                "$ref": "#/$defs/sustainedLoudnessTargets"
               },
               "short": {
-                "$ref": "#/$defs/loudnessTargets"
+                "$ref": "#/$defs/sustainedLoudnessTargets"
+              },
+              "percussion": {
+                "$ref": "#/$defs/percussionLoudnessTargets"
               }
             },
+            "minProperties": 1,
             "additionalProperties": false
+          },
+          "references": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "long": {
+                  "$ref": "#/$defs/sustainedLoudnessTargets"
+                },
+                "short": {
+                  "$ref": "#/$defs/sustainedLoudnessTargets"
+                },
+                "percussion": {
+                  "$ref": "#/$defs/percussionLoudnessTargets"
+                }
+              },
+              "additionalProperties": false
+            }
           }
         },
         "additionalProperties": false
@@ -86,18 +123,40 @@
       },
       "additionalProperties": false
     },
-    "loudnessTargets": {
+    "loudnessTarget": {
+      "oneOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 1,
+          "maxItems": 2
+        }
+      ]
+    },
+    "sustainedLoudnessTargets": {
       "type": "object",
-      "required": ["pp", "mf", "fff"],
+      "required": ["working", "max"],
       "properties": {
-        "pp": {
-          "type": "number"
+        "working": {
+          "$ref": "#/$defs/loudnessTarget"
         },
-        "mf": {
-          "type": "number"
-        },
-        "fff": {
-          "type": "number"
+        "max": {
+          "$ref": "#/$defs/loudnessTarget"
+        }
+      },
+      "additionalProperties": false
+    },
+    "percussionLoudnessTargets": {
+      "type": "object",
+      "required": ["max"],
+      "properties": {
+        "max": {
+          "$ref": "#/$defs/loudnessTarget"
         }
       },
       "additionalProperties": false

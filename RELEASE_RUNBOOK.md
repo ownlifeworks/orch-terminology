@@ -44,18 +44,26 @@ Use this runbook whenever canonical terminology, catalog relationships, instrume
    - `C:\dev\SymphonicBalance\Resources\orch.db`
    - `C:\dev\SymphonicBalance\Resources\instrument-icons\`
 
-5. If only a specific consumer must be refreshed, use `--targets website`, `--targets ntd-engine`, `--targets ntd-detector`, or `--targets symphonic-balance`. Run the complete sync before a coordinated terminology release unless a consumer is explicitly blocked.
+5. Publish the hosted Symphonic Balance loudness reference whenever `data/instrument-properties.json` changes:
+
+   ```powershell
+   .\tools\publish_symphonic_balance_reference.ps1
+   ```
+
+   This validates terminology first, ensures the public Supabase Storage bucket, and uploads `instrument-properties.json` to the URL consumed by the plugin.
+
+6. If only a specific consumer must be refreshed, use `--targets website`, `--targets ntd-engine`, `--targets ntd-detector`, or `--targets symphonic-balance`. Run the complete sync before a coordinated terminology release unless a consumer is explicitly blocked.
 
 6. Review `git diff` and `git status` in this repository and every affected consumer. The detector consumes database mirrors only; it intentionally does not receive icons.
 
-7. Hand off to consumer release builds.
+8. Hand off to consumer release builds.
 
    - Rebuild and test the website before its Render deployment.
    - Rebuild NTD Engine because it embeds the database and icon resources.
    - Build/test NTD Detector if its terminology UI or backend lookup is being released.
    - Rebuild Symphonic Balance because it embeds the database and icon resources.
 
-8. Commit and push this canonical repository and the changed consumer mirrors together where possible. Do not describe a terminology release as complete while an affected consumer still has an unsynchronized mirror.
+9. Commit and push this canonical repository and the changed consumer mirrors together where possible. Do not describe a terminology release as complete while an affected consumer still has an unsynchronized mirror.
 
 ## Fast checks
 

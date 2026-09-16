@@ -9,14 +9,14 @@ The first implementation slice is available: canonical seed data, JSON schemas, 
 ## Repository layout
 
 - `data/` — authoritative terminology JSON files, including the generated `catalog.json`
-- `data/instrument-properties.json` — canonical per-instrument pitch and loudness-reference properties for `orch.db` consumers such as SymphonicBalance
+- `data/instrument-properties.json` — canonical per-instrument pitch and loudness-reference properties; SymphonicBalance fetches this as a hosted JSON reference
 - `data/catalog/` — per-library catalog source files that are combined into `catalog.json`
 - `assets/instrument-icons/` — canonical instrument icon PNGs keyed by `iconKey` from `data/instruments.json`
 - `schema/` — JSON Schema definitions
 - `tests/` — resolver and validation fixtures
 - `tools/` — validation and generation tooling
 
-Applications such as NTD Engine and NTD Detector must consume this repository's data rather than maintaining independent terminology sources. Applications that need canonical instrument pitch or loudness-reference metadata, such as SymphonicBalance, must consume the generated `orch.db` representation of `instrument-properties.json` rather than creating an independent authority. Instrument icon PNGs are also canonical here under `assets/instrument-icons/`; NtdEngine currently consumes that icon set at runtime, while other consumers should mirror it only if they actually render instrument icons.
+Applications such as NTD Engine and NTD Detector must consume this repository's data rather than maintaining independent terminology sources. SymphonicBalance consumes instrument identity/icon metadata from its mirrored `orch.db`, but loudness-reference targets come from the hosted `data/instrument-properties.json` file so target changes can ship without reinstalling the plugin. Instrument icon PNGs are also canonical here under `assets/instrument-icons/`; NtdEngine currently consumes that icon set at runtime, while other consumers should mirror it only if they actually render instrument icons.
 
 ```mermaid
 flowchart TD
@@ -89,7 +89,7 @@ Keep entity IDs stable because libraries and `contexts.json` reference them dire
 
 The canonical vocabulary now includes `variants.json` for optional articulation qualifiers. Use `variant` as a separate normalized field rather than folding qualifiers back into `articulation`.
 
-`instrument-properties.json` is keyed by instrument ID from `instruments.json`. It currently supports pitch range, recommended measurement range, and factory loudness-reference targets for `long` and `short` capture modes. An optional `dataQuality` field marks inferred records as `approximation`; records without that field are measured. Treat it as canonical source data that is exported into `orch.db` for consumer applications.
+`instrument-properties.json` is keyed by instrument ID from `instruments.json`. It currently supports pitch range, recommended measurement range, and factory loudness-reference targets for `long`, `short`, and `percussion` capture modes. Loudness targets may be scalar numbers or `[min, max]` ranges. An optional `dataQuality` field marks inferred records as `approximation`; records without that field are measured. Treat it as canonical source data and publish it for SymphonicBalance with `tools/publish_symphonic_balance_reference.ps1` whenever target values change.
 
 After editing, validate the data, rebuild the runtime distribution, and run the tests:
 

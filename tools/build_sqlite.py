@@ -76,6 +76,23 @@ def index_entities(document: dict[str, Any], plural: str) -> dict[str, dict[str,
     return index
 
 
+def normalize_loudness_target(value: Any, prefix: str) -> tuple[float, float, float]:
+    if isinstance(value, (int, float)):
+        scalar = float(value)
+        return scalar, scalar, scalar
+
+    if not isinstance(value, list) or len(value) not in (1, 2) or not all(isinstance(item, (int, float)) for item in value):
+        raise ValueError(f"{prefix} must be numeric or a one/two-number array")
+
+    if len(value) == 1:
+        scalar = float(value[0])
+        return scalar, scalar, scalar
+
+    low = min(float(value[0]), float(value[1]))
+    high = max(float(value[0]), float(value[1]))
+    return low, high, (low + high) / 2.0
+
+
 def sorted_aliases(entity: dict[str, Any]) -> list[str]:
     aliases = entity.get("aliases", [])
     if not isinstance(aliases, list):
@@ -289,6 +306,8 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
                 capture_kind TEXT NOT NULL,
                 dynamic_anchor TEXT NOT NULL,
                 lufs REAL NOT NULL,
+                lufs_min REAL NOT NULL,
+                lufs_max REAL NOT NULL,
                 PRIMARY KEY (instrument_id, capture_kind, dynamic_anchor),
                 FOREIGN KEY (instrument_id) REFERENCES instruments(id),
                 FOREIGN KEY (dynamic_anchor) REFERENCES loudness_reference_dynamic_anchors(anchor)
@@ -455,16 +474,22 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
                 for anchor in expected_anchors:
                     if anchor not in targets:
                         raise ValueError(f"instrument-properties.json: {instrument_id}.loudness.{capture_kind} missing {anchor}")
+                    lufs_min, lufs_max, lufs = normalize_loudness_target(
+                        targets[anchor],
+                        f"instrument-properties.json: {instrument_id}.loudness.{capture_kind}.{anchor}",
+                    )
                     connection.execute(
                         """
                         INSERT INTO instrument_loudness_targets (
                             instrument_id,
                             capture_kind,
                             dynamic_anchor,
-                            lufs
-                        ) VALUES (?, ?, ?, ?)
+                            lufs,
+                            lufs_min,
+                            lufs_max
+                        ) VALUES (?, ?, ?, ?, ?, ?)
                         """,
-                        (instrument_id, capture_kind, anchor, float(targets[anchor])),
+                        (instrument_id, capture_kind, anchor, lufs, lufs_min, lufs_max),
                     )
         insert_entities("articulations", articulations)
         insert_entities("variants", variants)

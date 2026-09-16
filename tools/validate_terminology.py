@@ -63,6 +63,19 @@ def validate_midi_range(value: object, prefix: str, errors: list[str]) -> None:
         errors.append(f"{prefix}: min must not exceed max")
 
 
+def validate_loudness_target(value: object, prefix: str, errors: list[str]) -> None:
+    if isinstance(value, (int, float)):
+        return
+
+    if not isinstance(value, list):
+        errors.append(f"{prefix}: must be numeric or a two-number range")
+        return
+
+    if len(value) not in (1, 2) or not all(isinstance(item, (int, float)) for item in value):
+        errors.append(f"{prefix}: array target must contain one or two numeric values")
+        return
+
+
 def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
     errors: list[str] = []
     document = load("instrument-properties.json")
@@ -144,8 +157,11 @@ def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
                 errors.append(f"{prefix}.loudness.{capture_kind}: keys must be {', '.join(expected_anchors)}")
 
             for anchor in expected_anchors:
-                if not isinstance(targets.get(anchor), (int, float)):
-                    errors.append(f"{prefix}.loudness.{capture_kind}.{anchor}: must be numeric")
+                validate_loudness_target(
+                    targets.get(anchor),
+                    f"{prefix}.loudness.{capture_kind}.{anchor}",
+                    errors,
+                )
 
         if supported_mode_count == 0:
             errors.append(f"{prefix}.loudness: must define at least one supported mode")
