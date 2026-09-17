@@ -38,7 +38,6 @@ class InstrumentPropertiesTests(unittest.TestCase):
 
     def test_inferred_composites_have_zero_loudness_targets(self):
         ids = (
-            "2cl-2bn-in-octaves",
             "4-horns-tuba-in-octaves",
             "4-horns-10-celli",
             "2ob-2cl-in-octaves",

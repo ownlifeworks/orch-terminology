@@ -159,12 +159,12 @@
       },
       "loudness": {
         "long": {
-          "working": -35.8,
-          "max": -32.4
+          "working": [-38.2],
+          "max": [-34.0]
         },
         "short": {
-          "working": -42.8,
-          "max": -37.8
+          "working": [-47.0],
+          "max": [-40.3]
         }
       },
       "references": {
@@ -180,12 +180,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-38.2],
+            "max": [-34.0]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-47.0],
+            "max": [-40.3]
           }
         }
       }
@@ -247,12 +247,12 @@
       },
       "loudness": {
         "long": {
-          "working": -27.7,
-          "max": -22.5
+          "working": [-29.9],
+          "max": [-24.2]
         },
         "short": {
-          "working": -34.9,
-          "max": -29.0
+          "working": [-42.3],
+          "max": [-33.5]
         }
       },
       "references": {
@@ -268,12 +268,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-29.9],
+            "max": [-24.2]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-42.3],
+            "max": [-33.5]
           }
         }
       }
@@ -335,12 +335,12 @@
       },
       "loudness": {
         "long": {
-          "working": -32.5,
-          "max": -29.7
+          "working": [-32.6, -38.0],
+          "max": [-29.7, -31.5]
         },
         "short": {
-          "working": -44.4,
-          "max": -34.5
+          "working": [-43.4, -41.8],
+          "max": [-37.8, -38.4]
         }
       },
       "references": {
@@ -356,12 +356,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-32.6, -38.0],
+            "max": [-29.7, -31.5]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-43.4, -41.8],
+            "max": [-37.8, -38.4]
           }
         }
       }
@@ -379,12 +379,12 @@
       },
       "loudness": {
         "long": {
-          "working": -29.2,
-          "max": -26.8
+          "working": [-32.6],
+          "max": [-27.1]
         },
         "short": {
-          "working": -39.9,
-          "max": -32.4
+          "working": [-38.9],
+          "max": [-35.2]
         }
       },
       "references": {
@@ -400,12 +400,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-32.6],
+            "max": [-27.1]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-38.9],
+            "max": [-35.2]
           }
         }
       }
@@ -423,12 +423,12 @@
       },
       "loudness": {
         "long": {
-          "working": -41.3,
-          "max": -34.6
+          "working": [-39.4],
+          "max": [-34.5]
         },
         "short": {
-          "working": -47.8,
-          "max": -43.8
+          "working": [-47.0],
+          "max": [-42.6]
         }
       },
       "references": {
@@ -444,12 +444,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-39.4],
+            "max": [-34.5]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-47.0],
+            "max": [-42.6]
           }
         }
       }
@@ -467,12 +467,12 @@
       },
       "loudness": {
         "long": {
-          "working": -31.7,
-          "max": -29.0
+          "working": [-36.2, -40.2],
+          "max": [-33.2, -36.5]
         },
         "short": {
-          "working": -42.9,
-          "max": -38.1
+          "working": [-48.5, -52.4],
+          "max": [-41.3, -46.5]
         }
       },
       "references": {
@@ -488,12 +488,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-36.2, -40.2],
+            "max": [-33.2, -36.5]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-48.5, -52.4],
+            "max": [-41.3, -46.5]
           }
         }
       }
@@ -511,12 +511,12 @@
       },
       "loudness": {
         "long": {
-          "working": -38.1,
-          "max": -34.4
+          "working": [-40.5],
+          "max": [-36.2]
         },
         "short": {
-          "working": -45.5,
-          "max": -40.2
+          "working": [-48.4],
+          "max": [-44.4]
         }
       },
       "references": {
@@ -532,12 +532,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-40.5],
+            "max": [-36.2]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-48.4],
+            "max": [-44.4]
           }
         }
       }
@@ -555,12 +555,12 @@
       },
       "loudness": {
         "long": {
-          "working": -28.6,
-          "max": -25.8
+          "working": [-34.8],
+          "max": [-31.4]
         },
         "short": {
-          "working": -39.0,
-          "max": -34.2
+          "working": [-47.4],
+          "max": [-39.7]
         }
       },
       "references": {
@@ -576,12 +576,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-34.8],
+            "max": [-31.4]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-47.4],
+            "max": [-39.7]
           }
         }
       }
@@ -593,18 +593,18 @@
           "max": 91
         },
         "measurementRange": {
-          "min": 67,
-          "max": 79
+          "min": 72,
+          "max": 84
         }
       },
       "loudness": {
         "long": {
-          "working": -35.0,
-          "max": -25.0
+          "working": [-35.2],
+          "max": [-26.0]
         },
         "short": {
-          "working": -33.0,
-          "max": -23.0
+          "working": [-44.0],
+          "max": [-37.2]
         }
       },
       "references": {
@@ -620,12 +620,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-35.2],
+            "max": [-26.0]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-44.0],
+            "max": [-37.2]
           }
         }
       }
@@ -643,12 +643,12 @@
       },
       "loudness": {
         "long": {
-          "working": -25.1,
-          "max": -21.0
+          "working": [-35.1, -33.8],
+          "max": [-27.0, -23.4]
         },
         "short": {
-          "working": -36.0,
-          "max": -26.8
+          "working": [-45.1, -44.4],
+          "max": [-40.5, -34.8]
         }
       },
       "references": {
@@ -664,12 +664,12 @@
         },
         "synchron": {
           "long": {
-            "working": -35.1,
-            "max": -27.0
+            "working": [-35.1, -33.8],
+            "max": [-27.0, -23.4]
           },
           "short": {
-            "working": -45.4,
-            "max": -40.5
+            "working": [-45.1, -44.4],
+            "max": [-40.5, -34.8]
           }
         }
       }
@@ -687,12 +687,12 @@
       },
       "loudness": {
         "long": {
-          "working": -22.6,
-          "max": -17.1
+          "working": [-31.6],
+          "max": [-21.9]
         },
         "short": {
-          "working": -39.0,
-          "max": -23.3
+          "working": [-41.8],
+          "max": [-33.9]
         }
       },
       "references": {
@@ -708,12 +708,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-31.6],
+            "max": [-21.9]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-41.8],
+            "max": [-33.9]
           }
         }
       }
@@ -731,12 +731,12 @@
       },
       "loudness": {
         "long": {
-          "working": -20.5,
-          "max": -16.0
+          "working": [-29.9],
+          "max": [-20.8]
         },
         "short": {
-          "working": -32.0,
-          "max": -22.0
+          "working": [-39.0],
+          "max": [-32.6]
         }
       },
       "references": {
@@ -752,12 +752,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-29.9],
+            "max": [-20.8]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-39.0],
+            "max": [-32.6]
           }
         }
       }
@@ -775,12 +775,12 @@
       },
       "loudness": {
         "long": {
-          "working": -25.0,
-          "max": -20.8
+          "working": [-32.4, -28.7],
+          "max": [-29.5, -25.1]
         },
         "short": {
-          "working": -39.5,
-          "max": -27.1
+          "working": [-39.3, -38.8],
+          "max": [-36.5, -35.3]
         }
       },
       "references": {
@@ -796,12 +796,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-32.4, -28.7],
+            "max": [-29.5, -25.1]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-39.3, -38.8],
+            "max": [-36.5, -35.3]
           }
         }
       }
@@ -819,12 +819,12 @@
       },
       "loudness": {
         "long": {
-          "working": -22.1,
-          "max": -17.5
+          "working": [-27.5],
+          "max": [-23.8]
         },
         "short": {
-          "working": -36.6,
-          "max": -25.2
+          "working": [-35.8],
+          "max": [-33.2]
         }
       },
       "references": {
@@ -840,12 +840,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-27.5],
+            "max": [-23.8]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-35.8],
+            "max": [-33.2]
           }
         }
       }
@@ -863,12 +863,12 @@
       },
       "loudness": {
         "long": {
-          "working": -21.0,
-          "max": -15.5
+          "working": [-26.1],
+          "max": [-22.4]
         },
         "short": {
-          "working": -30.2,
-          "max": -21.0
+          "working": [-34.7],
+          "max": [-31.9]
         }
       },
       "references": {
@@ -884,12 +884,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-26.1],
+            "max": [-22.4]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-34.7],
+            "max": [-31.9]
           }
         }
       }
@@ -907,12 +907,12 @@
       },
       "loudness": {
         "long": {
-          "working": -18.9,
-          "max": -13.4
+          "working": [-25.4],
+          "max": [-21.8]
         },
         "short": {
-          "working": -29.6,
-          "max": -20.3
+          "working": [-34.1],
+          "max": [-31.1]
         }
       },
       "references": {
@@ -928,12 +928,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-25.4],
+            "max": [-21.8]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-34.1],
+            "max": [-31.1]
           }
         }
       }
@@ -951,12 +951,12 @@
       },
       "loudness": {
         "long": {
-          "working": -18.1,
-          "max": -12.6
+          "working": [-24.9],
+          "max": [-21.3]
         },
         "short": {
-          "working": -28.6,
-          "max": -19.3
+          "working": [-33.6],
+          "max": [-30.6]
         }
       },
       "references": {
@@ -972,12 +972,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-24.9],
+            "max": [-21.3]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-33.6],
+            "max": [-30.6]
           }
         }
       }
@@ -995,12 +995,12 @@
       },
       "loudness": {
         "long": {
-          "working": -16.9,
-          "max": -11.5
+          "working": [-24.3],
+          "max": [-20.7]
         },
         "short": {
-          "working": -27.6,
-          "max": -18.3
+          "working": [-33.0],
+          "max": [-29.9]
         }
       },
       "references": {
@@ -1016,12 +1016,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-24.3],
+            "max": [-20.7]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-33.0],
+            "max": [-29.9]
           }
         }
       }
@@ -1039,12 +1039,12 @@
       },
       "loudness": {
         "long": {
-          "working": -27.1,
-          "max": -20.4
+          "working": [-30.7, -31.2],
+          "max": [-24.6, -25.6]
         },
         "short": {
-          "working": -37.8,
-          "max": -29.9
+          "working": [-35.4],
+          "max": [-32.1]
         }
       },
       "references": {
@@ -1060,12 +1060,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-30.7, -31.2],
+            "max": [-24.6, -25.6]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-35.4],
+            "max": [-32.1]
           }
         }
       }
@@ -1083,12 +1083,12 @@
       },
       "loudness": {
         "long": {
-          "working": -24.5,
-          "max": -17.3
+          "working": [-28.1],
+          "max": [-22.0]
         },
         "short": {
-          "working": -33.9,
-          "max": -26.0
+          "working": [-30.3],
+          "max": [-27.5]
         }
       },
       "references": {
@@ -1104,12 +1104,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-28.1],
+            "max": [-22.0]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-30.3],
+            "max": [-27.5]
           }
         }
       }
@@ -1127,12 +1127,12 @@
       },
       "loudness": {
         "long": {
-          "working": -22.3,
-          "max": -15.1
+          "working": [-27.0],
+          "max": [-21.0]
         },
         "short": {
-          "working": -32.3,
-          "max": -24.5
+          "working": [-29.4],
+          "max": [-26.6]
         }
       },
       "references": {
@@ -1148,12 +1148,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-27.0],
+            "max": [-21.0]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-29.4],
+            "max": [-26.6]
           }
         }
       }
@@ -1171,12 +1171,12 @@
       },
       "loudness": {
         "long": {
-          "working": -21.0,
-          "max": -14.3
+          "working": [-26.4],
+          "max": [-20.4]
         },
         "short": {
-          "working": -31.1,
-          "max": -22.3
+          "working": [-28.8],
+          "max": [-26.0]
         }
       },
       "references": {
@@ -1192,12 +1192,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-26.4],
+            "max": [-20.4]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-28.8],
+            "max": [-26.0]
           }
         }
       }
@@ -1215,12 +1215,12 @@
       },
       "loudness": {
         "long": {
-          "working": -28.0,
-          "max": -22.5
+          "working": [-32.5],
+          "max": [-28.9]
         },
         "short": {
-          "working": -34.4,
-          "max": -26.8
+          "working": [-36.4],
+		"max": [-32.6]
         }
       },
       "references": {
@@ -1236,12 +1236,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-32.5],
+            "max": [-28.9]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-36.4],
+            "max": [-32.6]
           }
         }
       }
@@ -1259,12 +1259,12 @@
       },
       "loudness": {
         "long": {
-          "working": -29.5,
-          "max": -21.5
+          "working": [-33.0],
+          "max": [-29.2]
         },
         "short": {
-          "working": -36.5,
-          "max": -26.0
+          "working": [-37.0],
+          "max": [-32.8]
         }
       },
       "references": {
@@ -1280,12 +1280,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-33.0],
+            "max": [-29.2]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-37.0],
+            "max": [-32.8]
           }
         }
       }
@@ -1347,12 +1347,12 @@
       },
       "loudness": {
         "long": {
-          "working": -23.7,
-          "max": -17.7
+          "working": [-24.0],
+          "max": [-17.8]
         },
         "short": {
-          "working": -28.5,
-          "max": -22.5
+          "working": [-31.5],
+          "max": [-22.4]
         }
       },
       "references": {
@@ -1368,12 +1368,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-24.0],
+            "max": [-17.8]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-31.5],
+            "max": [-22.4]
           }
         }
       }
@@ -1391,12 +1391,12 @@
       },
       "loudness": {
         "long": {
-          "working": -27.4,
-          "max": -21.0
+          "working": [-29.1],
+          "max": [-24.3]
         },
         "short": {
-          "working": -34.2,
-          "max": -26.3
+          "working": [-36.9],
+          "max": [-28.7]
         }
       },
       "references": {
@@ -1412,12 +1412,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-29.1],
+            "max": [-24.3]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-36.9],
+            "max": [-28.7]
           }
         }
       }
@@ -1436,12 +1436,12 @@
       },
       "loudness": {
         "long": {
-          "working": -25.0,
-          "max": -20.8
+          "working": [-30.0],
+          "max": [-26.8]
         },
         "short": {
-          "working": -39.5,
-          "max": -27.1
+          "working": [-40.0],
+          "max": [-36.6]
         }
       },
       "references": {
@@ -1457,12 +1457,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-30.0],
+            "max": [-26.8]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-40.0],
+            "max": [-36.6]
           }
         }
       }
@@ -1480,12 +1480,12 @@
       },
       "loudness": {
         "long": {
-          "working": -24.7,
-          "max": -17.9
+          "working": [-26.5],
+          "max": [-21.1]
         },
         "short": {
-          "working": -30.5,
-          "max": -22.9
+          "working": [-31.3],
+          "max": [-26.6]
         }
       },
       "references": {
@@ -1501,12 +1501,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+		  "working": [-26.5],
+            "max": [-21.1]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-31.3],
+            "max": [-26.6]
           }
         }
       }
@@ -1524,12 +1524,12 @@
       },
       "loudness": {
         "long": {
-          "working": -31.0,
-          "max": -20.0
+          "working": [-30.6],
+          "max": [-25.2]
         },
         "short": {
-          "working": -39.5,
-          "max": -25.5
+          "working": [-38.4],
+          "max": [-30.2]
         }
       },
       "references": {
@@ -1545,12 +1545,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-30.6],
+            "max": [-25.2]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-38.4],
+            "max": [-30.2]
           }
         }
       }
@@ -1568,12 +1568,12 @@
       },
       "loudness": {
         "long": {
-          "working": -34.6,
-          "max": -30.3
+          "working": [-38.6, -34.5],
+          "max": [-31.0, -26.7]
         },
         "short": {
-          "working": -36.5,
-          "max": -28.5
+          "working": [-43.3, -40.5],
+          "max": [-36.0, -30.1]
         }
       },
       "references": {
@@ -1589,12 +1589,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-38.6, -34.5],
+            "max": [-31.0, -26.7]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-43.3, -40.5],
+            "max": [-36.0, -30.1]
           }
         }
       }
@@ -1656,12 +1656,12 @@
       },
       "loudness": {
         "long": {
-          "working": -37.4,
-          "max": -30.2
+          "working": [-36.6, -33.4],
+		"max": [-30.3, -27.5]
         },
         "short": {
-          "working": -34.9,
-          "max": -28.2
+          "working": [-44.9, -38.6],
+          "max": [-34.4, -31.0]
         }
       },
       "references": {
@@ -1677,12 +1677,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-36.6, -33.4],
+            "max": [-30.3, -27.5]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-44.9, -38.6],
+            "max": [-34.4, -31.0]
           }
         }
       }
@@ -2140,12 +2140,12 @@
       },
       "loudness": {
         "long": {
-          "working": -19.4,
-          "max": -14.1
+          "working": [-30.7],
+          "max": [-26.1]
         },
         "short": {
-          "working": -32.0,
-          "max": -19.8
+          "working": [-37.9],
+          "max": [-31.5]
         }
       },
       "references": {
@@ -2161,12 +2161,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-30.7],
+            "max": [-26.1]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-37.9],
+            "max": [-31.5]
           }
         }
       }
@@ -2184,12 +2184,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": [-28.2],
+          "max": [-20.4]
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": [-36.7],
+          "max": [-29.4]
         }
       },
       "references": {
@@ -2205,56 +2205,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-28.2],
+            "max": [-20.4]
           },
           "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
-    "trumpets-a8": {
-      "pitch": {
-        "range": {
-          "min": 52,
-          "max": 84
-        },
-        "measurementRange": {
-          "min": 60,
-          "max": 72
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
+            "working": [-36.7],
+            "max": [-29.4]
           }
         }
       }
@@ -2655,50 +2611,6 @@
         }
       }
     },
-    "valve-trombone": {
-      "pitch": {
-        "range": {
-          "min": 40,
-          "max": 77
-        },
-        "measurementRange": {
-          "min": 46,
-          "max": 58
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
     "tuba-bass-trombone": {
       "pitch": {
         "range": {
@@ -2708,50 +2620,6 @@
         "measurementRange": {
           "min": 36,
           "max": 53
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
-    "bass-flute": {
-      "pitch": {
-        "range": {
-          "min": 48,
-          "max": 84
-        },
-        "measurementRange": {
-          "min": 55,
-          "max": 67
         }
       },
       "loudness": {
@@ -2832,7 +2700,6 @@
       }
     },
     "2cl-2bn-in-octaves": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 34,
@@ -2845,12 +2712,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": [-30.0],
+          "max": [-25.6]
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": [-38.0],
+          "max": [-34.1]
         }
       },
       "references": {
@@ -2866,12 +2733,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-30.0],
+            "max": [-25.6]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-38.0],
+            "max": [-34.1]
           }
         }
       }
@@ -3540,50 +3407,6 @@
         }
       }
     },
-    "bass-oboe": {
-      "pitch": {
-        "range": {
-          "min": 47,
-          "max": 78
-        },
-        "measurementRange": {
-          "min": 52,
-          "max": 64
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
     "oboes-a3": {
       "pitch": {
         "range": {
@@ -3597,12 +3420,12 @@
       },
       "loudness": {
         "long": {
-          "working": -26.1,
-          "max": -20.6
+          "working": [-28.8],
+          "max": [-22.1]
         },
         "short": {
-          "working": -36.5,
-          "max": -28.8
+          "working": [-37.3],
+          "max": [-29.1]
         }
       },
       "references": {
@@ -3618,12 +3441,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-28.8],
+            "max": [-22.1]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-37.3],
+            "max": [-29.1]
           }
         }
       }
@@ -3641,11 +3464,11 @@
       },
       "loudness": {
         "long": {
-          "working": -28.4,
-          "max": -23.9
+          "working": [-31.3],
+          "max": [-24.9]
         },
         "short": {
-          "working": -41.0,
+          "working": [-35.6],
           "max": -30.2
         }
       },
@@ -3662,187 +3485,11 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-31.3],
+            "max": [-24.9]
           },
           "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
-    "soprano-saxophone": {
-      "pitch": {
-        "range": {
-          "min": 56,
-          "max": 88
-        },
-        "measurementRange": {
-          "min": 60,
-          "max": 76
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
-    "alto-saxophone": {
-      "pitch": {
-        "range": {
-          "min": 49,
-          "max": 80
-        },
-        "measurementRange": {
-          "min": 55,
-          "max": 69
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
-    "tenor-saxophone": {
-      "pitch": {
-        "range": {
-          "min": 44,
-          "max": 76
-        },
-        "measurementRange": {
-          "min": 48,
-          "max": 64
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
-    "baritone-saxophone": {
-      "pitch": {
-        "range": {
-          "min": 37,
-          "max": 69
-        },
-        "measurementRange": {
-          "min": 43,
-          "max": 57
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
+            "working": [-35.6],
             "max": 0
           }
         }
@@ -3949,12 +3596,12 @@
       },
       "loudness": {
         "long": {
-          "working": -26.9,
-          "max": -23.8
+          "working": [-33.7],
+          "max": [-29.5]
         },
         "short": {
-          "working": -38.4,
-          "max": -28.4
+          "working": [-42.4],
+          "max": [-34.8]
         }
       },
       "references": {
@@ -3970,12 +3617,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-33.7],
+            "max": [-29.5]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-42.4],
+            "max": [-34.8]
           }
         }
       }
@@ -5305,182 +4952,6 @@
         }
       }
     },
-    "tin-whistle": {
-      "pitch": {
-        "range": {
-          "min": 74,
-          "max": 98
-        },
-        "measurementRange": {
-          "min": 79,
-          "max": 91
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
-    "bansuri": {
-      "pitch": {
-        "range": {
-          "min": 0,
-          "max": 0
-        },
-        "measurementRange": {
-          "min": 0,
-          "max": 0
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
-    "dizi": {
-      "pitch": {
-        "range": {
-          "min": 0,
-          "max": 0
-        },
-        "measurementRange": {
-          "min": 0,
-          "max": 0
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
-    "shakuhachi": {
-      "pitch": {
-        "range": {
-          "min": 62,
-          "max": 86
-        },
-        "measurementRange": {
-          "min": 67,
-          "max": 79
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
     "eb-clarinet": {
       "pitch": {
         "range": {
@@ -5494,12 +4965,12 @@
       },
       "loudness": {
         "long": {
-          "working": 0,
-          "max": 0
+          "working": [-34.4],
+          "max": [-29.9]
         },
         "short": {
-          "working": 0,
-          "max": 0
+          "working": [-43.5],
+          "max": [-37.9]
         }
       },
       "references": {
@@ -5515,12 +4986,12 @@
         },
         "synchron": {
           "long": {
-            "working": 0,
-            "max": 0
+            "working": [-34.4],
+            "max": [-29.9]
           },
           "short": {
-            "working": 0,
-            "max": 0
+            "working": [-43.5],
+            "max": [-37.9]
           }
         }
       }
@@ -5534,94 +5005,6 @@
         "measurementRange": {
           "min": 43,
           "max": 55
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
-    "trombones-a6": {
-      "pitch": {
-        "range": {
-          "min": 40,
-          "max": 77
-        },
-        "measurementRange": {
-          "min": 46,
-          "max": 58
-        }
-      },
-      "loudness": {
-        "long": {
-          "working": 0,
-          "max": 0
-        },
-        "short": {
-          "working": 0,
-          "max": 0
-        }
-      },
-      "references": {
-        "berklee": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        },
-        "synchron": {
-          "long": {
-            "working": 0,
-            "max": 0
-          },
-          "short": {
-            "working": 0,
-            "max": 0
-          }
-        }
-      }
-    },
-    "trombones-a8": {
-      "pitch": {
-        "range": {
-          "min": 40,
-          "max": 77
-        },
-        "measurementRange": {
-          "min": 46,
-          "max": 58
         }
       },
       "loudness": {
