@@ -15,15 +15,13 @@
     "inferredReferencePolicy": {
       "measuredValuesPreserved": true,
       "zeroMeaningAfterInference": "No defensible estimate could be produced",
-      "targetsCurated": true,
+      "targetsCurated": false,
       "curatedTargetFamilies": [
         "woodwinds",
         "brass",
         "strings",
         "pitched-instruments",
-        "percussion",
-        "choir",
-        "ensembles"
+        "percussion"
       ],
       "note": "Inferred reference values model the missing library observation; they are not final Symphonic Balance targets.",
       "arraySemantics": "Array entries are ordered variants/players/section sizes. They must never be averaged or collapsed during inference or curation."
@@ -3346,12 +3344,20 @@
       },
       "loudness": {
         "long": {
-          "working": -28.5,
-          "max": -24.0
+          "working": [
+            -30.0
+          ],
+          "max": [
+            -25.6
+          ]
         },
         "short": {
-          "working": -36.5,
-          "max": -32.5
+          "working": [
+            -38.0
+          ],
+          "max": [
+            -34.1
+          ]
         }
       },
       "references": {
@@ -3386,7 +3392,6 @@
       }
     },
     "4-horns-tuba-in-octaves": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 26,
@@ -3439,7 +3444,6 @@
       }
     },
     "4-horns-10-celli": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 35,
@@ -3452,12 +3456,20 @@
       },
       "loudness": {
         "long": {
-          "working": -21.5,
-          "max": -16.5
+          "working": [
+            -24.2
+          ],
+          "max": [
+            -18.1
+          ]
         },
         "short": {
-          "working": -32.0,
-          "max": -23.5
+          "working": [
+            -32.3
+          ],
+          "max": [
+            -34.1
+          ]
         }
       },
       "references": {
@@ -3504,12 +3516,20 @@
       },
       "loudness": {
         "long": {
-          "working": -30.0,
-          "max": -23.0
+          "working": [
+            -31.6
+          ],
+          "max": [
+            -24.7
+          ]
         },
         "short": {
-          "working": -38.0,
-          "max": -32.0
+          "working": [
+            -39.6
+          ],
+          "max": [
+            -33.7
+          ]
         }
       },
       "references": {
@@ -3544,7 +3564,6 @@
       }
     },
     "2ob-2cl-in-octaves": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 50,
@@ -3557,12 +3576,20 @@
       },
       "loudness": {
         "long": {
-          "working": -25.0,
-          "max": -19.5
+          "working": [
+            -26.4
+          ],
+          "max": [
+            -21.2
+          ]
         },
         "short": {
-          "working": -35.0,
-          "max": -29.0
+          "working": [
+            -36.7
+          ],
+          "max": [
+            -30.3
+          ]
         }
       },
       "references": {
@@ -3597,7 +3624,6 @@
       }
     },
     "2ob-2cl-cor-anglais-in-octaves": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 50,
@@ -3610,12 +3636,20 @@
       },
       "loudness": {
         "long": {
-          "working": -24.5,
-          "max": -19.0
+          "working": [
+            -25.5
+          ],
+          "max": [
+            -20.7
+          ]
         },
         "short": {
-          "working": -34.5,
-          "max": -28.0
+          "working": [
+            -36.0
+          ],
+          "max": [
+            -29.4
+          ]
         }
       },
       "references": {
@@ -3662,12 +3696,12 @@
       },
       "loudness": {
         "long": {
-          "working": -25.0,
-          "max": -19.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -33.5,
-          "max": -26.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -3870,12 +3904,12 @@
       },
       "loudness": {
         "long": {
-          "working": -28.0,
-          "max": -22.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -36.0,
-          "max": -29.0
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -3922,12 +3956,12 @@
       },
       "loudness": {
         "long": {
-          "working": -29.5,
-          "max": -24.0
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -38.0,
-          "max": -31.0
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -5959,12 +5993,12 @@
       },
       "loudness": {
         "long": {
-          "working": -35.5,
-          "max": -27.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -41.5,
-          "max": -32.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -6011,12 +6045,12 @@
       },
       "loudness": {
         "long": {
-          "working": -36.5,
-          "max": -28.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -42.5,
-          "max": -33.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -6063,12 +6097,12 @@
       },
       "loudness": {
         "long": {
-          "working": -35.5,
-          "max": -27.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -41.5,
-          "max": -32.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -6115,12 +6149,12 @@
       },
       "loudness": {
         "long": {
-          "working": -34.5,
-          "max": -26.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -40.5,
-          "max": -31.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {

@@ -3386,7 +3386,6 @@
       }
     },
     "4-horns-tuba-in-octaves": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 26,
@@ -3439,7 +3438,6 @@
       }
     },
     "4-horns-10-celli": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 35,
@@ -3544,7 +3542,6 @@
       }
     },
     "2ob-2cl-in-octaves": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 50,
@@ -3597,7 +3594,6 @@
       }
     },
     "2ob-2cl-cor-anglais-in-octaves": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 50,

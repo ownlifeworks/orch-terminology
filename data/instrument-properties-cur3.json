@@ -15,15 +15,11 @@
     "inferredReferencePolicy": {
       "measuredValuesPreserved": true,
       "zeroMeaningAfterInference": "No defensible estimate could be produced",
-      "targetsCurated": true,
+      "targetsCurated": false,
       "curatedTargetFamilies": [
         "woodwinds",
         "brass",
-        "strings",
-        "pitched-instruments",
-        "percussion",
-        "choir",
-        "ensembles"
+        "strings"
       ],
       "note": "Inferred reference values model the missing library observation; they are not final Symphonic Balance targets.",
       "arraySemantics": "Array entries are ordered variants/players/section sizes. They must never be averaged or collapsed during inference or curation."
@@ -3138,12 +3134,20 @@
       },
       "loudness": {
         "long": {
-          "working": -44.0,
-          "max": -34.0
+          "working": [
+            -41.3
+          ],
+          "max": [
+            -31.3
+          ]
         },
         "short": {
-          "working": -43.0,
-          "max": -32.5
+          "working": [
+            -39.8
+          ],
+          "max": [
+            -29.4
+          ]
         }
       },
       "references": {
@@ -3190,12 +3194,12 @@
       },
       "loudness": {
         "long": {
-          "working": -37.0,
-          "max": -27.5
+          "working": -25.5,
+          "max": -19.5
         },
         "short": {
-          "working": -38.5,
-          "max": -28.0
+          "working": -29.5,
+          "max": -22.5
         }
       },
       "references": {
@@ -3242,12 +3246,12 @@
       },
       "loudness": {
         "long": {
-          "working": -25.0,
-          "max": -18.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -31.5,
-          "max": -24.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -3294,12 +3298,12 @@
       },
       "loudness": {
         "long": {
-          "working": -25.5,
-          "max": -19.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -29.5,
-          "max": -22.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -3346,12 +3350,20 @@
       },
       "loudness": {
         "long": {
-          "working": -28.5,
-          "max": -24.0
+          "working": [
+            -30.0
+          ],
+          "max": [
+            -25.6
+          ]
         },
         "short": {
-          "working": -36.5,
-          "max": -32.5
+          "working": [
+            -38.0
+          ],
+          "max": [
+            -34.1
+          ]
         }
       },
       "references": {
@@ -3386,7 +3398,6 @@
       }
     },
     "4-horns-tuba-in-octaves": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 26,
@@ -3439,7 +3450,6 @@
       }
     },
     "4-horns-10-celli": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 35,
@@ -3452,12 +3462,20 @@
       },
       "loudness": {
         "long": {
-          "working": -21.5,
-          "max": -16.5
+          "working": [
+            -24.2
+          ],
+          "max": [
+            -18.1
+          ]
         },
         "short": {
-          "working": -32.0,
-          "max": -23.5
+          "working": [
+            -32.3
+          ],
+          "max": [
+            -34.1
+          ]
         }
       },
       "references": {
@@ -3504,12 +3522,20 @@
       },
       "loudness": {
         "long": {
-          "working": -30.0,
-          "max": -23.0
+          "working": [
+            -31.6
+          ],
+          "max": [
+            -24.7
+          ]
         },
         "short": {
-          "working": -38.0,
-          "max": -32.0
+          "working": [
+            -39.6
+          ],
+          "max": [
+            -33.7
+          ]
         }
       },
       "references": {
@@ -3544,7 +3570,6 @@
       }
     },
     "2ob-2cl-in-octaves": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 50,
@@ -3557,12 +3582,20 @@
       },
       "loudness": {
         "long": {
-          "working": -25.0,
-          "max": -19.5
+          "working": [
+            -26.4
+          ],
+          "max": [
+            -21.2
+          ]
         },
         "short": {
-          "working": -35.0,
-          "max": -29.0
+          "working": [
+            -36.7
+          ],
+          "max": [
+            -30.3
+          ]
         }
       },
       "references": {
@@ -3597,7 +3630,6 @@
       }
     },
     "2ob-2cl-cor-anglais-in-octaves": {
-      "dataQuality": "approximation",
       "pitch": {
         "range": {
           "min": 50,
@@ -3610,12 +3642,20 @@
       },
       "loudness": {
         "long": {
-          "working": -24.5,
-          "max": -19.0
+          "working": [
+            -25.5
+          ],
+          "max": [
+            -20.7
+          ]
         },
         "short": {
-          "working": -34.5,
-          "max": -28.0
+          "working": [
+            -36.0
+          ],
+          "max": [
+            -29.4
+          ]
         }
       },
       "references": {
@@ -3662,12 +3702,12 @@
       },
       "loudness": {
         "long": {
-          "working": -25.0,
-          "max": -19.5
+          "working": -17.0,
+          "max": -11.0
         },
         "short": {
-          "working": -33.5,
-          "max": -26.5
+          "working": -24.5,
+          "max": -17.0
         }
       },
       "references": {
@@ -3714,12 +3754,12 @@
       },
       "loudness": {
         "long": {
-          "working": -17.0,
-          "max": -11.0
+          "working": -18.5,
+          "max": -12.5
         },
         "short": {
-          "working": -24.5,
-          "max": -17.0
+          "working": -26.0,
+          "max": -18.5
         }
       },
       "references": {
@@ -3870,12 +3910,12 @@
       },
       "loudness": {
         "long": {
-          "working": -28.0,
-          "max": -22.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -36.0,
-          "max": -29.0
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -3922,12 +3962,12 @@
       },
       "loudness": {
         "long": {
-          "working": -29.5,
-          "max": -24.0
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -38.0,
-          "max": -31.0
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -3974,12 +4014,12 @@
       },
       "loudness": {
         "long": {
-          "working": -18.5,
-          "max": -12.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -26.0,
-          "max": -18.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -4026,12 +4066,12 @@
       },
       "loudness": {
         "long": {
-          "working": -19.0,
-          "max": -13.0
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -26.5,
-          "max": -19.0
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -4078,12 +4118,12 @@
       },
       "loudness": {
         "long": {
-          "working": -22.0,
-          "max": -16.0
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -28.5,
-          "max": -22.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -4286,12 +4326,12 @@
       },
       "loudness": {
         "long": {
-          "working": -45.5,
-          "max": -38.0
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -43.5,
-          "max": -35.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -4338,12 +4378,12 @@
       },
       "loudness": {
         "long": {
-          "working": -36.0,
-          "max": -30.0
+          "working": -33.9,
+          "max": -27.6
         },
         "short": {
-          "working": -37.0,
-          "max": -30.0
+          "working": -35.4,
+          "max": -29.0
         }
       },
       "references": {
@@ -4650,12 +4690,20 @@
       },
       "loudness": {
         "long": {
-          "working": -38.0,
-          "max": -31.0
+          "working": [
+            -40.1
+          ],
+          "max": [
+            -33.7
+          ]
         },
         "short": {
-          "working": -38.0,
-          "max": -30.0
+          "working": [
+            -39.4
+          ],
+          "max": [
+            -32.9
+          ]
         }
       },
       "references": {
@@ -4702,12 +4750,20 @@
       },
       "loudness": {
         "long": {
-          "working": -46.0,
-          "max": -39.5
+          "working": [
+            -49.3
+          ],
+          "max": [
+            -41.7
+          ]
         },
         "short": {
-          "working": -44.5,
-          "max": -37.5
+          "working": [
+            -47.9
+          ],
+          "max": [
+            -39.2
+          ]
         }
       },
       "references": {
@@ -4754,7 +4810,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -13.5
+          "max": 0
         }
       },
       "references": {
@@ -4783,12 +4839,20 @@
       },
       "loudness": {
         "long": {
-          "working": -40.5,
-          "max": -30.0
+          "working": [
+            -40.5
+          ],
+          "max": [
+            -29.5
+          ]
         },
         "short": {
-          "working": -41.5,
-          "max": -31.5
+          "working": [
+            -41.7
+          ],
+          "max": [
+            -30.6
+          ]
         }
       },
       "references": {
@@ -4835,12 +4899,20 @@
       },
       "loudness": {
         "long": {
-          "working": -41.0,
-          "max": -30.0
+          "working": [
+            -43.4
+          ],
+          "max": [
+            -32.0
+          ]
         },
         "short": {
-          "working": -37.0,
-          "max": -27.5
+          "working": [
+            -39.4
+          ],
+          "max": [
+            -28.2
+          ]
         }
       },
       "references": {
@@ -4887,12 +4959,12 @@
       },
       "loudness": {
         "long": {
-          "working": -39.5,
-          "max": -32.0
+          "working": -37.5,
+          "max": -30.0
         },
         "short": {
-          "working": -39.0,
-          "max": -31.0
+          "working": -37.4,
+          "max": -30.0
         }
       },
       "references": {
@@ -4939,7 +5011,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -14.5
+          "max": 0
         }
       },
       "references": {
@@ -4968,7 +5040,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -21.5
+          "max": -20.4
         }
       },
       "references": {
@@ -4997,7 +5069,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -9.0
+          "max": -7.5
         }
       },
       "references": {
@@ -5026,7 +5098,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -5.5
+          "max": 0
         }
       },
       "references": {
@@ -5055,7 +5127,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -13.5
+          "max": -13.2
         }
       },
       "references": {
@@ -5084,7 +5156,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -16.5
+          "max": -15.5
         }
       },
       "references": {
@@ -5113,7 +5185,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -26.5
+          "max": 0
         }
       },
       "references": {
@@ -5142,7 +5214,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -27.5
+          "max": 0
         }
       },
       "references": {
@@ -5171,7 +5243,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -30.5
+          "max": 0
         }
       },
       "references": {
@@ -5200,7 +5272,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -37.5
+          "max": 0
         }
       },
       "references": {
@@ -5229,7 +5301,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -11.5
+          "max": 0
         }
       },
       "references": {
@@ -5258,7 +5330,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -14.5
+          "max": 0
         }
       },
       "references": {
@@ -5287,7 +5359,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -13.0
+          "max": -8.8
         }
       },
       "references": {
@@ -5316,7 +5388,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -17.0
+          "max": -15.3
         }
       },
       "references": {
@@ -5345,7 +5417,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -17.0
+          "max": -15.6
         }
       },
       "references": {
@@ -5374,7 +5446,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -12.5
+          "max": 0
         }
       },
       "references": {
@@ -5403,7 +5475,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -31.5
+          "max": 0
         }
       },
       "references": {
@@ -5432,7 +5504,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -33.5
+          "max": -32.1
         }
       },
       "references": {
@@ -5461,7 +5533,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -29.5
+          "max": 0
         }
       },
       "references": {
@@ -5490,7 +5562,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -22.0
+          "max": -17.4
         }
       },
       "references": {
@@ -5519,7 +5591,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -12.0
+          "max": 0
         }
       },
       "references": {
@@ -5548,7 +5620,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -14.0
+          "max": 0
         }
       },
       "references": {
@@ -5577,7 +5649,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -16.5
+          "max": -11.7
         }
       },
       "references": {
@@ -5606,7 +5678,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -26.0
+          "max": -26.7
         }
       },
       "references": {
@@ -5635,7 +5707,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -16.0
+          "max": 0
         }
       },
       "references": {
@@ -5664,7 +5736,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -34.0
+          "max": -32.6
         }
       },
       "references": {
@@ -5693,7 +5765,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -23.0
+          "max": -22.0
         }
       },
       "references": {
@@ -5722,7 +5794,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -34.0
+          "max": -33.0
         }
       },
       "references": {
@@ -5959,12 +6031,12 @@
       },
       "loudness": {
         "long": {
-          "working": -35.5,
-          "max": -27.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -41.5,
-          "max": -32.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -6011,12 +6083,12 @@
       },
       "loudness": {
         "long": {
-          "working": -36.5,
-          "max": -28.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -42.5,
-          "max": -33.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -6063,12 +6135,12 @@
       },
       "loudness": {
         "long": {
-          "working": -35.5,
-          "max": -27.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -41.5,
-          "max": -32.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -6115,12 +6187,12 @@
       },
       "loudness": {
         "long": {
-          "working": -34.5,
-          "max": -26.5
+          "working": 0,
+          "max": 0
         },
         "short": {
-          "working": -40.5,
-          "max": -31.5
+          "working": 0,
+          "max": 0
         }
       },
       "references": {
@@ -6167,7 +6239,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -32.5
+          "max": 0
         }
       },
       "references": {
@@ -6196,7 +6268,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -21.5
+          "max": -20.2
         }
       },
       "references": {
@@ -6225,7 +6297,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -18.0
+          "max": 0
         }
       },
       "references": {
@@ -6254,7 +6326,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -20.0
+          "max": -18.7
         }
       },
       "references": {
@@ -6283,7 +6355,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -12.5
+          "max": -11.1
         }
       },
       "references": {
@@ -6312,7 +6384,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -29.5
+          "max": -28.1
         }
       },
       "references": {
@@ -6341,7 +6413,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -28.5
+          "max": 0
         }
       },
       "references": {
@@ -6370,7 +6442,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -37.5
+          "max": 0
         }
       },
       "references": {
@@ -6399,7 +6471,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -24.5
+          "max": 0
         }
       },
       "references": {
@@ -6428,7 +6500,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -38.0
+          "max": -36.7
         }
       },
       "references": {
@@ -6457,7 +6529,7 @@
       },
       "loudness": {
         "percussion": {
-          "max": -49.5
+          "max": -48.4
         }
       },
       "references": {
