@@ -135,7 +135,7 @@ class TerminologyResolver:
 
         remaining = [token for index, token in enumerate(terminology_tokens)
                      if library_span is None or not library_span[0] <= index < library_span[1]]
-        instrument_result, instrument_span = self._resolve_tokens("instrument", remaining, effective_context)
+        instrument_result, instrument_span = self._resolve_instrument_tokens(remaining, effective_context, library)
         used_indexes = set()
         term_tokens = remaining
         if instrument_span is not None:
@@ -183,6 +183,35 @@ class TerminologyResolver:
             for end in range(len(tokens), start, -1):
                 normalized = " ".join(tokens[start:end])
                 candidates = self._candidates(kind, normalized, context)
+                for candidate in candidates:
+                    matches.append((start, end, candidate))
+
+        if not matches:
+            return Resolution("unresolved", " ".join(tokens)), None
+
+        longest = max(end - start for start, end, _ in matches)
+        longest_matches = [(start, end, entity) for start, end, entity in matches if end - start == longest]
+        unique = {entity["id"]: (start, end, entity) for start, end, entity in longest_matches}
+        result = self._make_resolution(" ".join(tokens), [item[2] for item in unique.values()])
+        if result.status == "resolved":
+            item = next(iter(unique.values()))
+            return result, (item[0], item[1])
+        return result, None
+
+    def _resolve_instrument_tokens(
+        self,
+        tokens: list[str],
+        context: str | dict[str, Any] | None,
+        library: dict[str, Any] | None,
+    ) -> tuple[Resolution, tuple[int, int] | None]:
+        library_instrument_ids = self._instrument_ids_for_library(library)
+        matches: list[tuple[int, int, dict[str, Any]]] = []
+        for start in range(len(tokens)):
+            for end in range(len(tokens), start, -1):
+                normalized = " ".join(tokens[start:end])
+                candidates = self._candidates("instrument", normalized, context)
+                if library_instrument_ids is not None:
+                    candidates = [candidate for candidate in candidates if candidate["id"] in library_instrument_ids]
                 for candidate in candidates:
                     matches.append((start, end, candidate))
 
@@ -367,6 +396,20 @@ class TerminologyResolver:
             for articulation in entry.get("articulations", []):
                 supported.setdefault(articulation["articulationId"], set()).update(articulation.get("variantIds", []))
         return supported
+
+    def _instrument_ids_for_library(self, library: dict[str, Any] | None) -> set[str] | None:
+        if library is None:
+            return None
+
+        library_id = library.get("id")
+        if not isinstance(library_id, str) or library_id not in self._catalog_by_library:
+            return None
+
+        return {
+            entry["instrumentId"]
+            for entry in self._catalog_by_library[library_id]
+            if isinstance(entry.get("instrumentId"), str)
+        }
 
     @staticmethod
     def _semantic_overlap_bonus(

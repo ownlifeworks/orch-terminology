@@ -5,7 +5,7 @@
       "id": "trumpet",
       "name": "Trumpet",
       "aliases": [
-        "tpt",
+        "Tpt",
         "trp",
         "trpt"
       ],
@@ -25,6 +25,7 @@
       "id": "piccolo-trumpet",
       "name": "Piccolo Trumpet",
       "aliases": [
+        "PTpt",
         "picc-trumpet",
         "picc-tpt",
         "piccolo-tpt"
@@ -44,6 +45,7 @@
       "id": "cornet",
       "name": "Cornet",
       "aliases": [
+        "Crt",
         "cornet"
       ],
       "iconKey": "tpt.png"
@@ -119,7 +121,7 @@
       "id": "horn",
       "name": "Horn",
       "aliases": [
-        "hn",
+        "Hn",
         "fh",
         "french-horn",
         "hrn"
@@ -144,6 +146,7 @@
       "id": "flugelhorn",
       "name": "Flügelhorn",
       "aliases": [
+        "Flug",
         "flugel",
         "flugel-horn",
         "flugelhorn",
@@ -155,7 +158,7 @@
       "id": "euphonium",
       "name": "Euphonium",
       "aliases": [
-        "euph",
+        "Euph",
         "euphonium"
       ],
       "iconKey": "euphonium.png"
@@ -229,6 +232,7 @@
       "id": "violin",
       "name": "Violin",
       "aliases": [
+        "Vln",
         "solo-violin",
         "vln-solo"
       ],
@@ -273,6 +277,7 @@
       "id": "viola",
       "name": "Viola",
       "aliases": [
+        "Vla",
         "viola",
         "solo-viola",
         "vla-solo"
@@ -283,7 +288,7 @@
       "id": "violas",
       "name": "Violas",
       "aliases": [
-        "vla"
+        "vlas"
       ],
       "iconKey": "vlas.png"
     },
@@ -291,6 +296,7 @@
       "id": "cello",
       "name": "Cello",
       "aliases": [
+        "Vc",
         "cello",
         "solo-cello",
         "vc-solo"
@@ -301,9 +307,9 @@
       "id": "celli",
       "name": "Cellos",
       "aliases": [
+        "vcs",
         "celli",
         "cellos",
-        "vc",
         "vlc"
       ],
       "iconKey": "vcs.png"
@@ -312,6 +318,7 @@
       "id": "doublebass",
       "name": "Doublebass",
       "aliases": [
+        "Cb",
         "doublebass",
         "solo-doublebass",
         "db-solo"
@@ -378,6 +385,7 @@
       "id": "harp",
       "name": "Harp",
       "aliases": [
+        "Hp",
         "hrp"
       ],
       "iconKey": "hrp.png"
@@ -386,6 +394,7 @@
       "id": "grand-piano",
       "name": "Grand Piano",
       "aliases": [
+        "Pno",
         "grand-piano",
         "piano"
       ],
@@ -395,6 +404,7 @@
       "id": "organ",
       "name": "Organ",
       "aliases": [
+        "Org",
         "organ"
       ],
       "iconKey": "organ.png"
@@ -446,12 +456,22 @@
       "id": "bass-trombone",
       "name": "Bass Trombone",
       "aliases": [
+        "BTbn",
         "bass-tbn",
         "bass-trb",
-        "btbn",
         "btrb"
       ],
       "iconKey": "btbn.png"
+    },
+    {
+      "id": "alto-trombone",
+      "name": "Alto Trombone",
+      "aliases": [
+        "ATbn",
+        "alto-tbn",
+        "alto-trombone"
+      ],
+      "iconKey": "tbn.png"
     },
     {
       "id": "valve-trombone",
@@ -477,8 +497,8 @@
       "id": "tuba",
       "name": "Tuba",
       "aliases": [
+        "Tba",
         "tub",
-        "tba",
         "bassTuba"
       ],
       "iconKey": "tba.png"
@@ -511,7 +531,7 @@
       "id": "piccolo",
       "name": "Piccolo",
       "aliases": [
-        "picc",
+        "Picc",
         "pic",
         "piccolo-flute"
       ],
@@ -521,6 +541,7 @@
       "id": "bass-flute",
       "name": "Bass Flute",
       "aliases": [
+        "BFl",
         "bass-fl",
         "bass-flute"
       ],
@@ -530,7 +551,7 @@
       "id": "english-horn",
       "name": "English Horn",
       "aliases": [
-        "eh",
+        "EH",
         "cor-anglais"
       ],
       "iconKey": "eh.png"
@@ -539,17 +560,27 @@
       "id": "bass-clarinet",
       "name": "Bass Clarinet",
       "aliases": [
-        "bcl",
+        "BCl",
         "bass-cl",
         "bass-clar"
       ],
       "iconKey": "bcl.png"
     },
     {
+      "id": "basset-clarinet",
+      "name": "Basset Clarinet",
+      "aliases": [
+        "BstCl",
+        "basset-clarinet",
+        "bassetclarinet"
+      ],
+      "iconKey": "cl.png"
+    },
+    {
       "id": "contrabassoon",
       "name": "Contrabassoon",
       "aliases": [
-        "cbn",
+        "CBn",
         "cbsn",
         "contra-bassoon"
       ],
@@ -559,7 +590,7 @@
       "id": "flute",
       "name": "Flute",
       "aliases": [
-        "fl"
+        "Fl"
       ],
       "iconKey": "fl.png"
     },
@@ -702,7 +733,7 @@
       "id": "oboe",
       "name": "Oboe",
       "aliases": [
-        "ob"
+        "Ob"
       ],
       "iconKey": "ob.png"
     },
@@ -719,6 +750,7 @@
       "id": "oboe-damore",
       "name": "Oboe d’Amore",
       "aliases": [
+        "ObA",
         "oboe-damore",
         "oboe-d-amore"
       ],
@@ -728,6 +760,7 @@
       "id": "basset-horn",
       "name": "Basset Horn",
       "aliases": [
+        "BstHn",
         "basset-horn",
         "bassethorn"
       ],
@@ -737,6 +770,7 @@
       "id": "bass-oboe",
       "name": "Bass Oboe",
       "aliases": [
+        "BOb",
         "bass-oboe",
         "bassoboe"
       ],
@@ -755,7 +789,7 @@
       "id": "clarinet",
       "name": "Clarinet",
       "aliases": [
-        "cl"
+        "Cl"
       ],
       "iconKey": "cl.png"
     },
@@ -772,6 +806,7 @@
       "id": "bassoon",
       "name": "Bassoon",
       "aliases": [
+        "Bn",
         "bsn"
       ],
       "iconKey": "bsn.png"
@@ -825,7 +860,9 @@
     {
       "id": "vibraphone",
       "name": "Vibraphone",
-      "aliases": [],
+      "aliases": [
+        "Vib"
+      ],
       "iconKey": "vibraphone.png"
     },
     {
@@ -841,7 +878,7 @@
       "id": "tenor-trombone",
       "name": "Tenor Trombone",
       "aliases": [
-        "tbn",
+        "Tbn",
         "tenor-tbn",
         "tenor-trb",
         "trombone"
@@ -888,7 +925,7 @@
       "id": "contrabass-trombone",
       "name": "Contrabass Trombone",
       "aliases": [
-        "cbtbn",
+        "CBTbn",
         "contrabass-trombone"
       ],
       "iconKey": "cbtbn.png"
@@ -897,6 +934,7 @@
       "id": "contrabass-tuba",
       "name": "Contrabass Tuba",
       "aliases": [
+        "CTba",
         "cbtba",
         "contrabass-tuba"
       ],
@@ -905,7 +943,9 @@
     {
       "id": "cimbasso",
       "name": "Cimbasso",
-      "aliases": [],
+      "aliases": [
+        "Cimb"
+      ],
       "iconKey": "cimbasso.png"
     },
     {
@@ -930,7 +970,7 @@
       "id": "celeste",
       "name": "Celeste",
       "aliases": [
-        "cel"
+        "Cel"
       ],
       "iconKey": "cel.png"
     },
@@ -938,7 +978,7 @@
       "id": "glockenspiel",
       "name": "Glockenspiel",
       "aliases": [
-        "glock"
+        "Glock"
       ],
       "iconKey": "glock.png"
     },
@@ -946,7 +986,7 @@
       "id": "timpani",
       "name": "Timpani",
       "aliases": [
-        "timp"
+        "Timp"
       ],
       "iconKey": "timp.png"
     },
@@ -954,7 +994,7 @@
       "id": "xylophone",
       "name": "Xylophone",
       "aliases": [
-        "xyl"
+        "Xyl"
       ],
       "iconKey": "xyl.png"
     },
@@ -962,6 +1002,7 @@
       "id": "tubular-bells",
       "name": "Tubular Bells",
       "aliases": [
+        "TubB",
         "tubel",
         "tubular-bells",
         "tub-bells"
@@ -981,6 +1022,7 @@
       "id": "marimba",
       "name": "Marimba",
       "aliases": [
+        "Mar",
         "marim"
       ],
       "iconKey": "mrb.png"
@@ -1031,7 +1073,7 @@
       "id": "bass-drum",
       "name": "Bass Drum",
       "aliases": [
-        "bd",
+        "BD",
         "bd1",
         "bd2"
       ],
@@ -1090,7 +1132,7 @@
       "id": "cymbal",
       "name": "Cymbal",
       "aliases": [
-        "cym"
+        "Cym"
       ],
       "iconKey": "cym.png"
     },
@@ -1156,6 +1198,7 @@
       "id": "snare",
       "name": "Snare Drum",
       "aliases": [
+        "SD",
         "snare",
         "snare1",
         "snare2"
@@ -1247,6 +1290,7 @@
       "id": "tam-tam",
       "name": "Tam Tam",
       "aliases": [
+        "Tam",
         "tam-tam"
       ],
       "iconKey": "tamtam.png"
@@ -1283,7 +1327,7 @@
       "id": "triangle",
       "name": "Triangle",
       "aliases": [
-        "tri"
+        "Tri"
       ],
       "iconKey": "tri.png"
     },
@@ -1381,6 +1425,7 @@
       "id": "alto-flute",
       "name": "Alto Flute",
       "aliases": [
+        "AFl",
         "aflu",
         "alto-fl"
       ],
@@ -1390,7 +1435,7 @@
       "id": "eb-clarinet",
       "name": "E♭ Clarinet",
       "aliases": [
-        "ebcl",
+        "EbCl",
         "ebcla",
         "eb-clarinet",
         "e-flat-clarinet"
@@ -1401,7 +1446,7 @@
       "id": "contrabass-clarinet",
       "name": "Contrabass Clarinet",
       "aliases": [
-        "cbcl",
+        "CBCl",
         "contra-clarinet"
       ],
       "iconKey": "cbcl.png"
