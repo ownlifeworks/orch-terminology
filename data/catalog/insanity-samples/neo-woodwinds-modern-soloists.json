@@ -1,0 +1,104 @@
+[
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-woodwinds",
+    "instrumentId": "bassoon",
+    "articulations": [
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-woodwinds",
+    "instrumentId": "clarinet",
+    "articulations": [
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-woodwinds",
+    "instrumentId": "english-horn",
+    "articulations": [
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-woodwinds",
+    "instrumentId": "flute",
+    "articulations": [
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-woodwinds",
+    "instrumentId": "oboe",
+    "articulations": [
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-woodwinds",
+    "instrumentId": "piccolo",
+    "articulations": [
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-woodwinds",
+    "instrumentId": "woodwinds-ensemble",
+    "articulations": [
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] }
+    ]
+  }
+]

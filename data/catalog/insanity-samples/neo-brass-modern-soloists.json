@@ -1,0 +1,102 @@
+[
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-brass",
+    "instrumentId": "brass-ensemble",
+    "articulations": [
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "multitongue", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-brass",
+    "instrumentId": "euphonium",
+    "articulations": [
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "multitongue", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-brass",
+    "instrumentId": "flugelhorn",
+    "articulations": [
+      { "articulationId": "falls", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "multitongue", "variantIds": [] },
+      { "articulationId": "shake", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-brass",
+    "instrumentId": "horn",
+    "articulations": [
+      { "articulationId": "falls", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "multitongue", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-brass",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      { "articulationId": "falls", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "multitongue", "variantIds": [] },
+      { "articulationId": "shake", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-brass",
+    "instrumentId": "trumpet",
+    "articulations": [
+      { "articulationId": "falls", "variantIds": [] },
+      { "articulationId": "flutter", "variantIds": ["muted"] },
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "multitongue", "variantIds": [] },
+      { "articulationId": "shake", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-brass",
+    "instrumentId": "tuba",
+    "articulations": [
+      { "articulationId": "long", "variantIds": ["expressive", "vibrato"] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "multitongue", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] }
+    ]
+  }
+]

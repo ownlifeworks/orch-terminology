@@ -78,6 +78,11 @@
       "id": "soundpaint",
       "name": "Soundpaint",
       "aliases": ["soundpaint"]
+    },
+    {
+      "id": "insanity-samples",
+      "name": "Insanity Samples",
+      "aliases": []
     }
   ]
 }

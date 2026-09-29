@@ -1,0 +1,88 @@
+[
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-strings",
+    "instrumentId": "cello",
+    "articulations": [
+      { "articulationId": "col-legno", "variantIds": [] },
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "non-vibrato", "vibrato"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": ["acc"] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-strings",
+    "instrumentId": "doublebass",
+    "articulations": [
+      { "articulationId": "col-legno", "variantIds": [] },
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "non-vibrato", "vibrato"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": ["acc"] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-strings",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      { "articulationId": "long", "variantIds": ["expressive", "non-vibrato", "vibrato"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": ["acc"] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-strings",
+    "instrumentId": "viola",
+    "articulations": [
+      { "articulationId": "col-legno", "variantIds": [] },
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "non-vibrato", "vibrato"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": ["acc"] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "insanity-samples",
+    "libraryId": "neo-strings",
+    "instrumentId": "violin",
+    "articulations": [
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "long", "variantIds": ["expressive", "non-vibrato", "vibrato"] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "sforzando", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": ["acc"] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "wholetone"] },
+      { "articulationId": "various", "variantIds": [] }
+    ]
+  }
+]

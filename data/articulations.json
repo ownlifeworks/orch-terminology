@@ -618,6 +618,11 @@
         "glancing-attack",
         "glancing"
       ]
+    },
+    {
+      "id": "various",
+      "name": "Various",
+      "aliases": []
     }
 
 	]

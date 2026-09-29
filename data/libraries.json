@@ -603,6 +603,24 @@
         "bassoon-firebird",
         "soundpaint-bassoon"
       ]
+    },
+    {
+      "id": "neo-woodwinds",
+      "name": "Neo Woodwinds",
+      "vendorId": "insanity-samples",
+      "aliases": []
+    },
+    {
+      "id": "neo-brass",
+      "name": "Neo Brass",
+      "vendorId": "insanity-samples",
+      "aliases": []
+    },
+    {
+      "id": "neo-strings",
+      "name": "Neo Strings",
+      "vendorId": "insanity-samples",
+      "aliases": []
     }
   ]
 }
