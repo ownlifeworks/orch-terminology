@@ -187,6 +187,56 @@
       ]
     },
     {
+      "id": "chords",
+      "name": "Chords",
+      "aliases": [
+        "chord",
+        "chords"
+      ]
+    },
+    {
+      "id": "clusters",
+      "name": "Clusters",
+      "aliases": [
+        "cluster",
+        "clusters"
+      ]
+    },
+    {
+      "id": "effects",
+      "name": "Effects",
+      "aliases": [
+        "effect",
+        "effects",
+        "fx"
+      ]
+    },
+    {
+      "id": "grace-notes",
+      "name": "Grace Notes",
+      "aliases": [
+        "grace",
+        "grace-note",
+        "grace-notes"
+      ]
+    },
+    {
+      "id": "textures",
+      "name": "Textures",
+      "aliases": [
+        "texture",
+        "textures"
+      ]
+    },
+    {
+      "id": "risers",
+      "name": "Risers",
+      "aliases": [
+        "riser",
+        "risers"
+      ]
+    },
+    {
       "id": "tuplet",
       "name": "Tuplet",
       "aliases": [

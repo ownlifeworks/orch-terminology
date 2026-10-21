@@ -5,6 +5,7 @@ from pathlib import Path
 import re
 import sys
 import unicodedata
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -74,6 +75,21 @@ def validate_loudness_target(value: object, prefix: str, errors: list[str]) -> N
     if len(value) not in (1, 2) or not all(isinstance(item, (int, float)) for item in value):
         errors.append(f"{prefix}: array target must contain one or two numeric values")
         return
+
+
+def validate_library_weblinks(libraries: list[dict]) -> list[str]:
+    errors: list[str] = []
+    for index, library in enumerate(libraries):
+        weblink = library.get("weblink")
+        if weblink is None:
+            continue
+        if not isinstance(weblink, str) or not weblink.strip():
+            errors.append(f"library[{index}].weblink: must be a non-empty HTTP(S) URL")
+            continue
+        parsed = urlparse(weblink)
+        if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+            errors.append(f"library[{index}].weblink: must be a non-empty HTTP(S) URL")
+    return errors
 
 
 def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
@@ -245,6 +261,7 @@ def validate() -> list[str]:
     errors.extend(validate_instrument_icon_assets(entities["instrument"]))
 
     vendor_ids = {item.get("id") for item in entities["vendor"]}
+    errors.extend(validate_library_weblinks(entities["library"]))
     for index, library in enumerate(entities["library"]):
         if library.get("vendorId") not in vendor_ids:
             errors.append(f"library[{index}]: unknown vendorId {library.get('vendorId')}")

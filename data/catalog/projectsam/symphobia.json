@@ -1,0 +1,176 @@
+[
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["sul-tasto"] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": [] },
+      { "articulationId": "col-legno", "variantIds": [] },
+      { "articulationId": "chords", "variantIds": [] },
+      { "articulationId": "clusters", "variantIds": [] },
+      { "articulationId": "effects", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "brass-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": ["sforzando"] },
+      { "articulationId": "chords", "variantIds": [] },
+      { "articulationId": "clusters", "variantIds": [] },
+      { "articulationId": "effects", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "woodwinds-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "grace-notes", "variantIds": [] },
+      { "articulationId": "runs", "variantIds": [] },
+      { "articulationId": "clusters", "variantIds": [] },
+      { "articulationId": "effects", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "strings-brass-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": [] },
+      { "articulationId": "staccatissimo", "variantIds": [] },
+      { "articulationId": "swells", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": [] },
+      { "articulationId": "clusters", "variantIds": [] },
+      { "articulationId": "effects", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "full-orchestra",
+    "articulations": [
+      { "articulationId": "hits", "variantIds": [] },
+      { "articulationId": "rips", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": [] },
+      { "articulationId": "textures", "variantIds": [] },
+      { "articulationId": "risers", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "violins",
+    "articulations": [
+      { "articulationId": "marcato", "variantIds": ["harmonic"] },
+      { "articulationId": "tremolo", "variantIds": ["short"] },
+      { "articulationId": "flageolet", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "low-strings-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["octave"] },
+      { "articulationId": "staccato", "variantIds": ["octave"] },
+      { "articulationId": "pizzicato", "variantIds": ["octave"] },
+      { "articulationId": "effects", "variantIds": [] },
+      { "articulationId": "col-legno", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "trumpets-horns",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["sustains"] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "horns-trombones",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": ["sustains"] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "low-brass-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "crescendo", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "string-quintet",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "duduk",
+    "articulations": [
+      { "articulationId": "phrase", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "shakuhachi",
+    "articulations": [
+      { "articulationId": "phrase", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "native-american-flute",
+    "articulations": [
+      { "articulationId": "phrase", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "uilleann-pipes",
+    "articulations": [
+      { "articulationId": "phrase", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "projectsam",
+    "libraryId": "symphobia",
+    "instrumentId": "low-whistle",
+    "articulations": [
+      { "articulationId": "phrase", "variantIds": [] }
+    ]
+  }
+]

@@ -186,11 +186,12 @@ CREATE TABLE libraries (
     id TEXT PRIMARY KEY,
     vendor_id TEXT NOT NULL,
     name TEXT NOT NULL,
+    weblink TEXT,
     FOREIGN KEY (vendor_id) REFERENCES vendors(id)
 );
 ```
 
-If the canonical library JSON already includes a vendor relationship, preserve it.
+If the canonical library JSON already includes a vendor relationship, preserve it. The optional `weblink` field stores the library's canonical HTTP(S) product or information page and is exported unchanged to SQLite.
 
 ---
 

@@ -259,6 +259,7 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
                 id TEXT PRIMARY KEY,
                 vendor_id TEXT NOT NULL,
                 name TEXT NOT NULL,
+                weblink TEXT,
                 FOREIGN KEY (vendor_id) REFERENCES vendors(id)
             );
 
@@ -382,8 +383,8 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
                     connection.execute("INSERT INTO vendors (id, name) VALUES (?, ?)", (entity_id, entity["name"]))
                 elif table == "libraries":
                     connection.execute(
-                        "INSERT INTO libraries (id, vendor_id, name) VALUES (?, ?, ?)",
-                        (entity_id, entity["vendorId"], entity["name"]),
+                        "INSERT INTO libraries (id, vendor_id, name, weblink) VALUES (?, ?, ?, ?)",
+                        (entity_id, entity["vendorId"], entity["name"], entity.get("weblink")),
                     )
                 elif table == "instruments":
                     connection.execute(

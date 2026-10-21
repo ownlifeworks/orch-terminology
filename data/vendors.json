@@ -22,6 +22,11 @@
       "aliases": ["ps", "performance-samples", "performancesamples"]
     },
     {
+      "id": "projectsam",
+      "name": "ProjectSAM",
+      "aliases": ["psam", "project-sam", "projectsam"]
+    },
+    {
       "id": "eastwest-sounds",
       "name": "EastWest Sounds",
       "aliases": ["ew", "eastwest", "east-west", "eastwest-sounds", "soundsonline"]

@@ -8,75 +8,94 @@
       "aliases": ["generic", "any", "other"]
     },
     {
+      "id": "symphobia",
+      "name": "Symphobia",
+      "vendorId": "projectsam",
+      "weblink": "https://projectsam.com/libraries/symphobia",
+      "aliases": ["sym1", "symphobia", "symphobia-1"]
+    },
+    {
       "id": "jaeger",
       "name": "Jaeger",
       "vendorId": "audio-imperia",
+      "weblink": "https://www.audioimperia.com/product/jaeger/",
       "aliases": ["jag", "jaeger"]
     },
     {
       "id": "nucleus",
       "name": "Nucleus",
       "vendorId": "audio-imperia",
+      "weblink": "https://www.audioimperia.com/product/nucleus/",
       "aliases": ["nuc", "nucleus"]
     },
     {
       "id": "fluid-brass",
       "name": "Fluid Brass",
       "vendorId": "audio-imperia",
+      "weblink": "https://www.audioimperia.com/product/fluid-brass/",
       "aliases": ["fluid-brass", "fluidbrass"]
     },
     {
       "id": "fluid-woods",
       "name": "Fluid Woods",
       "vendorId": "audio-imperia",
+      "weblink": "https://www.audioimperia.com/product/fluid-woods/",
       "aliases": ["fluid-woods", "fluidwoods"]
     },
     {
       "id": "solo",
       "name": "Solo",
       "vendorId": "audio-imperia",
+      "weblink": "https://www.audioimperia.com/product/solo/",
       "aliases": ["ai-solo", "solo"]
     },
     {
       "id": "cinebrass-core",
       "name": "CineBrass Core",
       "vendorId": "cinesamples",
+      "weblink": "https://store.cinesamples.com/products/cinebrass-core",
       "aliases": ["cbc", "cinebrass-core", "cinebrasscore"]
     },
     {
       "id": "cinebrass-pro",
       "name": "CineBrass Pro",
       "vendorId": "cinesamples",
+      "weblink": "https://store.cinesamples.com/products/cinebrass-pro",
       "aliases": ["cbp", "cinebrass-pro", "cinebrasspro"]
     },
     {
       "id": "cinebrass-sonore",
       "name": "CineBrass Sonore",
       "vendorId": "cinesamples",
+      "weblink": "https://store.cinesamples.com/products/cinebrass-sonore",
       "aliases": ["cbs", "cinebrass-sonore", "cinebrasssonore"]
     },
     {
       "id": "the-trumpet",
       "name": "The Trumpet",
       "vendorId": "samplemodeling",
+      "weblink": "https://www.samplemodeling.com/product/the-trumpet/",
       "aliases": ["sm-trumpet", "the-trumpet", "thetrumpet"]
     },
     {
       "id": "the-trombone",
       "name": "The Trombone",
       "vendorId": "samplemodeling",
+      "weblink": "https://www.samplemodeling.com/product/the-trombone/",
       "aliases": ["sm-trombone", "the-trombone", "thetrombone"]
     },
     {
       "id": "french-horn-tuba",
       "name": "French Horn & Tuba",
       "vendorId": "samplemodeling",
+      "weblink": "https://www.samplemodeling.com/product/french-horn-tuba/",
       "aliases": ["sm-french-horn-tuba", "french-horn-tuba", "frenchhorntuba"]
     },
     {
       "id": "pacific-ensemble-strings",
       "name": "Pacific - Ensemble Strings",
       "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/pacific-ensemblestrings/",
       "aliases": [
         "pacs",
 		"pacific-ensemble-strings",
@@ -88,6 +107,7 @@
       "id": "hollywood-orchestra-opus-edition",
       "name": "Hollywood Orchestra Opus Edition",
       "vendorId": "eastwest-sounds",
+      "weblink": "https://www.soundsonline.com/orchestras/hollywood-orchestra-opus-edition",
       "aliases": [
         "hwo",
 		"hollywood-orchestra-opus-edition",
@@ -100,12 +120,14 @@
       "id": "bbcso",
       "name": "BBC Symphony Orchestra",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/collections/bbc-symphony-orchestra",
       "aliases": ["bbc", "bbcso", "bbc-symphony-orchestra"]
     },
     {
       "id": "abbey-road-orchestra-flutes",
       "name": "Abbey Road Orchestra: Flutes",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-flutes-core",
       "aliases": [
         "arofl",
 		"aro-flutes-pro",
@@ -116,6 +138,7 @@
       "id": "abbey-road-orchestra-clarinets",
       "name": "Abbey Road Orchestra: Clarinets",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-clarinets-core",
       "aliases": [
         "arocl",
 		"aro-clarinets-pro",
@@ -126,6 +149,7 @@
       "id": "abbey-road-orchestra-oboes",
       "name": "Abbey Road Orchestra: Oboes",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-oboes-core",
       "aliases": [
         "aroob",
 		"aro-oboes-pro",
@@ -136,6 +160,7 @@
       "id": "abbey-road-orchestra-bassoons",
       "name": "Abbey Road Orchestra: Bassoons",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-bassoons-core",
       "aliases": [
 		"arobsn",
 		"aro-bassoons-pro",
@@ -146,6 +171,7 @@
       "id": "abbey-road-one-orchestral-foundations",
       "name": "Abbey Road One: Orchestral Foundations",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-one-orchestral-foundations",
       "aliases": [
         "ar1of",
         "abbey-road-one-orchestral-foundations",
@@ -156,6 +182,7 @@
       "id": "abbey-road-one-wondrous-flutes",
       "name": "Abbey Road One: Wondrous Flutes",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-one-wondrous-flutes",
       "aliases": [
         "arowf",
         "abbey-road-one-wondrous-flutes",
@@ -166,6 +193,7 @@
       "id": "abbey-road-one-vibrant-reeds",
       "name": "Abbey Road One: Vibrant Reeds",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-one-vibrant-reeds",
       "aliases": [
         "arovr",
         "abbey-road-one-vibrant-reeds",
@@ -176,6 +204,7 @@
       "id": "abbey-road-one-sparkling-woodwinds",
       "name": "Abbey Road One: Sparkling Woodwinds",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-one-sparkling-woodwinds",
       "aliases": [
         "arosw",
         "abbey-road-one-sparkling-woodwinds",
@@ -186,6 +215,7 @@
       "id": "abbey-road-one-mysterious-reeds",
       "name": "Abbey Road One: Mysterious Reeds",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-one-mysterious-reeds",
       "aliases": [
         "aromr",
         "abbey-road-one-mysterious-reeds",
@@ -196,6 +226,7 @@
       "id": "abbey-road-one-thematic-trumpets",
       "name": "Abbey Road One: Thematic Trumpets",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-one-thematic-trumpets",
       "aliases": [
         "arott",
         "abbey-road-one-thematic-trumpets",
@@ -206,6 +237,7 @@
       "id": "abbey-road-one-thematic-horns",
       "name": "Abbey Road One: Thematic Horns",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-one-thematic-horns",
       "aliases": [
         "aroth",
         "abbey-road-one-thematic-horns",
@@ -216,6 +248,7 @@
       "id": "abbey-road-one-grand-brass",
       "name": "Abbey Road One: Grand Brass",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-one-grand-brass",
       "aliases": [
         "arogb",
         "abbey-road-one-grand-brass",
@@ -226,6 +259,7 @@
       "id": "abbey-road-one-soaring-high-strings",
       "name": "Abbey Road One: Soaring High Strings",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-one-soaring-high-strings",
       "aliases": [
         "aroshs",
         "abbey-road-one-soaring-high-strings",
@@ -236,6 +270,7 @@
       "id": "abbey-road-one-legendary-low-strings",
       "name": "Abbey Road One: Legendary Low Strings",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-one-legendary-low-strings",
       "aliases": [
         "arolls",
         "abbey-road-one-legendary-low-strings",
@@ -246,6 +281,7 @@
       "id": "spitfire-appassionata-strings",
       "name": "Spitfire Appassionata Strings",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/spitfire-appassionata-strings",
       "aliases": [
         "appassionata-strings",
         "spitfire-appassionata-strings",
@@ -256,6 +292,7 @@
       "id": "spitfire-chamber-strings-essentials",
       "name": "Spitfire Chamber Strings Essentials",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/spitfire-chamber-strings-essentials",
       "aliases": [
         "chamber-strings-essentials",
         "spitfire-chamber-strings-essentials",
@@ -266,6 +303,7 @@
       "id": "special-edition-vol-1",
       "name": "Special Edition Vol. 1 Essential Orchestra",
       "vendorId": "vienna-symphonic-library",
+      "weblink": "https://www.vsl.co.at/instruments/special-editions/special-edition-1",
       "aliases": [
         "special-edition-1",
         "special-edition-vol-1",
@@ -277,6 +315,7 @@
       "id": "special-edition-vol-2",
       "name": "Special Edition Vol. 2 Extended Orchestra",
       "vendorId": "vienna-symphonic-library",
+      "weblink": "https://www.vsl.co.at/instruments/special-editions/special-edition-2",
       "aliases": [
         "special-edition-2",
         "special-edition-vol-2",
@@ -288,60 +327,70 @@
       "id": "spitfire-symphony-orchestra",
       "name": "Spitfire Symphony Orchestra",
       "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/spitfire-symphony-orchestra",
       "aliases": ["sso", "spitfire-symphony-orchestra", "spitfiresymphonyorchestra"]
     },
     {
       "id": "cinematic-studio-woodwinds",
       "name": "Cinematic Studio Woodwinds",
       "vendorId": "cinematic-studio-series",
+      "weblink": "https://cinematicstudioseries.com/woodwinds/",
       "aliases": ["csw", "css-woodwinds", "cinematic-studio-woodwinds"]
     },
     {
       "id": "cinematic-studio-strings",
       "name": "Cinematic Studio Strings",
       "vendorId": "cinematic-studio-series",
+      "weblink": "https://cinematicstudioseries.com/strings/",
       "aliases": ["css", "cinematic-strings", "cinematic-studio-strings"]
     },
     {
       "id": "cinematic-studio-brass",
       "name": "Cinematic Studio Brass",
       "vendorId": "cinematic-studio-series",
+      "weblink": "https://cinematicstudioseries.com/brass/",
       "aliases": ["csb", "cinematic-brass", "cinematic-studio-brass"]
     },
     {
       "id": "berlin-symphonic-strings",
       "name": "Berlin Symphonic Strings",
       "vendorId": "orchestral-tools",
+      "weblink": "https://www.orchestraltools.com/berlin-symphonic-strings",
       "aliases": ["bss", "berlin-symphonic", "berlin-strings-symphonic"]
     },
     {
       "id": "berlin-strings-first-chairs",
       "name": "Berlin Strings First Chairs",
       "vendorId": "orchestral-tools",
+      "weblink": "https://www.orchestraltools.com/berlin-strings-first-chairs",
       "aliases": ["bsfc", "berlin-strings-first-chairs", "berlin-first-chairs"]
     },
     {
       "id": "berlin-brass",
       "name": "Berlin Brass",
       "vendorId": "orchestral-tools",
+      "weblink": "https://www.orchestraltools.com/berlin-brass",
       "aliases": ["bbr", "berlin-brass"]
     },
     {
       "id": "berlin-percussion",
       "name": "Berlin Percussion",
       "vendorId": "orchestral-tools",
+      "weblink": "https://www.orchestraltools.com/berlin-percussion",
       "aliases": ["bper", "berlin-percussion"]
     },
     {
       "id": "synchron-prime-woodwinds",
       "name": "Synchron Prime Woodwinds",
       "vendorId": "vienna-symphonic-library",
+      "weblink": "https://www.vsl.co.at/products/synchron/prime-orchestra/woodwinds",
       "aliases": ["spw", "synchron-prime-woodwinds", "prime-woodwinds"]
     },
     {
       "id": "synchron-prime-strings-1",
       "name": "Synchron Prime Strings I",
       "vendorId": "vienna-symphonic-library",
+      "weblink": "https://www.vsl.co.at/products/synchron/prime-orchestra/strings-1",
       "aliases": [
         "sps1",
 		"synchron-prime-strings-1",
@@ -354,6 +403,7 @@
       "id": "synchron-prime-strings-2",
       "name": "Synchron Prime Strings II",
       "vendorId": "vienna-symphonic-library",
+      "weblink": "https://www.vsl.co.at/products/synchron/prime-orchestra/strings-2",
       "aliases": [
         "sps2",
 		"synchron-prime-strings-2",
@@ -366,178 +416,209 @@
       "id": "berlin-woodwinds",
       "name": "Berlin Woodwinds",
       "vendorId": "orchestral-tools",
+      "weblink": "https://www.orchestraltools.com/berlin-woodwinds",
       "aliases": ["bbw", "berlin-woodwinds"]
     },
     {
       "id": "berlin-woodwinds-additional",
       "name": "Berlin Woodwinds Additional Instruments",
       "vendorId": "orchestral-tools",
+      "weblink": "https://www.orchestraltools.com/additional-instruments-berlin-woodwinds",
       "aliases": ["bwAdd", "berlin-woodwinds-additional", "berlin-woodwinds-additional-instruments"]
     },
     {
       "id": "synchron-prime-brass",
       "name": "Synchron Prime Brass",
       "vendorId": "vienna-symphonic-library",
+      "weblink": "https://www.vsl.co.at/products/synchron/prime-orchestra/brass",
       "aliases": ["spb", "synchron-prime-brass", "prime-brass"]
     },
     {
       "id": "synchron-prime-percussion",
       "name": "Synchron Prime Percussion",
       "vendorId": "vienna-symphonic-library",
+      "weblink": "https://www.vsl.co.at/products/synchron/prime-orchestra/percussion",
       "aliases": ["spp", "synchron-prime-percussion", "prime-percussion"]
     },
     {
       "id": "anthology-strings",
       "name": "Anthology Strings",
       "vendorId": "8dio",
+      "weblink": "https://8dio.com/products/anthology-strings",
       "aliases": ["anthology", "anthology-strings"]
     },
     {
       "id": "century-ensemble-brass",
       "name": "Century Ensemble Brass",
       "vendorId": "8dio",
+      "weblink": "https://8dio.com/products/century-ensemble-brass",
       "aliases": ["century-brass", "century-ensemble-brass"]
     },
     {
       "id": "century-ostinato-brass",
       "name": "Century Ostinato Brass",
       "vendorId": "8dio",
+      "weblink": "https://8dio.com/collections/brass",
       "aliases": ["century-ostinato", "century-ostinato-brass"]
     },
     {
       "id": "century-solo-brass",
       "name": "Century Solo Brass",
       "vendorId": "8dio",
+      "weblink": "https://8dio.com/products/century-brass-solo",
       "aliases": ["century-brass-solo", "century-solo-brass"]
     },
     {
       "id": "infinite-brass",
       "name": "Infinite Brass",
       "vendorId": "aaron-venture",
+      "weblink": "https://www.aaronventure.com/infinite-brass",
       "aliases": ["infbrs", "infinite-brass"]
     },
     {
       "id": "infinite-woodwinds",
       "name": "Infinite Woodwinds",
       "vendorId": "aaron-venture",
+      "weblink": "https://www.aaronventure.com/infinite-woodwinds",
       "aliases": ["infww", "infinite-ww", "infinite-woodwinds"]
     },
     {
       "id": "angry-brass-pro-ensembles",
       "name": "Angry Brass Pro - Ensembles",
       "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/angrybrasspro-ensembles/",
       "aliases": ["abp-ensembles", "angry-brass-pro-ensembles", "angrybrasspro-ensembles"]
     },
     {
       "id": "angry-brass-pro-soloists",
       "name": "Angry Brass Pro - Soloists",
       "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/angrybrasspro-soloists/",
       "aliases": ["abp-soloists", "angry-brass-pro-soloists", "angrybrasspro-soloists"]
     },
     {
       "id": "angry-woodwinds-pro",
       "name": "Angry Woodwinds Pro",
       "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/angrywoodwindspro/",
       "aliases": ["awp", "angry-woodwinds-pro", "angrywoodwindspro"]
     },
     {
       "id": "pacific-solo-strings",
       "name": "Pacific - Solo Strings",
       "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/pacific-solostrings/",
       "aliases": ["pss", "pacific-solo-strings", "pacific-solostrings"]
     },
     {
       "id": "pacific-brass",
       "name": "Pacific - Brass",
       "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/pacific-brass/",
       "aliases": ["pb", "pacific-brass"]
     },
     {
       "id": "pacific-woodwinds",
       "name": "Pacific - Woodwinds",
       "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/pacific-woodwinds/",
       "aliases": ["pww", "pacific-woodwinds"]
     },
     {
       "id": "pacific-percussion",
       "name": "Pacific - Percussion",
       "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/pacific-percussion/",
       "aliases": ["pp", "pacific-percussion"]
     },
     {
       "id": "vista-strings",
       "name": "Vista Strings",
       "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/vista/",
       "aliases": ["vista-strings"]
     },
     {
       "id": "vista-ii-small-string-ensembles-lite",
       "name": "Vista II - Small String Ensembles Lite",
       "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/vistaii-smallstringensembleslite/",
       "aliases": ["vista-ii-ssel", "vista-ii-small-string-ensembles-lite"]
     },
     {
       "id": "adventure-strings",
       "name": "Adventure Strings",
       "vendorId": "musical-sampling",
+      "weblink": "https://musicalsampling.com/adventure-strings/",
       "aliases": ["adventure-strings", "adventure strings"]
     },
     {
       "id": "adventure-brass",
       "name": "Adventure Brass",
       "vendorId": "musical-sampling",
+      "weblink": "https://musicalsampling.com/adventure-brass/",
       "aliases": ["adventure-brass", "adventure brass"]
     },
     {
       "id": "classic-brass",
       "name": "Classic Brass",
       "vendorId": "musical-sampling",
+      "weblink": "https://musicalsampling.com/classic-brass/",
       "aliases": ["classic-brass", "classic brass"]
     },
     {
       "id": "vbrass-french-horns",
       "name": "VBrass French Horns",
-      "vendorId": "acousticsamples"
+      "vendorId": "acousticsamples",
+      "weblink": "https://www.acousticsamples.net/vbrassfrenchhorns"
     },
     {
       "id": "vhorns-brass-section",
       "name": "VHorns Brass Section",
-      "vendorId": "acousticsamples"
+      "vendorId": "acousticsamples",
+      "weblink": "https://www.acousticsamples.net/vhorns"
     },
     {
       "id": "cinematic-strings-2",
       "name": "Cinematic Strings 2",
-      "vendorId": "cinematic-studio-series"
+      "vendorId": "cinematic-studio-series",
+      "weblink": "https://cinematicstudioseries.com/cs2/"
     },
     {
       "id": "dolce",
       "name": "Dolce",
-      "vendorId": "audio-imperia"
+      "vendorId": "audio-imperia",
+      "weblink": "https://www.audioimperia.com/product/dolce/"
     },
     {
       "id": "fluid-shorts",
       "name": "Fluid Shorts",
-      "vendorId": "performance-samples"
+      "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/fluidshorts/"
     },
     {
       "id": "fluid-shorts-ii",
       "name": "Fluid Shorts II",
-      "vendorId": "performance-samples"
+      "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/fluidshortsii/"
     },
     {
       "id": "fluid-shorts-iii",
       "name": "Fluid Shorts III",
-      "vendorId": "performance-samples"
+      "vendorId": "performance-samples",
+      "weblink": "https://www.performancesamples.com/fluidshortsiii/"
     },
     {
       "id": "nashville-scoring-strings",
       "name": "Nashville Scoring Strings",
-      "vendorId": "audio-ollie"
+      "vendorId": "audio-ollie",
+      "weblink": "https://www.audioollie.com/nashville-scoring-strings"
     },
     {
       "id": "1967-clarinet-paris",
       "name": "1967 Clarinet Paris",
       "vendorId": "soundpaint",
+      "weblink": "https://soundpaint.com/products/1967-clarinet-paris",
       "aliases": [
         "1967-clarinet-paris",
         "clarinet-paris",
@@ -548,6 +629,7 @@
       "id": "1982-oboe-amore",
       "name": "1982 Oboe Amore",
       "vendorId": "soundpaint",
+      "weblink": "https://soundpaint.com/products/1982-oboe-amore",
       "aliases": [
         "1982-oboe-amore",
         "oboe-amore",
@@ -558,6 +640,7 @@
       "id": "1987-alto-flute-savana",
       "name": "1987 Alto Flute Savana",
       "vendorId": "soundpaint",
+      "weblink": "https://soundpaint.com/products/alto-flute",
       "aliases": [
         "1987-alto-flute-savana",
         "alto-flute-savana",
@@ -568,6 +651,7 @@
       "id": "1995-english-horn-lorium",
       "name": "1995 English Horn Lorium",
       "vendorId": "soundpaint",
+      "weblink": "https://soundpaint.com/products/1995-english-horn-lorium",
       "aliases": [
         "1995-english-horn-lorium",
         "english-horn-lorium",
@@ -578,6 +662,7 @@
       "id": "2001-piccolo-shire",
       "name": "2001 Piccolo Shire",
       "vendorId": "soundpaint",
+      "weblink": "https://soundpaint.com/products/2001-piccolo-shire",
       "aliases": [
         "2001-piccolo-shire",
         "piccolo-shire",
@@ -588,6 +673,7 @@
       "id": "2004-flute-platinus",
       "name": "2004 Flute Platinus",
       "vendorId": "soundpaint",
+      "weblink": "https://soundpaint.com/products/flute-platinus",
       "aliases": [
         "2004-flute-platinus",
         "flute-platinus",
@@ -598,6 +684,7 @@
       "id": "2010-bassoon-firebird",
       "name": "2010 Bassoon Firebird",
       "vendorId": "soundpaint",
+      "weblink": "https://soundpaint.com/products/2010-bassoon-firebird",
       "aliases": [
         "2010-bassoon-firebird",
         "bassoon-firebird",
@@ -608,18 +695,21 @@
       "id": "neo-woodwinds",
       "name": "Neo Woodwinds",
       "vendorId": "insanity-samples",
+      "weblink": "https://insanitysamples.com/collections/neo-series-update/products/neo-woodwinds-modern-soloists",
       "aliases": []
     },
     {
       "id": "neo-brass",
       "name": "Neo Brass",
       "vendorId": "insanity-samples",
+      "weblink": "https://insanitysamples.com/collections/neo-series/products/neo-brass-modern-soloists",
       "aliases": []
     },
     {
       "id": "neo-strings",
       "name": "Neo Strings",
       "vendorId": "insanity-samples",
+      "weblink": "https://insanitysamples.com/collections/neo-series-update/products/neo-strings-solo-string-ensemble",
       "aliases": []
     }
   ]

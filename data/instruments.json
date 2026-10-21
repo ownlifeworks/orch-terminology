@@ -694,6 +694,15 @@
   "iconKey": "lwwens.png"
 },
 {
+  "id": "trumpets-horns",
+  "name": "Trumpets & Horns",
+  "aliases": [
+    "trumpets-and-horns",
+    "tpts-hns"
+  ],
+  "iconKey": "hbrens.png"
+},
+{
   "id": "high-brass-ensemble",
   "name": "High Brass Ensemble",
   "aliases": [
@@ -701,6 +710,15 @@
     "hbr-ens"
   ],
   "iconKey": "hbrens.png"
+},
+{
+  "id": "horns-trombones",
+  "name": "Horns & Trombones",
+  "aliases": [
+    "horns-and-trombones",
+    "hns-tbns"
+  ],
+  "iconKey": "mbrens.png"
 },
 {
   "id": "mid-brass-ensemble",
@@ -1398,6 +1416,40 @@
       "iconKey": "tinwhistle.png"
     },
     {
+      "id": "low-whistle",
+      "name": "Low Whistle",
+      "aliases": [
+        "low-irish-whistle"
+      ],
+      "iconKey": "tinwhistle.png"
+    },
+    {
+      "id": "duduk",
+      "name": "Duduk",
+      "aliases": [
+        "doudouk"
+      ],
+      "iconKey": "default.png"
+    },
+    {
+      "id": "native-american-flute",
+      "name": "Native American Flute",
+      "aliases": [
+        "native-flute",
+        "american-indian-flute"
+      ],
+      "iconKey": "default.png"
+    },
+    {
+      "id": "uilleann-pipes",
+      "name": "Uilleann Pipes",
+      "aliases": [
+        "uilleann",
+        "irish-pipes"
+      ],
+      "iconKey": "default.png"
+    },
+    {
       "id": "bansuri",
       "name": "Bansuri",
       "aliases": [
@@ -1684,6 +1736,24 @@
       "name": "Percussion",
       "aliases": ["percussion", "percussions", "gankogui", "jawbone", "ratchet", "ships-bell", "ships bell", "rain-sheet", "rain sheet"],
       "iconKey": "percussion.png"
+    },
+    {
+      "id": "string-quintet",
+      "name": "String Quintet",
+      "aliases": [
+        "strings-quintet",
+        "str-quintet"
+      ],
+      "iconKey": "strens.png"
+    },
+    {
+      "id": "strings-brass-ensemble",
+      "name": "Strings & Brass Ensemble",
+      "aliases": [
+        "strings-and-brass",
+        "str-br-ens"
+      ],
+      "iconKey": "full-orchestra.png"
     },
     {
       "id": "full-orchestra",
