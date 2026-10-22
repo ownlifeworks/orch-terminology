@@ -119,22 +119,22 @@
     {
       "id": "legato",
       "name": "Legato",
-      "aliases": ["legato"]
+      "aliases": ["leg"]
     },
     {
       "id": "spiccato",
       "name": "Spiccato",
-      "aliases": ["spiccato"]
+      "aliases": ["spic"]
     },
     {
       "id": "staccato",
       "name": "Staccato",
-      "aliases": ["staccato"]
+      "aliases": ["stac"]
     },
     {
       "id": "sustains",
       "name": "Sustains",
-      "aliases": ["sustain", "sustains"]
+      "aliases": ["sus"]
     },
     {
       "id": "combo",

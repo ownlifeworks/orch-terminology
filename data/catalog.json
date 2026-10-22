@@ -14348,6 +14348,354 @@
   },
   {
     "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "brass-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "shorts",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "concert-toms",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "cymbal",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "gong",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "high-brass-ensemble",
+    "articulations": [
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "shorts",
+        "variantIds": [
+          "octave"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "high-strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "high-woodwinds-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "shorts",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "horn-ensemble",
+    "articulations": [
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "shorts",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "low-brass-ensemble",
+    "articulations": [
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "hard"
+        ]
+      },
+      {
+        "articulationId": "shorts",
+        "variantIds": [
+          "hard"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "low-strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "shorts",
+        "variantIds": [
+          "octave"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "low-woodwinds-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "shorts",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "mid-brass-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "shorts",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "percussion",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "sticks",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "high"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "combo",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "long"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "taiko",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "low"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "trumpet-ensemble",
+    "articulations": [
+      {
+        "articulationId": "long",
+        "variantIds": []
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "short"
+        ]
+      },
+      {
+        "articulationId": "shorts",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "albion-one",
+    "instrumentId": "woodwinds-ensemble",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
     "libraryId": "bbcso",
     "instrumentId": "anvil",
     "articulations": [

@@ -288,7 +288,7 @@ class TerminologyResolver:
                 articulation_result.entity["id"],
                 variant_entity["id"],
             )
-            confidence = 1 if instrument_known or supported_pair else 0
+            confidence = 1 if instrument_known or supported_pair or articulation_span is not None else 0
             candidates.append(
                 (
                     (

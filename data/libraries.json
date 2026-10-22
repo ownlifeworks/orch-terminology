@@ -115,6 +115,13 @@
       "aliases": ["bbcso"]
     },
     {
+      "id": "albion-one",
+      "name": "Albion ONE",
+      "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/en-eu/products/albion-one",
+      "aliases": ["alb1"]
+    },
+    {
       "id": "abbey-road-orchestra-flutes",
       "name": "Abbey Road Orchestra: Flutes",
       "vendorId": "spitfire-audio",

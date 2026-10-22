@@ -281,7 +281,7 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result["status"], "partial")
         self.assertEqual(result["library"]["id"], "synchron-prime-woodwinds")
         self.assertIsNone(result["instrument"])
-        self.assertIsNone(result["articulation"])
+        self.assertEqual(result["articulation"]["id"], "sustains")
         self.assertEqual(result["variant"]["id"], "vibrato")
 
     def test_synchron_prime_strings_i_library_resolution(self):
