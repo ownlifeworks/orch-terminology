@@ -22,7 +22,7 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result.entity["id"], "flugelhorn")
 
     def test_filename_metadata_resolution(self):
-        result = self.resolver.resolve_filename("bbc_tpt_marcato_v10.wav")
+        result = self.resolver.resolve_filename("bbcso_tpt_marcato_v10.wav")
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["vendor"]["id"], "spitfire-audio")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -31,8 +31,32 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result["velocity"], 10)
 
     def test_library_infers_vendor(self):
-        result = self.resolver.resolve_library("bbc")
+        result = self.resolver.resolve_library("bbcso")
         self.assertEqual(result.entity["vendor"]["id"], "spitfire-audio")
+
+    def test_canonical_library_aliases(self):
+        expected = {
+            "advb": "adventure-brass",
+            "ar1of": "abbey-road-one-orchestral-foundations",
+            "bbcso": "bbcso",
+            "bpc": "berlin-percussion",
+            "bss": "berlin-symphonic-strings",
+            "bww": "berlin-woodwinds",
+            "cs2": "cinematic-strings-2",
+            "csb": "cinematic-studio-brass",
+            "css": "cinematic-studio-strings",
+            "csw": "cinematic-studio-woodwinds",
+            "ib": "infinite-brass",
+            "iw": "infinite-woodwinds",
+            "nss": "nashville-scoring-strings",
+            "sso": "spitfire-symphony-orchestra",
+            "sym": "symphobia",
+        }
+        for alias, library_id in expected.items():
+            with self.subTest(alias=alias):
+                result = self.resolver.resolve_library(alias)
+                self.assertEqual(result.status, "resolved")
+                self.assertEqual(result.entity["id"], library_id)
 
     def test_cinebrass_core_library_resolution(self):
         result = self.resolver.resolve_library("CineBrass Core")
@@ -91,7 +115,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_variant_filename_resolution(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_expressive_legato_v10.wav"
+            "bbcso_tpt_expressive_legato_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -102,7 +126,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_pattern_legato_filename_resolution(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_pattern_legato_v10.wav"
+            "bbcso_tpt_pattern_legato_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -113,7 +137,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_melodic_legato_filename_resolution(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_melodic_legato_v10.wav"
+            "bbcso_tpt_melodic_legato_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -124,7 +148,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_long_cs_filename_resolution(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_long_cs_v10.wav"
+            "bbcso_tpt_long_cs_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -135,7 +159,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_long_flautando_filename_resolution(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_long_flautando_v10.wav"
+            "bbcso_tpt_long_flautando_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -146,7 +170,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_long_cuivre_filename_resolution(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_long_cuivre_v10.wav"
+            "bbcso_tpt_long_cuivre_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -187,7 +211,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_repetitions_phrase_filename_resolution(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_repetitions_16th_phrase_v10.wav"
+            "bbcso_tpt_repetitions_16th_phrase_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -198,7 +222,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_short_spiccato_filename_resolution(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_short_spiccato_v10.wav"
+            "bbcso_tpt_short_spiccato_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -209,7 +233,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_long_harmonics_filename_resolution(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_long_harmonics_v10.wav"
+            "bbcso_tpt_long_harmonics_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -220,7 +244,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_short_pizzicato_bartok_filename_resolution(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_short_pizzicato_bartok_v10.wav"
+            "bbcso_tpt_short_pizzicato_bartok_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -231,7 +255,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_sul_ponticello_filename_resolution(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_sul_ponticello_v10.wav"
+            "bbcso_tpt_sul_ponticello_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")
@@ -339,7 +363,7 @@ class ResolverTests(unittest.TestCase):
 
     def test_harmon_mute_variant_filename(self):
         result = self.resolver.resolve_filename(
-            "bbc_tpt_harmon_mute_staccato_v10.wav"
+            "bbcso_tpt_harmon_mute_staccato_v10.wav"
         )
         self.assertEqual(result["status"], "resolved")
         self.assertEqual(result["library"]["id"], "bbcso")

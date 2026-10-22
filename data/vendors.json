@@ -9,85 +9,87 @@
 	{
       "id": "audio-imperia",
       "name": "Audio Imperia",
-      "aliases": ["ai", "audioimperia"]
+      "aliases": ["ai"]
     },
     {
       "id": "cinesamples",
       "name": "Cinesamples",
-      "aliases": ["cs", "cinesamples"]
+      "aliases": ["cs"]
     },
     {
       "id": "performance-samples",
       "name": "Performance Samples",
-      "aliases": ["ps", "performance-samples", "performancesamples"]
+      "aliases": ["ps"]
     },
     {
       "id": "projectsam",
       "name": "ProjectSAM",
-      "aliases": ["psam", "project-sam", "projectsam"]
+      "aliases": ["sam"]
     },
     {
       "id": "eastwest-sounds",
       "name": "EastWest Sounds",
-      "aliases": ["ew", "eastwest", "east-west", "eastwest-sounds", "soundsonline"]
+      "aliases": ["ew"]
     },
     {
       "id": "spitfire-audio",
       "name": "Spitfire Audio",
-      "aliases": ["sa", "spitfire", "spitfireaudio"]
+      "aliases": ["sf", "sa"]
     },
     {
       "id": "cinematic-studio-series",
       "name": "Cinematic Studio Series",
-      "aliases": ["css", "cinematic-studio", "cinematicstudio"]
+      "aliases": ["css"]
     },
     {
       "id": "orchestral-tools",
       "name": "Orchestral Tools",
-      "aliases": ["ot", "orchestraltools"]
+      "aliases": ["ot"]
     },
     {
       "id": "vienna-symphonic-library",
       "name": "Vienna Symphonic Library",
-      "aliases": ["vsl", "vienna-library", "vienna-symphonic"]
+      "aliases": ["vsl"]
     },
     {
       "id": "8dio",
       "name": "8DIO",
-      "aliases": ["8dio"]
+      "aliases": ["8do"]
     },
     {
       "id": "aaron-venture",
       "name": "Aaron Venture",
-      "aliases": ["av", "aaronventure", "aaron-venture"]
+      "aliases": ["av"]
     },
     {
       "id": "samplemodeling",
       "name": "Samplemodeling",
-      "aliases": ["sm", "samplemodeling", "sample-modeling"]
+      "aliases": ["sm"]
     },
     {
       "id": "acousticsamples",
-      "name": "Acousticsamples"
+      "name": "Acousticsamples",
+	  "aliases": ["as"]
     },
     {
       "id": "audio-ollie",
-      "name": "Audio Ollie"
+      "name": "Audio Ollie",
+	  "aliases": ["ao"]
     },
     {
       "id": "musical-sampling",
       "name": "Musical Sampling",
-      "aliases": ["ms", "musical-sampling", "musicalsampling"]
+      "aliases": ["ms"]
     },
     {
       "id": "soundpaint",
       "name": "Soundpaint",
-      "aliases": ["soundpaint"]
+      "aliases": ["sp"]
     },
     {
       "id": "insanity-samples",
       "name": "Insanity Samples",
-      "aliases": []
+      "aliases": ["is"]
     }
   ]
 }
