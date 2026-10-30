@@ -6,37 +6,46 @@
       "name": "Natural",
       "aliases": [
         "nat",
-        "norm"
+        "norm",
+        "normale",
+        "ord",
+        "ordinario"
       ]
     },
-	{
+    {
       "id": "universal",
       "name": "Universal",
       "aliases": [
         "uni",
-        "univ"
+        "univ",
+        "univers"
       ]
     },
-	{
+    {
       "id": "performance",
       "name": "Performance",
       "aliases": [
         "perf",
-        "prf"
+        "prf",
+        "perform"
       ]
     },
-	{
+    {
       "id": "long",
       "name": "Long",
       "aliases": [
-        "lng"
+        "lng",
+        "longs"
       ]
     },
-	{
+    {
       "id": "sustains",
       "name": "Sustains",
       "aliases": [
-        "sus", "sustains", "sustain"
+        "sus",
+        "sustains",
+        "sustain",
+        "sust"
       ]
     },
     {
@@ -58,7 +67,8 @@
       "id": "portato",
       "name": "Portato",
       "aliases": [
-        "prt"
+        "prt",
+        "port"
       ]
     },
     {
@@ -73,7 +83,8 @@
       "id": "pizzicato",
       "name": "Pizzicato",
       "aliases": [
-        "pizz",
+        "piz",
+		"pizz",
         "pizzic"
       ]
     },
@@ -81,14 +92,16 @@
       "id": "tremolo",
       "name": "Tremolo",
       "aliases": [
-        "trem"
+        "trem",
+        "tremolos"
       ]
     },
     {
       "id": "trills",
       "name": "Trills",
       "aliases": [
-        "trill"
+        "trill",
+        "tr"
       ]
     },
     {
@@ -102,22 +115,30 @@
       "id": "staccatissimo",
       "name": "Staccatissimo",
       "aliases": [
+        "stcmo",
+        "stacmo",
         "staccmo",
-		"staccatiss"
+        "staccatiss"
       ]
     },
     {
       "id": "shorts",
       "name": "Shorts",
       "aliases": [
-        "shorts"
+        "shrt",
+        "shrts",
+        "shorts",
+        "short",
+        "sh"
       ]
     },
     {
       "id": "flageolet",
       "name": "Flageolet",
       "aliases": [
-        "flageolets"
+        "flageolets",
+        "flageol",
+        "flg"
       ]
     },
     {
@@ -125,28 +146,34 @@
       "name": "Repetitions",
       "aliases": [
         "repetition",
-        "reps"
+        "reps",
+        "rep",
+        "repet"
       ]
     },
     {
       "id": "fortepiano",
       "name": "Fortepiano",
       "aliases": [
-        "fp"
+        "fp",
+        "forte-piano"
       ]
     },
     {
       "id": "secco",
       "name": "Secco",
       "aliases": [
-        "secco"
+        "secco",
+        "secc"
       ]
     },
     {
       "id": "accent",
       "name": "Accent",
       "aliases": [
-        "accent"
+        "accent",
+        "acc",
+        "accented"
       ]
     },
     {
@@ -154,7 +181,8 @@
       "name": "Crescendo",
       "aliases": [
         "cresc",
-        "crescendo"
+        "crescendo",
+        "crescendos"
       ]
     },
     {
@@ -162,7 +190,8 @@
       "name": "Swells",
       "aliases": [
         "swell",
-        "swells"
+        "swells",
+        "sw"
       ]
     },
     {
@@ -176,14 +205,18 @@
       "id": "ostinato",
       "name": "Ostinato",
       "aliases": [
-        "ostinato"
+        "ostinato",
+        "ost",
+        "ostinati"
       ]
     },
     {
       "id": "phrase",
       "name": "Phrase",
       "aliases": [
-        "phrase"
+        "phrase",
+        "phr",
+        "phrases"
       ]
     },
     {
@@ -191,7 +224,8 @@
       "name": "Chords",
       "aliases": [
         "chord",
-        "chords"
+        "chords",
+        "ch"
       ]
     },
     {
@@ -199,7 +233,8 @@
       "name": "Clusters",
       "aliases": [
         "cluster",
-        "clusters"
+        "clusters",
+        "clust"
       ]
     },
     {
@@ -208,7 +243,8 @@
       "aliases": [
         "effect",
         "effects",
-        "fx"
+        "fx",
+        "sfx"
       ]
     },
     {
@@ -225,7 +261,8 @@
       "name": "Textures",
       "aliases": [
         "texture",
-        "textures"
+        "textures",
+        "tex"
       ]
     },
     {
@@ -233,7 +270,8 @@
       "name": "Risers",
       "aliases": [
         "riser",
-        "risers"
+        "risers",
+        "rise"
       ]
     },
     {
@@ -269,14 +307,17 @@
       "id": "sforzatissimo",
       "name": "Sforzatissimo",
       "aliases": [
-        "sfzss"
+        "sfzss",
+        "sffz"
       ]
     },
     {
       "id": "col-legno",
       "name": "Col Legno",
       "aliases": [
-        "col-legno"
+        "col-legno",
+        "collegno",
+        "cl"
       ]
     },
     {
@@ -291,16 +332,22 @@
       "name": "Detache",
       "aliases": [
         "détaché",
-        "detache"
+        "detache",
+        "dét",
+        "det",
+        "detaché"
       ]
     },
     {
       "id": "flutter",
       "name": "Flutter",
       "aliases": [
-		"flut",
+        "flut",
         "flutter",
-        "flutter-tongue"
+        "flutter-tongue",
+        "flutter tongue",
+        "flutter tonguing",
+        "flz"
       ]
     },
     {
@@ -308,7 +355,9 @@
       "name": "Multitongue",
       "aliases": [
         "mltTng",
-		"multi-tongue"
+        "multi-tongue",
+        "multi tongue",
+        "multiple tonguing"
       ]
     },
     {
@@ -322,14 +371,18 @@
       "id": "ricochet",
       "name": "Ricochet",
       "aliases": [
-        "ricochet"
+        "ricochet",
+        "ric",
+        "rico"
       ]
     },
     {
       "id": "falls",
       "name": "Falls",
       "aliases": [
-        "fall"
+        "fall",
+        "fall-off",
+        "falloff"
       ]
     },
     {
@@ -337,14 +390,17 @@
       "name": "Sforzando",
       "aliases": [
         "sfz",
-        "sfz-long"
+        "sfz-long",
+        "sf",
+        "sforzato"
       ]
     },
     {
       "id": "bisbigliando",
       "name": "Bisbigliando",
       "aliases": [
-        "bisbi"
+        "bisbi",
+        "bisb"
       ]
     },
     {
@@ -470,7 +526,8 @@
       "id": "bowed",
       "name": "Bowed",
       "aliases": [
-        "bow"
+        "bow",
+        "arco"
       ]
     },
     {
@@ -491,7 +548,8 @@
       "id": "rimshot",
       "name": "Rimshot",
       "aliases": [
-        "rim-shot"
+        "rim-shot",
+        "rim shot"
       ]
     },
     {
@@ -513,40 +571,49 @@
       "id": "side-stick-hit",
       "name": "Side Stick Hit",
       "aliases": [
-        "sidestick"
+        "sidestick",
+        "side stick",
+        "side-stick"
       ]
     },
     {
       "id": "shake",
       "name": "Shake",
       "aliases": [
-        "tambourine-shake"
+        "tambourine-shake",
+        "shakes"
       ]
     },
     {
       "id": "castanets",
       "name": "Castanets",
-      "aliases": []
+      "aliases": [
+        "castanet"
+      ]
     },
     {
       "id": "woodblock",
       "name": "Woodblock",
       "aliases": [
-        "wood-block"
+        "wood-block",
+        "wood block",
+        "woodblocks"
       ]
     },
     {
       "id": "vibraslap",
       "name": "Vibraslap",
       "aliases": [
-        "vibra-slap"
+        "vibra-slap",
+        "vibra slap"
       ]
     },
     {
       "id": "cowbell",
       "name": "Cowbell",
       "aliases": [
-        "cow-bell"
+        "cow-bell",
+        "cow bell"
       ]
     },
     {
@@ -581,56 +648,69 @@
       "id": "hit-muted",
       "name": "Hit Muted",
       "aliases": [
-        "muted-hit"
+        "muted-hit",
+        "muted hit"
       ]
     },
     {
       "id": "doubles",
       "name": "Doubles",
       "aliases": [
-        "double"
+        "double",
+        "dbl"
       ]
     },
     {
       "id": "triples",
       "name": "Triples",
       "aliases": [
-        "triple"
+        "triple",
+        "trpl"
       ]
     },
     {
       "id": "harmonics",
       "name": "Harmonics",
       "aliases": [
-        "harmonic"
+        "harmonic",
+        "harm"
       ]
     },
     {
       "id": "bartok",
       "name": "Bartok",
       "aliases": [
-        "bartok"
+        "bartok",
+        "bartók",
+        "bartok pizz",
+        "bartok pizzicato",
+        "snap pizzicato"
       ]
     },
     {
       "id": "double-tongue",
       "name": "Double Tongue",
       "aliases": [
-        "double-tonguing"
+        "double-tonguing",
+        "double tonguing",
+        "dbl tongue"
       ]
     },
     {
       "id": "con-sordino",
       "name": "Con Sordino",
       "aliases": [
-        "con-sordino-emulation"
+        "con-sordino-emulation",
+        "con sord",
+        "sordino"
       ]
     },
     {
       "id": "flautando",
       "name": "Flautando",
       "aliases": [
-        "flautando"
+        "flautando",
+        "flaut"
       ]
     },
     {
@@ -644,21 +724,24 @@
       "id": "scraped",
       "name": "Scraped",
       "aliases": [
-        "scraped"
+        "scraped",
+        "scrape"
       ]
     },
     {
       "id": "arc",
       "name": "Arc",
       "aliases": [
-        "arc"
+        "arc",
+        "arcs"
       ]
     },
     {
       "id": "hairpin",
       "name": "Hairpin",
       "aliases": [
-        "hairpin"
+        "hairpin",
+        "hairpins"
       ]
     },
     {
@@ -672,8 +755,9 @@
     {
       "id": "various",
       "name": "Various",
-      "aliases": []
+      "aliases": [
+        "misc"
+      ]
     }
-
-	]
+  ]
 }

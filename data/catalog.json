@@ -22882,6 +22882,708 @@
   },
   {
     "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-duality-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "agile",
+          "bold",
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "fast",
+          "octave",
+          "slow",
+          "tremolo"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "agile",
+          "fast",
+          "molto-vibrato",
+          "portamento",
+          "slurred",
+          "soft",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "legato",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "tight"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "hard"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "fast",
+          "molto-vibrato",
+          "non-vibrato",
+          "soft",
+          "strong",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "fast",
+          "legato",
+          "measured",
+          "slow",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "major-3rd",
+          "minor-2nd",
+          "minor-3rd",
+          "slurred"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-duality-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "agile",
+          "bold",
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "fast",
+          "octave",
+          "slow",
+          "tremolo"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "agile",
+          "fast",
+          "molto-vibrato",
+          "portamento",
+          "slurred",
+          "soft",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "legato",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "tight"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "hard"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "fast",
+          "molto-vibrato",
+          "non-vibrato",
+          "soft",
+          "strong",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "fast",
+          "legato",
+          "measured",
+          "slow",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "major-3rd",
+          "minor-2nd",
+          "minor-3rd",
+          "slurred"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-duality-strings",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "agile",
+          "bold",
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "fast",
+          "octave",
+          "slow",
+          "tremolo"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "agile",
+          "fast",
+          "molto-vibrato",
+          "portamento",
+          "slurred",
+          "soft",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "legato",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "tight"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "hard"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "fast",
+          "molto-vibrato",
+          "non-vibrato",
+          "soft",
+          "strong",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "fast",
+          "legato",
+          "measured",
+          "slow",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "major-3rd",
+          "minor-2nd",
+          "minor-3rd",
+          "slurred"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-duality-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "agile",
+          "bold",
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "fast",
+          "octave",
+          "slow",
+          "tremolo"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "agile",
+          "fast",
+          "molto-vibrato",
+          "portamento",
+          "slurred",
+          "soft",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "legato",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "tight"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "hard"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "fast",
+          "molto-vibrato",
+          "non-vibrato",
+          "soft",
+          "strong",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "fast",
+          "legato",
+          "measured",
+          "slow",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "major-3rd",
+          "minor-2nd",
+          "minor-3rd",
+          "slurred"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-duality-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "agile",
+          "bold",
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "fast",
+          "octave",
+          "slow",
+          "tremolo"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "agile",
+          "fast",
+          "molto-vibrato",
+          "portamento",
+          "slurred",
+          "soft",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "legato",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "tight"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "hard"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "fast",
+          "molto-vibrato",
+          "non-vibrato",
+          "soft",
+          "strong",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "fast",
+          "legato",
+          "measured",
+          "slow",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "major-3rd",
+          "minor-2nd",
+          "minor-3rd",
+          "slurred"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
+    "libraryId": "synchron-duality-strings",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "detache",
+        "variantIds": [
+          "agile",
+          "bold",
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "fast",
+          "octave",
+          "slow",
+          "tremolo"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "agile",
+          "fast",
+          "molto-vibrato",
+          "portamento",
+          "slurred",
+          "soft",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "agile",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "legato",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "tight"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "agile",
+          "bold",
+          "hard"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "fast",
+          "molto-vibrato",
+          "non-vibrato",
+          "soft",
+          "strong",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "fast",
+          "legato",
+          "measured",
+          "slow",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "major-3rd",
+          "minor-2nd",
+          "minor-3rd",
+          "slurred"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "vienna-symphonic-library",
     "libraryId": "synchron-prime-brass",
     "instrumentId": "bass-trombone",
     "articulations": [

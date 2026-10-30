@@ -49,6 +49,7 @@ class ResolverTests(unittest.TestCase):
             "ib": "infinite-brass",
             "iw": "infinite-woodwinds",
             "nss": "nashville-scoring-strings",
+            "sds": "synchron-duality-strings",
             "sso": "spitfire-symphony-orchestra",
             "sym": "symphobia",
         }
@@ -81,7 +82,7 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result.status, "unresolved")
 
     def test_unknown_term_is_unresolved(self):
-        result = self.resolver.resolve_articulation("short")
+        result = self.resolver.resolve_articulation("unknown-articulation-term")
         self.assertEqual(result.status, "unresolved")
 
     def test_shorts_articulation_resolution(self):

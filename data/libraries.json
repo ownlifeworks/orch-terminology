@@ -361,6 +361,15 @@
       ]
     },
     {
+      "id": "synchron-duality-strings",
+      "name": "Synchron Duality Strings",
+      "vendorId": "vienna-symphonic-library",
+      "weblink": "https://www.vsl.co.at/products/synchron/duality-strings-regular",
+      "aliases": [
+        "sds"
+      ]
+    },
+    {
       "id": "berlin-woodwinds",
       "name": "Berlin Woodwinds",
       "vendorId": "orchestral-tools",
