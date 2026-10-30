@@ -200,6 +200,19 @@ def exported_schema_version(schema_version_doc: dict[str, Any]) -> int:
     return schema_version + 1
 
 
+def exported_data_version(schema_version_doc: dict[str, Any]) -> str:
+    data_version = schema_version_doc.get("dataVersion")
+    if not isinstance(data_version, str) or not data_version.strip():
+        raise ValueError("schema-version.json: dataVersion must be a non-empty string")
+
+    normalized = data_version.strip()
+    parts = normalized.split(".")
+    if len(parts) != 3 or any(not part.isdigit() for part in parts):
+        raise ValueError("schema-version.json: dataVersion must use MAJOR.MINOR.PATCH")
+
+    return normalized
+
+
 def build_database(data_dir: Path, output_path: Path) -> BuildReport:
     documents = {
         kind: load_json(data_dir / filename)
@@ -207,6 +220,7 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
     }
     schema_version_doc = load_json(data_dir / "schema-version.json")
     sqlite_schema_version = exported_schema_version(schema_version_doc)
+    sqlite_data_version = exported_data_version(schema_version_doc)
     instrument_properties_doc = load_json(data_dir / "instrument-properties.json")
     catalog = load_json(data_dir / "catalog.json")
 
@@ -520,6 +534,7 @@ def build_database(data_dir: Path, output_path: Path) -> BuildReport:
             "INSERT INTO schema_info (key, value) VALUES (?, ?)",
             [
                 ("schema_version", str(sqlite_schema_version)),
+                ("data_version", sqlite_data_version),
                 ("source_format", "canonical-json"),
                 ("source_files", ",".join(sorted(source_hashes))),
                 ("source_hashes", json.dumps(source_hashes, sort_keys=True)),

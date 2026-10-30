@@ -1,6 +1,9 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
+import json
+import sqlite3
 import subprocess
 import shutil
 import sys
@@ -13,7 +16,9 @@ WORKSPACE_ROOT = ROOT.parent
 DIST_DIR = ROOT / "dist"
 CANONICAL_ICON_DIR = ROOT / "assets" / "instrument-icons"
 DIST_DB_PATH = DIST_DIR / "orch.db"
+DIST_MANIFEST_PATH = DIST_DIR / "orchdb-manifest.json"
 DIST_ICON_DIR = DIST_DIR / "instrument-icons"
+PUBLIC_DATABASE_URL = "https://ownlifeaudio.com/orchdb/orch.db"
 
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
@@ -27,6 +32,7 @@ class ConsumerTarget:
     key: str
     label: str
     db_targets: tuple[Path, ...]
+    manifest_targets: tuple[Path, ...]
     icon_targets: tuple[Path, ...]
 
 
@@ -34,7 +40,13 @@ CONSUMER_TARGETS = {
     "website": ConsumerTarget(
         key="website",
         label="OwnLifeAudioWebsite",
-        db_targets=(WORKSPACE_ROOT / "OwnLifeAudioWebsite" / "src" / "data" / "terminology" / "orch.db",),
+        db_targets=(
+            WORKSPACE_ROOT / "OwnLifeAudioWebsite" / "src" / "data" / "terminology" / "orch.db",
+            WORKSPACE_ROOT / "OwnLifeAudioWebsite" / "public" / "orchdb" / "orch.db",
+        ),
+        manifest_targets=(
+            WORKSPACE_ROOT / "OwnLifeAudioWebsite" / "public" / "orchdb" / "manifest.json",
+        ),
         icon_targets=(WORKSPACE_ROOT / "OwnLifeAudioWebsite" / "public" / "terminology" / "instrument-icons",),
     ),
     "ntd-detector": ConsumerTarget(
@@ -44,18 +56,21 @@ CONSUMER_TARGETS = {
             WORKSPACE_ROOT / "NtdEngine" / "tools" / "NtdDetector" / "backend" / "assets" / "terminology" / "orch.db",
             WORKSPACE_ROOT / "NtdEngine" / "tools" / "NtdDetector" / "frontend" / "public" / "terminology" / "orch.db",
         ),
+        manifest_targets=(),
         icon_targets=(),
     ),
     "ntd-engine": ConsumerTarget(
         key="ntd-engine",
         label="NtdEngine",
         db_targets=(WORKSPACE_ROOT / "NtdEngine" / "Source" / "Assets" / "terminology" / "orch.db",),
+        manifest_targets=(),
         icon_targets=(WORKSPACE_ROOT / "NtdEngine" / "Source" / "Assets" / "inst",),
     ),
     "symphonic-balance": ConsumerTarget(
         key="symphonic-balance",
         label="SymphonicBalance",
         db_targets=(WORKSPACE_ROOT / "SymphonicBalance" / "Resources" / "orch.db",),
+        manifest_targets=(),
         icon_targets=(WORKSPACE_ROOT / "SymphonicBalance" / "Resources" / "instrument-icons",),
     ),
 }
@@ -119,6 +134,42 @@ def copy_file(source: Path, destination: Path) -> None:
             raise OSError(f"{destination}: copy failed after retry") from sub_exc
 
 
+def build_manifest(database_path: Path, manifest_path: Path, database_url: str = PUBLIC_DATABASE_URL) -> dict[str, object]:
+    connection = sqlite3.connect(f"file:{database_path.as_posix()}?mode=ro", uri=True)
+    try:
+        schema_info = dict(connection.execute("SELECT key, value FROM schema_info"))
+    finally:
+        connection.close()
+
+    schema_version_text = schema_info.get("schema_version", "")
+    data_version = schema_info.get("data_version", "")
+    if not data_version:
+        schema_document = json.loads((ROOT / "data" / "schema-version.json").read_text(encoding="utf-8"))
+        data_version = schema_document.get("dataVersion", "")
+    if not schema_version_text.isdigit():
+        raise ValueError("orch.db: schema_info.schema_version must be an integer")
+    if not data_version:
+        raise ValueError("orch.db: schema_info.data_version is missing")
+
+    source_hashes_text = schema_info.get("source_hashes", "{}")
+    source_hashes = json.loads(source_hashes_text)
+    if not isinstance(source_hashes, dict):
+        raise ValueError("orch.db: schema_info.source_hashes must be a JSON object")
+
+    manifest: dict[str, object] = {
+        "formatVersion": 1,
+        "dataVersion": data_version,
+        "schemaVersion": int(schema_version_text),
+        "size": database_path.stat().st_size,
+        "sha256": hashlib.sha256(database_path.read_bytes()).hexdigest(),
+        "url": database_url,
+        "sourceHashes": source_hashes,
+    }
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return manifest
+
+
 def build_dist() -> tuple[object, int]:
     problems = validate()
     if problems:
@@ -128,6 +179,7 @@ def build_dist() -> tuple[object, int]:
 
     DIST_DIR.mkdir(parents=True, exist_ok=True)
     report = build_database(ROOT / "data", DIST_DB_PATH)
+    build_manifest(DIST_DB_PATH, DIST_MANIFEST_PATH)
     icon_count = replace_directory(CANONICAL_ICON_DIR, DIST_ICON_DIR)
     return report, icon_count
 
@@ -145,10 +197,13 @@ def sync_consumers(targets: list[ConsumerTarget]) -> tuple[list[str], list[str]]
         try:
             for db_target in target.db_targets:
                 copy_file(DIST_DB_PATH, db_target)
+            for manifest_target in target.manifest_targets:
+                copy_file(DIST_MANIFEST_PATH, manifest_target)
             for icon_target in target.icon_targets:
                 replace_directory(DIST_ICON_DIR, icon_target)
             lines.append(
-                f"{target.label}: synced {len(target.db_targets)} db target(s), {len(target.icon_targets)} icon target(s)"
+                f"{target.label}: synced {len(target.db_targets)} db target(s), "
+                f"{len(target.manifest_targets)} manifest target(s), {len(target.icon_targets)} icon target(s)"
             )
         except OSError as exc:
             errors.append(f"{target.label}: {exc}")
@@ -160,6 +215,7 @@ def main(argv: list[str]) -> int:
     report, icon_count = build_dist()
     print("ORCH TERMINOLOGY DISTRIBUTION")
     print(f"Output DB: {DIST_DB_PATH}")
+    print(f"Output manifest: {DIST_MANIFEST_PATH}")
     print(f"Output icons: {DIST_ICON_DIR} ({icon_count} files)")
     print(f"Vendors: {report.vendors}")
     print(f"Libraries: {report.libraries}")
