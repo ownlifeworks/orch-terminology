@@ -19,6 +19,9 @@ DIST_DB_PATH = DIST_DIR / "orch.db"
 DIST_MANIFEST_PATH = DIST_DIR / "orchdb-manifest.json"
 DIST_ICON_DIR = DIST_DIR / "instrument-icons"
 PUBLIC_DATABASE_URL = "https://ownlifeaudio.com/orchdb/orch.db"
+# Embedded plug-in icons only need to cover the on-screen size at 2x; masters stay full size.
+NTD_ENGINE_ICON_SIZE = 160
+EMBEDDED_ICON_PALETTE_COLOURS = 256
 
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
@@ -34,6 +37,8 @@ class ConsumerTarget:
     db_targets: tuple[Path, ...]
     manifest_targets: tuple[Path, ...]
     icon_targets: tuple[Path, ...]
+    # When set, icons are downscaled to this square size and palette-quantized instead of copied.
+    icon_max_size: int | None = None
 
 
 CONSUMER_TARGETS = {
@@ -65,6 +70,7 @@ CONSUMER_TARGETS = {
         db_targets=(WORKSPACE_ROOT / "NtdEngine" / "Source" / "Assets" / "terminology" / "orch.db",),
         manifest_targets=(),
         icon_targets=(WORKSPACE_ROOT / "NtdEngine" / "Source" / "Assets" / "inst",),
+        icon_max_size=NTD_ENGINE_ICON_SIZE,
     ),
     "symphonic-balance": ConsumerTarget(
         key="symphonic-balance",
@@ -110,6 +116,29 @@ def replace_directory(source: Path, destination: Path) -> int:
     destination.parent.mkdir(parents=True, exist_ok=True)
     shutil.copytree(source, destination)
     return sum(1 for path in destination.rglob("*") if path.is_file())
+
+
+def export_reduced_icons(source: Path, destination: Path, max_size: int) -> int:
+    try:
+        from PIL import Image
+    except ImportError as exc:
+        raise OSError("reduced icon export needs Pillow (python -m pip install Pillow)") from exc
+
+    ensure_workspace_path(destination)
+    if destination.exists():
+        shutil.rmtree(destination)
+    destination.mkdir(parents=True)
+
+    count = 0
+    for icon_path in sorted(source.glob("*.png")):
+        with Image.open(icon_path) as image:
+            icon = image.convert("RGBA")
+        if max(icon.size) > max_size:
+            icon.thumbnail((max_size, max_size), Image.Resampling.LANCZOS)
+        icon = icon.quantize(EMBEDDED_ICON_PALETTE_COLOURS, method=Image.Quantize.FASTOCTREE)
+        icon.save(destination / icon_path.name, "PNG", optimize=True)
+        count += 1
+    return count
 
 
 def copy_file(source: Path, destination: Path) -> None:
@@ -200,7 +229,10 @@ def sync_consumers(targets: list[ConsumerTarget]) -> tuple[list[str], list[str]]
             for manifest_target in target.manifest_targets:
                 copy_file(DIST_MANIFEST_PATH, manifest_target)
             for icon_target in target.icon_targets:
-                replace_directory(DIST_ICON_DIR, icon_target)
+                if target.icon_max_size is None:
+                    replace_directory(DIST_ICON_DIR, icon_target)
+                else:
+                    export_reduced_icons(DIST_ICON_DIR, icon_target, target.icon_max_size)
             lines.append(
                 f"{target.label}: synced {len(target.db_targets)} db target(s), "
                 f"{len(target.manifest_targets)} manifest target(s), {len(target.icon_targets)} icon target(s)"

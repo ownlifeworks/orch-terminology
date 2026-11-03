@@ -28,7 +28,7 @@ Use this checklist whenever the canonical terminology data or canonical instrume
 
 5. If only one consumer needs to be refreshed, rerun `python tools/build_distribution.py --targets <consumer-key>`.
 6. Verify that the website's public OrchDB database and manifest match the generated distribution.
-7. Verify that NTD Engine's embedded terminology resource and instrument PNG resources match the synchronized mirrors, then rebuild it.
+7. Verify that NTD Engine's embedded terminology resource and instrument PNG resources match the synchronized mirrors, then rebuild it. The sync writes NTD Engine's icons reduced to 160 px with a 256-colour palette (this needs Pillow), so they intentionally differ from the masters; never copy the full-size masters into `NtdEngine/Source/Assets/inst/` by hand, because NTD Engine's CMake configure rejects icons larger than 160 px.
 8. Verify that NTDDetector uses the synchronized `orch.db` mirrors in both backend and frontend paths. Do not mirror instrument icons there unless the detector UI starts rendering them.
 9. Build the affected websites and applications.
 10. Inspect `git diff` and `git status` in every affected repository.
