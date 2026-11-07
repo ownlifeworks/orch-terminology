@@ -1989,6 +1989,41 @@
         }
       }
     },
+    "violins": {
+      "dataQuality": "approximation",
+      "pitch": {
+        "range": {
+          "min": 55,
+          "max": 105
+        },
+        "measurementRange": {
+          "min": 67,
+          "max": 79
+        }
+      },
+      "loudness": {
+        "long": {
+          "working": [
+            -36.5,
+            -33.5
+          ],
+          "max": [
+            -30.5,
+            -27.5
+          ]
+        },
+        "short": {
+          "working": [
+            -40.5,
+            -37.5
+          ],
+          "max": [
+            -33.5,
+            -29.5
+          ]
+        }
+      }
+    },
     "violins-i": {
       "pitch": {
         "range": {
