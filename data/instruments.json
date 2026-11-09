@@ -1756,6 +1756,24 @@
       "iconKey": "full-orchestra.png"
     },
     {
+      "id": "mandolin",
+      "name": "Mandolin",
+      "aliases": ["mandolin"],
+      "iconKey": "default.png"
+    },
+    {
+      "id": "dulcimer",
+      "name": "Dulcimer",
+      "aliases": ["dulcimer"],
+      "iconKey": "default.png"
+    },
+    {
+      "id": "accordion",
+      "name": "Accordion",
+      "aliases": ["accordion"],
+      "iconKey": "default.png"
+    },
+    {
       "id": "full-orchestra",
       "name": "Full Orchestra",
       "aliases": [],

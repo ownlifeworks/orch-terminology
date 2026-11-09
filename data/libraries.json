@@ -308,6 +308,13 @@
       "aliases": ["csb"]
     },
     {
+      "id": "tides",
+      "name": "Tides by Rachel Portman",
+      "vendorId": "orchestral-tools",
+      "weblink": "https://www.orchestraltools.com/tides",
+      "aliases": ["tides"]
+    },
+    {
       "id": "berlin-symphonic-strings",
       "name": "Berlin Symphonic Strings",
       "vendorId": "orchestral-tools",

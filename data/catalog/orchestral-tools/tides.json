@@ -1,0 +1,705 @@
+[
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "violins",
+    "articulations": [
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "measured"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "measured"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "measured"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "doublebass",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "violin",
+    "articulations": [
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "cello",
+    "articulations": [
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "flute",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "alto-flute",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "oboe",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "english-horn",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "clarinet",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "bassoon",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "soprano-saxophone",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "horn",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      {
+        "articulationId": "ostinato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "lyrical"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "mandolin",
+    "articulations": [
+      {
+        "articulationId": "chords",
+        "variantIds": []
+      },
+      {
+        "articulationId": "effects",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "concert-guitar",
+    "articulations": [
+      {
+        "articulationId": "chords",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "finger"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "dulcimer",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "accordion",
+    "articulations": [
+      {
+        "articulationId": "chords",
+        "variantIds": [
+          "staccato"
+        ]
+      },
+      {
+        "articulationId": "effects",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "acc"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "harp",
+    "articulations": [
+      {
+        "articulationId": "flageolet",
+        "variantIds": []
+      },
+      {
+        "articulationId": "glissandi",
+        "variantIds": [
+          "major",
+          "harmonic-minor",
+          "pentatonic",
+          "wholetone"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "tides",
+    "instrumentId": "grand-piano",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      }
+    ]
+  }
+]
