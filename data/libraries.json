@@ -1,6 +1,13 @@
 {
   "schemaVersion": 1,
   "libraries": [
+    {
+      "id": "la-scoring-strings-3",
+      "name": "LA Scoring Strings 3",
+      "vendorId": "audiobro",
+      "weblink": "https://audiobro.com/la-scoring-strings-3/",
+      "aliases": ["lass", "lass3"]
+    },
    {
       "id": "other",
       "name": "Other",

@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "vendors": [
+    { "id": "audiobro", "name": "Audiobro", "aliases": ["ab"] },
     {
       "id": "other",
       "name": "Other",

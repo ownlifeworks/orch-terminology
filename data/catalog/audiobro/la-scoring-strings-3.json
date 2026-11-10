@@ -1,0 +1,548 @@
+[
+  {
+    "vendorId": "audiobro",
+    "libraryId": "la-scoring-strings-3",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted",
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "legato"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audiobro",
+    "libraryId": "la-scoring-strings-3",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted",
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "legato"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audiobro",
+    "libraryId": "la-scoring-strings-3",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted",
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "legato"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audiobro",
+    "libraryId": "la-scoring-strings-3",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted",
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "legato"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audiobro",
+    "libraryId": "la-scoring-strings-3",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted",
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "legato"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audiobro",
+    "libraryId": "la-scoring-strings-3",
+    "instrumentId": "basses-leader",
+    "articulations": [
+      {
+        "articulationId": "glissando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "legato"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audiobro",
+    "libraryId": "la-scoring-strings-3",
+    "instrumentId": "celli-leader",
+    "articulations": [
+      {
+        "articulationId": "glissando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "legato"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audiobro",
+    "libraryId": "la-scoring-strings-3",
+    "instrumentId": "violas-leader",
+    "articulations": [
+      {
+        "articulationId": "glissando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "legato"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "audiobro",
+    "libraryId": "la-scoring-strings-3",
+    "instrumentId": "violins-i-leader",
+    "articulations": [
+      {
+        "articulationId": "glissando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "non-vibrato",
+          "vibrato"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "legato"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "legato",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  }
+]
