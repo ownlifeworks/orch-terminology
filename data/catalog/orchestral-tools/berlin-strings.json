@@ -1,0 +1,527 @@
+[
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "martele",
+        "variantIds": [
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "serial"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "acc",
+          "expressive",
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "rebow",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "acc"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "martele",
+        "variantIds": [
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "major",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "serial"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "blurred"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "acc",
+          "expressive",
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "rebow",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "acc",
+          "decorative",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "decorative",
+          "short"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-strings",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "soft"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "martele",
+        "variantIds": [
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "serial"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "serial"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "blurred",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "acc",
+          "expressive",
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "rebow",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "acc",
+          "decorative",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "acc",
+          "decorative",
+          "short"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "doubles",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "martele",
+        "variantIds": [
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "serial",
+          "tremolo"
+        ]
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": [
+          "blurred",
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "major",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "blurred",
+          "serial",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "blurred",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "acc",
+          "blurred",
+          "expressive",
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "rebow",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "acc",
+          "decorative",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "acc",
+          "decorative",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "triples",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "orchestral-tools",
+    "libraryId": "berlin-strings",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "doubles",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "portamento",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "martele",
+        "variantIds": [
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "portato",
+        "variantIds": [
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "major",
+          "octave"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "serial"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "blurred",
+          "bold"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "acc",
+          "expressive",
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": [
+          "long",
+          "rebow",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "acc",
+          "decorative",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "acc",
+          "decorative",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "triples",
+        "variantIds": []
+      }
+    ]
+  }
+]

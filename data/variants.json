@@ -1,6 +1,11 @@
 {
   "schemaVersion": 1,
   "variants": [
+    { "id": "hotel-mute", "name": "Hotel Mute", "aliases": ["hotel-mute", "hotelmute"] },
+    { "id": "loure", "name": "Louré", "aliases": ["loure", "louré"] },
+    { "id": "blurred", "name": "Blurred", "aliases": ["blurred"] },
+    { "id": "serial", "name": "Serial", "aliases": ["serial"] },
+    { "id": "decorative", "name": "Decorative", "aliases": ["decorative"] },
     {
       "id": "default",
       "name": "Default",

@@ -315,6 +315,20 @@
       "aliases": ["tides"]
     },
     {
+      "id": "berlin-con-sordino-strings",
+      "name": "Berlin Con Sordino Strings",
+      "vendorId": "orchestral-tools",
+      "weblink": "https://www.orchestraltools.com/berlin-con-sordino-strings",
+      "aliases": ["bcs"]
+    },
+    {
+      "id": "berlin-strings",
+      "name": "Berlin Strings",
+      "vendorId": "orchestral-tools",
+      "weblink": "https://www.orchestraltools.com/berlin-strings",
+      "aliases": ["bs"]
+    },
+    {
       "id": "berlin-symphonic-strings",
       "name": "Berlin Symphonic Strings",
       "vendorId": "orchestral-tools",

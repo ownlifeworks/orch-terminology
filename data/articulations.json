@@ -1,6 +1,9 @@
 {
   "schemaVersion": 1,
   "articulations": [
+    { "id": "arpeggio", "name": "Arpeggio", "aliases": ["arpeggios", "arp"] },
+    { "id": "martele", "name": "Martelé", "aliases": ["martele", "martelé"] },
+    { "id": "decrescendo", "name": "Decrescendo", "aliases": ["decresc", "diminuendo", "dim"] },
     {
       "id": "natural",
       "name": "Natural",
