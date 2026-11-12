@@ -89,7 +89,7 @@ Keep entity IDs stable because libraries and `contexts.json` reference them dire
 
 The canonical vocabulary now includes `variants.json` for optional articulation qualifiers. Use `variant` as a separate normalized field rather than folding qualifiers back into `articulation`.
 
-`instrument-properties.json` is keyed by instrument ID from `instruments.json`. It currently supports pitch range, recommended measurement range, and factory loudness-reference targets for `long`, `short`, and `percussion` capture modes. Loudness targets may be scalar numbers or `[min, max]` ranges. An optional `dataQuality` field marks inferred records as `approximation`; records without that field are measured. Treat it as canonical source data and publish it for SymphonicBalance with `tools/publish_symphonic_balance_reference.ps1` whenever target values change.
+`instrument-properties.json` is keyed by instrument ID from `instruments.json`. It currently supports pitch range, recommended measurement range, and factory loudness-reference targets for `long`, `short`, and `percussion` capture modes. Loudness targets may be scalar numbers or `[min, max]` ranges. An optional `dataQuality` field marks inferred records as `approximation`; records without that field are measured. Treat it as canonical source data; its pitch ranges and loudness targets reach SymphonicBalance and the website Balance page through the generated `orch.db` (`instrument_properties`, `instrument_loudness_targets`).
 
 After editing, validate the data, rebuild the runtime distribution, and run the tests:
 

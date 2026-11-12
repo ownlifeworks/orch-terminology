@@ -44,17 +44,11 @@ Use this runbook whenever canonical terminology, catalog relationships, instrume
    - `C:\dev\SymphonicBalance\Resources\orch.db`
    - `C:\dev\SymphonicBalance\Resources\instrument-icons\`
 
-5. Publish the hosted Symphonic Balance loudness reference whenever `data/instrument-properties.json` changes:
-
-   ```powershell
-   .\tools\publish_symphonic_balance_reference.ps1
-   ```
-
-   This validates terminology first, ensures the public Supabase Storage bucket, and uploads `instrument-properties.json` to the URL consumed by the plugin.
+5. Loudness-reference targets ship inside `orch.db` (`instrument_loudness_targets`). There is no separate publish step: Symphonic Balance and the website Balance page read them from their synchronized `orch.db` mirrors, and installed plug-ins pick up newer data through the OrchDB manifest update.
 
 6. If only a specific consumer must be refreshed, use `--targets website`, `--targets ntd-engine`, `--targets ntd-detector`, or `--targets symphonic-balance`. Run the complete sync before a coordinated terminology release unless a consumer is explicitly blocked.
 
-6. Review `git diff` and `git status` in this repository and every affected consumer. The detector consumes database mirrors only; it intentionally does not receive icons.
+7. Review `git diff` and `git status` in this repository and every affected consumer. The detector consumes database mirrors only; it intentionally does not receive icons.
 
 8. Hand off to consumer release builds.
 
