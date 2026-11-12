@@ -83,7 +83,7 @@ flowchart TD
 
 Edit the canonical JSON files in `data/` and the canonical instrument PNGs in `assets/instrument-icons/`. The copies in consuming applications are mirrors and can be overwritten during synchronization when those consumers actually need the icon assets.
 
-For catalog relationships, edit the per-library source files in `data/catalog/` and then run `pwsh -File tools/build_catalog.ps1` to regenerate the aggregate `data/catalog.json`.
+For catalog relationships, edit the per-library source files in `data/catalog/`. `python tools/build_distribution.py` regenerates the aggregate `data/catalog.json` before building the database. To regenerate only the catalog, run `pwsh -File tools/build_catalog.ps1`.
 
 Keep entity IDs stable because libraries and `contexts.json` reference them directly. Aliases/abbreviations must never contain whitespace; use hyphens instead. Alias order matters: the first alias is used as the default abbreviation in the website's clipboard string. Avoid alias collisions within a category and preserve `schemaVersion: 1`. Each instrument `iconKey` identifies its preferred PNG in `assets/instrument-icons/`; consumers must fall back to `default.png` when that file is unavailable.
 

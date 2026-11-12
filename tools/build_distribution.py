@@ -28,6 +28,7 @@ if str(ROOT) not in sys.path:
 
 from tools.build_sqlite import build_database  # noqa: E402
 from tools.validate_terminology import validate  # noqa: E402
+from orch_terminology.catalog import build_catalog_document, dump_json  # noqa: E402
 
 
 @dataclass(frozen=True)
@@ -200,6 +201,12 @@ def build_manifest(database_path: Path, manifest_path: Path, database_url: str =
 
 
 def build_dist() -> tuple[object, int]:
+    catalog, catalog_report = build_catalog_document(ROOT / "data")
+    if not catalog_report.source_files or catalog_report.validation_errors:
+        errors = catalog_report.validation_errors or ("No catalog source files found",)
+        raise SystemExit("CATALOG BUILD BLOCKED\n" + "\n".join(f"- {error}" for error in errors))
+    dump_json(ROOT / "data" / "catalog.json", catalog)
+
     problems = validate()
     if problems:
         print("TERMINOLOGY DISTRIBUTION BLOCKED")

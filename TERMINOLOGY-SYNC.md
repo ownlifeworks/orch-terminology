@@ -19,7 +19,7 @@ Use this checklist whenever the canonical terminology data or canonical instrume
 1. Edit only the canonical files in `data/` and `assets/instrument-icons/`.
 2. Keep IDs stable. Update all `libraries.json` and `contexts.json` references when an ID changes.
 3. Increment `data/schema-version.json` `dataVersion` for every published data change. Change `schemaVersion` only when the SQLite contract changes.
-4. Run:
+4. Run the distribution build. It regenerates `data/catalog.json` from the per-library sources before validating and building the database:
 
    ```powershell
    python tools/build_distribution.py
