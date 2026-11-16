@@ -2,6 +2,14 @@
   {
     "vendorId": "samplemodeling",
     "libraryId": "french-horn-tuba",
+    "instrumentId": "wagner-tuba",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "french-horn-tuba",
     "instrumentId": "horn",
     "articulations": [
       { "articulationId": "performance", "variantIds": [] }

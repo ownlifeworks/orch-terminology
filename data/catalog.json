@@ -6338,6 +6338,370 @@
   },
   {
     "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-solo-strings",
+    "instrumentId": "cello",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "portamento",
+          "repetition"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "muted",
+          "runs"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured",
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd",
+          "muted"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-solo-strings",
+    "instrumentId": "viola",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "portamento",
+          "repetition"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "muted",
+          "runs"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured",
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd",
+          "muted"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-solo-strings",
+    "instrumentId": "violins-i-leader",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "portamento",
+          "repetition"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "muted",
+          "runs"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured",
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd",
+          "muted"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
+    "libraryId": "cinematic-studio-solo-strings",
+    "instrumentId": "violins-ii-leader",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "muted",
+          "portamento",
+          "repetition"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "muted",
+          "runs"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured",
+          "muted"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd",
+          "muted"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "cinematic-studio-series",
     "libraryId": "cinematic-studio-strings",
     "instrumentId": "basses",
     "articulations": [
@@ -16158,6 +16522,28 @@
   },
   {
     "vendorId": "samplemodeling",
+    "libraryId": "french-horn-tuba",
+    "instrumentId": "wagner-tuba",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "the-trombone",
+    "instrumentId": "alto-trombone",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "samplemodeling",
     "libraryId": "the-trombone",
     "instrumentId": "bass-trombone",
     "articulations": [
@@ -16182,6 +16568,17 @@
     "vendorId": "samplemodeling",
     "libraryId": "the-trombone",
     "instrumentId": "valve-trombone",
+    "articulations": [
+      {
+        "articulationId": "performance",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "the-trumpet",
+    "instrumentId": "baroque-trumpet",
     "articulations": [
       {
         "articulationId": "performance",

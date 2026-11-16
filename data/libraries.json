@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "libraries": [
+    { "id": "cinematic-studio-solo-strings", "name": "Cinematic Studio Solo Strings", "vendorId": "cinematic-studio-series", "weblink": "https://cinematicstudioseries.com/solo-strings/", "aliases": ["csss"] },
     { "id": "century-strings-normale", "name": "Century Strings Normale", "vendorId": "8dio", "weblink": "https://8dio.com/products/century-strings-series", "aliases": ["csnorm"] },
     { "id": "century-strings-sordino", "name": "Century Strings Sordino", "vendorId": "8dio", "weblink": "https://8dio.com/products/century-strings-series", "aliases": ["cssord"] },
     { "id": "century-ostinato-strings-i", "name": "Century Ostinato Strings I", "vendorId": "8dio", "weblink": "https://8dio.com/products/century-ostinato-strings", "aliases": ["csost1"] },
@@ -87,21 +88,21 @@
       "id": "the-trumpet",
       "name": "The Trumpet",
       "vendorId": "samplemodeling",
-      "weblink": "https://www.samplemodeling.com/product/the-trumpet/",
+      "weblink": "https://www.samplemodeling.com/bundle/brass-bundle-v4/",
       "aliases": ["smtpt"]
     },
     {
       "id": "the-trombone",
       "name": "The Trombone",
       "vendorId": "samplemodeling",
-      "weblink": "https://www.samplemodeling.com/product/the-trombone/",
+      "weblink": "https://www.samplemodeling.com/bundle/brass-bundle-v4/",
       "aliases": ["smtbn"]
     },
     {
       "id": "french-horn-tuba",
       "name": "French Horn & Tuba",
       "vendorId": "samplemodeling",
-      "weblink": "https://www.samplemodeling.com/product/french-horn-tuba/",
+      "weblink": "https://www.samplemodeling.com/bundle/brass-bundle-v4/",
       "aliases": ["smhn"]
     },
     {

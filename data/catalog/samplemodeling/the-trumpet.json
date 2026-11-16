@@ -2,6 +2,14 @@
   {
     "vendorId": "samplemodeling",
     "libraryId": "the-trumpet",
+    "instrumentId": "baroque-trumpet",
+    "articulations": [
+      { "articulationId": "performance", "variantIds": [] }
+    ]
+  },
+  {
+    "vendorId": "samplemodeling",
+    "libraryId": "the-trumpet",
     "instrumentId": "trumpet",
     "articulations": [
       { "articulationId": "performance", "variantIds": [] }

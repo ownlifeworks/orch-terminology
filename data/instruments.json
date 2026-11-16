@@ -2,6 +2,12 @@
   "schemaVersion": 1,
   "instruments": [
     {
+      "id": "baroque-trumpet",
+      "name": "Baroque Trumpet",
+      "aliases": ["baroque-tpt", "baroque-trumpet"],
+      "iconKey": "tpt.png"
+    },
+    {
       "id": "trumpet",
       "name": "Trumpet",
       "aliases": [

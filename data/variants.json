@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "variants": [
+    { "id": "repetition", "name": "Repetition", "aliases": ["repetition"] },
     { "id": "decrescendo", "name": "Decrescendo", "aliases": ["decresc"] },
     { "id": "double", "name": "Double", "aliases": ["double"] },
     { "id": "triple", "name": "Triple", "aliases": ["triple"] },
