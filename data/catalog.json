@@ -16311,6 +16311,223 @@
   },
   {
     "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-1st-violins-professional",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "allegro",
+          "detache",
+          "extended",
+          "lyrical",
+          "performance",
+          "portamento",
+          "runs",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "extended"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "major-3rd",
+          "minor-2nd",
+          "minor-3rd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-2nd-violins-professional",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "allegro",
+          "detache",
+          "extended",
+          "lyrical",
+          "performance",
+          "portamento",
+          "runs",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "extended"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "major-3rd",
+          "minor-2nd",
+          "minor-3rd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-basses-professional",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "allegro",
+          "detache",
+          "extended",
+          "lyrical",
+          "performance",
+          "portamento",
+          "runs",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "extended"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
     "libraryId": "abbey-road-orchestra-bassoons",
     "instrumentId": "bassoons-a2",
     "articulations": [
@@ -16365,6 +16582,79 @@
         "variantIds": [
           "major",
           "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-cellos-professional",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "allegro",
+          "detache",
+          "extended",
+          "lyrical",
+          "performance",
+          "portamento",
+          "runs",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "extended"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "major-3rd",
+          "minor-2nd",
+          "minor-3rd"
         ]
       }
     ]
@@ -16553,6 +16843,79 @@
         "variantIds": [
           "major",
           "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-violas-professional",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "allegro",
+          "detache",
+          "extended",
+          "lyrical",
+          "performance",
+          "portamento",
+          "runs",
+          "slurred"
+        ]
+      },
+      {
+        "articulationId": "long",
+        "variantIds": [
+          "extended"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "measured"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "major-3rd",
+          "minor-2nd",
+          "minor-3rd"
         ]
       }
     ]

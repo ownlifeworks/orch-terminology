@@ -129,6 +129,41 @@
       "aliases": ["alb1"]
     },
     {
+      "id": "abbey-road-orchestra-1st-violins-professional",
+      "name": "Abbey Road Orchestra: 1st Violins Professional",
+      "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-1st-violins-professional",
+      "aliases": ["arovln1pro"]
+    },
+    {
+      "id": "abbey-road-orchestra-2nd-violins-professional",
+      "name": "Abbey Road Orchestra: 2nd Violins Professional",
+      "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-2nd-violins-professional",
+      "aliases": ["arovln2pro"]
+    },
+    {
+      "id": "abbey-road-orchestra-violas-professional",
+      "name": "Abbey Road Orchestra: Violas Professional",
+      "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-violas-professional",
+      "aliases": ["arovlapro"]
+    },
+    {
+      "id": "abbey-road-orchestra-cellos-professional",
+      "name": "Abbey Road Orchestra: Cellos Professional",
+      "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-cellos-professional",
+      "aliases": ["arovcpro"]
+    },
+    {
+      "id": "abbey-road-orchestra-basses-professional",
+      "name": "Abbey Road Orchestra: Basses Professional",
+      "vendorId": "spitfire-audio",
+      "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-basses-professional",
+      "aliases": ["arocbpro"]
+    },
+    {
       "id": "abbey-road-orchestra-flutes",
       "name": "Abbey Road Orchestra: Flutes",
       "vendorId": "spitfire-audio",

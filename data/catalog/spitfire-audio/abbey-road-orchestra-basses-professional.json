@@ -1,0 +1,21 @@
+[
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-basses-professional",
+    "instrumentId": "basses",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": ["performance", "lyrical", "extended", "runs", "detache", "portamento", "slurred", "allegro"] },
+      { "articulationId": "long", "variantIds": ["extended"] },
+      { "articulationId": "flautando", "variantIds": [] },
+      { "articulationId": "tremolo", "variantIds": ["measured"] },
+      { "articulationId": "harmonics", "variantIds": [] },
+      { "articulationId": "trills", "variantIds": ["minor-2nd", "major-2nd"] },
+      { "articulationId": "spiccatissimo", "variantIds": [] },
+      { "articulationId": "spiccato", "variantIds": [] },
+      { "articulationId": "staccato", "variantIds": [] },
+      { "articulationId": "marcato", "variantIds": [] },
+      { "articulationId": "pizzicato", "variantIds": [] },
+      { "articulationId": "col-legno", "variantIds": [] }
+    ]
+  }
+]

@@ -6,6 +6,8 @@
     { "id": "blurred", "name": "Blurred", "aliases": ["blurred"] },
     { "id": "serial", "name": "Serial", "aliases": ["serial"] },
     { "id": "decorative", "name": "Decorative", "aliases": ["decorative"] },
+    { "id": "detache", "name": "Detaché", "aliases": ["detache", "détaché"] },
+    { "id": "runs", "name": "Runs", "aliases": ["runs", "legatoRuns"] },
     {
       "id": "default",
       "name": "Default",
@@ -119,7 +121,7 @@
     {
       "id": "slurred",
       "name": "Slurred",
-      "aliases": ["slur", "slurred", "legatoRuns"]
+      "aliases": ["slur", "slurred"]
     },
     {
       "id": "legato",
