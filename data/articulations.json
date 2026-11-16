@@ -1,6 +1,9 @@
 {
   "schemaVersion": 1,
   "articulations": [
+    { "id": "pitch-bend", "name": "Pitch Bend", "aliases": ["pitchbend", "pitch-bend"] },
+    { "id": "movement", "name": "Movement", "aliases": ["movement"] },
+    { "id": "trill-figure", "name": "Trill Figure", "aliases": ["trillFigure", "trill-figure"] },
     { "id": "spiccatissimo", "name": "Spiccatissimo", "aliases": ["spiccatissimo"] },
     { "id": "arpeggio", "name": "Arpeggio", "aliases": ["arpeggios", "arp"] },
     { "id": "martele", "name": "Martelé", "aliases": ["martele", "martelé"] },

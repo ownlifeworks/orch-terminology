@@ -1,0 +1,548 @@
+[
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "whisper",
+          "adaptive",
+          "runs",
+          "acc",
+          "portamento",
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "strong",
+          "extreme",
+          "whisper",
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "movement",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "sul-ponticello",
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "textures",
+        "variantIds": [
+          "soft",
+          "motion"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd",
+          "minor-3rd",
+          "major-3rd",
+          "perfect-4th",
+          "soft",
+          "interval"
+        ]
+      },
+      {
+        "articulationId": "trill-figure",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pitch-bend",
+        "variantIds": [
+          "slow"
+        ]
+      },
+      {
+        "articulationId": "glissando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "root",
+          "interval"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-strings",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "whisper",
+          "adaptive",
+          "runs",
+          "acc"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "strong",
+          "extreme",
+          "whisper"
+        ]
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "movement",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "textures",
+        "variantIds": [
+          "soft",
+          "motion"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd",
+          "minor-3rd",
+          "major-3rd",
+          "perfect-4th",
+          "soft",
+          "interval"
+        ]
+      },
+      {
+        "articulationId": "trill-figure",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "root",
+          "interval"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "whisper",
+          "adaptive",
+          "runs",
+          "acc",
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "strong",
+          "extreme",
+          "whisper",
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "movement",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "sul-ponticello",
+          "harmonic",
+          "slow"
+        ]
+      },
+      {
+        "articulationId": "textures",
+        "variantIds": [
+          "soft",
+          "motion"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd",
+          "minor-3rd",
+          "major-3rd",
+          "perfect-4th",
+          "soft",
+          "interval"
+        ]
+      },
+      {
+        "articulationId": "trill-figure",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd"
+        ]
+      },
+      {
+        "articulationId": "pitch-bend",
+        "variantIds": [
+          "slow"
+        ]
+      },
+      {
+        "articulationId": "glissando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "root",
+          "figure-1",
+          "figure-2"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "whisper",
+          "adaptive",
+          "runs",
+          "acc",
+          "portamento",
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "strong",
+          "extreme",
+          "whisper",
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "movement",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "sul-ponticello",
+          "harmonic"
+        ]
+      },
+      {
+        "articulationId": "textures",
+        "variantIds": [
+          "soft",
+          "motion"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd",
+          "minor-3rd",
+          "major-3rd",
+          "perfect-4th",
+          "soft",
+          "interval"
+        ]
+      },
+      {
+        "articulationId": "trill-figure",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd"
+        ]
+      },
+      {
+        "articulationId": "pitch-bend",
+        "variantIds": [
+          "slow"
+        ]
+      },
+      {
+        "articulationId": "glissando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "root",
+          "figure-1",
+          "figure-2"
+        ]
+      },
+      {
+        "articulationId": "arpeggio",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "whisper",
+          "adaptive",
+          "runs",
+          "acc"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "strong",
+          "extreme",
+          "whisper"
+        ]
+      },
+      {
+        "articulationId": "flautando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "movement",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "textures",
+        "variantIds": [
+          "soft",
+          "motion"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd",
+          "minor-3rd",
+          "major-3rd",
+          "perfect-4th",
+          "soft",
+          "interval"
+        ]
+      },
+      {
+        "articulationId": "trill-figure",
+        "variantIds": [
+          "minor-2nd",
+          "major-2nd"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pitch-bend",
+        "variantIds": [
+          "slow"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "major",
+          "minor"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,550 @@
+[
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-brass",
+    "instrumentId": "horn",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "soft",
+          "strong",
+          "acc",
+          "adaptive",
+          "expressive",
+          "bells-up"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "grand",
+          "acc",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "expressive",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": [
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "adaptive"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-brass",
+    "instrumentId": "horns-a2",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "soft",
+          "strong",
+          "acc",
+          "adaptive",
+          "bells-up"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "grand",
+          "acc",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "lyrical",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": [
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "adaptive"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-brass",
+    "instrumentId": "horns-a4",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "soft",
+          "strong",
+          "acc",
+          "adaptive",
+          "bells-up"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "grand",
+          "acc",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "lyrical",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": [
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "adaptive"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-brass",
+    "instrumentId": "trumpet",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "soft",
+          "strong",
+          "acc",
+          "adaptive",
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "grand",
+          "acc",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "expressive",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": [
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "falls",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-brass",
+    "instrumentId": "trumpets-a3",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "soft",
+          "strong",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "grand",
+          "acc",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "lyrical",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": [
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "adaptive"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-brass",
+    "instrumentId": "tenor-trombone",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "soft",
+          "strong",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "grand",
+          "acc",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "lyrical",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": [
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "pitch-bend",
+        "variantIds": [
+          "slow"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-brass",
+    "instrumentId": "tenor-trombones-a3",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "soft",
+          "strong",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "grand",
+          "acc",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "full",
+          "lyrical",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": [
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "repetitions",
+        "variantIds": [
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "pitch-bend",
+        "variantIds": [
+          "slow"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-brass",
+    "instrumentId": "bass-trombone",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "soft",
+          "strong",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "grand",
+          "acc",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "soft"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-brass",
+    "instrumentId": "tuba",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "soft",
+          "strong",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "grand",
+          "acc",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "lyrical",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": [
+          "sustains"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonuscore",
+    "libraryId": "lux-orchestral-brass",
+    "instrumentId": "cimbasso",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "soft",
+          "strong",
+          "acc",
+          "adaptive"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "grand",
+          "acc",
+          "sustains"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": [
+          "soft"
+        ]
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": [
+          "sustains"
+        ]
+      }
+    ]
+  }
+]

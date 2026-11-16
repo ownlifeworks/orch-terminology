@@ -1,0 +1,186 @@
+[
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-strings-i",
+    "instrumentId": "violins",
+    "articulations": [
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "double",
+          "triple"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "flowing",
+          "agile",
+          "slow",
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "arc",
+        "variantIds": [
+          "slow",
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "chaos",
+          "short",
+          "long"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-strings-i",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "double",
+          "triple"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "flowing",
+          "agile",
+          "slow",
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "arc",
+        "variantIds": [
+          "slow",
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "chaos",
+          "short",
+          "long"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-strings-i",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "double",
+          "triple"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "flowing",
+          "agile",
+          "slow",
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "arc",
+        "variantIds": [
+          "slow",
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "chaos",
+          "short",
+          "long"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-strings-i",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "double",
+          "triple"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "flowing",
+          "agile",
+          "slow",
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "arc",
+        "variantIds": [
+          "slow",
+          "fast"
+        ]
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": [
+          "chaos",
+          "short",
+          "long"
+        ]
+      }
+    ]
+  }
+]

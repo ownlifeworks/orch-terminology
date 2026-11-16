@@ -1,6 +1,12 @@
 {
   "schemaVersion": 1,
   "libraries": [
+    { "id": "century-strings-normale", "name": "Century Strings Normale", "vendorId": "8dio", "weblink": "https://8dio.com/products/century-strings-series", "aliases": ["csnorm"] },
+    { "id": "century-strings-sordino", "name": "Century Strings Sordino", "vendorId": "8dio", "weblink": "https://8dio.com/products/century-strings-series", "aliases": ["cssord"] },
+    { "id": "century-ostinato-strings-i", "name": "Century Ostinato Strings I", "vendorId": "8dio", "weblink": "https://8dio.com/products/century-ostinato-strings", "aliases": ["csost1"] },
+    { "id": "century-ostinato-strings-ii", "name": "Century Ostinato Strings II", "vendorId": "8dio", "weblink": "https://8dio.com/products/century-advanced-ostinato-strings-ii-2", "aliases": ["csost2"] },
+    { "id": "lux-orchestral-brass", "name": "LUX Orchestral Brass", "vendorId": "sonuscore", "weblink": "https://www.sonuscore.com/shop/lux-orchestral-brass/", "aliases": ["luxbrs"] },
+    { "id": "lux-orchestral-strings", "name": "LUX Orchestral Strings", "vendorId": "sonuscore", "weblink": "https://www.sonuscore.com/shop/lux-orchestral-strings/", "aliases": ["luxstr"] },
     {
       "id": "la-scoring-strings-3",
       "name": "LA Scoring Strings 3",

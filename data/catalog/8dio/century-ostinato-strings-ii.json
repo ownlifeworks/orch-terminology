@@ -1,0 +1,54 @@
+[
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-strings-ii",
+    "instrumentId": "violins",
+    "articulations": [
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "pattern"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-strings-ii",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "pattern"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-strings-ii",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "pattern"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "8dio",
+    "libraryId": "century-ostinato-strings-ii",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "ostinato",
+        "variantIds": [
+          "pattern"
+        ]
+      }
+    ]
+  }
+]
