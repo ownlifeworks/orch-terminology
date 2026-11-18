@@ -15680,7 +15680,7 @@
   {
     "vendorId": "performance-samples",
     "libraryId": "pacific-ensemble-strings",
-    "instrumentId": "violins-i",
+    "instrumentId": "violins",
     "articulations": [
       {
         "articulationId": "legato",
