@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "libraries": [
+    { "id": "studio-woodwinds", "name": "Studio Woodwinds", "vendorId": "spitfire-audio", "weblink": "https://www.spitfireaudio.com/products/spitfire-studio-woodwinds-professional", "aliases": ["studiowoodwinds"] },
     { "id": "cinematic-studio-solo-strings", "name": "Cinematic Studio Solo Strings", "vendorId": "cinematic-studio-series", "weblink": "https://cinematicstudioseries.com/solo-strings/", "aliases": ["csss"] },
     { "id": "century-strings-normale", "name": "Century Strings Normale", "vendorId": "8dio", "weblink": "https://8dio.com/products/century-strings-series", "aliases": ["csnorm"] },
     { "id": "century-strings-sordino", "name": "Century Strings Sordino", "vendorId": "8dio", "weblink": "https://8dio.com/products/century-strings-series", "aliases": ["cssord"] },
