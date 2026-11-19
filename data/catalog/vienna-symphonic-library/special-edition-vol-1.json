@@ -5,6 +5,10 @@
     "instrumentId": "violin",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": []
       },
@@ -70,6 +74,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "cello",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": []
@@ -137,6 +145,10 @@
     "instrumentId": "viola",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": []
       },
@@ -203,6 +215,10 @@
     "instrumentId": "doublebass",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": []
       },
@@ -268,6 +284,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "violins-i",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": [
@@ -346,6 +366,10 @@
     "instrumentId": "violins-ii",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": [
           "sul-ponticello",
@@ -422,6 +446,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "violas",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": [
@@ -500,6 +528,10 @@
     "instrumentId": "celli",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": [
           "sul-ponticello",
@@ -576,6 +608,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "basses",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": [
@@ -654,6 +690,10 @@
     "instrumentId": "piccolo",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": []
       },
@@ -711,6 +751,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "flute",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": []
@@ -770,6 +814,10 @@
     "instrumentId": "oboe",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": []
       },
@@ -827,6 +875,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "english-horn",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": []
@@ -886,6 +938,10 @@
     "instrumentId": "clarinet",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": []
       },
@@ -943,6 +999,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "bass-clarinet",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": []
@@ -1002,6 +1062,10 @@
     "instrumentId": "bassoon",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": []
       },
@@ -1059,6 +1123,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "contrabassoon",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": []
@@ -1118,6 +1186,10 @@
     "instrumentId": "trumpet",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": []
       },
@@ -1175,6 +1247,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "triple-horn",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": []
@@ -1234,6 +1310,10 @@
     "instrumentId": "tenor-trombone",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": []
       },
@@ -1291,6 +1371,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "bass-trombone",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": []
@@ -1350,6 +1434,10 @@
     "instrumentId": "tuba",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": []
       },
@@ -1407,6 +1495,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "trumpets-a3",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": []
@@ -1466,6 +1558,10 @@
     "instrumentId": "horns-a4",
     "articulations": [
       {
+        "articulationId": "universal",
+        "variantIds": []
+      },
+      {
         "articulationId": "staccato",
         "variantIds": []
       },
@@ -1523,6 +1619,10 @@
     "libraryId": "special-edition-vol-1",
     "instrumentId": "tenor-trombones-a3",
     "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      },
       {
         "articulationId": "staccato",
         "variantIds": []
