@@ -161,6 +161,12 @@
       "iconKey": "flugelhorn.png"
     },
     {
+      "id": "euphoniums-a3",
+      "name": "Euphoniums a3",
+      "aliases": ["euphoniums-a3", "euph-a3"],
+      "iconKey": "euphonium.png"
+    },
+    {
       "id": "euphonium",
       "name": "Euphonium",
       "aliases": [
@@ -522,6 +528,12 @@
         "tuba-bass-trombone"
       ],
       "iconKey": "tbabtbn.png"
+    },
+    {
+      "id": "tubas-a3",
+      "name": "Tubas a3",
+      "aliases": ["3tbas", "3-tubas", "tubas-a3"],
+      "iconKey": "tba.png"
     },
     {
       "id": "tubas-a2",
@@ -908,6 +920,12 @@
         "trombone"
       ],
       "iconKey": "tenortbn.png"
+    },
+    {
+      "id": "tenor-trombones-a4",
+      "name": "Tenor Trombones a4",
+      "aliases": ["tenor-trombones-a4", "tenor-tbn-a4"],
+      "iconKey": "4tbns.png"
     },
     {
       "id": "tenor-trombones-a3",

@@ -1,0 +1,46 @@
+[
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "soaring-strings",
+    "instrumentId": "violins",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["full", "soft"] }
+    ]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "soaring-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["full", "soft"] }
+    ]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "soaring-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["full", "soft"] }
+    ]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "soaring-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      { "articulationId": "legato", "variantIds": [] },
+      { "articulationId": "sustains", "variantIds": ["full", "soft"] }
+    ]
+  },
+  {
+    "vendorId": "musical-sampling",
+    "libraryId": "soaring-strings",
+    "instrumentId": "strings-ensemble",
+    "articulations": [
+      { "articulationId": "sustains", "variantIds": ["full", "soft"] }
+    ]
+  }
+]

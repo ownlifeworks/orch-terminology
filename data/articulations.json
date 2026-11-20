@@ -695,6 +695,11 @@
       ]
     },
     {
+      "id": "triple-tongue",
+      "name": "Triple Tongue",
+      "aliases": ["triple-tonguing", "triple-tongue"]
+    },
+    {
       "id": "double-tongue",
       "name": "Double Tongue",
       "aliases": [

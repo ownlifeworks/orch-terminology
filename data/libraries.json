@@ -574,6 +574,27 @@
       "aliases": ["vis2"]
     },
     {
+      "id": "hyperion-brass-elements",
+      "name": "Hyperion Brass Elements",
+      "vendorId": "soundiron",
+      "weblink": "https://soundiron.com/products/hyperion-brass-elements",
+      "aliases": ["hbe"]
+    },
+    {
+      "id": "hyperion-strings-elements",
+      "name": "Hyperion Strings Elements",
+      "vendorId": "soundiron",
+      "weblink": "https://soundiron.com/products/hyperion-strings-elements",
+      "aliases": ["hse"]
+    },
+    {
+      "id": "soaring-strings",
+      "name": "Soaring Strings",
+      "vendorId": "musical-sampling",
+      "weblink": "https://musicalsampling.com/soaring-strings/",
+      "aliases": ["soars"]
+    },
+    {
       "id": "adventure-strings",
       "name": "Adventure Strings",
       "vendorId": "musical-sampling",

@@ -84,6 +84,11 @@
       "aliases": ["ms"]
     },
     {
+      "id": "soundiron",
+      "name": "Soundiron",
+      "aliases": ["si"]
+    },
+    {
       "id": "soundpaint",
       "name": "Soundpaint",
       "aliases": ["sp"]

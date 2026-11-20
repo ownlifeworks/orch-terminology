@@ -1,0 +1,304 @@
+[
+  {
+    "vendorId": "soundiron",
+    "libraryId": "hyperion-brass-elements",
+    "instrumentId": "trumpets-a6",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "triple-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "soundiron",
+    "libraryId": "hyperion-brass-elements",
+    "instrumentId": "tenor-trombones-a4",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "triple-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "soundiron",
+    "libraryId": "hyperion-brass-elements",
+    "instrumentId": "horns-a4",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "triple-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "soundiron",
+    "libraryId": "hyperion-brass-elements",
+    "instrumentId": "euphoniums-a3",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "triple-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "soundiron",
+    "libraryId": "hyperion-brass-elements",
+    "instrumentId": "bass-trombones-a3",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "triple-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "soundiron",
+    "libraryId": "hyperion-brass-elements",
+    "instrumentId": "tubas-a3",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "double-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "triple-tongue",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "swells",
+        "variantIds": []
+      },
+      {
+        "articulationId": "flutter",
+        "variantIds": []
+      }
+    ]
+  }
+]
