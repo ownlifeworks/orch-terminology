@@ -31349,6 +31349,10 @@
     "instrumentId": "basses",
     "articulations": [
       {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
         "articulationId": "long",
         "variantIds": []
       },
@@ -31375,6 +31379,10 @@
     "libraryId": "synchron-prime-strings-1",
     "instrumentId": "celli",
     "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
       {
         "articulationId": "long",
         "variantIds": []
@@ -31414,6 +31422,10 @@
     "instrumentId": "strings-ensemble",
     "articulations": [
       {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
         "articulationId": "long",
         "variantIds": []
       },
@@ -31440,6 +31452,10 @@
     "libraryId": "synchron-prime-strings-1",
     "instrumentId": "violas",
     "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
       {
         "articulationId": "long",
         "variantIds": []
@@ -31468,6 +31484,10 @@
     "instrumentId": "violins-i",
     "articulations": [
       {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
         "articulationId": "long",
         "variantIds": []
       },
@@ -31494,6 +31514,10 @@
     "libraryId": "synchron-prime-strings-1",
     "instrumentId": "violins-ii",
     "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
       {
         "articulationId": "long",
         "variantIds": []
@@ -31522,6 +31546,10 @@
     "instrumentId": "basses",
     "articulations": [
       {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
         "articulationId": "long",
         "variantIds": []
       },
@@ -31548,6 +31576,10 @@
     "libraryId": "synchron-prime-strings-2",
     "instrumentId": "celli",
     "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
       {
         "articulationId": "long",
         "variantIds": []
@@ -31576,6 +31608,10 @@
     "instrumentId": "strings-ensemble",
     "articulations": [
       {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
         "articulationId": "long",
         "variantIds": []
       },
@@ -31602,6 +31638,10 @@
     "libraryId": "synchron-prime-strings-2",
     "instrumentId": "violas",
     "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
       {
         "articulationId": "long",
         "variantIds": []
@@ -31630,6 +31670,10 @@
     "instrumentId": "violins-i",
     "articulations": [
       {
+        "articulationId": "legato",
+        "variantIds": []
+      },
+      {
         "articulationId": "long",
         "variantIds": []
       },
@@ -31656,6 +31700,10 @@
     "libraryId": "synchron-prime-strings-2",
     "instrumentId": "violins-ii",
     "articulations": [
+      {
+        "articulationId": "legato",
+        "variantIds": []
+      },
       {
         "articulationId": "long",
         "variantIds": []
