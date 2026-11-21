@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "vendors": [
+    { "id": "sonokinetic", "name": "Sonokinetic", "aliases": ["sok"] },
     { "id": "sonuscore", "name": "Sonuscore", "aliases": ["son"] },
     { "id": "audiobro", "name": "Audiobro", "aliases": ["ab"] },
     {

@@ -16728,6 +16728,726 @@
     ]
   },
   {
+    "vendorId": "sonokinetic",
+    "libraryId": "orchestral-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive",
+          "fast",
+          "portamento",
+          "slurred",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "expressive",
+          "long",
+          "mid",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive",
+          "harmonic",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "orchestral-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive",
+          "fast",
+          "portamento",
+          "slurred",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "expressive",
+          "long",
+          "mid",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive",
+          "harmonic",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "orchestral-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive",
+          "fast",
+          "portamento",
+          "slurred",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "expressive",
+          "long",
+          "mid",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive",
+          "harmonic",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "orchestral-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive",
+          "fast",
+          "portamento",
+          "slurred",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "expressive",
+          "long",
+          "mid",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive",
+          "harmonic",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "orchestral-strings",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive",
+          "fast",
+          "portamento",
+          "slurred",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "marcato",
+        "variantIds": [
+          "expressive",
+          "long",
+          "mid",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccatissimo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive",
+          "harmonic",
+          "sul-ponticello",
+          "sul-tasto"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "sul-ponticello"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "sordino-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "sordino-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "sordino-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "sordino-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "sordino-strings",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive"
+        ]
+      }
+    ]
+  },
+  {
     "vendorId": "sonuscore",
     "libraryId": "lux-orchestral-brass",
     "instrumentId": "bass-trombone",

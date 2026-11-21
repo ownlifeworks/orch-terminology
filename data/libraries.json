@@ -1,6 +1,8 @@
 {
   "schemaVersion": 1,
   "libraries": [
+    { "id": "sordino-strings", "name": "Sordino Strings", "vendorId": "sonokinetic", "weblink": "https://www.sonokinetic.net/products/classical/sordino-strings/", "aliases": ["sost"] },
+    { "id": "orchestral-strings", "name": "Orchestral Strings", "vendorId": "sonokinetic", "weblink": "https://www.sonokinetic.net/products/classical/orchestral-strings/", "aliases": ["orst"] },
     { "id": "studio-woodwinds", "name": "Studio Woodwinds", "vendorId": "spitfire-audio", "weblink": "https://www.spitfireaudio.com/products/spitfire-studio-woodwinds-professional", "aliases": ["studiowoodwinds"] },
     { "id": "cinematic-studio-solo-strings", "name": "Cinematic Studio Solo Strings", "vendorId": "cinematic-studio-series", "weblink": "https://cinematicstudioseries.com/solo-strings/", "aliases": ["csss"] },
     { "id": "century-strings-normale", "name": "Century Strings Normale", "vendorId": "8dio", "weblink": "https://8dio.com/products/century-strings-series", "aliases": ["csnorm"] },

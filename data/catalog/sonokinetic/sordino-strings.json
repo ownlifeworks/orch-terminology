@@ -1,0 +1,237 @@
+[
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "sordino-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "sordino-strings",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "sordino-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "sordino-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "sonokinetic",
+    "libraryId": "sordino-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "expressive"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": []
+      },
+      {
+        "articulationId": "crescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "decrescendo",
+        "variantIds": []
+      },
+      {
+        "articulationId": "sforzando",
+        "variantIds": []
+      },
+      {
+        "articulationId": "fortepiano",
+        "variantIds": []
+      },
+      {
+        "articulationId": "runs",
+        "variantIds": []
+      },
+      {
+        "articulationId": "phrase",
+        "variantIds": []
+      }
+    ]
+  }
+]
