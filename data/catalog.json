@@ -10136,6 +10136,382 @@
     ]
   },
   {
+    "vendorId": "fracture-sounds",
+    "libraryId": "fracture-sounds-chamber-strings",
+    "instrumentId": "basses",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": [
+          "con-sordino",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "fracture-sounds",
+    "libraryId": "fracture-sounds-chamber-strings",
+    "instrumentId": "celli",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": [
+          "con-sordino",
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "con-sordino",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "fracture-sounds",
+    "libraryId": "fracture-sounds-chamber-strings",
+    "instrumentId": "violas",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": [
+          "con-sordino",
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "con-sordino",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "fracture-sounds",
+    "libraryId": "fracture-sounds-chamber-strings",
+    "instrumentId": "violins-i",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": [
+          "con-sordino",
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "con-sordino",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "fracture-sounds",
+    "libraryId": "fracture-sounds-chamber-strings",
+    "instrumentId": "violins-ii",
+    "articulations": [
+      {
+        "articulationId": "bartok",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "harmonics",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "legato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "pizzicato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "spiccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "staccato",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "sustains",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "tenuto",
+        "variantIds": [
+          "con-sordino",
+          "long",
+          "short"
+        ]
+      },
+      {
+        "articulationId": "tremolo",
+        "variantIds": [
+          "con-sordino"
+        ]
+      },
+      {
+        "articulationId": "trills",
+        "variantIds": [
+          "con-sordino",
+          "major-2nd",
+          "minor-2nd"
+        ]
+      }
+    ]
+  },
+  {
     "vendorId": "insanity-samples",
     "libraryId": "neo-brass",
     "instrumentId": "brass-ensemble",

@@ -756,6 +756,7 @@
       "vendorId": "insanity-samples",
       "weblink": "https://insanitysamples.com/collections/neo-series-update/products/neo-strings-solo-string-ensemble",
       "aliases": ["neos"]
-    }
+    },
+    { "id": "fracture-sounds-chamber-strings", "name": "Fracture Sounds Chamber Strings", "vendorId": "fracture-sounds", "weblink": "https://fracturesounds.com/product/fracture-sounds-chamber-strings/", "aliases": ["fcs"] }
   ]
 }

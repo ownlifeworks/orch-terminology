@@ -98,6 +98,7 @@
       "id": "insanity-samples",
       "name": "Insanity Samples",
       "aliases": ["is"]
-    }
+    },
+    { "id": "fracture-sounds", "name": "Fracture Sounds", "aliases": ["fs"] }
   ]
 }
