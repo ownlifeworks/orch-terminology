@@ -1362,6 +1362,20 @@
         }
       }
     },
+    "valve-trombone": {
+      "dataQuality": "approximation",
+      "pitch": {
+        "range": {
+          "min": 40,
+          "max": 77
+        },
+        "measurementRange": {
+          "min": 46,
+          "max": 58
+        }
+      },
+      "loudness": {}
+    },
     "tenor-trombone": {
       "pitch": {
         "range": {

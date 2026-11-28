@@ -757,6 +757,9 @@
       "weblink": "https://insanitysamples.com/collections/neo-series-update/products/neo-strings-solo-string-ensemble",
       "aliases": ["neos"]
     },
-    { "id": "fracture-sounds-chamber-strings", "name": "Fracture Sounds Chamber Strings", "vendorId": "fracture-sounds", "weblink": "https://fracturesounds.com/product/fracture-sounds-chamber-strings/", "aliases": ["fcs"] }
+    { "id": "fracture-sounds-chamber-strings", "name": "Fracture Sounds Chamber Strings", "vendorId": "fracture-sounds", "weblink": "https://fracturesounds.com/product/fracture-sounds-chamber-strings/", "aliases": ["fcs"] },
+    {"id": "abbey-road-orchestra-low-percussion", "name": "Abbey Road Orchestra: Low Percussion", "vendorId": "spitfire-audio", "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-low-percussion", "aliases": ["arolowperc"]},
+    {"id": "abbey-road-orchestra-metal-percussion", "name": "Abbey Road Orchestra: Metal Percussion", "vendorId": "spitfire-audio", "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-metal-percussion", "aliases": ["arometalperc"]},
+    {"id": "abbey-road-orchestra-high-percussion", "name": "Abbey Road Orchestra: High Percussion", "vendorId": "spitfire-audio", "weblink": "https://www.spitfireaudio.com/products/abbey-road-orchestra-high-percussion", "aliases": ["arohighperc"]}
   ]
 }

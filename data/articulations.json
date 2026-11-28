@@ -770,6 +770,11 @@
       "aliases": [
         "misc"
       ]
-    }
+    },
+    {"id": "flams", "name": "Flams", "aliases": []},
+    {"id": "sweeps", "name": "Sweeps", "aliases": []},
+    {"id": "swirls", "name": "Swirls", "aliases": []},
+    {"id": "shimmers", "name": "Shimmers", "aliases": []},
+    {"id": "rolls-damped", "name": "Rolls Damped", "aliases": []}
   ]
 }

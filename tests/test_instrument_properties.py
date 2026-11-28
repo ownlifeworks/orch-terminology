@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from contextlib import closing
 from pathlib import Path
 import shutil
 import sqlite3
@@ -31,6 +32,24 @@ class InstrumentPropertiesTests(unittest.TestCase):
 
     def test_repository_instrument_properties_validate(self):
         self.assertEqual(validator_module.validate_instrument_properties(self.instrument_ids), [])
+
+    def test_valve_trombone_has_tenor_pitch_without_loudness_targets(self):
+        instruments = self.instrument_properties_doc["instruments"]
+        valve = instruments["valve-trombone"]
+        self.assertEqual(valve["pitch"], instruments["tenor-trombone"]["pitch"])
+        self.assertEqual(valve["loudness"], {})
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "orch.db"
+            build_database(self.data_dir, path)
+            with closing(sqlite3.connect(path)) as connection:
+                self.assertEqual(connection.execute(
+                    "SELECT range_min, range_max FROM instrument_properties WHERE instrument_id = ?",
+                    ("valve-trombone",),
+                ).fetchone(), (40, 77))
+                self.assertEqual(connection.execute(
+                    "SELECT count(*) FROM instrument_loudness_targets WHERE instrument_id = ?",
+                    ("valve-trombone",),
+                ).fetchone()[0], 0)
 
     def test_wagner_tuba_is_marked_as_approximation(self):
         wagner_tuba = self.instrument_properties_doc["instruments"]["wagner-tuba"]

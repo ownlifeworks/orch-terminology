@@ -20921,6 +20921,1301 @@
   },
   {
     "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "bongos",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hands",
+          "sticks"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "hands",
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "castanets",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "caxixi",
+    "articulations": [
+      {
+        "articulationId": "shake",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "claves",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "conga",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hands"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "hands"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "darbuka",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "brushes",
+          "hands"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "brushes"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "djembe",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "brushes",
+          "hands"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "brushes"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "field-drum",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "brushes",
+          "sticks-snares-off",
+          "sticks-snares-on"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "guiro",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "log-drums",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "rubber-mallets"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "maracas",
+    "articulations": [
+      {
+        "articulationId": "shake",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "mini-bongos",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hands"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "hands"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "octoban",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "rods",
+          "sticks"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "rods",
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "plastics",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "ratchet",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "rototoms",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "brushes",
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "shakers",
+    "articulations": [
+      {
+        "articulationId": "shake",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "shime-daiko",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "hands",
+          "rods",
+          "taiko-sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "snare",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "brushes",
+          "sticks-snares-off",
+          "sticks-snares-on"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "snare-piccolo",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "brushes",
+          "sticks-snares-off",
+          "sticks-snares-on"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "temple-blocks",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hard-mallets",
+          "soft-mallets"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "timbales",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "timbale-sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "vibraslap",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "whip",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-high-percussion",
+    "instrumentId": "woodblocks",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hard-mallets",
+          "soft-mallets"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "bass-drum",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "brushes",
+          "hard-felt",
+          "medium-felt",
+          "rods",
+          "sticks"
+        ]
+      },
+      {
+        "articulationId": "hits-damped",
+        "variantIds": [
+          "hard-felt"
+        ]
+      },
+      {
+        "articulationId": "rim-hit",
+        "variantIds": [
+          "rods"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "hard-felt",
+          "medium-felt",
+          "rods",
+          "sticks"
+        ]
+      },
+      {
+        "articulationId": "rolls-damped",
+        "variantIds": [
+          "hard-felt"
+        ]
+      },
+      {
+        "articulationId": "sweeps",
+        "variantIds": [
+          "brushes"
+        ]
+      },
+      {
+        "articulationId": "swirls",
+        "variantIds": [
+          "brushes"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "bombo",
+    "articulations": [
+      {
+        "articulationId": "flams",
+        "variantIds": [
+          "sticks"
+        ]
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hard-felt",
+          "soft-felt"
+        ]
+      },
+      {
+        "articulationId": "hits-damped",
+        "variantIds": [
+          "hard-felt",
+          "soft-felt"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "hard-felt",
+          "soft-felt"
+        ]
+      },
+      {
+        "articulationId": "rolls-damped",
+        "variantIds": [
+          "hard-felt",
+          "soft-felt"
+        ]
+      },
+      {
+        "articulationId": "side-stick-hit",
+        "variantIds": [
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "buffalo-drum",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hard-beater",
+          "soft-beater"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "hard-beater",
+          "soft-beater"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "concert-toms",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "brushes",
+          "hard-felt",
+          "rods",
+          "sticks"
+        ]
+      },
+      {
+        "articulationId": "hits-damped",
+        "variantIds": [
+          "sticks"
+        ]
+      },
+      {
+        "articulationId": "rim-hit",
+        "variantIds": [
+          "sticks"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "brushes",
+          "hard-felt",
+          "rods",
+          "sticks"
+        ]
+      },
+      {
+        "articulationId": "rolls-damped",
+        "variantIds": [
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "dhol",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "dhol-sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "djuns",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hard-felt"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "hard-felt"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "dragon-drums",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hard-felt",
+          "sticks"
+        ]
+      },
+      {
+        "articulationId": "rim-hit",
+        "variantIds": [
+          "sticks"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "hard-felt",
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "epic-toms",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "rods",
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "hits-damped",
+        "variantIds": [
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "rods",
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "rolls-damped",
+        "variantIds": [
+          "taiko-sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "giant-taiko",
+    "articulations": [
+      {
+        "articulationId": "flams",
+        "variantIds": [
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hands",
+          "medium-felt",
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "hits-damped",
+        "variantIds": [
+          "medium-felt",
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "rim-hit",
+        "variantIds": [
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "medium-felt",
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "rolls-damped",
+        "variantIds": [
+          "medium-felt",
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "side-stick-hit",
+        "variantIds": [
+          "taiko-sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "gong-bass-drum",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hard-felt",
+          "puili",
+          "soft-felt"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "hard-felt",
+          "puili",
+          "soft-felt"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "gran-cassa",
+    "articulations": [
+      {
+        "articulationId": "flams",
+        "variantIds": [
+          "rute"
+        ]
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "brushes",
+          "hard-felt",
+          "medium-felt",
+          "poly-beater",
+          "sticks",
+          "super-soft-beater"
+        ]
+      },
+      {
+        "articulationId": "rim-hit",
+        "variantIds": [
+          "rute"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "brushes",
+          "hard-felt",
+          "medium-felt",
+          "poly-beater",
+          "rute",
+          "sticks",
+          "super-soft-beater"
+        ]
+      },
+      {
+        "articulationId": "sweeps",
+        "variantIds": [
+          "brushes"
+        ]
+      },
+      {
+        "articulationId": "swirls",
+        "variantIds": [
+          "brushes"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "surdo",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "hands",
+          "medium-felt"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "medium-felt"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-low-percussion",
+    "instrumentId": "taiko",
+    "articulations": [
+      {
+        "articulationId": "flams",
+        "variantIds": [
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "brushes",
+          "hands",
+          "hard-felt",
+          "medium-felt",
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "rim-hit",
+        "variantIds": [
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "rolls",
+        "variantIds": [
+          "brushes",
+          "hands",
+          "hard-felt",
+          "medium-felt",
+          "taiko-sticks"
+        ]
+      },
+      {
+        "articulationId": "shimmers",
+        "variantIds": [
+          "brushes"
+        ]
+      },
+      {
+        "articulationId": "sweeps",
+        "variantIds": [
+          "brushes"
+        ]
+      },
+      {
+        "articulationId": "swirls",
+        "variantIds": [
+          "brushes"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "agogos",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "anvil",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "lump-hammer",
+          "pin-hammer"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "bell-tree",
+    "articulations": [
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "poly-beater"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "brake-drum",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "poly-beater"
+        ]
+      },
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "rubber-mallets"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "cabasa",
+    "articulations": [
+      {
+        "articulationId": "shake",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "chain-drops",
+    "articulations": [
+      {
+        "articulationId": "effects",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "china-cymbal",
+    "articulations": [
+      {
+        "articulationId": "bowed",
+        "variantIds": []
+      },
+      {
+        "articulationId": "scraped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "felt-mallets",
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "cowbells",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "crashers-and-stack",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "dreads",
+          "rods",
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "finger-cymbals",
+    "articulations": [
+      {
+        "articulationId": "clash-hit",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "giant-crasher",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "pin-hammer",
+          "puili"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "guira",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "scraped",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "indian-bells",
+    "articulations": [
+      {
+        "articulationId": "shake",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "mark-tree",
+    "articulations": [
+      {
+        "articulationId": "glissando",
+        "variantIds": [
+          "hands"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "oil-drum",
+    "articulations": [
+      {
+        "articulationId": "super-ball",
+        "variantIds": []
+      },
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "brushes",
+          "felt-mallets",
+          "hands",
+          "rubber-mallets"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "piatti",
+    "articulations": [
+      {
+        "articulationId": "crash",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "reco-reco",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "scraped",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "scaffold-poles",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "pin-hammer",
+          "yarn-beaters"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "sleigh-bells",
+    "articulations": [
+      {
+        "articulationId": "shake",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "spiral-cymbal",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "splash-cymbals",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "spring-coil",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": [
+          "triangle-beater"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "suspended-cymbals",
+    "articulations": [
+      {
+        "articulationId": "bowed",
+        "variantIds": []
+      },
+      {
+        "articulationId": "scraped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "brushes",
+          "felt-mallets",
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "tam-tam",
+    "articulations": [
+      {
+        "articulationId": "scraped",
+        "variantIds": []
+      },
+      {
+        "articulationId": "super-ball",
+        "variantIds": []
+      },
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "tam-tam-mallets"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "tambourine",
+    "articulations": [
+      {
+        "articulationId": "hits",
+        "variantIds": []
+      },
+      {
+        "articulationId": "shake",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "temple-bowls",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "brushes",
+          "rubber-mallets"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "thundersheet",
+    "articulations": [
+      {
+        "articulationId": "bowed",
+        "variantIds": []
+      },
+      {
+        "articulationId": "super-ball",
+        "variantIds": []
+      },
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "dreads",
+          "felt-mallets"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "trash-cans",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "dreads",
+          "sticks"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "triangle",
+    "articulations": [
+      {
+        "articulationId": "universal",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "waterphone",
+    "articulations": [
+      {
+        "articulationId": "bowed",
+        "variantIds": []
+      },
+      {
+        "articulationId": "col-legno",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "wind-chimes",
+    "articulations": [
+      {
+        "articulationId": "glissando",
+        "variantIds": []
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
+    "libraryId": "abbey-road-orchestra-metal-percussion",
+    "instrumentId": "wind-gong",
+    "articulations": [
+      {
+        "articulationId": "bowed",
+        "variantIds": []
+      },
+      {
+        "articulationId": "universal",
+        "variantIds": [
+          "felt-mallets"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "spitfire-audio",
     "libraryId": "abbey-road-orchestra-oboes",
     "instrumentId": "oboes-a2",
     "articulations": [

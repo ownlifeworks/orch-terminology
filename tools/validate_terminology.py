@@ -159,12 +159,10 @@ def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
         if unknown_capture_kinds:
             errors.append(f"{prefix}.loudness: unsupported modes {', '.join(sorted(unknown_capture_kinds))}")
 
-        supported_mode_count = 0
         for capture_kind, expected_anchors in LOUDNESS_CAPTURE_KINDS.items():
             targets = loudness.get(capture_kind)
             if targets is None:
                 continue
-            supported_mode_count += 1
             if not isinstance(targets, dict):
                 errors.append(f"{prefix}.loudness.{capture_kind}: expected an object")
                 continue
@@ -178,9 +176,6 @@ def validate_instrument_properties(instrument_ids: set[str]) -> list[str]:
                     f"{prefix}.loudness.{capture_kind}.{anchor}",
                     errors,
                 )
-
-        if supported_mode_count == 0:
-            errors.append(f"{prefix}.loudness: must define at least one supported mode")
 
     return errors
 
